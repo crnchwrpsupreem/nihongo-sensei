@@ -1,5 +1,40 @@
 {
-  "schema_version": 1,
-  "ready": false,
-  "message": "Run scripts/publish_update.sh on the configured mini PC to create the first tutor bundle."
+  "card_shards": [
+    "cards-0001.json"
+  ],
+  "current_active_card_count": 20,
+  "deck_root": "日本語",
+  "files": {
+    "card-index.json": {
+      "bytes": 18366,
+      "sha256": "128f1837203f7d5dffb213a55fdafd2168e7ab95db2dab5e7f468fd0df5d83f1"
+    },
+    "cards-0001.json": {
+      "bytes": 107978,
+      "sha256": "6b681e428963f4937f89e0d5d6f2c1c3310eeccedfc6f6b07381ba02cb60e2cf"
+    },
+    "lesson-brief.md": {
+      "bytes": 939,
+      "sha256": "ad92f5e01fca06b81b7e2ba155cd596bbe6d7a27db38cb0c5e9f4942af8ac043"
+    },
+    "tutor-policy.json": {
+      "bytes": 3858,
+      "sha256": "cb5fad4ef900c5f43c951fcdc72f9812c8c6cb2df70e7f123bf67f8c1dd197dd"
+    }
+  },
+  "generated_at": "2026-08-22T00:20:21.452142-04:00",
+  "generation_id": "128f1837203f7d5d",
+  "privacy": {
+    "contains_anki_media": false,
+    "contains_card_text": true,
+    "contains_credentials": false,
+    "contains_review_history": true,
+    "contains_source_machine_paths": false,
+    "public_repository": true
+  },
+  "published_at": "2026-08-22T00:20:21.853505-04:00",
+  "ready": true,
+  "review_event_count": 40,
+  "reviewed_card_count": 20,
+  "schema_version": 1
 }

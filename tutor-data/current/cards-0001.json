@@ -1,0 +1,3300 @@
+{
+  "cards": [
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439854,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "19",
+            "text": "19"
+          },
+          "Notes": {
+            "raw_html": "Can also be read わたくし (formal) and あたし (feminine).<br>There are rarer readings too.",
+            "text": "Can also be read わたくし (formal) and あたし (feminine).\nThere are rarer readings too."
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"自己紹介のイラスト（男性） | かわいいフリー素材集 いらすとや\" src=\"jikosyoukai_man-0f017c07b9f1048ff29830827e8503a6984504f6.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ワ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">タシ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "ワタシ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>私</b>はアンです。",
+            "text": "私はアンです。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0001.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0001.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>私[わたし]</b>はアンです。",
+            "text": "私[わたし]はアンです。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I am Ann.",
+            "text": "I am Ann."
+          },
+          "Word": {
+            "raw_html": "私",
+            "text": "私"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:私_ワタシ━_0_NHK-2016.mp3]",
+            "text": "[sound:私_ワタシ━_0_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "私[わたし]",
+            "text": "私[わたし]"
+          },
+          "Word Meaning": {
+            "raw_html": "I (polite, general)",
+            "text": "I (polite, general)"
+          },
+          "Word Reading": {
+            "raw_html": "わたし",
+            "text": "わたし"
+          }
+        },
+        "flags": 0,
+        "guid": "ue*r{>Er!]",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439854,
+      "review_history": [
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371698000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:18-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 6000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371773000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:33-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:18-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:33-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":4,\"decay\":0.154,\"lrt\":1787371773}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:33-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "私はアンです。"
+        ],
+        "allowed_exact_lexical_item": "私",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439854,
+            "english": "I am Ann.",
+            "japanese": "私はアンです。",
+            "lexical_item": "私"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439855,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "136",
+            "text": "136"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"人差し指で押す人のイラスト（男性）\" src=\"pose_touch_hitosashiyubi_man.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ア<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ナ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>タ",
+            "text": "アナタ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>あなた</b>はトムさんですか。",
+            "text": "あなたはトムさんですか。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0005.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0005.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>あなた</b>はトムさんですか。",
+            "text": "あなたはトムさんですか。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "Are you Tom-san?",
+            "text": "Are you Tom-san?"
+          },
+          "Word": {
+            "raw_html": "あなた",
+            "text": "あなた"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:あなた_アナ＼タ_2_NHK-2016.mp3]",
+            "text": "[sound:あなた_アナ＼タ_2_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "あなた",
+            "text": "あなた"
+          },
+          "Word Meaning": {
+            "raw_html": "you (usually when one doesn't know the person)",
+            "text": "you (usually when one doesn't know the person)"
+          },
+          "Word Reading": {
+            "raw_html": "あなた",
+            "text": "あなた"
+          }
+        },
+        "flags": 0,
+        "guid": "N*bTdF#y|q",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439855,
+      "review_history": [
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371702000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:22-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371775000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:35-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:22-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:35-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":5,\"decay\":0.154,\"lrt\":1787371775}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:35-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "あなたはトムさんですか。"
+        ],
+        "allowed_exact_lexical_item": "あなた",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439855,
+            "english": "Are you Tom-san?",
+            "japanese": "あなたはトムさんですか。",
+            "lexical_item": "あなた"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439856,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "35",
+            "text": "35"
+          },
+          "Notes": {
+            "raw_html": "Most commonplace neutral polite honorific. Somewhat similar to using \"M.\" in front of a name in English.",
+            "text": "Most commonplace neutral polite honorific. Somewhat similar to using \"M.\" in front of a name in English."
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"立っている男性のイラスト（ポーズ） | かわいいフリー素材集 いらすとや\" src=\"stand1_front05_man.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">サ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ン*",
+            "text": "サン*"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "If the name has an accent, さん and all other honorifics are pronounced low: 高橋さん → たか＼はしさん while if a name is heiban, all honorifics are also flat: 平田さん would be ひらたさん￣.",
+            "text": "If the name has an accent, さん and all other honorifics are pronounced low: 高橋さん → たか＼はしさん while if a name is heiban, all honorifics are also flat: 平田さん would be ひらたさん￣."
+          },
+          "Sentence": {
+            "raw_html": "あなたはトム<b>さん</b>ですか。",
+            "text": "あなたはトムさんですか。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0005.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0005.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "あなたはトム<b>さん</b>ですか。",
+            "text": "あなたはトムさんですか。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "Are you Tom-san?",
+            "text": "Are you Tom-san?"
+          },
+          "Word": {
+            "raw_html": "さん",
+            "text": "さん"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:さん_サ＼ン_1_NHK-2016.mp3]",
+            "text": "[sound:さん_サ＼ン_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "さん",
+            "text": "さん"
+          },
+          "Word Meaning": {
+            "raw_html": "san",
+            "text": "san"
+          },
+          "Word Reading": {
+            "raw_html": "さん",
+            "text": "さん"
+          }
+        },
+        "flags": 0,
+        "guid": "l^^i5RVwq@",
+        "modified_at": "2025-04-14T07:39:51-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439856,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371705000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:25-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 1000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371781000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:41-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:25-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:41-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":6,\"decay\":0.154,\"lrt\":1787371781}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:41-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [],
+        "allowed_exact_lexical_item": "さん",
+        "sentence_pairs": []
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439857,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "150",
+            "text": "150"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"couple_okoru_woman.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">カ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>レ",
+            "text": "カレ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>彼</b>はトムさんです。",
+            "text": "彼はトムさんです。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0006.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0006.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>彼[かれ]</b>はトムさんです。",
+            "text": "彼[かれ]はトムさんです。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "He is Tom-san.",
+            "text": "He is Tom-san."
+          },
+          "Word": {
+            "raw_html": "彼",
+            "text": "彼"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:彼_カ＼レ_1_NHK-2016.mp3]",
+            "text": "[sound:彼_カ＼レ_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "彼[かれ]",
+            "text": "彼[かれ]"
+          },
+          "Word Meaning": {
+            "raw_html": "he, him",
+            "text": "he, him"
+          },
+          "Word Reading": {
+            "raw_html": "かれ",
+            "text": "かれ"
+          }
+        },
+        "flags": 0,
+        "guid": "EJQrRKG_l(",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439857,
+      "review_history": [
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371709000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:29-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371778000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:38-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:29-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:38-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":7,\"decay\":0.154,\"lrt\":1787371778}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:38-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "彼はトムさんです。"
+        ],
+        "allowed_exact_lexical_item": "彼",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439857,
+            "english": "He is Tom-san.",
+            "japanese": "彼はトムさんです。",
+            "lexical_item": "彼"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439858,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "186",
+            "text": "186"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"idol_koisuru_girl_woman.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"color: royalblue;\">ス</span><span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">キ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>",
+            "text": "スキ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "私はワインが<b>好き</b>です。",
+            "text": "私はワインが好きです。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:fe1250584407c2a9b5499098ec358022-292b7d8c38187415a03e45ff4f21ec25989bc12b.mp3]",
+            "text": "[sound:fe1250584407c2a9b5499098ec358022-292b7d8c38187415a03e45ff4f21ec25989bc12b.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "私[わたし]はワインが<b>好[す]き</b>です。",
+            "text": "私[わたし]はワインが好[す]きです。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I like wine.",
+            "text": "I like wine."
+          },
+          "Word": {
+            "raw_html": "好き",
+            "text": "好き"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:d7fc47445da76bf992a10e581da01ba9-0fba83bd67a3dc41ed108b722008eb47b879a343.mp3]",
+            "text": "[sound:d7fc47445da76bf992a10e581da01ba9-0fba83bd67a3dc41ed108b722008eb47b879a343.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "好[す]き",
+            "text": "好[す]き"
+          },
+          "Word Meaning": {
+            "raw_html": "like, fond of",
+            "text": "like, fond of"
+          },
+          "Word Reading": {
+            "raw_html": "すき",
+            "text": "すき"
+          }
+        },
+        "flags": 0,
+        "guid": "J2=BL5C>P9",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439858,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371712000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:32-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371788000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:48-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:32-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:48-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":8,\"decay\":0.154,\"lrt\":1787371788}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:48-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "私はワインが好きです。"
+        ],
+        "allowed_exact_lexical_item": "好き",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439858,
+            "english": "I like wine.",
+            "japanese": "私はワインが好きです。",
+            "lexical_item": "好き"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439859,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "71",
+            "text": "71"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"部屋着を着た人のイラスト（女性） | かわいいフリー素材集 いらすとや\" src=\"fashion_sweat_jersey_woman.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ヒ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">ト</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>・ヒ<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ト</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>",
+            "text": "ヒト・ヒト"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "ひと＼ when modified, otherwise ひと￣ when unmodified. Note that in this case, あの人 is あの＼ひと. This is an exception, その＼ひと is another.",
+            "text": "ひと＼ when modified, otherwise ひと￣ when unmodified. Note that in this case, あの人 is あの＼ひと. This is an exception, その＼ひと is another."
+          },
+          "Sentence": {
+            "raw_html": "あの<b>人</b>はいい人です。",
+            "text": "あの人はいい人です。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0589-02.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0589-02.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "あの<b>人[ひと]</b>はいい 人[ひと]です。",
+            "text": "あの人[ひと]はいい 人[ひと]です。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "That person is a good person.",
+            "text": "That person is a good person."
+          },
+          "Word": {
+            "raw_html": "人",
+            "text": "人"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:90806b952a90a8a3d4a670af736cd2c2-aff81c948016ff060fca09d5405316fa6bd38a55.mp3]",
+            "text": "[sound:90806b952a90a8a3d4a670af736cd2c2-aff81c948016ff060fca09d5405316fa6bd38a55.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "人[ひと]",
+            "text": "人[ひと]"
+          },
+          "Word Meaning": {
+            "raw_html": "person",
+            "text": "person"
+          },
+          "Word Reading": {
+            "raw_html": "ひと",
+            "text": "ひと"
+          }
+        },
+        "flags": 0,
+        "guid": "K~xVS.9}%C",
+        "modified_at": "2024-12-05T02:43:44-05:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439859,
+      "review_history": [
+        {
+          "answer_time_ms": 5000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371717000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:37-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371811000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:11-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:37-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:11-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":9,\"decay\":0.154,\"lrt\":1787371811}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:11-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [],
+        "allowed_exact_lexical_item": "人",
+        "sentence_pairs": []
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439860,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "37",
+            "text": "37"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"親指を立てている人のイラスト（女性）\" src=\"good_woman.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">イ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>イ",
+            "text": "イイ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "あの人は<b>いい</b>人です。",
+            "text": "あの人はいい人です。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0589-02.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0589-02.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "あの 人[ひと]は<b>いい</b> 人[ひと]です。",
+            "text": "あの 人[ひと]はいい 人[ひと]です。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "That person is a good person.",
+            "text": "That person is a good person."
+          },
+          "Word": {
+            "raw_html": "いい",
+            "text": "いい"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:いい_イ＼ー_1_NHK-2016.mp3]",
+            "text": "[sound:いい_イ＼ー_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "いい",
+            "text": "いい"
+          },
+          "Word Meaning": {
+            "raw_html": "good",
+            "text": "good"
+          },
+          "Word Reading": {
+            "raw_html": "いい",
+            "text": "いい"
+          }
+        },
+        "flags": 0,
+        "guid": "E&m=0;hjj-",
+        "modified_at": "2024-12-05T02:43:48-05:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439860,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371720000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:40-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371805000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:05-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:40-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:05-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":10,\"decay\":0.154,\"lrt\":1787371805}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:05-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "あの人はいい人です。"
+        ],
+        "allowed_exact_lexical_item": "いい",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439860,
+            "english": "That person is a good person.",
+            "japanese": "あの人はいい人です。",
+            "lexical_item": "いい"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439861,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "71",
+            "text": "71"
+          },
+          "Notes": {
+            "raw_html": "A suffix added to a country name to say a person from that country.",
+            "text": "A suffix added to a country name to say a person from that country."
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"部屋着を着た人のイラスト（女性） | かわいいフリー素材集 いらすとや\" src=\"fashion_sweat_jersey_woman.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ジ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ン*",
+            "text": "ジン*"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "As a suffix, drops before 人, so イギリス＼人. 日本人 is an exception: (にほんじ＼ん).",
+            "text": "As a suffix, drops before 人, so イギリス＼人. 日本人 is an exception: (にほんじ＼ん)."
+          },
+          "Sentence": {
+            "raw_html": "私はイギリス<b>人</b>です。",
+            "text": "私はイギリス人です。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0072.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0072.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "私[わたし]はイギリス<b>人[じん]</b>です。",
+            "text": "私[わたし]はイギリス人[じん]です。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I am British.",
+            "text": "I am British."
+          },
+          "Word": {
+            "raw_html": "人",
+            "text": "人"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:人_ジ＼ン_1_NHK-2016.mp3]",
+            "text": "[sound:人_ジ＼ン_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "人[じん]",
+            "text": "人[じん]"
+          },
+          "Word Meaning": {
+            "raw_html": "person from (nationality)",
+            "text": "person from (nationality)"
+          },
+          "Word Reading": {
+            "raw_html": "じん",
+            "text": "じん"
+          }
+        },
+        "flags": 0,
+        "guid": "C=.1`G!}BW",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439861,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371723000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:43-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371813000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:13-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:43-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:13-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":11,\"decay\":0.154,\"lrt\":1787371813}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:13-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "私はイギリス人です。"
+        ],
+        "allowed_exact_lexical_item": "人",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439861,
+            "english": "I am British.",
+            "japanese": "私はイギリス人です。",
+            "lexical_item": "人"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439862,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "5442",
+            "text": "5442"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"study_nihongo.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ニ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">ホンコ<span style=\"color: red;\">°</span></span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "ニホンコ°"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "私は<b>日本語</b>を勉強しています。",
+            "text": "私は日本語を勉強しています。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:6e20ba5b1e5139fec3b8438b7d14bc15-ad2d22a7e9f5b8cb06e78654c82d381d10c6f683.mp3]",
+            "text": "[sound:6e20ba5b1e5139fec3b8438b7d14bc15-ad2d22a7e9f5b8cb06e78654c82d381d10c6f683.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "私[わたし]は<b>日本[にほん] 語[ご]</b>を 勉[べん] 強[きょう]しています。",
+            "text": "私[わたし]は日本[にほん] 語[ご]を 勉[べん] 強[きょう]しています。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I'm studying Japanese.",
+            "text": "I'm studying Japanese."
+          },
+          "Word": {
+            "raw_html": "日本語",
+            "text": "日本語"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:日本語_ニホンコ゚━_0_NHK-2016.mp3]",
+            "text": "[sound:日本語_ニホンコ゚━_0_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "日本[にほん] 語[ご]",
+            "text": "日本[にほん] 語[ご]"
+          },
+          "Word Meaning": {
+            "raw_html": "Japanese language",
+            "text": "Japanese language"
+          },
+          "Word Reading": {
+            "raw_html": "にほんご",
+            "text": "にほんご"
+          }
+        },
+        "flags": 0,
+        "guid": "BjMgplFn)5",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439862,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371726000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:46-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371795000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:55-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:46-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:55-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":12,\"decay\":0.154,\"lrt\":1787371795}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:55-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [],
+        "allowed_exact_lexical_item": "日本語",
+        "sentence_pairs": []
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439863,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "925",
+            "text": "925"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"study_night_girl.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ベ<span style=\"text-decoration:overline;\">ンキョー</span>",
+            "text": "ベンキョー"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "私は日本語を<b>勉強</b>しています。",
+            "text": "私は日本語を勉強しています。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:6e20ba5b1e5139fec3b8438b7d14bc15-ad2d22a7e9f5b8cb06e78654c82d381d10c6f683.mp3]",
+            "text": "[sound:6e20ba5b1e5139fec3b8438b7d14bc15-ad2d22a7e9f5b8cb06e78654c82d381d10c6f683.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "私[わたし]は 日本[にほん] 語[ご]を<b>勉[べん] 強[きょう]</b>しています。",
+            "text": "私[わたし]は 日本[にほん] 語[ご]を勉[べん] 強[きょう]しています。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I'm studying Japanese.",
+            "text": "I'm studying Japanese."
+          },
+          "Word": {
+            "raw_html": "勉強",
+            "text": "勉強"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:f19c9dd8b9e2fcd2ff2bc0a44c509ee5-958bdd052eadbd5cef17c81813d29a91fe185113.mp3]",
+            "text": "[sound:f19c9dd8b9e2fcd2ff2bc0a44c509ee5-958bdd052eadbd5cef17c81813d29a91fe185113.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "勉[べん] 強[きょう]",
+            "text": "勉[べん] 強[きょう]"
+          },
+          "Word Meaning": {
+            "raw_html": "study",
+            "text": "study"
+          },
+          "Word Reading": {
+            "raw_html": "べんきょう",
+            "text": "べんきょう"
+          }
+        },
+        "flags": 0,
+        "guid": "vFr#[Bnt$p",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439863,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371729000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:49-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371780000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:40-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:49-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:40-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":13,\"decay\":0.154,\"lrt\":1787371780}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:40-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "私は日本語を勉強しています。"
+        ],
+        "allowed_exact_lexical_item": "勉強",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439863,
+            "english": "I'm studying Japanese.",
+            "japanese": "私は日本語を勉強しています。",
+            "lexical_item": "勉強"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439864,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "499",
+            "text": "499"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"book_yoko.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ホ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ン",
+            "text": "ホン"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "いい<b>本</b>でしたね。",
+            "text": "いい本でしたね。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:honS.mp3]",
+            "text": "[sound:honS.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "いい<b>本[ほん]</b>でしたね。",
+            "text": "いい本[ほん]でしたね。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "It was a good book, wasn't it?",
+            "text": "It was a good book, wasn't it?"
+          },
+          "Word": {
+            "raw_html": "本",
+            "text": "本"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:本_ホ＼ン_1_NHK-2016.mp3]",
+            "text": "[sound:本_ホ＼ン_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "本[ほん]",
+            "text": "本[ほん]"
+          },
+          "Word Meaning": {
+            "raw_html": "book",
+            "text": "book"
+          },
+          "Word Reading": {
+            "raw_html": "ほん",
+            "text": "ほん"
+          }
+        },
+        "flags": 0,
+        "guid": "bV_yk0SX_=",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439864,
+      "review_history": [
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371731000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:51-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371816000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:16-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:51-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:16-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":14,\"decay\":0.154,\"lrt\":1787371816}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:16-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "いい本でしたね。"
+        ],
+        "allowed_exact_lexical_item": "本",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439864,
+            "english": "It was a good book, wasn't it?",
+            "japanese": "いい本でしたね。",
+            "lexical_item": "本"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439865,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "40",
+            "text": "40"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"kosoado2_kore.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "コ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">レ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "コレ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>これ</b>は日本語の本です。",
+            "text": "これは日本語の本です。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0235.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0235.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>これ</b>は 日本[にほん] 語[ご]の 本[ほん]です。",
+            "text": "これは 日本[にほん] 語[ご]の 本[ほん]です。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "This is a Japanese book.",
+            "text": "This is a Japanese book."
+          },
+          "Word": {
+            "raw_html": "これ",
+            "text": "これ"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:これ_コレ━_0_NHK-2016.mp3]",
+            "text": "[sound:これ_コレ━_0_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "これ",
+            "text": "これ"
+          },
+          "Word Meaning": {
+            "raw_html": "this",
+            "text": "this"
+          },
+          "Word Reading": {
+            "raw_html": "これ",
+            "text": "これ"
+          }
+        },
+        "flags": 0,
+        "guid": "zZk>YZc2I[",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439865,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371734000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:54-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371793000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:53-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:54-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:53-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":15,\"decay\":0.154,\"lrt\":1787371793}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:53-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "これは日本語の本です。"
+        ],
+        "allowed_exact_lexical_item": "これ",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439865,
+            "english": "This is a Japanese book.",
+            "japanese": "これは日本語の本です。",
+            "lexical_item": "これ"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439866,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "62",
+            "text": "62"
+          },
+          "Notes": {
+            "raw_html": "Can be read either なに or なん.",
+            "text": "Can be read either なに or なん."
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"女の子の表情のイラスト「目がハート・疑問・居眠り・照れ ...\" src=\"girl_question.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ナ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ニ・<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ナ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ン",
+            "text": "ナニ・ナン"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "A「これは<b>何</b>ですか。」<br>B「本です。」",
+            "text": "A「これは何ですか。」\nB「本です。」"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0243.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0243.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "A「これは<b>何[なん]</b>ですか。」<br/>B「 本[ほん]です。」",
+            "text": "A「これは何[なん]ですか。」\nB「 本[ほん]です。」"
+          },
+          "Sentence Meaning": {
+            "raw_html": "A: What is this?<br>B: It's a book.",
+            "text": "A: What is this?\nB: It's a book."
+          },
+          "Word": {
+            "raw_html": "何",
+            "text": "何"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:9ef558b78122dd5a3a4c05d55bd6f033-9ee9d08831e1c47e04a31ed10b8c75c0d8c94e0e.mp3]",
+            "text": "[sound:9ef558b78122dd5a3a4c05d55bd6f033-9ee9d08831e1c47e04a31ed10b8c75c0d8c94e0e.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "何[なに・なん]",
+            "text": "何[なに・なん]"
+          },
+          "Word Meaning": {
+            "raw_html": "what",
+            "text": "what"
+          },
+          "Word Reading": {
+            "raw_html": "なに・なん",
+            "text": "なに・なん"
+          }
+        },
+        "flags": 0,
+        "guid": "C@7_ePJ~)F",
+        "modified_at": "2025-08-08T13:31:29-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439866,
+      "review_history": [
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371738000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:08:58-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 1000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371817000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:17-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:58-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:17-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":16,\"decay\":0.154,\"lrt\":1787371817}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:17-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "A「これは何ですか。」\nB「本です。」"
+        ],
+        "allowed_exact_lexical_item": "何",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439866,
+            "english": "A: What is this?\nB: It's a book.",
+            "japanese": "A「これは何ですか。」\nB「本です。」",
+            "lexical_item": "何"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439867,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "17",
+            "text": "17"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"kosoado2_sore.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ソ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">レ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "ソレ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>それ</b>は本です。",
+            "text": "それは本です。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:soreS.mp3]",
+            "text": "[sound:soreS.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>それ</b>は 本[ほん]です。",
+            "text": "それは 本[ほん]です。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "That is a book.",
+            "text": "That is a book."
+          },
+          "Word": {
+            "raw_html": "それ",
+            "text": "それ"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:8b0ee07c0864e07d96871e87f158ad96-efdddaf31dbe1b15c565627266d51198e579319a.mp3]",
+            "text": "[sound:8b0ee07c0864e07d96871e87f158ad96-efdddaf31dbe1b15c565627266d51198e579319a.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "それ",
+            "text": "それ"
+          },
+          "Word Meaning": {
+            "raw_html": "that",
+            "text": "that"
+          },
+          "Word Reading": {
+            "raw_html": "それ",
+            "text": "それ"
+          }
+        },
+        "flags": 0,
+        "guid": "J/s_tW[i$u",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439867,
+      "review_history": [
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371742000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:02-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371791000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:51-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:02-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:51-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":17,\"decay\":0.154,\"lrt\":1787371791}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:51-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "それは本です。"
+        ],
+        "allowed_exact_lexical_item": "それ",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439867,
+            "english": "That is a book.",
+            "japanese": "それは本です。",
+            "lexical_item": "それ"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439868,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "129",
+            "text": "129"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"これ・それ・あれ」のイラスト | かわいいフリー素材集 いらすとや\" src=\"kosoado2_are.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "ア<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">レ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "アレ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>あれ</b>は何ですか。",
+            "text": "あれは何ですか。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:da6575acfab0df719bc8a035ee57ea96-e609ef29f30f2e102180cba9b5531ed279892376.mp3]",
+            "text": "[sound:da6575acfab0df719bc8a035ee57ea96-e609ef29f30f2e102180cba9b5531ed279892376.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>あれ</b>は 何[なん]ですか。",
+            "text": "あれは 何[なん]ですか。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "What's that?",
+            "text": "What's that?"
+          },
+          "Word": {
+            "raw_html": "あれ",
+            "text": "あれ"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:c7ebca148c5293d1a0c7a004c182eba7-f9031ebbabe0dd8444b9e19b954f2540b9a664bf.mp3]",
+            "text": "[sound:c7ebca148c5293d1a0c7a004c182eba7-f9031ebbabe0dd8444b9e19b954f2540b9a664bf.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "あれ",
+            "text": "あれ"
+          },
+          "Word Meaning": {
+            "raw_html": "that over there",
+            "text": "that over there"
+          },
+          "Word Reading": {
+            "raw_html": "あれ",
+            "text": "あれ"
+          }
+        },
+        "flags": 0,
+        "guid": "F4axo~+{?5",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439868,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371745000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:05-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371807000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:07-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:05-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:07-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":18,\"decay\":0.154,\"lrt\":1787371807}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:07-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "あれは何ですか。"
+        ],
+        "allowed_exact_lexical_item": "あれ",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439868,
+            "english": "What's that?",
+            "japanese": "あれは何ですか。",
+            "lexical_item": "あれ"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439869,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "930",
+            "text": "930"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"お菓子を選ぶ子供のイラスト（男の子） | かわいいフリー素材集 いらすとや\" src=\"sweets_okashi_erabu_boy-7fdb9e3ff6c8372fc936d1fe173e4042554f8453.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ド</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>レ",
+            "text": "ドレ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>どれ</b>が好きですか。",
+            "text": "どれが好きですか。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:b3b2c52dd411c176af418032442fbb98-6d6972313a4f2dde8f2f16516d1c80fbe6cc8090.mp3]",
+            "text": "[sound:b3b2c52dd411c176af418032442fbb98-6d6972313a4f2dde8f2f16516d1c80fbe6cc8090.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>どれ</b>が 好[す]きですか。",
+            "text": "どれが 好[す]きですか。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "Which would you like?",
+            "text": "Which would you like?"
+          },
+          "Word": {
+            "raw_html": "どれ",
+            "text": "どれ"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:722241bb0f4ce21cbb388e276ae0a6f4-6777a1ec0dbfd6d10792a35422b6e80ccd55a777.mp3]",
+            "text": "[sound:722241bb0f4ce21cbb388e276ae0a6f4-6777a1ec0dbfd6d10792a35422b6e80ccd55a777.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "どれ",
+            "text": "どれ"
+          },
+          "Word Meaning": {
+            "raw_html": "which, what",
+            "text": "which, what"
+          },
+          "Word Reading": {
+            "raw_html": "どれ",
+            "text": "どれ"
+          }
+        },
+        "flags": 0,
+        "guid": "J!F|q?*7Gx",
+        "modified_at": "2024-10-12T07:16:55-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439869,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371748000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:08-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 5000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371803000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:03-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:08-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:03-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":19,\"decay\":0.154,\"lrt\":1787371803}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:03-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "どれが好きですか。"
+        ],
+        "allowed_exact_lexical_item": "どれ",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439869,
+            "english": "Which would you like?",
+            "japanese": "どれが好きですか。",
+            "lexical_item": "どれ"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439870,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "877",
+            "text": "877"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"text1_mainichi.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">マ</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>イニチ",
+            "text": "マイニチ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "<b>毎日</b>、日本語を勉強します。",
+            "text": "毎日、日本語を勉強します。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0145.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0145.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "<b>毎[まい] 日[にち]</b>、 日本[にほん] 語[ご]を 勉[べん] 強[きょう]します。",
+            "text": "毎[まい] 日[にち]、 日本[にほん] 語[ご]を 勉[べん] 強[きょう]します。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I study Japanese every day.",
+            "text": "I study Japanese every day."
+          },
+          "Word": {
+            "raw_html": "毎日",
+            "text": "毎日"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:4465289718153b4963a8cc301289e914-de5a300452d8c7d0f48f25ff1f3419547f08a3f7.mp3]",
+            "text": "[sound:4465289718153b4963a8cc301289e914-de5a300452d8c7d0f48f25ff1f3419547f08a3f7.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "毎[まい] 日[にち]",
+            "text": "毎[まい] 日[にち]"
+          },
+          "Word Meaning": {
+            "raw_html": "every day",
+            "text": "every day"
+          },
+          "Word Reading": {
+            "raw_html": "まいにち",
+            "text": "まいにち"
+          }
+        },
+        "flags": 0,
+        "guid": "eqi(tWOan8",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439870,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371751000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:11-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371798000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:58-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:11-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:58-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":20,\"decay\":0.154,\"lrt\":1787371798}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:58-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "毎日、日本語を勉強します。"
+        ],
+        "allowed_exact_lexical_item": "毎日",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439870,
+            "english": "I study Japanese every day.",
+            "japanese": "毎日、日本語を勉強します。",
+            "lexical_item": "毎日"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439871,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "980",
+            "text": "980"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img src=\"family_kyoudai.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ア</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ニ",
+            "text": "アニ"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "これは<b>兄</b>のパソコンです。",
+            "text": "これは兄のパソコンです。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0261.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0261.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "これは<b>兄[あに]</b>のパソコンです。",
+            "text": "これは兄[あに]のパソコンです。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "This is my older brother's personal computer.",
+            "text": "This is my older brother's personal computer."
+          },
+          "Word": {
+            "raw_html": "兄",
+            "text": "兄"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:3b174a5bd2eab47d46f1dc630477454a-d06792fbe4460a84d6042a2a511fe8c66ced8e08.mp3]",
+            "text": "[sound:3b174a5bd2eab47d46f1dc630477454a-d06792fbe4460a84d6042a2a511fe8c66ced8e08.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "兄[あに]",
+            "text": "兄[あに]"
+          },
+          "Word Meaning": {
+            "raw_html": "older brother",
+            "text": "older brother"
+          },
+          "Word Reading": {
+            "raw_html": "あに",
+            "text": "あに"
+          }
+        },
+        "flags": 0,
+        "guid": "C%++],/lQ9",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439871,
+      "review_history": [
+        {
+          "answer_time_ms": 3000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371754000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:14-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371809000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:09-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:14-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:09-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":21,\"decay\":0.154,\"lrt\":1787371809}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:09-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "これは兄のパソコンです。"
+        ],
+        "allowed_exact_lexical_item": "兄",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439871,
+            "english": "This is my older brother's personal computer.",
+            "japanese": "これは兄のパソコンです。",
+            "lexical_item": "兄"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439872,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "21",
+            "text": "21"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"妹と弟を可愛がるお兄さんのイラスト | かわいいフリー素材集 いらすとや\" src=\"brothers_chounan-7c1ee034cef1e3d1e9c0bd7cd3cbe30d853a972d.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "イ<span style=\"display:inline-block;position:relative;\"><span style=\"display:inline;\">ル</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;\"></span></span>",
+            "text": "イル"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "兄が<b>います</b>。",
+            "text": "兄がいます。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:JLPT_Tango_N5_0040-02.mp3]",
+            "text": "[sound:JLPT_Tango_N5_0040-02.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "兄[あに]が<b>います</b>。",
+            "text": "兄[あに]がいます。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "I have an older brother.",
+            "text": "I have an older brother."
+          },
+          "Word": {
+            "raw_html": "いる",
+            "text": "いる"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:いる_イル━_0_NHK-2016.mp3]",
+            "text": "[sound:いる_イル━_0_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "いる",
+            "text": "いる"
+          },
+          "Word Meaning": {
+            "raw_html": "have, exist (animate)",
+            "text": "have, exist (animate)"
+          },
+          "Word Reading": {
+            "raw_html": "いる",
+            "text": "いる"
+          }
+        },
+        "flags": 0,
+        "guid": "p@lWpT]Cr[",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439872,
+      "review_history": [
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371761000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:21-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 5000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371786000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:46-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:21-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:46-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":22,\"decay\":0.154,\"lrt\":1787371786}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:09:46-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "兄がいます。"
+        ],
+        "allowed_exact_lexical_item": "いる",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439872,
+            "english": "I have an older brother.",
+            "japanese": "兄がいます。",
+            "lexical_item": "いる"
+          }
+        ]
+      }
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439873,
+      "current_deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "deck": {
+        "id": 1787370736158,
+        "name": "日本語::Kaishi 1.5k"
+      },
+      "note": {
+        "data": "",
+        "fields": {
+          "Frequency": {
+            "raw_html": "16",
+            "text": "16"
+          },
+          "Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Picture": {
+            "raw_html": "<img alt=\"いろいろなマーカーのイラスト | かわいいフリー素材集 いらすとや\" src=\"pen_marker_close3_yellow.webp\">",
+            "text": ""
+          },
+          "Pitch Accent": {
+            "raw_html": "<span style=\"display:inline-block;position:relative;padding-right:0.1em;margin-right:0.1em;\"><span style=\"display:inline;\">ア</span><span style=\"border-color:currentColor;display:block;user-select:none;pointer-events:none;position:absolute;top:0.1em;left:0;right:0;height:0;border-top-width:0.1em;border-top-style:solid;right:-0.1em;height:0.4em;border-right-width:0.1em;border-right-style:solid;\"></span></span>ル",
+            "text": "アル"
+          },
+          "Pitch Accent Notes": {
+            "raw_html": "",
+            "text": ""
+          },
+          "Sentence": {
+            "raw_html": "ペンが<b>ある</b>。",
+            "text": "ペンがある。"
+          },
+          "Sentence Audio": {
+            "raw_html": "[sound:aruS.mp3]",
+            "text": "[sound:aruS.mp3]"
+          },
+          "Sentence Furigana": {
+            "raw_html": "ペンが<b>ある</b>。",
+            "text": "ペンがある。"
+          },
+          "Sentence Meaning": {
+            "raw_html": "There is a pen.",
+            "text": "There is a pen."
+          },
+          "Word": {
+            "raw_html": "ある",
+            "text": "ある"
+          },
+          "Word Audio": {
+            "raw_html": "[sound:ある_ア＼ル_1_NHK-2016.mp3]",
+            "text": "[sound:ある_ア＼ル_1_NHK-2016.mp3]"
+          },
+          "Word Furigana": {
+            "raw_html": "ある",
+            "text": "ある"
+          },
+          "Word Meaning": {
+            "raw_html": "have, exist (inanimate)",
+            "text": "have, exist (inanimate)"
+          },
+          "Word Reading": {
+            "raw_html": "ある",
+            "text": "ある"
+          }
+        },
+        "flags": 0,
+        "guid": "Pl7O52HkO3",
+        "modified_at": "2024-04-28T06:04:28-04:00",
+        "note_type": "Kaishi 1.5k",
+        "note_type_id": 1708628080880,
+        "tags": []
+      },
+      "note_id": 1708637439873,
+      "review_history": [
+        {
+          "answer_time_ms": 6000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": 0,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371767000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:09:27-04:00",
+          "sync_sequence": 2
+        },
+        {
+          "answer_time_ms": 2000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1787371819000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-08-22T00:10:19-04:00",
+          "sync_sequence": 2
+        }
+      ],
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:27-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:19-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "data": "{\"pos\":23,\"decay\":0.154,\"lrt\":1787371819}",
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "due_raw": 1,
+        "ease_factor_raw": 2500,
+        "flags": 0,
+        "interval_days": 1,
+        "lapses": 0,
+        "modified_at": "2026-08-22T00:10:19-04:00",
+        "original_deck_id": 0,
+        "original_due_raw": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "remaining_steps_raw": 0,
+        "repetitions": 2
+      },
+      "study_state": "currently_active",
+      "template_ordinal": 0,
+      "tutor_material": {
+        "allowed_exact_example_sentences": [
+          "ペンがある。"
+        ],
+        "allowed_exact_lexical_item": "ある",
+        "sentence_pairs": [
+          {
+            "card_id": 1708637439873,
+            "english": "There is a pen.",
+            "japanese": "ペンがある。",
+            "lexical_item": "ある"
+          }
+        ]
+      }
+    }
+  ],
+  "generated_at": "2026-08-22T00:20:21.452142-04:00",
+  "schema_version": 1,
+  "shard_number": 1
+}

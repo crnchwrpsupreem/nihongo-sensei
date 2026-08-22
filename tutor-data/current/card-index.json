@@ -1,0 +1,715 @@
+{
+  "cards": [
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439854,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "私",
+      "note_id": 1708637439854,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:18-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:33-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439855,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "あなた",
+      "note_id": 1708637439855,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:22-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:35-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439856,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "さん",
+      "note_id": 1708637439856,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:25-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:41-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439857,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "彼",
+      "note_id": 1708637439857,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:29-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:38-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439858,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "好き",
+      "note_id": 1708637439858,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:32-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:48-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439859,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "人",
+      "note_id": 1708637439859,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:37-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:11-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439860,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "いい",
+      "note_id": 1708637439860,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:40-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:05-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439861,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "人",
+      "note_id": 1708637439861,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:43-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:13-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439862,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "日本語",
+      "note_id": 1708637439862,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:46-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:55-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439863,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "勉強",
+      "note_id": 1708637439863,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:49-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:40-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439864,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "本",
+      "note_id": 1708637439864,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:51-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:16-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439865,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "これ",
+      "note_id": 1708637439865,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:54-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:53-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439866,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "何",
+      "note_id": 1708637439866,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:08:58-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:17-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439867,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "それ",
+      "note_id": 1708637439867,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:02-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:51-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439868,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "あれ",
+      "note_id": 1708637439868,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:05-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:07-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439869,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "どれ",
+      "note_id": 1708637439869,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:08-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:03-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439870,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "毎日",
+      "note_id": 1708637439870,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:11-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:58-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439871,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "兄",
+      "note_id": 1708637439871,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:14-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:09-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439872,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "いる",
+      "note_id": 1708637439872,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:21-04:00",
+        "last_reviewed_at": "2026-08-22T00:09:46-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    },
+    {
+      "assessment": {
+        "strength": 9.7,
+        "weakness": 4.0
+      },
+      "card_id": 1708637439873,
+      "deck": "日本語::Kaishi 1.5k",
+      "label": "ある",
+      "note_id": 1708637439873,
+      "review_summary": {
+        "first_reviewed_at": "2026-08-22T00:09:27-04:00",
+        "last_reviewed_at": "2026-08-22T00:10:19-04:00",
+        "review_count": 2
+      },
+      "scheduling": {
+        "card_type": {
+          "name": "review",
+          "raw": 2
+        },
+        "due_interpreted": {
+          "date": "2026-08-22",
+          "days_from_today": 0,
+          "kind": "day"
+        },
+        "interval_days": 1,
+        "lapses": 0,
+        "queue": {
+          "name": "review",
+          "raw": 2
+        },
+        "repetitions": 2
+      },
+      "shard": "cards-0001.json",
+      "study_state": "currently_active"
+    }
+  ],
+  "cards_per_shard": 100,
+  "deck_root": "日本語",
+  "generated_at": "2026-08-22T00:20:21.452142-04:00",
+  "inclusion_rule": "Effective deck is in the configured Japanese hierarchy and the card has at least one review-log entry. Untouched cards are excluded.",
+  "schema_version": 1,
+  "shards": [
+    "cards-0001.json"
+  ],
+  "study_state_counts": {
+    "currently_active": 20
+  }
+}
