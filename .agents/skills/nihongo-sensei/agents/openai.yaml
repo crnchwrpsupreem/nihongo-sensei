@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nihongo Sensei"
+  short_description: "Read-only Japanese tutoring from local Anki"
+  default_prompt: "Use $nihongo-sensei to start Japanese tutor mode."
