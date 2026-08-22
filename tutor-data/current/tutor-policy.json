@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:23:03.446513-04:00",
+  "generated_at": "2026-08-22T12:17:50.535603-04:00",
   "lesson_mix": {
     "currently_active": 0.7,
     "previously_reviewed": 0.2,
@@ -18,10 +18,10 @@
     "japanese_composition_allowed": false,
     "lesson_priority": "sentence-first and translation-focused",
     "material_storage": {
-      "lexical_item_count": 19,
+      "lexical_item_count": 76,
       "location": "Each full card record in cards-NNNN.json has tutor_material.",
       "rule": "Load tutor_material from the selected card's shard before quoting or testing Japanese.",
-      "sentence_pair_count": 17
+      "sentence_pair_count": 75
     },
     "novel_japanese_mode": "explicit-user-approved-preview-teach-only",
     "prohibitions": [

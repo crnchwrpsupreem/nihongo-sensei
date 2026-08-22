@@ -1,12 +1,12 @@
 # Current Nihongo Sensei tutor context
 
-Generated: 2026-08-22T11:23:03.446513-04:00
+Generated: 2026-08-22T12:17:50.535603-04:00
 Deck root: `日本語`
-Reviewed cards published: **20**
-Currently active: **20**
+Reviewed cards published: **80**
+Currently active: **80**
 Previously reviewed and currently new: **0**
 Previously reviewed but inactive: **0**
-Review events: **40**
+Review events: **197**
 
 Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fields, scheduling state, and review history for every published card.
 
@@ -18,18 +18,18 @@ Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fi
 
 ## Weak active items
 
-- ある
-- いる
-- 兄
-- 毎日
-- どれ
-- あれ
-- それ
-- 何
-- これ
-- 本
-- 勉強
-- 日本語
+- よく
+- 聞く
+- 方
+- 思う
+- いつ
+- 来る
+- 明日
+- 学校
+- 知る
+- 帰る
+- 家
+- 昨日
 
 ## Historical items most worth revisiting
 
