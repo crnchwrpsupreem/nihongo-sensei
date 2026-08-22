@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 import tempfile
@@ -127,6 +128,12 @@ class PublisherTests(unittest.TestCase):
                 policy["tutor_policy"]["material_storage"]["sentence_pair_count"], 4
             )
             self.assertFalse(policy["tutor_policy"]["japanese_composition_allowed"])
+
+            for name, expected in manifest["files"].items():
+                published = (output / name).read_bytes()
+                self.assertNotIn(b"\r\n", published)
+                self.assertEqual(len(published), expected["bytes"])
+                self.assertEqual(hashlib.sha256(published).hexdigest(), expected["sha256"])
 
     def test_project_instructions_name_every_bundle_file(self) -> None:
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
