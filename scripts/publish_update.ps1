@@ -6,6 +6,8 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$env:PYTHONUTF8 = "1"
+$env:PYTHONIOENCODING = "utf-8"
 $Publisher = Join-Path $PSScriptRoot "publish_update.py"
 $Arguments = @()
 if ($NoSync) { $Arguments += "--no-sync" }

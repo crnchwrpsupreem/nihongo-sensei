@@ -98,6 +98,11 @@ def publisher_lock(path: Path) -> Iterator[None]:
 
 
 def main() -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="backslashreplace")
+    os.environ["PYTHONUTF8"] = "1"
+    os.environ["PYTHONIOENCODING"] = "utf-8"
     args = parse_args()
     configured_path = args.config_file or Path(
         os.environ.get("NIHONGO_CONFIG_FILE", default_config_file())

@@ -285,7 +285,8 @@ def main() -> int:
         },
     }
     atomic_write(output / "manifest.json", json_text(manifest))
-    print(json.dumps(manifest, ensure_ascii=False, indent=2))
+    # Keep redirected Windows consoles safe even when their legacy code page is active.
+    print(json.dumps(manifest, ensure_ascii=True, indent=2))
     return 0
 
 

@@ -667,7 +667,8 @@ def main() -> int:
     try:
         payload, chosen = build(args)
         metadata = payload["metadata"]
-        print(json.dumps(metadata, ensure_ascii=False, indent=2))
+        # Keep redirected Windows consoles safe even when their legacy code page is active.
+        print(json.dumps(metadata, ensure_ascii=True, indent=2))
         if not args.summary_only:
             atomic_write(
                 args.output_dir / "corpus.json",
