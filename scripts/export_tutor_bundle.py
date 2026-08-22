@@ -16,12 +16,15 @@ from typing import Any
 
 SCHEMA_VERSION = 1
 CARDS_PER_SHARD = 100
+README_STATUS_START = "<!-- nihongo-sensei-status:start -->"
+README_STATUS_END = "<!-- nihongo-sensei-status:end -->"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--corpus", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--readme", type=Path)
     return parser.parse_args()
 
 
@@ -46,6 +49,33 @@ def atomic_write(path: Path, content: str) -> None:
 
 def json_text(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+
+
+def update_readme_status(path: Path, manifest: dict[str, Any]) -> None:
+    text = path.read_text(encoding="utf-8")
+    if text.count(README_STATUS_START) != 1 or text.count(README_STATUS_END) != 1:
+        raise RuntimeError("README must contain exactly one generated status marker pair")
+    before, remainder = text.split(README_STATUS_START, 1)
+    _, after = remainder.split(README_STATUS_END, 1)
+    state = "Ready" if manifest["ready"] else "Not ready"
+    body = "\n".join(
+        [
+            README_STATUS_START,
+            "_Automatically refreshed by the mini-PC publisher. Do not edit inside these markers._",
+            "",
+            "| Field | Current value |",
+            "| --- | --- |",
+            f"| Status | **{state}** |",
+            f"| Last generated | `{manifest['generated_at']}` |",
+            f"| Reviewed cards available to the tutor | **{manifest['reviewed_card_count']}** |",
+            f"| Currently active cards | **{manifest['current_active_card_count']}** |",
+            f"| Review events | **{manifest['review_event_count']}** |",
+            f"| Generation | `{manifest['generation_id']}` |",
+            "| Current bundle | [`tutor-data/current/`](tutor-data/current/) |",
+            README_STATUS_END,
+        ]
+    )
+    atomic_write(path, before + body + after)
 
 
 def study_state(card: dict[str, Any]) -> str:
@@ -287,6 +317,8 @@ def main() -> int:
         },
     }
     atomic_write(output / "manifest.json", json_text(manifest))
+    if args.readme:
+        update_readme_status(args.readme, manifest)
     # Keep redirected Windows consoles safe even when their legacy code page is active.
     print(json.dumps(manifest, ensure_ascii=True, indent=2))
     return 0

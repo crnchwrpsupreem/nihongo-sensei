@@ -135,6 +135,14 @@ class PlatformSupportTests(unittest.TestCase):
             self.assertFalse(sync_anki.request_windows_clean_close("posix"))
         run.assert_not_called()
 
+    def test_publisher_rejects_unrelated_staged_paths(self) -> None:
+        self.assertEqual(
+            publish_update.unexpected_publish_paths(
+                ["README.md", "tutor-data/current/manifest.json", "notes/private.txt"]
+            ),
+            ["notes/private.txt"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

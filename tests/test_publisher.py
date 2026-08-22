@@ -140,6 +140,37 @@ class PublisherTests(unittest.TestCase):
         for name in ("manifest.json", "lesson-brief.md", "tutor-policy.json", "card-index.json"):
             self.assertIn(name, instructions)
 
+    def test_readme_status_update_preserves_static_navigation(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            readme = Path(temporary) / "README.md"
+            readme.write_text(
+                "# Test\n\n## Current tutor status\n"
+                f"{export_tutor_bundle.README_STATUS_START}\nold\n"
+                f"{export_tutor_bundle.README_STATUS_END}\n\n"
+                "## Agent quick navigation\n\nKEEP THIS STATIC\n",
+                encoding="utf-8",
+                newline="\n",
+            )
+            manifest = {
+                "ready": True,
+                "generated_at": "2026-08-22T01:00:00-04:00",
+                "reviewed_card_count": 20,
+                "current_active_card_count": 18,
+                "review_event_count": 40,
+                "generation_id": "example-generation",
+            }
+
+            export_tutor_bundle.update_readme_status(readme, manifest)
+            updated = readme.read_text(encoding="utf-8")
+
+            self.assertIn("KEEP THIS STATIC", updated)
+            self.assertIn("| Status | **Ready** |", updated)
+            self.assertIn("| Reviewed cards available to the tutor | **20** |", updated)
+            self.assertIn("`example-generation`", updated)
+            self.assertNotIn("\nold\n", updated)
+            self.assertEqual(updated.count(export_tutor_bundle.README_STATUS_START), 1)
+            self.assertEqual(updated.count(export_tutor_bundle.README_STATUS_END), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

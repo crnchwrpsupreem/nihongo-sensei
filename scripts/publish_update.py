@@ -19,6 +19,7 @@ except ImportError:
 
 
 REPO_DIR = Path(__file__).resolve().parents[1]
+PUBLISH_PATHS = ("README.md", "tutor-data/current")
 
 
 def parse_args() -> argparse.Namespace:
@@ -49,13 +50,29 @@ def load_env_file(path: Path) -> None:
         os.environ[name] = value
 
 
-def run(command: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
+def run(
+    command: list[str], *, check: bool = True, capture_output: bool = False
+) -> subprocess.CompletedProcess[str]:
     print("+ " + " ".join(command))
-    return subprocess.run(command, cwd=REPO_DIR, text=True, check=check)
+    return subprocess.run(
+        command,
+        cwd=REPO_DIR,
+        text=True,
+        check=check,
+        capture_output=capture_output,
+    )
 
 
 def python_command() -> str:
     return sys.executable
+
+
+def unexpected_publish_paths(paths: list[str]) -> list[str]:
+    return [
+        path
+        for path in paths
+        if path != "README.md" and not path.startswith("tutor-data/current/")
+    ]
 
 
 @contextlib.contextmanager
@@ -148,6 +165,8 @@ def main() -> int:
                 str(work_dir / "corpus.json"),
                 "--output",
                 str(public_dir),
+                "--readme",
+                str(REPO_DIR / "README.md"),
             ]
         )
         run([python_command(), "-m", "unittest", "discover", "-s", "tests", "-v"])
@@ -155,13 +174,25 @@ def main() -> int:
         if args.no_push:
             print("Tutor bundle generated locally; --no-push requested.")
             return 0
-        run(["git", "add", "tutor-data/current"])
-        staged = run(["git", "diff", "--cached", "--quiet"], check=False)
+        run(["git", "add", "--", *PUBLISH_PATHS])
+        staged_names = run(
+            ["git", "diff", "--cached", "--name-only", "-z"],
+            capture_output=True,
+        ).stdout.split("\0")
+        unexpected = unexpected_publish_paths([path for path in staged_names if path])
+        if unexpected:
+            raise RuntimeError(
+                "Refusing to publish unrelated staged paths: " + ", ".join(unexpected)
+            )
+        staged = run(
+            ["git", "diff", "--cached", "--quiet", "--", *PUBLISH_PATHS],
+            check=False,
+        )
         if staged.returncode == 0:
             print("Tutor data is already current; nothing to publish.")
             return 0
         if staged.returncode != 1:
-            raise RuntimeError("Could not inspect staged tutor-data changes")
+            raise RuntimeError("Could not inspect staged public-data changes")
         stamp = dt.datetime.now().astimezone().isoformat(timespec="seconds")
         run(["git", "commit", "-m", f"Update public tutor context {stamp}"])
         run(["git", "push", remote, branch])

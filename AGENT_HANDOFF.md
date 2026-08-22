@@ -16,6 +16,7 @@ Mini-PC Anki profile (mirror/publisher only; no local reviewing)
 work/current-session/corpus.json (private, gitignored)
   ↓ sanitizing/classifying exporter
 tutor-data/current/* (intentional public learning data)
+  + generated README status block (sanitized manifest statistics only)
   ↓ git commit + push
 GitHub repository
   ↓ GitHub app or raw public files
@@ -28,8 +29,8 @@ Do not diagnose missing reviews by waiting for activity on the mini PC. The lear
 
 - `.agents/skills/nihongo-sensei/scripts/build_session.py`: source-of-truth extractor. It refuses live WAL/SHM/lock state, verifies the database signature, and never writes to Anki.
 - `scripts/sync_anki.py`: finds and starts Anki on Windows/Linux when necessary, invokes AnkiConnect `sync`, then requests a clean Anki exit. It does not read or edit cards.
-- `scripts/export_tutor_bundle.py`: adds study-state classifications, writes a compact card index plus full-data shards containing per-card `tutor_material`, and publishes only machine-independent learning data.
-- `scripts/publish_update.py`: cross-platform controller that locks the run, optionally pulls code, syncs, extracts in `historical` mode, exports, tests, commits only `tutor-data/current`, and pushes.
+- `scripts/export_tutor_bundle.py`: adds study-state classifications, writes a compact card index plus full-data shards containing per-card `tutor_material`, and refreshes the marker-delimited README status block from the sanitized manifest.
+- `scripts/publish_update.py`: cross-platform controller that locks the run, optionally pulls code, syncs, extracts in `historical` mode, exports, tests, commits only `tutor-data/current` plus `README.md`, and pushes. It refuses unrelated staged paths.
 - `scripts/publish_update.sh` and `scripts/publish_update.ps1`: thin Linux and Windows entry points for the same controller.
 - `scripts/install_systemd_user.sh`: installs an adjustable systemd user timer.
 - `scripts/install_windows_task.ps1`: installs an adjustable interactive Windows Task Scheduler job.

@@ -4,6 +4,22 @@ This repository turns a dedicated Windows or Linux mini PC with Anki into the so
 
 The learner reviews exclusively on their phone. The mini PC is not a study device: it mirrors the phone's progress through AnkiWeb, extracts the synced collection read-only, and publishes the tutor bundle.
 
+## Current tutor status
+
+<!-- nihongo-sensei-status:start -->
+_Automatically refreshed by the mini-PC publisher. Do not edit inside these markers._
+
+| Field | Current value |
+| --- | --- |
+| Status | **Ready** |
+| Last generated | `2026-08-22T00:38:57.999226-04:00` |
+| Reviewed cards available to the tutor | **20** |
+| Currently active cards | **20** |
+| Review events | **40** |
+| Generation | `b73a7fdcb3782473` |
+| Current bundle | [`tutor-data/current/`](tutor-data/current/) |
+<!-- nihongo-sensei-status:end -->
+
 The mini PC periodically:
 
 1. Opens the configured Anki profile and downloads review activity that the phone has synced to AnkiWeb.
@@ -12,7 +28,8 @@ The mini PC periodically:
 4. Selects every card in the configured Japanese deck hierarchy that has been reviewed at least once.
 5. Classifies cards as currently active or previously studied.
 6. Generates a machine-readable tutor bundle under `tutor-data/current/`.
-7. Commits and pushes that bundle to this public repository.
+7. Refreshes the generated status block in this README.
+8. Commits and pushes the bundle plus that status block to this public repository.
 
 A ChatGPT Project uses the GitHub app to read that bundle before tutoring. Voice, conversation, and lesson delivery happen in ChatGPT itself. This repository contains **no local OpenAI API or Realtime voice application**.
 
@@ -232,6 +249,17 @@ The tutor must report the loaded `generation_id` and card counts before the firs
 
 ## For maintainers and coding agents
 
+### Agent quick navigation
+
+- Start with [`AGENTS.md`](AGENTS.md) for repository invariants and safety boundaries.
+- Follow [`.agents/skills/nihongo-sensei/SKILL.md`](.agents/skills/nihongo-sensei/SKILL.md) for publisher or tutor workflows.
+- Use [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) for architecture, data flow, and component ownership.
+- Use [`CHATGPT_PROJECT_INSTRUCTIONS.md`](CHATGPT_PROJECT_INSTRUCTIONS.md) for the copy-ready tutor contract.
+- Inspect [`tutor-data/current/manifest.json`](tutor-data/current/manifest.json) first for live readiness, counts, generation identity, and bundle hashes.
+- Run or modify orchestration through [`scripts/publish_update.py`](scripts/publish_update.py); the PowerShell and Bash files are thin platform wrappers.
+
+The status table near the top of this README is generated. Its marker-delimited body may change on every publisher run; this navigation section is static and should be maintained manually.
+
 Read [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md), [`AGENTS.md`](AGENTS.md), and [`.agents/skills/nihongo-sensei/SKILL.md`](.agents/skills/nihongo-sensei/SKILL.md) before changing behavior.
 
 Verify changes with:
@@ -243,6 +271,6 @@ bash -n scripts/publish_update.sh scripts/install_systemd_user.sh
 
 On Windows, the equivalent publisher entry point is `scripts\publish_update.ps1`, and scheduling is installed by `scripts\install_windows_task.ps1`. Both wrappers invoke the same cross-platform `scripts/publish_update.py` controller.
 
-The generated private extraction in `work/current-session/` is ignored by Git. Credentials and `.env` files are ignored. Only the intentionally public bundle is staged by the publishing script.
+The generated private extraction in `work/current-session/` is ignored by Git. Credentials and `.env` files are ignored. Only the intentionally public bundle and the generated README status block are staged by the publishing script.
 
 GitHub Actions runs the Python suite on both Windows and Linux and validates the native PowerShell/Bash entry points on every push and pull request.

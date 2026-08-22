@@ -10,6 +10,7 @@ Preserve these invariants:
 - Anki sync is performed through Anki itself. Extraction opens `collection.anki2` strictly with SQLite read-only, immutable, and query-only settings.
 - Never modify cards, scheduling, review history, media, or preferences from the extractor.
 - Publish only cards in the configured Japanese deck hierarchy that have at least one review-log entry. Untouched cards are excluded.
+- The publisher may update only the marker-delimited generated status block in `README.md`; keep agent navigation and all other README content static. Automated commits may stage only `README.md` and `tutor-data/current/`.
 - Preserve the distinction between currently active and previously studied cards.
 - Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.
 - The public repository intentionally contains studied card text and review history. Keep the manifest privacy declaration accurate.

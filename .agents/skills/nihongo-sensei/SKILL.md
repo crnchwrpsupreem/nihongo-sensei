@@ -27,8 +27,8 @@ The learner reviews exclusively on their phone. Treat the mini PC as a non-inter
    ```
 
 3. The extractor must keep SQLite `mode=ro&immutable=1` and `query_only=ON`, refuse live WAL/SHM/lock state, and verify the source signature did not change.
-4. Run `scripts/export_tutor_bundle.py` to sanitize machine-specific metadata and classify every reviewed card.
-5. Publish only `tutor-data/current/`. Never stage `work/current-session`, Anki files, media, configuration databases, credentials, or environment files.
+4. Run `scripts/export_tutor_bundle.py` to sanitize machine-specific metadata, classify every reviewed card, and refresh only the marker-delimited generated status block in `README.md`.
+5. Publish only `tutor-data/current/` and `README.md`. The controller must refuse unrelated staged paths. Never stage `work/current-session`, Anki files, media, configuration databases, credentials, or environment files.
 6. `scripts/publish_update.py` is the canonical cross-platform controller. Use `scripts/publish_update.ps1` on Windows or `scripts/publish_update.sh` on Linux.
 7. Windows scheduling uses `scripts/install_windows_task.ps1 -Interval 3h` in an interactive logged-in user session. Linux scheduling uses `scripts/install_systemd_user.sh --interval 3h`.
 
