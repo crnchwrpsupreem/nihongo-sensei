@@ -7,9 +7,11 @@ Keep a public, current, machine-readable snapshot of the learner's reviewed Japa
 ## Data flow
 
 ```text
+Phone Anki (the learner's only review client)
+  ↓ phone sync
 AnkiWeb
   ↓ Anki desktop sync (AnkiConnect triggers sync and clean exit)
-Mini-PC Anki profile
+Mini-PC Anki profile (mirror/publisher only; no local reviewing)
   ↓ strict read-only SQLite extraction
 work/current-session/corpus.json (private, gitignored)
   ↓ sanitizing/classifying exporter
@@ -19,6 +21,8 @@ GitHub repository
   ↓ GitHub app or raw public files
 ChatGPT Project voice/text tutor
 ```
+
+Do not diagnose missing reviews by waiting for activity on the mini PC. The learner never reviews there. Confirm the phone has synced to AnkiWeb, then run the mini-PC sync before inspecting or publishing the local collection.
 
 ## Components
 

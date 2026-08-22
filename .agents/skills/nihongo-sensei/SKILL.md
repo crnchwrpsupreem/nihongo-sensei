@@ -13,6 +13,8 @@ description: Maintain or consume the Nihongo Sensei Windows/Linux mini-PC Anki p
 
 ## Publisher workflow
 
+The learner reviews exclusively on their phone. Treat the mini PC as a non-interactive AnkiWeb mirror and publishing appliance: never expect or request local reviews. New review activity reaches the publisher only after the phone syncs to AnkiWeb and the mini PC completes step 1 below.
+
 1. Synchronize through Anki itself using `scripts/sync_anki.py`. AnkiConnect may trigger only `sync`, `version`, and `guiExitAnki`; do not use it to read or edit cards.
 2. After Anki closes, run the extractor in historical mode:
 

@@ -2,9 +2,11 @@
 
 This repository turns a dedicated Windows or Linux mini PC with Anki into the source of truth for a ChatGPT Japanese tutor.
 
+The learner reviews exclusively on their phone. The mini PC is not a study device: it mirrors the phone's progress through AnkiWeb, extracts the synced collection read-only, and publishes the tutor bundle.
+
 The mini PC periodically:
 
-1. Opens the configured Anki profile and synchronizes it with AnkiWeb.
+1. Opens the configured Anki profile and downloads review activity that the phone has synced to AnkiWeb.
 2. Closes Anki cleanly.
 3. Reads the local SQLite collection in strict read-only mode.
 4. Selects every card in the configured Japanese deck hierarchy that has been reviewed at least once.

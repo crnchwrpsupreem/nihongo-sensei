@@ -6,6 +6,7 @@ Before changing behavior, read `.agents/skills/nihongo-sensei/SKILL.md`, `AGENT_
 
 Preserve these invariants:
 
+- The learner reviews exclusively on their phone. This PC is a non-interactive AnkiWeb sync, extraction, and publishing appliance; never wait for or expect reviews to be performed locally. New phone reviews are visible here only after the phone syncs to AnkiWeb and this PC syncs down through Anki.
 - Anki sync is performed through Anki itself. Extraction opens `collection.anki2` strictly with SQLite read-only, immutable, and query-only settings.
 - Never modify cards, scheduling, review history, media, or preferences from the extractor.
 - Publish only cards in the configured Japanese deck hierarchy that have at least one review-log entry. Untouched cards are excluded.

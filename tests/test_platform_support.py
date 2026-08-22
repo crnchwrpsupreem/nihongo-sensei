@@ -6,8 +6,9 @@ import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
-from scripts import platform_support, publish_update
+from scripts import platform_support, publish_update, sync_anki
 
 
 class PlatformSupportTests(unittest.TestCase):
@@ -120,6 +121,19 @@ class PlatformSupportTests(unittest.TestCase):
         self.assertIn("-RepetitionDuration", task)
         self.assertIn("-LogonType Interactive", task)
         self.assertIn("publish_update.py", wrapper)
+
+    def test_windows_clean_close_uses_main_window_request(self) -> None:
+        completed = mock.Mock(returncode=0)
+        with mock.patch.object(sync_anki.subprocess, "run", return_value=completed) as run:
+            self.assertTrue(sync_anki.request_windows_clean_close("nt"))
+        command = run.call_args.args[0]
+        self.assertEqual(command[:4], ["powershell", "-NoProfile", "-NonInteractive", "-Command"])
+        self.assertIn("CloseMainWindow", command[4])
+
+    def test_clean_close_fallback_is_windows_only(self) -> None:
+        with mock.patch.object(sync_anki.subprocess, "run") as run:
+            self.assertFalse(sync_anki.request_windows_clean_close("posix"))
+        run.assert_not_called()
 
 
 if __name__ == "__main__":

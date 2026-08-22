@@ -112,6 +112,37 @@ def run_custom_sync(command_text: str) -> None:
         raise SyncError(f"Custom sync command exited with {result.returncode}")
 
 
+def request_windows_clean_close(platform_name: str | None = None) -> bool:
+    """Ask Anki's main Windows window to close without terminating the process."""
+    if (platform_name or os.name) != "nt":
+        return False
+    script = (
+        "$closed = $false; "
+        "Get-Process -Name anki -ErrorAction SilentlyContinue | ForEach-Object { "
+        "if ($_.CloseMainWindow()) { $closed = $true } }; "
+        "if ($closed) { exit 0 } else { exit 1 }"
+    )
+    try:
+        result = subprocess.run(
+            ["powershell", "-NoProfile", "-NonInteractive", "-Command", script],
+            check=False,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            timeout=30,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        return False
+    return result.returncode == 0
+
+
+def wait_until_closed(timeout_seconds: float) -> bool:
+    deadline = time.monotonic() + timeout_seconds
+    while is_ready() and time.monotonic() < deadline:
+        time.sleep(0.5)
+    return not is_ready()
+
+
 def main() -> int:
     custom = os.environ.get("NIHONGO_SYNC_COMMAND")
     if custom:
@@ -134,15 +165,10 @@ def main() -> int:
         except (ConnectionError, urllib.error.URLError):
             # Anki may close its local HTTP server before the response completes.
             pass
-        if process:
-            try:
-                process.wait(timeout=30)
-            except subprocess.TimeoutExpired:
-                pass
-        deadline = time.monotonic() + 30
-        while is_ready() and time.monotonic() < deadline:
-            time.sleep(0.5)
-        if is_ready():
+        closed = wait_until_closed(10)
+        if not closed and request_windows_clean_close():
+            closed = wait_until_closed(30)
+        if not closed:
             raise SyncError("AnkiConnect is still reachable; Anki did not close")
         print("Anki closed cleanly.")
     return 0
