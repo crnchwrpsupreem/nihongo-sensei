@@ -1,0 +1,19 @@
+# Local Anki-derived learning data. Regenerated at the start of each session.
+work/current-session/*
+!work/current-session/.gitkeep
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local runtime output
+*.log
