@@ -1,6 +1,6 @@
 # Nihongo Sensei Publisher
 
-This repository turns a dedicated Linux mini PC with Anki into the source of truth for a ChatGPT Japanese tutor.
+This repository turns a dedicated Windows or Linux mini PC with Anki into the source of truth for a ChatGPT Japanese tutor.
 
 The mini PC periodically:
 
@@ -24,18 +24,19 @@ This is a public repository. After the first successful publisher run, anyone ca
 
 If that is ever undesirable, make the repository private before running the publisher again.
 
-## Mini-PC requirements
+## Common mini-PC requirements
 
-- A systemd-based Linux distribution.
 - Python 3.11+.
 - Git.
-- `flock` (normally provided by `util-linux`).
 - Current desktop Anki installed from the official Anki package.
 - The AnkiConnect add-on (`2055492159`) for scripted sync and clean shutdown.
-- `xvfb-run` when the mini PC has no desktop display.
 - GitHub write authentication, preferably an SSH key.
 
 AnkiConnect is used only to ask Anki to synchronize and exit. Card extraction never uses AnkiConnect and never writes to Anki.
+
+Windows 10/11 is supported natively through PowerShell and Task Scheduler. The scheduled task runs in the user's interactive desktop session because Anki must be able to open. Keep that Windows account signed in (locking the screen is fine).
+
+Linux remains supported through Bash and a systemd user timer. A headless Linux machine also needs `xvfb-run`.
 
 ## One-time setup
 
@@ -49,33 +50,89 @@ In Anki, install AnkiConnect:
 2. Enter code `2055492159`.
 3. Restart Anki and confirm `http://127.0.0.1:8765` is reachable while Anki is open.
 
-On a headless Debian/Ubuntu machine:
-
-```bash
-sudo apt install xvfb git python3 util-linux
-```
-
-### 2. Clone the repository
+### 2. Clone and authenticate GitHub
 
 ```bash
 git clone https://github.com/crnchwrpsupreem/nihongo-sensei.git
 cd nihongo-sensei
 ```
 
-### 3. Configure GitHub publishing
-
-Create an SSH key on the mini PC and add the public key to the GitHub account or as a write-enabled deploy key for this repository. Then switch the remote to SSH:
+The publisher must be able to push. Either authenticate GitHub CLI/Git Credential Manager on the mini PC, or create an SSH key and add it to GitHub as a write-enabled deploy key. For SSH:
 
 ```bash
 git remote set-url origin git@github.com:crnchwrpsupreem/nihongo-sensei.git
 ssh -T git@github.com
+```
+
+Set a commit identity regardless of the authentication method:
+
+```bash
 git config user.name "Nihongo Sensei Publisher"
 git config user.email "nihongo-sensei@localhost"
 ```
 
-No GitHub credential is stored in this repository.
+No GitHub credential is stored in this repository. If GitHub CLI is installed, `gh auth login` followed by `gh auth setup-git` is also sufficient.
 
-### 4. Configure the Anki profile
+## Windows setup
+
+Anki's profile is detected automatically under `%APPDATA%\Anki2\User 1`, and standard Anki installations are detected under `%LOCALAPPDATA%`.
+
+### 3W. Create the Windows configuration
+
+Open PowerShell in the cloned repository:
+
+```powershell
+$ConfigDir = Join-Path $env:APPDATA "nihongo-sensei"
+New-Item -ItemType Directory -Force $ConfigDir
+Copy-Item .\config.env.example (Join-Path $ConfigDir "config.env")
+notepad (Join-Path $ConfigDir "config.env")
+```
+
+Normally only `NIHONGO_ANKI_PROFILE_NAME` and `NIHONGO_DECK_ROOT` need checking. Leave the profile and executable overrides commented unless Anki is installed somewhere unusual.
+
+### 4W. Test Windows publishing
+
+Close Anki and test extraction without syncing or pushing:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\publish_update.ps1 -NoSync -NoPush
+```
+
+Then test the complete AnkiWeb sync, extraction, and GitHub push:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\publish_update.ps1
+```
+
+### 5W. Install the adjustable Windows schedule
+
+The default is every three hours:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\install_windows_task.ps1 -Interval 3h -RunNow
+```
+
+Other valid examples are `30min`, `6h`, and `1d`. Re-running the installer replaces the existing task with the new interval.
+
+Inspect or manually run it with:
+
+```powershell
+Get-ScheduledTask -TaskName "Nihongo Sensei Publisher"
+Get-ScheduledTaskInfo -TaskName "Nihongo Sensei Publisher"
+Start-ScheduledTask -TaskName "Nihongo Sensei Publisher"
+```
+
+The Windows task deliberately uses `Interactive` logon type. It will not start Anki while the user is fully signed out.
+
+## Linux setup
+
+On a headless Debian/Ubuntu machine, install:
+
+```bash
+sudo apt install xvfb git python3 util-linux
+```
+
+### 3L. Configure the Linux Anki profile
 
 ```bash
 mkdir -p "$HOME/.config/nihongo-sensei"
@@ -83,7 +140,7 @@ cp config.env.example "$HOME/.config/nihongo-sensei/config.env"
 chmod 600 "$HOME/.config/nihongo-sensei/config.env"
 ```
 
-Edit the file if your profile or deck differs. Recent Anki versions normally store Linux profiles under:
+Edit the file only if your profile or deck differs. Recent Anki versions normally store Linux profiles under:
 
 ```text
 ~/.local/share/Anki2/User 1
@@ -91,7 +148,7 @@ Edit the file if your profile or deck differs. Recent Anki versions normally sto
 
 If `$XDG_DATA_HOME` is set, the base is `$XDG_DATA_HOME/Anki2` instead.
 
-### 5. Test once without pushing
+### 4L. Test once without pushing
 
 Close Anki, then run:
 
@@ -105,7 +162,7 @@ That verifies extraction against the existing local collection. Then test the co
 ./scripts/publish_update.sh
 ```
 
-### 6. Install the adjustable schedule
+### 5L. Install the adjustable schedule
 
 The default is every three hours:
 
@@ -182,4 +239,8 @@ python3 -m unittest discover -s tests -v
 bash -n scripts/publish_update.sh scripts/install_systemd_user.sh
 ```
 
+On Windows, the equivalent publisher entry point is `scripts\publish_update.ps1`, and scheduling is installed by `scripts\install_windows_task.ps1`. Both wrappers invoke the same cross-platform `scripts/publish_update.py` controller.
+
 The generated private extraction in `work/current-session/` is ignored by Git. Credentials and `.env` files are ignored. Only the intentionally public bundle is staged by the publishing script.
+
+GitHub Actions runs the Python suite on both Windows and Linux and validates the native PowerShell/Bash entry points on every push and pull request.

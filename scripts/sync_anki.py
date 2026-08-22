@@ -15,6 +15,11 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+try:
+    from .platform_support import default_anki_command
+except ImportError:
+    from platform_support import default_anki_command
+
 
 ANKI_CONNECT_URL = os.environ.get(
     "NIHONGO_ANKI_CONNECT_URL", "http://127.0.0.1:8765"
@@ -54,11 +59,15 @@ def is_ready() -> bool:
 
 
 def start_anki() -> subprocess.Popen[bytes]:
-    configured = os.environ.get("NIHONGO_ANKI_COMMAND", "anki")
-    command = shlex.split(configured)
+    configured = os.environ.get("NIHONGO_ANKI_COMMAND", default_anki_command())
+    expanded = str(Path(configured).expanduser())
+    if Path(expanded).is_file():
+        command = [expanded]
+    else:
+        command = shlex.split(configured, posix=os.name != "nt")
     if not command:
         raise SyncError("NIHONGO_ANKI_COMMAND is empty")
-    if not os.environ.get("DISPLAY") and shutil.which("xvfb-run"):
+    if os.name != "nt" and not os.environ.get("DISPLAY") and shutil.which("xvfb-run"):
         command = ["xvfb-run", "-a", *command]
     if ANKI_BASE:
         command.extend(["-b", str(Path(ANKI_BASE).expanduser())])
@@ -80,7 +89,7 @@ def wait_until_ready(process: subprocess.Popen[bytes] | None) -> None:
     while time.monotonic() < deadline:
         if is_ready():
             return
-        if process and process.poll() is not None:
+        if process and process.poll() is not None and os.name != "nt":
             raise SyncError(f"Anki exited before AnkiConnect became ready ({process.returncode})")
         time.sleep(1)
     raise SyncError(
@@ -90,7 +99,12 @@ def wait_until_ready(process: subprocess.Popen[bytes] | None) -> None:
 
 
 def run_custom_sync(command_text: str) -> None:
-    command = shlex.split(command_text)
+    expanded = str(Path(command_text).expanduser())
+    command = (
+        [expanded]
+        if Path(expanded).is_file()
+        else shlex.split(command_text, posix=os.name != "nt")
+    )
     if not command:
         raise SyncError("NIHONGO_SYNC_COMMAND is empty")
     result = subprocess.run(command, check=False, timeout=TIMEOUT_SECONDS)
@@ -106,10 +120,8 @@ def main() -> int:
         return 0
 
     process: subprocess.Popen[bytes] | None = None
-    started_here = False
     if not is_ready():
         process = start_anki()
-        started_here = True
     wait_until_ready(process)
     print("Anki is ready; starting AnkiWeb sync.")
     anki_action("sync")
@@ -117,18 +129,21 @@ def main() -> int:
 
     should_close = os.environ.get("NIHONGO_CLOSE_ANKI_AFTER_SYNC", "true").lower()
     if should_close not in {"0", "false", "no"}:
-        anki_action("guiExitAnki")
+        try:
+            anki_action("guiExitAnki")
+        except (ConnectionError, urllib.error.URLError):
+            # Anki may close its local HTTP server before the response completes.
+            pass
         if process:
             try:
                 process.wait(timeout=30)
-            except subprocess.TimeoutExpired as exc:
-                raise SyncError("Anki did not close after synchronization") from exc
-        elif not started_here:
-            deadline = time.monotonic() + 30
-            while is_ready() and time.monotonic() < deadline:
-                time.sleep(0.5)
-            if is_ready():
-                raise SyncError("AnkiConnect is still reachable; Anki did not close")
+            except subprocess.TimeoutExpired:
+                pass
+        deadline = time.monotonic() + 30
+        while is_ready() and time.monotonic() < deadline:
+            time.sleep(0.5)
+        if is_ready():
+            raise SyncError("AnkiConnect is still reachable; Anki did not close")
         print("Anki closed cleanly.")
     return 0
 

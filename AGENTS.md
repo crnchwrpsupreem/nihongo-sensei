@@ -1,6 +1,6 @@
 # Nihongo Sensei Publisher — agent rules
 
-This repository is a mini-PC publisher and ChatGPT Project data source. It is not a local voice application.
+This repository is a dual-platform Windows/Linux mini-PC publisher and ChatGPT Project data source. It is not a local voice application.
 
 Before changing behavior, read `.agents/skills/nihongo-sensei/SKILL.md`, `AGENT_HANDOFF.md`, and `CHATGPT_PROJECT_INSTRUCTIONS.md`.
 
@@ -16,3 +16,5 @@ Preserve these invariants:
 - Each ordinary tutoring turn assesses the immediately preceding answer first, then gives exactly one next exercise.
 - Do not add OpenAI API, Realtime, local microphone, local speech, or local chat-model code. Voice belongs to the ChatGPT Project.
 - Add or update regression tests for extraction, classification, sanitization, and publishing behavior.
+- Keep Windows and Linux wrappers behaviorally identical by putting orchestration in `scripts/publish_update.py`.
+- Windows scheduling must use an interactive user session so Anki can open; Linux scheduling uses the systemd user timer.

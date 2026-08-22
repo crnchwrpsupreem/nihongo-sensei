@@ -1,6 +1,6 @@
 ---
 name: nihongo-sensei
-description: Maintain or consume the Nihongo Sensei mini-PC Anki publisher and run sentence-first Japanese tutoring from its current public GitHub tutor bundle. Use when asked to refresh/publish Anki tutor data, configure the Linux schedule, inspect the reviewed Japanese corpus, or start Japanese tutor mode.
+description: Maintain or consume the Nihongo Sensei Windows/Linux mini-PC Anki publisher and run sentence-first Japanese tutoring from its current public GitHub tutor bundle. Use when asked to refresh/publish Anki tutor data, configure the mini-PC schedule, inspect the reviewed Japanese corpus, or start Japanese tutor mode.
 ---
 
 # Nihongo Sensei Publisher and Tutor
@@ -27,7 +27,8 @@ description: Maintain or consume the Nihongo Sensei mini-PC Anki publisher and r
 3. The extractor must keep SQLite `mode=ro&immutable=1` and `query_only=ON`, refuse live WAL/SHM/lock state, and verify the source signature did not change.
 4. Run `scripts/export_tutor_bundle.py` to sanitize machine-specific metadata and classify every reviewed card.
 5. Publish only `tutor-data/current/`. Never stage `work/current-session`, Anki files, media, configuration databases, credentials, or environment files.
-6. `scripts/publish_update.sh` is the canonical end-to-end command. The systemd timer is adjustable through `scripts/install_systemd_user.sh --interval`.
+6. `scripts/publish_update.py` is the canonical cross-platform controller. Use `scripts/publish_update.ps1` on Windows or `scripts/publish_update.sh` on Linux.
+7. Windows scheduling uses `scripts/install_windows_task.ps1 -Interval 3h` in an interactive logged-in user session. Linux scheduling uses `scripts/install_systemd_user.sh --interval 3h`.
 
 ### Inclusion rule
 

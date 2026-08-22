@@ -1,0 +1,46 @@
+name: Test publisher
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Python tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate PowerShell syntax
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $Files = @(
+            "scripts/publish_update.ps1",
+            "scripts/install_windows_task.ps1"
+          )
+          foreach ($File in $Files) {
+            $Tokens = $null
+            $Errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile(
+              (Resolve-Path $File),
+              [ref]$Tokens,
+              [ref]$Errors
+            ) | Out-Null
+            if ($Errors.Count -gt 0) {
+              $Errors | ForEach-Object { Write-Error $_ }
+              throw "PowerShell syntax validation failed for $File"
+            }
+          }
+      - name: Validate Bash syntax
+        if: runner.os == 'Linux'
+        run: bash -n scripts/publish_update.sh scripts/install_systemd_user.sh

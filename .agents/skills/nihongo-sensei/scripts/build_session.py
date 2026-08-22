@@ -14,7 +14,7 @@ import sqlite3
 import sys
 import tempfile
 from pathlib import Path
-from typing import Any
+from typing import Any, Mapping
 
 
 FIELD_SEPARATOR = "\x1f"
@@ -46,13 +46,25 @@ NON_SPOKEN_FIELD_RE = re.compile(
 )
 
 
+def default_profile_path(
+    platform: str = sys.platform,
+    environ: Mapping[str, str] | None = None,
+    home: Path | None = None,
+) -> Path:
+    env = os.environ if environ is None else environ
+    user_home = Path.home() if home is None else home
+    if platform.startswith("win"):
+        appdata = Path(env.get("APPDATA", user_home / "AppData/Roaming"))
+        return appdata / "Anki2/User 1"
+    if platform.startswith("linux"):
+        data_home = Path(env.get("XDG_DATA_HOME", user_home / ".local/share"))
+        return data_home / "Anki2/User 1"
+    return user_home / "Library/Application Support/Anki2/User 1"
+
+
 def parse_args() -> argparse.Namespace:
     workspace = Path(__file__).resolve().parents[4]
-    platform_default = (
-        Path.home() / ".local/share/Anki2/User 1"
-        if sys.platform.startswith("linux")
-        else Path.home() / "Library/Application Support/Anki2/User 1"
-    )
+    platform_default = default_profile_path()
     default_profile = Path(
         os.environ.get(
             "NIHONGO_ANKI_PROFILE",
@@ -116,8 +128,8 @@ def refuse_live_sqlite(profile: Path, database: Path) -> None:
 
 
 def connect_read_only(database: Path) -> sqlite3.Connection:
-    uri_path = str(database.resolve()).replace("%", "%25").replace(" ", "%20")
-    connection = sqlite3.connect(f"file:{uri_path}?mode=ro&immutable=1", uri=True)
+    uri = database.resolve().as_uri() + "?mode=ro&immutable=1"
+    connection = sqlite3.connect(uri, uri=True)
     connection.row_factory = sqlite3.Row
     connection.create_collation(
         "unicase",
