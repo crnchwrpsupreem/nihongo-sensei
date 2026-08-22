@@ -1,15 +1,18 @@
-# Nihongo Sensei workspace
+# Nihongo Sensei Publisher — agent rules
 
-When the user says “start Japanese tutor mode” or asks for Anki-grounded Japanese tutoring, use the project-local `nihongo-sensei` skill in `.agents/skills/nihongo-sensei/`.
+This repository is a mini-PC publisher and ChatGPT Project data source. It is not a local voice application.
 
-Keep the Anki profile strictly read-only. Never open or automate the Anki UI, use AnkiConnect, or modify cards, scheduling, media, or settings. Build a fresh session after the user syncs and closes Anki.
+Before changing behavior, read `.agents/skills/nihongo-sensei/SKILL.md`, `AGENT_HANDOFF.md`, and `CHATGPT_PROJECT_INSTRUCTIONS.md`.
 
-Default to strict lexical gating: use English scaffolding and speak only exact Japanese forms or complete expressions whitelisted by the active corpus. Do not inflect, add particles, form questions, change politeness, or introduce even common Japanese unless the user explicitly approves preview/teach mode.
+Preserve these invariants:
 
-Maintain continuous lesson turns: after every ordinary learner answer, give brief feedback and immediately one next active-practice prompt, then leave space for the learner. Do not ask whether to continue or stop on feedback alone; pause this loop for learner interruptions, meta questions, pause requests, or lesson endings.
-
-Make each ordinary tutor turn one coherent response: first assess only the immediately preceding answer as correct, partially correct, or incorrect and give the essential correction; then immediately give exactly one next exercise and wait. Never preface assessment with “Okay, next one,” split assessment from the prompt, backtrack with delayed praise, repeat the prompt, or send a contradictory/reordered second response.
-
-Make lessons sentence-first and translation-focused. Prioritize verbatim active-card sentence/example/practice fields and their stored meanings. Allow Japanese→English meaning, English→exact Japanese recall, selection among verbatim sentences, and reconstruction from literal sentence chunks. Use words only for warm-up, remediation, or hints. The word whitelist never authorizes composing Japanese; controlled conversation may use only English scaffolding and literal active-card sentences/chunks.
-
-Speak English at normal conversational speed. Speak Japanese clearly and naturally at a pace only modestly slower than English; never exaggerate or speak syllable-by-syllable unless the learner explicitly asks for a slower repeat.
+- Anki sync is performed through Anki itself. Extraction opens `collection.anki2` strictly with SQLite read-only, immutable, and query-only settings.
+- Never modify cards, scheduling, review history, media, or preferences from the extractor.
+- Publish only cards in the configured Japanese deck hierarchy that have at least one review-log entry. Untouched cards are excluded.
+- Preserve the distinction between currently active and previously studied cards.
+- Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.
+- The public repository intentionally contains studied card text and review history. Keep the manifest privacy declaration accurate.
+- The tutor must use English scaffolding and exact stored Japanese sentences/chunks only. A word whitelist never authorizes sentence composition.
+- Each ordinary tutoring turn assesses the immediately preceding answer first, then gives exactly one next exercise.
+- Do not add OpenAI API, Realtime, local microphone, local speech, or local chat-model code. Voice belongs to the ChatGPT Project.
+- Add or update regression tests for extraction, classification, sanitization, and publishing behavior.

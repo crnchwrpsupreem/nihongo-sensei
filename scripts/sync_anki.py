@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+"""Synchronize Anki through a local AnkiConnect instance, then close Anki."""
+
+from __future__ import annotations
+
+import json
+import os
+import shlex
+import shutil
+import subprocess
+import sys
+import time
+import urllib.error
+import urllib.request
+from pathlib import Path
+from typing import Any
+
+
+ANKI_CONNECT_URL = os.environ.get(
+    "NIHONGO_ANKI_CONNECT_URL", "http://127.0.0.1:8765"
+)
+TIMEOUT_SECONDS = int(os.environ.get("NIHONGO_SYNC_TIMEOUT", "300"))
+PROFILE_NAME = os.environ.get("NIHONGO_ANKI_PROFILE_NAME", "User 1")
+ANKI_BASE = os.environ.get("NIHONGO_ANKI_BASE", "")
+
+
+class SyncError(RuntimeError):
+    pass
+
+
+def anki_action(action: str, **params: Any) -> Any:
+    body = json.dumps(
+        {"action": action, "version": 6, "params": params},
+        ensure_ascii=False,
+    ).encode("utf-8")
+    request = urllib.request.Request(
+        ANKI_CONNECT_URL,
+        data=body,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    if payload.get("error"):
+        raise SyncError(f"AnkiConnect {action!r} failed: {payload['error']}")
+    return payload.get("result")
+
+
+def is_ready() -> bool:
+    try:
+        return int(anki_action("version")) >= 6
+    except (OSError, ValueError, TypeError, urllib.error.URLError, SyncError):
+        return False
+
+
+def start_anki() -> subprocess.Popen[bytes]:
+    configured = os.environ.get("NIHONGO_ANKI_COMMAND", "anki")
+    command = shlex.split(configured)
+    if not command:
+        raise SyncError("NIHONGO_ANKI_COMMAND is empty")
+    if not os.environ.get("DISPLAY") and shutil.which("xvfb-run"):
+        command = ["xvfb-run", "-a", *command]
+    if ANKI_BASE:
+        command.extend(["-b", str(Path(ANKI_BASE).expanduser())])
+    command.extend(["-p", PROFILE_NAME])
+    try:
+        return subprocess.Popen(
+            command,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            start_new_session=True,
+        )
+    except OSError as exc:
+        raise SyncError(f"Could not start Anki: {exc}") from exc
+
+
+def wait_until_ready(process: subprocess.Popen[bytes] | None) -> None:
+    deadline = time.monotonic() + TIMEOUT_SECONDS
+    while time.monotonic() < deadline:
+        if is_ready():
+            return
+        if process and process.poll() is not None:
+            raise SyncError(f"Anki exited before AnkiConnect became ready ({process.returncode})")
+        time.sleep(1)
+    raise SyncError(
+        "Timed out waiting for AnkiConnect. Install add-on 2055492159 and confirm "
+        "that Anki can open this profile."
+    )
+
+
+def run_custom_sync(command_text: str) -> None:
+    command = shlex.split(command_text)
+    if not command:
+        raise SyncError("NIHONGO_SYNC_COMMAND is empty")
+    result = subprocess.run(command, check=False, timeout=TIMEOUT_SECONDS)
+    if result.returncode:
+        raise SyncError(f"Custom sync command exited with {result.returncode}")
+
+
+def main() -> int:
+    custom = os.environ.get("NIHONGO_SYNC_COMMAND")
+    if custom:
+        run_custom_sync(custom)
+        print("Custom Anki sync command completed.")
+        return 0
+
+    process: subprocess.Popen[bytes] | None = None
+    started_here = False
+    if not is_ready():
+        process = start_anki()
+        started_here = True
+    wait_until_ready(process)
+    print("Anki is ready; starting AnkiWeb sync.")
+    anki_action("sync")
+    print("AnkiWeb sync completed.")
+
+    should_close = os.environ.get("NIHONGO_CLOSE_ANKI_AFTER_SYNC", "true").lower()
+    if should_close not in {"0", "false", "no"}:
+        anki_action("guiExitAnki")
+        if process:
+            try:
+                process.wait(timeout=30)
+            except subprocess.TimeoutExpired as exc:
+                raise SyncError("Anki did not close after synchronization") from exc
+        elif not started_here:
+            deadline = time.monotonic() + 30
+            while is_ready() and time.monotonic() < deadline:
+                time.sleep(0.5)
+            if is_ready():
+                raise SyncError("AnkiConnect is still reachable; Anki did not close")
+        print("Anki closed cleanly.")
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except (OSError, SyncError, urllib.error.URLError, json.JSONDecodeError) as exc:
+        print(f"Anki synchronization failed: {exc}", file=sys.stderr)
+        raise SystemExit(2)

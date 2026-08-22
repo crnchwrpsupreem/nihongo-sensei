@@ -48,10 +48,15 @@ NON_SPOKEN_FIELD_RE = re.compile(
 
 def parse_args() -> argparse.Namespace:
     workspace = Path(__file__).resolve().parents[4]
+    platform_default = (
+        Path.home() / ".local/share/Anki2/User 1"
+        if sys.platform.startswith("linux")
+        else Path.home() / "Library/Application Support/Anki2/User 1"
+    )
     default_profile = Path(
         os.environ.get(
             "NIHONGO_ANKI_PROFILE",
-            str(Path.home() / "Library/Application Support/Anki2/User 1"),
+            str(platform_default),
         )
     ).expanduser()
     parser = argparse.ArgumentParser(
@@ -556,7 +561,7 @@ def build(args: argparse.Namespace) -> tuple[dict[str, Any], list[dict[str, Any]
         creation_seconds = int(connection.execute("SELECT crt FROM col LIMIT 1").fetchone()[0])
         placeholders = ",".join("?" for _ in matching_decks)
         inclusion_predicate = (
-            "AND c.type IN (1,2,3) AND c.queue != 0"
+            "AND c.type IN (1,2,3) AND c.queue IN (1,2,3,4)"
             if args.inclusion_mode == "active"
             else ""
         )
@@ -598,7 +603,7 @@ def build(args: argparse.Namespace) -> tuple[dict[str, Any], list[dict[str, Any]
             tuple(sorted(matching_decks)),
         ).fetchone()[0]
         current_active_count = connection.execute(
-            f"SELECT COUNT(*) FROM cards c WHERE (CASE WHEN c.odid>0 THEN c.odid ELSE c.did END) IN ({placeholders}) AND c.type IN (1,2,3) AND c.queue != 0 AND EXISTS (SELECT 1 FROM revlog r WHERE r.cid=c.id)",
+            f"SELECT COUNT(*) FROM cards c WHERE (CASE WHEN c.odid>0 THEN c.odid ELSE c.did END) IN ({placeholders}) AND c.type IN (1,2,3) AND c.queue IN (1,2,3,4) AND EXISTS (SELECT 1 FROM revlog r WHERE r.cid=c.id)",
             tuple(sorted(matching_decks)),
         ).fetchone()[0]
     finally:
@@ -629,7 +634,7 @@ def build(args: argparse.Namespace) -> tuple[dict[str, Any], list[dict[str, Any]
             "currently_new_with_history_excluded": (int(historical_reviewed_count) - int(current_active_count)) if args.inclusion_mode == "active" else 0,
             "never_reviewed_card_count": int(all_in_hierarchy) - int(historical_reviewed_count),
             "inclusion_rule": (
-                "Effective deck is in hierarchy, revlog contains at least one row, current Anki card type is learning, review, or relearning, and the queue is not new."
+                "Effective deck is in hierarchy, revlog contains at least one row, current Anki card type is learning, review, or relearning, and the queue is a positive scheduled queue (not new, suspended, or buried)."
                 if args.inclusion_mode == "active"
                 else "Effective deck is in hierarchy and revlog contains at least one row, regardless of current Anki card type."
             ),

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "ready": false,
+  "message": "Run scripts/publish_update.sh on the configured mini PC to create the first tutor bundle."
+}

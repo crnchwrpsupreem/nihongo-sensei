@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh and publish Nihongo Sensei tutor context
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory="@REPO_DIR@"
+EnvironmentFile=-%h/.config/nihongo-sensei/config.env
+ExecStart=/bin/bash "@REPO_DIR@/scripts/publish_update.sh"
+Nice=10

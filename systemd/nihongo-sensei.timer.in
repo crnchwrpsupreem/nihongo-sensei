@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Nihongo Sensei publisher every @INTERVAL@
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=@INTERVAL@
+Persistent=true
+RandomizedDelaySec=5min
+
+[Install]
+WantedBy=timers.target
