@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nihongo Sensei Voice Tutor</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Local-first Japanese practice</p>
+          <h1>Nihongo Sensei</h1>
+          <p class="lede">
+            A deterministic sentence tutor grounded in your current active Anki cards.
+          </p>
+        </div>
+        <div class="safety-pill" id="safety-pill">Checking local service…</div>
+      </header>
+
+      <section class="status-grid" aria-label="Session status">
+        <article>
+          <span>Controller</span>
+          <strong id="controller-state">Not started</strong>
+        </article>
+        <article>
+          <span>Active cards</span>
+          <strong id="active-count">—</strong>
+        </article>
+        <article>
+          <span>Exact sentence pairs</span>
+          <strong id="pair-count">—</strong>
+        </article>
+        <article>
+          <span>Voice mode</span>
+          <strong id="voice-mode">Checking…</strong>
+        </article>
+      </section>
+
+      <section class="panel launch-panel">
+        <div>
+          <h2>Start a fresh session</h2>
+          <p>
+            Sync and close Anki first. Starting refreshes the collection through the
+            existing safe, read-only extractor.
+          </p>
+        </div>
+        <button class="primary" id="start-session" type="button">Start session</button>
+      </section>
+
+      <section class="panel tutor-panel" aria-live="polite">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Deterministic tutor turn</p>
+            <h2 id="exercise-type">Waiting to start</h2>
+          </div>
+          <span class="turn-badge" id="turn-number">Turn —</span>
+        </div>
+
+        <div class="assessment hidden" id="assessment">
+          <strong id="assessment-rating"></strong>
+          <p id="assessment-feedback"></p>
+          <p class="japanese correction hidden" lang="ja" id="assessment-correction"></p>
+        </div>
+
+        <div class="exercise" id="exercise">
+          <p class="instruction" id="instruction">
+            Start a session to load one approved exercise.
+          </p>
+          <div id="japanese-content"></div>
+        </div>
+
+        <div class="speak-row">
+          <div>
+            <button class="secondary" id="replay" type="button" disabled>
+              Replay this turn
+            </button>
+            <button class="quiet" id="replay-slower" type="button" disabled>
+              Replay Japanese slower
+            </button>
+          </div>
+          <span>English: normal speed · Japanese: slightly slower</span>
+        </div>
+      </section>
+
+      <section class="panel answer-panel">
+        <form id="answer-form">
+          <label for="answer">Your answer</label>
+          <textarea
+            id="answer"
+            rows="3"
+            maxlength="5000"
+            placeholder="Type an English meaning or the exact stored Japanese sentence…"
+            disabled
+          ></textarea>
+          <div class="form-actions">
+            <button class="primary" id="submit-answer" type="submit" disabled>
+              Submit answer
+            </button>
+            <span id="answer-status"></span>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel voice-panel">
+        <div>
+          <h2>Microphone</h2>
+          <p id="microphone-help">
+            Text/mock mode works without an API key. Live microphone transcription is
+            available when the local server has an OpenAI API key.
+          </p>
+        </div>
+        <div class="voice-actions">
+          <button class="secondary" id="connect-microphone" type="button" disabled>
+            Connect microphone
+          </button>
+          <button class="quiet" id="disconnect-microphone" type="button" disabled>
+            Disconnect
+          </button>
+          <label class="checkbox-label">
+            <input id="auto-submit" type="checkbox" checked />
+            Submit completed transcript automatically
+          </label>
+        </div>
+        <p class="connection-state" id="connection-state">Microphone disconnected.</p>
+      </section>
+
+      <section class="panel policy-panel">
+        <h2>Why prompts stay deterministic</h2>
+        <ul>
+          <li>The controller selects only refreshed, exact active-card sentence pairs.</li>
+          <li>Realtime is used only for microphone transcription, never prompt generation.</li>
+          <li>The Anki collection stays local and is never sent to OpenAI.</li>
+          <li>Browser speech synthesis reads only controller-approved text.</li>
+        </ul>
+      </section>
+
+      <div class="toast hidden" role="alert" id="toast"></div>
+    </main>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
