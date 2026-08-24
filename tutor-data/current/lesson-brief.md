@@ -14,8 +14,8 @@ Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fi
 
 1. Prioritize currently active cards, especially weak, lapsed, or overdue material.
 2. Use previously reviewed cards for maintenance and context, never as unseen/new material.
-3. Cover every active sentence with separate meaning and exact-recall checks before treating it as mastered.
-4. Below 50% verified active-sentence coverage, use exact-card practice only; later controlled variations remain capped and source-sentence-specific.
+3. Use `voice-corpus.txt` for tutoring and process FRESH, then REINFORCE, then MATURE in file order.
+4. Complete separate meaning and exact-recall checks for every detailed entry before controlled variations.
 
 ## Weak active items
 

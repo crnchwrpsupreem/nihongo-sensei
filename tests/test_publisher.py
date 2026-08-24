@@ -21,16 +21,26 @@ def card(card_id: int, card_type: int, queue: int, word: str) -> dict:
             "tags": [],
             "fields": {
                 "Word": {"raw_html": word, "text": word},
+                "Word Meaning": {"raw_html": "meaning", "text": "meaning"},
                 "Sentence": {"raw_html": f"{word}です。", "text": f"{word}です。"},
                 "Sentence Meaning": {"raw_html": "example", "text": "example"},
+                "Word Audio": {"raw_html": "[sound:private.mp3]", "text": "[sound:private.mp3]"},
             },
         },
         "scheduling": {
             "card_type": {"raw": card_type, "name": "state"},
             "queue": {"raw": queue, "name": "queue"},
+            "interval_days": 60,
+            "repetitions": 10,
+            "lapses": 0,
+            "due_interpreted": {"kind": "day", "days_from_today": 5},
         },
         "review_history": [
-            {"review_id": card_id * 1000, "reviewed_at": "2026-01-01T00:00:00Z"}
+            {
+                "review_id": card_id * 1000,
+                "reviewed_at": "2026-01-01T00:00:00Z",
+                "rating": {"raw": 3, "name": "good"},
+            }
         ],
         "assessment": {"weakness": float(card_id), "strength": 1.0},
     }
@@ -127,23 +137,38 @@ class PublisherTests(unittest.TestCase):
             self.assertEqual(
                 policy["tutor_policy"]["material_storage"]["sentence_pair_count"], 4
             )
-            self.assertEqual(policy["schema_version"], 2)
+            self.assertEqual(policy["schema_version"], 3)
             self.assertEqual(
                 policy["tutor_policy"]["japanese_composition_allowed"],
                 "controlled-transfer-only",
             )
-            coverage = policy["tutor_policy"]["coverage_policy"]
             self.assertEqual(
-                coverage["required_checks_per_sentence"],
+                policy["tutor_policy"]["required_checks_per_entry"],
                 ["meaning", "exact_japanese_recall"],
             )
-            self.assertTrue(coverage["one_exercise_cannot_pass_both_checks"])
+            self.assertTrue(policy["tutor_policy"]["one_exercise_cannot_pass_both_checks"])
+            self.assertEqual(
+                policy["tutor_policy"]["study_order"],
+                ["FRESH", "REINFORCE", "MATURE"],
+            )
+            self.assertEqual(policy["lesson_sequence"], ["FRESH", "REINFORCE", "MATURE"])
+            self.assertNotIn("lesson_mix", policy)
+            self.assertIn(
+                "voice-corpus.txt",
+                policy["tutor_policy"]["material_storage"]["location"],
+            )
             transfer = policy["tutor_policy"]["controlled_transfer"]
             self.assertEqual(transfer["maximum_changed_lexical_items"], 1)
-            self.assertEqual(
-                [item["maximum_variation_share"] for item in transfer["mix_by_verified_active_sentence_coverage"]],
-                [0.0, 0.2, 0.4],
-            )
+            self.assertIn("file order", transfer["order"])
+
+            voice = (output / "voice-corpus.txt").read_text(encoding="utf-8")
+            self.assertIn("[FRESH]", voice)
+            self.assertIn("[REINFORCE]", voice)
+            self.assertIn("[MATURE]", voice)
+            self.assertIn("[KNOWN WORDS]", voice)
+            self.assertIn("本 — meaning | 本です。 — example", voice)
+            self.assertNotIn("private.mp3", voice)
+            self.assertEqual(manifest["voice_corpus"]["file"], "voice-corpus.txt")
 
             for name, expected in manifest["files"].items():
                 published = (output / name).read_bytes()
@@ -153,17 +178,73 @@ class PublisherTests(unittest.TestCase):
 
     def test_project_instructions_name_every_bundle_file(self) -> None:
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
-        for name in ("manifest.json", "lesson-brief.md", "tutor-policy.json", "card-index.json"):
+        for name in ("manifest.json", "voice-corpus.txt"):
             self.assertIn(name, instructions)
 
-    def test_project_instructions_gate_controlled_transfer_by_corpus_coverage(self) -> None:
+    def test_project_instructions_require_complete_text_bootstrap_and_order(self) -> None:
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
-        self.assertIn("One exercise cannot satisfy both checks", instructions)
-        self.assertIn("Below 50% coverage", instructions)
-        self.assertIn("100% exact-card practice", instructions)
-        self.assertIn("at most 20% controlled variations", instructions)
-        self.assertIn("at most 40% controlled variations", instructions)
-        self.assertIn("Do not begin with a generated variation", instructions)
+        self.assertIn("complete contents of voice-corpus.txt", instructions)
+        self.assertIn("copied verbatim", instructions)
+        self.assertIn("Give no lesson exercise in the bootstrap response", instructions)
+        self.assertIn("Complete every FRESH entry before REINFORCE", instructions)
+        self.assertIn("Complete every REINFORCE entry before MATURE", instructions)
+        self.assertIn("every detailed FRESH, REINFORCE, and MATURE entry", instructions)
+
+    def test_voice_selection_is_simple_bounded_and_deterministic(self) -> None:
+        generated = export_tutor_bundle.parse_timestamp("2026-08-21T00:00:00+00:00")
+        self.assertIsNotNone(generated)
+        payload = fixture()
+        cards = []
+        for number in range(40):
+            fresh = card(100 + number, 1, 1, f"新{number}")
+            fresh["scheduling"]["interval_days"] = 1
+            cards.append(fresh)
+        for number in range(35):
+            item = card(200 + number, 2, 2, f"補強{number}")
+            item["scheduling"]["interval_days"] = 20
+            item["assessment"]["weakness"] = float(35 - number)
+            cards.append(item)
+        for number in range(15):
+            item = card(300 + number, 2, 2, f"成熟{number}")
+            item["scheduling"]["interval_days"] = 90
+            item["assessment"]["weakness"] = 0.0
+            cards.append(item)
+        historical = card(400, 2, -1, "昔")
+        cards.append(historical)
+        payload["cards"] = cards
+        payload["tutor_policy"]["sentence_pairs"] = []
+        public = export_tutor_bundle.public_cards(payload)
+        first, known_first = export_tutor_bundle.select_voice_cards(public, generated)
+        second, known_second = export_tutor_bundle.select_voice_cards(public, generated)
+        self.assertEqual(len(first["FRESH"]), 40)
+        self.assertEqual(len(first["REINFORCE"]), 30)
+        self.assertEqual(len(first["MATURE"]), 10)
+        self.assertEqual(
+            [item["card_id"] for item in first["MATURE"]],
+            [item["card_id"] for item in second["MATURE"]],
+        )
+        self.assertEqual(known_first, known_second)
+        self.assertIn("昔", known_first)
+        self.assertTrue(any(word.startswith("補強") for word in known_first))
+        self.assertTrue(any(word.startswith("成熟") for word in known_first))
+
+    def test_voice_corpus_keeps_per_card_sentence_fields_without_media(self) -> None:
+        payload = fixture()
+        first = card(500, 1, 1, "語一")
+        second = card(501, 1, 1, "語二")
+        for item in (first, second):
+            item["note"]["fields"]["Sentence"]["text"] = "同じ文です。"
+            item["note"]["fields"]["Sentence Meaning"]["text"] = "It is the same sentence."
+        payload["cards"] = [first, second]
+        payload["tutor_policy"]["sentence_pairs"] = []
+        public = export_tutor_bundle.public_cards(payload)
+        generated = export_tutor_bundle.parse_timestamp("2026-08-21T00:00:00+00:00")
+        self.assertIsNotNone(generated)
+        text, counts = export_tutor_bundle.voice_corpus_text("generation", public, generated)
+        self.assertEqual(counts["fresh"], 2)
+        self.assertIn("語一 — meaning | 同じ文です。 — It is the same sentence.", text)
+        self.assertIn("語二 — meaning | 同じ文です。 — It is the same sentence.", text)
+        self.assertNotIn("private.mp3", text)
 
     def test_readme_status_update_preserves_static_navigation(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

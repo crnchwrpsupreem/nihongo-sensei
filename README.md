@@ -16,7 +16,7 @@ _Automatically refreshed by the mini-PC publisher. Do not edit inside these mark
 | Reviewed cards available to the tutor | **80** |
 | Currently active cards | **80** |
 | Review events | **197** |
-| Generation | `ae65567dca78c89b` |
+| Generation | `d6c508fd67a29c76` |
 | Current bundle | [`tutor-data/current/`](tutor-data/current/) |
 <!-- nihongo-sensei-status:end -->
 
@@ -217,6 +217,9 @@ sudo loginctl enable-linger "$USER"
 `tutor-data/current/manifest.json`
 : Generation ID, timestamp, counts, hashes, and explicit privacy flags.
 
+`tutor-data/current/voice-corpus.txt`
+: Compact ordinary Voice source. It contains ordered FRESH, REINFORCE, and MATURE sentence entries plus a word-only inventory of other reviewed material. A text bootstrap reproduces this complete file into chat context before Voice begins.
+
 `tutor-data/current/card-index.json`
 : Compact index for every reviewed card, including current study state, scheduling summary, assessment scores, and the full-data shard name.
 
@@ -243,7 +246,8 @@ This phrasing captures “currently studying or previously studied” while stil
 1. Create a private ChatGPT Project named **Nihongo Sensei**.
 2. Connect the GitHub app in ChatGPT and ensure it can access `crnchwrpsupreem/nihongo-sensei`.
 3. Open Project settings and paste the complete contents of [`CHATGPT_PROJECT_INSTRUCTIONS.md`](CHATGPT_PROJECT_INSTRUCTIONS.md).
-4. Start a project chat—voice or text—and say **“Start Japanese tutor mode.”**
+4. Start a project chat in text and say **“Load tutor corpus for voice.”**
+5. Wait for the complete compact corpus to be reproduced into the chat, then switch to Voice and say **“Begin practice.”**
 
 The tutor must report the loaded `generation_id` and card counts before the first exercise. If the GitHub app is unavailable, the instructions include public raw-file fallbacks.
 
@@ -256,6 +260,7 @@ The tutor must report the loaded `generation_id` and card counts before the firs
 - Use [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) for architecture, data flow, and component ownership.
 - Use [`CHATGPT_PROJECT_INSTRUCTIONS.md`](CHATGPT_PROJECT_INSTRUCTIONS.md) for the copy-ready tutor contract.
 - Inspect [`tutor-data/current/manifest.json`](tutor-data/current/manifest.json) first for live readiness, counts, generation identity, and bundle hashes.
+- Use [`tutor-data/current/voice-corpus.txt`](tutor-data/current/voice-corpus.txt) as the ordinary Voice tutoring source.
 - Run or modify orchestration through [`scripts/publish_update.py`](scripts/publish_update.py); the PowerShell and Bash files are thin platform wrappers.
 
 The status table near the top of this README is generated. Its marker-delimited body may change on every publisher run; this navigation section is static and should be maintained manually.

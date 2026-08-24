@@ -29,7 +29,7 @@ Do not diagnose missing reviews by waiting for activity on the mini PC. The lear
 
 - `.agents/skills/nihongo-sensei/scripts/build_session.py`: source-of-truth extractor. It refuses live WAL/SHM/lock state, verifies the database signature, and never writes to Anki.
 - `scripts/sync_anki.py`: finds and starts Anki on Windows/Linux when necessary, invokes AnkiConnect `sync`, then requests a clean Anki exit. It does not read or edit cards.
-- `scripts/export_tutor_bundle.py`: adds study-state classifications, writes a compact card index plus full-data shards containing per-card `tutor_material`, and refreshes the marker-delimited README status block from the sanitized manifest.
+- `scripts/export_tutor_bundle.py`: adds study-state classifications, writes the compact Voice source, card index, and full-data shards, then refreshes the marker-delimited README status block from the sanitized manifest.
 - `scripts/publish_update.py`: cross-platform controller that locks the run, optionally pulls code, syncs, extracts in `historical` mode, exports, tests, commits only `tutor-data/current` plus `README.md`, and pushes. It refuses unrelated staged paths.
 - `scripts/publish_update.sh` and `scripts/publish_update.ps1`: thin Linux and Windows entry points for the same controller.
 - `scripts/install_systemd_user.sh`: installs an adjustable systemd user timer.
@@ -42,13 +42,13 @@ The publisher uses historical mode: effective deck is the configured Japanese ro
 
 The exporter adds a `study_state` rather than flattening these categories. Lesson priority is current active material first, then historical maintenance.
 
-## Tutor progression semantics
+## Compact Voice source and progression
 
-Exact-card coverage is corpus-wide and grows with the active corpus. The tutor works in rotating batches, but must not mistake completion of one batch for completion of the active corpus. Each stored sentence requires two separate Phase 1 checks: meaning comprehension and exact Japanese recall. Only that sentence becomes eligible for controlled transfer after both checks pass.
+`tutor-data/current/voice-corpus.txt` is the ordinary Voice lesson source. Detailed entries contain only `word — meaning | exact Japanese sentence — exact English sentence meaning`. FRESH contains every active card still being acquired, REINFORCE contains up to 30 active developing or difficult cards, MATURE contains a deterministic rotating sample of 10 stable active cards, and KNOWN WORDS contains only the lexical items omitted from detailed practice.
 
-Before half of the active sentence corpus has passed both checks, lessons are exact-card-only. From 50% through 79% coverage, controlled transfer is capped at 20% of exercises. At 80% or greater coverage, it is capped at 40%. Untested and newly active cards always take priority. Controlled transfer changes exactly one reviewed lexical item while preserving the source sentence's structure, particles, inflection, and politeness, and labels the result as generated rather than stored Anki material.
+At the start of a Project chat, a text bootstrap retrieves the manifest and compact corpus, reproduces the entire TXT verbatim into one assistant text response, and stops. This deliberately places the full corpus in ordinary chat context before the learner switches to Voice.
 
-The bundle does not persist tutor-answer state. The ChatGPT Project maintains the coverage ledger in conversation/project context; when reliable prior coverage cannot be recovered, the tutor treats affected active sentences as unverified rather than assuming mastery.
+Tutoring proceeds linearly through FRESH, then REINFORCE, then MATURE, preserving file order. Each detailed entry requires separate meaning and exact-Japanese recall checks. Only after every detailed entry passes both checks may the tutor revisit entries in the same order for one-item controlled variations.
 
 ## Public/private boundary
 

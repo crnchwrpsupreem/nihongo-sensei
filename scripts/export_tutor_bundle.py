@@ -9,13 +9,16 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import tempfile
 from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 CARDS_PER_SHARD = 100
+VOICE_REINFORCE_LIMIT = 30
+VOICE_MATURE_LIMIT = 10
 README_STATUS_START = "<!-- nihongo-sensei-status:start -->"
 README_STATUS_END = "<!-- nihongo-sensei-status:end -->"
 
@@ -149,38 +152,180 @@ def card_label(card: dict[str, Any]) -> str:
     ).replace("\n", " ")[:160]
 
 
+def parse_timestamp(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def field_text(card: dict[str, Any], *names: str) -> str:
+    fields = card["note"]["fields"]
+    for name in names:
+        value = fields.get(name, {}).get("text", "").strip()
+        if value:
+            return value
+    return ""
+
+
+def inline_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip().replace(" | ", " / ")
+
+
+def recent_difficulty(card: dict[str, Any]) -> bool:
+    history = card.get("review_history") or []
+    return bool(history and int(history[-1]["rating"]["raw"]) in (1, 2))
+
+
+def voice_category(card: dict[str, Any], generated_at: dt.datetime) -> str | None:
+    if card["study_state"] != "currently_active":
+        return None
+    scheduling = card["scheduling"]
+    card_type = int(scheduling["card_type"]["raw"])
+    queue = int(scheduling["queue"]["raw"])
+    interval = max(int(scheduling.get("interval_days") or 0), 0)
+    repetitions = max(int(scheduling.get("repetitions") or 0), 0)
+    first_review = parse_timestamp(card["review_summary"].get("first_reviewed_at"))
+    age_days = None
+    if first_review is not None:
+        age_days = max(0, (generated_at.date() - first_review.date()).days)
+    if card_type in (1, 3) or queue in (1, 3, 4):
+        return "FRESH"
+    if age_days is not None and age_days <= 14:
+        return "FRESH"
+    if repetitions <= 3 or interval <= 7:
+        return "FRESH"
+    due = scheduling.get("due_interpreted") or {}
+    overdue = int(due.get("days_from_today") or 0) < 0
+    lapses = max(int(scheduling.get("lapses") or 0), 0)
+    weakness = float(card.get("assessment", {}).get("weakness") or 0)
+    if interval <= 30 or overdue or recent_difficulty(card) or lapses > 0 or weakness >= 10:
+        return "REINFORCE"
+    return "MATURE"
+
+
+def voice_line(card: dict[str, Any]) -> str | None:
+    word = inline_text(field_text(card, "Word", "Expression", "Vocabulary", "Front"))
+    meaning = inline_text(field_text(card, "Word Meaning", "Meaning", "Definition", "English"))
+    japanese = inline_text(field_text(card, "Sentence"))
+    english = inline_text(field_text(card, "Sentence Meaning", "Sentence Translation"))
+    if not word or not japanese or not english:
+        return None
+    return f"{word} — {meaning} | {japanese} — {english}" if meaning else f"{word} | {japanese} — {english}"
+
+
+def select_voice_cards(
+    cards: list[dict[str, Any]], generated_at: dt.datetime
+) -> tuple[dict[str, list[dict[str, Any]]], list[str]]:
+    categorized: dict[str, list[dict[str, Any]]] = {
+        "FRESH": [],
+        "REINFORCE": [],
+        "MATURE": [],
+    }
+    for card in cards:
+        category = voice_category(card, generated_at)
+        if category and voice_line(card):
+            categorized[category].append(card)
+
+    def first_review_key(card: dict[str, Any]) -> float:
+        parsed = parse_timestamp(card["review_summary"].get("first_reviewed_at"))
+        return parsed.timestamp() if parsed else 0.0
+
+    categorized["FRESH"].sort(
+        key=lambda card: (
+            int(card["scheduling"]["card_type"]["raw"]) not in (1, 3),
+            -first_review_key(card),
+            int(card["card_id"]),
+        )
+    )
+    categorized["REINFORCE"].sort(
+        key=lambda card: (
+            not recent_difficulty(card),
+            int((card["scheduling"].get("due_interpreted") or {}).get("days_from_today") or 0),
+            -float(card["assessment"]["weakness"]),
+            int(card["scheduling"].get("interval_days") or 0),
+            int(card["card_id"]),
+        )
+    )
+    categorized["REINFORCE"] = categorized["REINFORCE"][:VOICE_REINFORCE_LIMIT]
+
+    mature_pool = sorted(categorized["MATURE"], key=lambda card: int(card["card_id"]))
+    mature_selection: list[dict[str, Any]] = []
+    if mature_pool:
+        cycle = generated_at.date().toordinal() // 7
+        offset = (cycle * VOICE_MATURE_LIMIT) % len(mature_pool)
+        for index in range(min(VOICE_MATURE_LIMIT, len(mature_pool))):
+            mature_selection.append(mature_pool[(offset + index) % len(mature_pool)])
+    categorized["MATURE"] = mature_selection
+
+    selected_ids = {
+        int(card["card_id"])
+        for category in categorized.values()
+        for card in category
+    }
+    known_words: list[str] = []
+    seen_words: set[str] = set()
+    for card in cards:
+        if int(card["card_id"]) in selected_ids:
+            continue
+        word = inline_text(field_text(card, "Word", "Expression", "Vocabulary", "Front"))
+        if word and word not in seen_words:
+            seen_words.add(word)
+            known_words.append(word)
+    return categorized, known_words
+
+
+def voice_corpus_text(
+    generation_id: str,
+    cards: list[dict[str, Any]],
+    generated_at: dt.datetime,
+) -> tuple[str, dict[str, int]]:
+    categorized, known_words = select_voice_cards(cards, generated_at)
+    lines = [f"Generation: {generation_id}"]
+    for category in ("FRESH", "REINFORCE", "MATURE"):
+        lines += ["", f"[{category}]"]
+        lines.extend(voice_line(card) or "" for card in categorized[category])
+    lines += ["", "[KNOWN WORDS]", "、".join(known_words), ""]
+    counts = {
+        "fresh": len(categorized["FRESH"]),
+        "reinforce": len(categorized["REINFORCE"]),
+        "mature": len(categorized["MATURE"]),
+        "known_words": len(known_words),
+    }
+    return "\n".join(lines), counts
+
+
 def progression_policy() -> dict[str, Any]:
     """Return the canonical tutor progression, independent of extractor age."""
     return {
         "japanese_composition_allowed": "controlled-transfer-only",
         "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
-        "coverage_policy": {
-            "scope": "every currently active card with sentence material",
-            "batch_size": {"minimum": 8, "maximum": 12},
-            "required_checks_per_sentence": ["meaning", "exact_japanese_recall"],
-            "one_exercise_cannot_pass_both_checks": True,
-            "unverified_when_coverage_state_missing": True,
-            "new_and_untested_active_cards_take_priority": True,
-            "coverage_complete_requires_every_active_sentence_accounted_for": True,
-        },
+        "lesson_priority": "linear exact practice through FRESH, REINFORCE, and MATURE before controlled transfer",
+        "allowed_exercise_types": [
+            "Japanese-to-English meaning of one exact compact-corpus sentence",
+            "English-to-exact-Japanese recall using the same compact-corpus entry",
+        ],
+        "voice_source": "voice-corpus.txt",
+        "text_bootstrap": "Before Voice begins, reproduce the complete current voice-corpus.txt verbatim in one text response, then stop without an exercise.",
+        "study_order": ["FRESH", "REINFORCE", "MATURE"],
+        "required_checks_per_entry": ["meaning", "exact_japanese_recall"],
+        "one_exercise_cannot_pass_both_checks": True,
         "controlled_transfer": {
-            "eligibility": "source sentence has passed separate meaning and exact-Japanese-recall checks",
+            "eligibility": "every detailed FRESH, REINFORCE, and MATURE entry has passed separate meaning and exact-Japanese-recall checks",
             "label": "generated variation",
             "maximum_changed_lexical_items": 1,
-            "replacement_source": "reviewed corpus",
+            "replacement_source": "any reviewed lexical item appearing in the current compact corpus",
             "must_preserve": ["sentence structure", "particles", "inflection", "politeness"],
             "must_not_introduce": ["new grammar", "new particles", "new inflections", "new register"],
             "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice",
             "failed_variation": "return to the exact source sentence before another variation",
-            "mix_by_verified_active_sentence_coverage": [
-                {"minimum_coverage": 0.0, "maximum_coverage_exclusive": 0.5, "maximum_variation_share": 0.0},
-                {"minimum_coverage": 0.5, "maximum_coverage_exclusive": 0.8, "maximum_variation_share": 0.2},
-                {"minimum_coverage": 0.8, "maximum_coverage_inclusive": 1.0, "maximum_variation_share": 0.4},
-            ],
+            "order": "After exact coverage is complete, revisit eligible detailed entries in file order.",
         },
-        "controlled_conversation_rule": "Exact-card coverage first; only a mastered source sentence may receive one safe reviewed-item substitution labelled as generated",
+        "controlled_conversation_rule": "Process every detailed entry in FRESH, then REINFORCE, then MATURE; only afterward revisit them in file order for controlled transfer",
         "prohibitions": [
-            "No controlled variation before its exact source sentence passes separate meaning and exact-recall checks.",
+            "No controlled variation before every detailed FRESH, REINFORCE, and MATURE entry passes separate meaning and exact-recall checks.",
             "No more than one lexical substitution in a controlled variation.",
             "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
             "No generated variation presented as stored Anki material.",
@@ -212,8 +357,8 @@ def brief(payload: dict[str, Any], cards: list[dict[str, Any]]) -> str:
         "",
         "1. Prioritize currently active cards, especially weak, lapsed, or overdue material.",
         "2. Use previously reviewed cards for maintenance and context, never as unseen/new material.",
-        "3. Cover every active sentence with separate meaning and exact-recall checks before treating it as mastered.",
-        "4. Below 50% verified active-sentence coverage, use exact-card practice only; later controlled variations remain capped and source-sentence-specific.",
+        "3. Use `voice-corpus.txt` for tutoring and process FRESH, then REINFORCE, then MATURE in file order.",
+        "4. Complete separate meaning and exact-recall checks for every detailed entry before controlled variations.",
         "",
         "## Weak active items",
         "",
@@ -251,21 +396,19 @@ def main() -> int:
     compact_policy.pop("sentence_pairs", None)
     compact_policy.pop("allowed_exact_lexical_items", None)
     compact_policy.pop("allowed_exact_example_sentences", None)
+    compact_policy.pop("coverage_policy", None)
+    compact_policy.pop("recommended_initial_drill", None)
     compact_policy.update(progression_policy())
     compact_policy["material_storage"] = {
-        "location": "Each full card record in cards-NNNN.json has tutor_material.",
+        "location": "Ordinary Voice material is in voice-corpus.txt; cards-NNNN.json remains the comprehensive archive.",
         "lexical_item_count": lexical_item_count,
         "sentence_pair_count": sentence_pair_count,
-        "rule": "Load tutor_material from the selected card's shard before quoting or testing Japanese.",
+        "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses the reproduced compact corpus and does not require a shard.",
     }
     policy_payload = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": metadata["generated_at"],
-        "lesson_mix": {
-            "currently_active": 0.70,
-            "previously_reviewed": 0.20,
-            "strong_or_easy_review": 0.10,
-        },
+        "lesson_sequence": ["FRESH", "REINFORCE", "MATURE"],
         "tutor_policy": compact_policy,
     }
 
@@ -329,14 +472,25 @@ def main() -> int:
         "cards": index_cards,
     }
     atomic_write(output / "card-index.json", json_text(index_payload))
+    generation_id = sha256(output / "card-index.json")[:16]
+    generated_at = parse_timestamp(metadata["generated_at"])
+    if generated_at is None:
+        raise RuntimeError("metadata.generated_at must be an ISO-8601 timestamp")
+    voice_text, voice_counts = voice_corpus_text(generation_id, cards, generated_at)
+    atomic_write(output / "voice-corpus.txt", voice_text)
     atomic_write(output / "tutor-policy.json", json_text(policy_payload))
     atomic_write(output / "lesson-brief.md", brief(payload, cards))
 
     files = {}
-    for name in ("card-index.json", "tutor-policy.json", "lesson-brief.md", *shard_files):
+    for name in (
+        "card-index.json",
+        "voice-corpus.txt",
+        "tutor-policy.json",
+        "lesson-brief.md",
+        *shard_files,
+    ):
         path = output / name
         files[name] = {"sha256": sha256(path), "bytes": path.stat().st_size}
-    generation_id = files["card-index.json"]["sha256"][:16]
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "ready": True,
@@ -347,6 +501,10 @@ def main() -> int:
         "reviewed_card_count": len(cards),
         "current_active_card_count": counts.get("currently_active", 0),
         "review_event_count": metadata["review_event_count"],
+        "voice_corpus": {
+            "file": "voice-corpus.txt",
+            **voice_counts,
+        },
         "card_shards": shard_files,
         "files": files,
         "privacy": {

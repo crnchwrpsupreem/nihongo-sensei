@@ -1,0 +1,90 @@
+Generation: d6c508fd67a29c76
+
+[FRESH]
+昨日 — yesterday | 昨日、友達に会った。 — I met a friend yesterday.
+待つ — wait | 1時間友達を待ちました。 — I waited for my friend for an hour.
+友達 — friend, companion | 友達とレストランに行きました。 — I went to the restaurant with my friend.
+言う — say | ゆっくり言ってください。 — Please say it slowly.
+ゆっくり — slowly | もっとゆっくり話してください。 — Please speak more slowly.
+もっと — more, a bit more | もっと勉強しなければいけないと思った。 — I thought that I would have to study more.
+話す — talk, speak | 先生と日本語で話します。 — I speak Japanese with the teacher.
+ありがとうございます — thank you (formal) | そうですか。分かりました。ありがとうございます。 — Is that so? I understand. Thank you.
+考える — think, consider | よく考えてください。 — Please think carefully.
+よく — often | ジャズのCDをよく聞きます。 — I listen to Jazz CDs often.
+よく — well | よく分かりました。 — I understood well.
+分かる — understand | 日本語のニュースが全然分かりませんでした。 — I didn't understand the Japanese news at all.
+お願いします — please | A「これでお願いします。」 B「はい。」 — A: This one, please. B: Okay.
+聞く — ask | トムに聞いて。 — Ask Tom.
+聞く — hear | 彼女はラジオを聞いています。 — She's listening to the radio.
+方 — person (polite form) | 次の方、どうぞ。 — The next person, please.
+方 — direction, side | 彼は私の方を見ました。 — He looked in my direction.
+次 — next, subsequent | 次はいつ会いましょうか。 — When next shall we meet?
+会う — meet | 明日、彼と会います。 — I will meet him tomorrow.
+どう — how, what | あなたはどう思いますか。 — What do you think?
+そう — in such manner, that way | 私もそう思います。 — That's what I think too.
+こう — like this, this kind of | こうしましょう。 — Let’s do this (“this way”).
+思う — think | これがいいと思います。 — I think this is good.
+いつ — when | 彼女はいつ来ますか。 — When is she coming?
+また — again, also | 明日、また来ます。 — I'll come again tomorrow.
+来る — come | 明日、来ますか。 — Will you come tomorrow?
+明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
+行く — go | 学校へ行きます。 — I will go to school.
+学校 — school | 学校は日本にあります。 — The school is in Japan.
+日本 — Japan | 日本のゲームは面白いです。 — Japanese games are fun.
+いいえ — no (polite) | A「山田さんですか。」 B「いいえ。」 — A: Are you Yamada-san? B: No, I'm not.
+はい — yes (polite) | A「山田さんですか。」 B「はい。」 — A: Are you Yamada-san? B: Yes, I am.
+ちゃん — chan | 彼女はララちゃんです。 — She is Lara-chan.
+彼女 — she, her, girlfriend | 彼女の名前を知っていますか。 — Do you know her name?
+知る — know | あの人を知っていますか。 — Do you know that person?
+話 — talk, story | あなたの話は面白いね。 — Your story is interesting.
+帰る — return, go back | 家に帰ろう。 — Let's go home.
+家 — house, home | ここが私の家です。 — This is my house.
+置く — put, place | あの本をどこに置きましたか。 — Where did you put that book?
+どこ — where | あの本をどこに置きましたか。 — Where did you put that book?
+あそこ — over there | 彼はあそこにいます。 — He is over there.
+そこ — there | そこはトイレです。 — There is the bathroom.
+ここ — here | ここに本があります。 — There's a book here.
+教える — teach, tell | あなたの名前を教えてください。 — Please tell me your name.
+名前 — name | あなたの名前を教えてください。 — Please tell me your name.
+ください — please give..., please do... | コーヒーをください。 — Please give me a coffee.
+先生 — teacher | 私は日本語の先生になりたいです。 — I want to become a Japanese teacher.
+なる — become, result in, come (to do) | 日本語の勉強が好きになりました。 — I have come to like Japanese study.
+する — do, make | 彼はテニスをします。 — He plays tennis (lit: "He does tennis").
+面白い — interesting, amusing | この本は全然面白くなかった。 — This book wasn't interesting at all.
+全然 — (not) at all | テレビを全然見ません。 — I never watch televison.
+見る — see, look at | 兄は毎日テレビを見ます。 — My older brother watches TV every day.
+どの — which one | どの本ですか。 — Which book is it?
+あの — that one there | あの本ですか。 — That book (over there)?
+その — that one | その本ですか。 — Is it that book?
+この — this one | 山田さんの本はどれですか。この本ですか。 — Which book is Yamada-san's? Is it this book?
+無い — to not be | 今はあまり時間が無いのです。 — I don't have much time now.
+時間 — time, hour | 今は時間がありません。 — I don't have time now.
+今 — now | 彼は今、勉強しています。 — He's studying now.
+あまり — (not) very, (not) much | スポーツはあまり好きじゃありません。 — I don't really like sports.
+ある — have, exist (inanimate) | ペンがある。 — There is a pen.
+いる — have, exist (animate) | 兄がいます。 — I have an older brother.
+兄 — older brother | これは兄のパソコンです。 — This is my older brother's personal computer.
+毎日 — every day | 毎日、日本語を勉強します。 — I study Japanese every day.
+どれ — which, what | どれが好きですか。 — Which would you like?
+あれ — that over there | あれは何ですか。 — What's that?
+それ — that | それは本です。 — That is a book.
+何 — what | A「これは何ですか。」 B「本です。」 — A: What is this? B: It's a book.
+これ — this | これは日本語の本です。 — This is a Japanese book.
+本 — book | いい本でしたね。 — It was a good book, wasn't it?
+勉強 — study | 私は日本語を勉強しています。 — I'm studying Japanese.
+日本語 — Japanese language | 私は日本語を勉強しています。 — I'm studying Japanese.
+人 — person from (nationality) | 私はイギリス人です。 — I am British.
+いい — good | あの人はいい人です。 — That person is a good person.
+人 — person | あの人はいい人です。 — That person is a good person.
+好き — like, fond of | 私はワインが好きです。 — I like wine.
+彼 — he, him | 彼はトムさんです。 — He is Tom-san.
+さん — san | あなたはトムさんですか。 — Are you Tom-san?
+あなた — you (usually when one doesn't know the person) | あなたはトムさんですか。 — Are you Tom-san?
+私 — I (polite, general) | 私はアンです。 — I am Ann.
+
+[REINFORCE]
+
+[MATURE]
+
+[KNOWN WORDS]
+

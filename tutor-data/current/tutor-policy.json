@@ -1,41 +1,22 @@
 {
   "generated_at": "2026-08-23T22:23:09.521094-04:00",
-  "lesson_mix": {
-    "currently_active": 0.7,
-    "previously_reviewed": 0.2,
-    "strong_or_easy_review": 0.1
-  },
-  "schema_version": 2,
+  "lesson_sequence": [
+    "FRESH",
+    "REINFORCE",
+    "MATURE"
+  ],
+  "schema_version": 3,
   "tutor_policy": {
     "allowed_exercise_types": [
-      "Japanese-to-English meaning of one verbatim active-card sentence",
-      "English-to-exact-Japanese recall using a stored sentence pair",
-      "contextual selection among verbatim active-card sentences",
-      "partial-cue reconstruction from a literal contiguous active-card sentence chunk"
+      "Japanese-to-English meaning of one exact compact-corpus sentence",
+      "English-to-exact-Japanese recall using the same compact-corpus entry"
     ],
-    "controlled_conversation_rule": "Exact-card coverage first; only a mastered source sentence may receive one safe reviewed-item substitution labelled as generated",
+    "controlled_conversation_rule": "Process every detailed entry in FRESH, then REINFORCE, then MATURE; only afterward revisit them in file order for controlled transfer",
     "controlled_transfer": {
-      "eligibility": "source sentence has passed separate meaning and exact-Japanese-recall checks",
+      "eligibility": "every detailed FRESH, REINFORCE, and MATURE entry has passed separate meaning and exact-Japanese-recall checks",
       "failed_variation": "return to the exact source sentence before another variation",
       "label": "generated variation",
       "maximum_changed_lexical_items": 1,
-      "mix_by_verified_active_sentence_coverage": [
-        {
-          "maximum_coverage_exclusive": 0.5,
-          "maximum_variation_share": 0.0,
-          "minimum_coverage": 0.0
-        },
-        {
-          "maximum_coverage_exclusive": 0.8,
-          "maximum_variation_share": 0.2,
-          "minimum_coverage": 0.5
-        },
-        {
-          "maximum_coverage_inclusive": 1.0,
-          "maximum_variation_share": 0.4,
-          "minimum_coverage": 0.8
-        }
-      ],
       "must_not_introduce": [
         "new grammar",
         "new particles",
@@ -48,48 +29,32 @@
         "inflection",
         "politeness"
       ],
-      "replacement_source": "reviewed corpus",
+      "order": "After exact coverage is complete, revisit eligible detailed entries in file order.",
+      "replacement_source": "any reviewed lexical item appearing in the current compact corpus",
       "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice"
-    },
-    "coverage_policy": {
-      "batch_size": {
-        "maximum": 12,
-        "minimum": 8
-      },
-      "coverage_complete_requires_every_active_sentence_accounted_for": true,
-      "new_and_untested_active_cards_take_priority": true,
-      "one_exercise_cannot_pass_both_checks": true,
-      "required_checks_per_sentence": [
-        "meaning",
-        "exact_japanese_recall"
-      ],
-      "scope": "every currently active card with sentence material",
-      "unverified_when_coverage_state_missing": true
     },
     "english_scaffolding_default": true,
     "japanese_composition_allowed": "controlled-transfer-only",
-    "lesson_priority": "sentence-first and translation-focused",
+    "lesson_priority": "linear exact practice through FRESH, REINFORCE, and MATURE before controlled transfer",
     "material_storage": {
       "lexical_item_count": 76,
-      "location": "Each full card record in cards-NNNN.json has tutor_material.",
-      "rule": "Load tutor_material from the selected card's shard before quoting or testing Japanese.",
+      "location": "Ordinary Voice material is in voice-corpus.txt; cards-NNNN.json remains the comprehensive archive.",
+      "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses the reproduced compact corpus and does not require a shard.",
       "sentence_pair_count": 75
     },
     "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
+    "one_exercise_cannot_pass_both_checks": true,
     "prohibitions": [
-      "No controlled variation before its exact source sentence passes separate meaning and exact-recall checks.",
+      "No controlled variation before every detailed FRESH, REINFORCE, and MATURE entry passes separate meaning and exact-recall checks.",
       "No more than one lexical substitution in a controlled variation.",
       "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
       "No generated variation presented as stored Anki material.",
       "No new Japanese outside controlled transfer or explicit user-approved preview/teach mode."
     ],
-    "recommended_initial_drill": {
-      "exercise_type": "Japanese-to-English meaning",
-      "expected_english": "I study Japanese every day.",
-      "instruction": "What does this exact active-card sentence mean in English?",
-      "instruction_language": "English",
-      "target_japanese": "毎日、日本語を勉強します。"
-    },
+    "required_checks_per_entry": [
+      "meaning",
+      "exact_japanese_recall"
+    ],
     "speech_delivery": {
       "english_speed": "normal conversational speed",
       "japanese_default_style": "connected natural phrasing; never exaggerated or syllable-by-syllable",
@@ -97,6 +62,12 @@
       "slower_repeat_rule": "slow further or break down only when the user explicitly requests a slower repeat, then return to the default"
     },
     "strict_lexical_gate": true,
+    "study_order": [
+      "FRESH",
+      "REINFORCE",
+      "MATURE"
+    ],
+    "text_bootstrap": "Before Voice begins, reproduce the complete current voice-corpus.txt verbatim in one text response, then stop without an exercise.",
     "turn_taking": {
       "applies_to": [
         "word recall",
@@ -126,6 +97,7 @@
       ],
       "single_coherent_response": true
     },
+    "voice_source": "voice-corpus.txt",
     "word_recall_role": "warm-up, remediation, or hint only"
   }
 }

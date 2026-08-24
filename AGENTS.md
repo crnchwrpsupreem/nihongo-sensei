@@ -14,7 +14,7 @@ Preserve these invariants:
 - Preserve the distinction between currently active and previously studied cards.
 - Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.
 - The public repository intentionally contains studied card text and review history. Keep the manifest privacy declaration accurate.
-- The tutor must begin with corpus-wide exact-card coverage. A stored sentence becomes eligible for controlled transfer only after its meaning and exact-Japanese recall have both been demonstrated. Controlled transfer may change exactly one reviewed lexical item while preserving the stored structure, particles, inflection, and politeness; it must be labelled as generated and must never introduce new grammar.
+- The Voice tutor must use the generated compact `voice-corpus.txt`. A text bootstrap reproduces that complete file into chat context before Voice begins. Exact practice proceeds linearly through FRESH, then REINFORCE, then MATURE; controlled transfer begins only after every detailed entry passes separate meaning and exact-Japanese recall checks.
 - Each ordinary tutoring turn assesses the immediately preceding answer first, then gives exactly one next exercise.
 - Do not add OpenAI API, Realtime, local microphone, local speech, or local chat-model code. Voice belongs to the ChatGPT Project.
 - Add or update regression tests for extraction, classification, sanitization, and publishing behavior.
