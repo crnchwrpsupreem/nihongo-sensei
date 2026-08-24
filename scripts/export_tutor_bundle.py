@@ -287,14 +287,16 @@ def voice_corpus_text(
     for category in ("FRESH", "REINFORCE", "MATURE"):
         lines += ["", f"[{category}]"]
         lines.extend(voice_line(card) or "" for card in categorized[category])
-    lines += ["", "[KNOWN WORDS]", "、".join(known_words), ""]
+    lines += ["", "[KNOWN WORDS]"]
+    if known_words:
+        lines.append("、".join(known_words))
     counts = {
         "fresh": len(categorized["FRESH"]),
         "reinforce": len(categorized["REINFORCE"]),
         "mature": len(categorized["MATURE"]),
         "known_words": len(known_words),
     }
-    return "\n".join(lines), counts
+    return "\n".join(lines) + "\n", counts
 
 
 def progression_policy() -> dict[str, Any]:
