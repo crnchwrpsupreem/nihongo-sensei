@@ -14,7 +14,7 @@ Preserve these invariants:
 - Preserve the distinction between currently active and previously studied cards.
 - Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.
 - The public repository intentionally contains studied card text and review history. Keep the manifest privacy declaration accurate.
-- The tutor must use English scaffolding and exact stored Japanese sentences/chunks only. A word whitelist never authorizes sentence composition.
+- The tutor must begin with corpus-wide exact-card coverage. A stored sentence becomes eligible for controlled transfer only after its meaning and exact-Japanese recall have both been demonstrated. Controlled transfer may change exactly one reviewed lexical item while preserving the stored structure, particles, inflection, and politeness; it must be labelled as generated and must never introduce new grammar.
 - Each ordinary tutoring turn assesses the immediately preceding answer first, then gives exactly one next exercise.
 - Do not add OpenAI API, Realtime, local microphone, local speech, or local chat-model code. Voice belongs to the ChatGPT Project.
 - Add or update regression tests for extraction, classification, sanitization, and publishing behavior.

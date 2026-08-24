@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 CARDS_PER_SHARD = 100
 README_STATUS_START = "<!-- nihongo-sensei-status:start -->"
 README_STATUS_END = "<!-- nihongo-sensei-status:end -->"
@@ -149,6 +149,46 @@ def card_label(card: dict[str, Any]) -> str:
     ).replace("\n", " ")[:160]
 
 
+def progression_policy() -> dict[str, Any]:
+    """Return the canonical tutor progression, independent of extractor age."""
+    return {
+        "japanese_composition_allowed": "controlled-transfer-only",
+        "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
+        "coverage_policy": {
+            "scope": "every currently active card with sentence material",
+            "batch_size": {"minimum": 8, "maximum": 12},
+            "required_checks_per_sentence": ["meaning", "exact_japanese_recall"],
+            "one_exercise_cannot_pass_both_checks": True,
+            "unverified_when_coverage_state_missing": True,
+            "new_and_untested_active_cards_take_priority": True,
+            "coverage_complete_requires_every_active_sentence_accounted_for": True,
+        },
+        "controlled_transfer": {
+            "eligibility": "source sentence has passed separate meaning and exact-Japanese-recall checks",
+            "label": "generated variation",
+            "maximum_changed_lexical_items": 1,
+            "replacement_source": "reviewed corpus",
+            "must_preserve": ["sentence structure", "particles", "inflection", "politeness"],
+            "must_not_introduce": ["new grammar", "new particles", "new inflections", "new register"],
+            "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice",
+            "failed_variation": "return to the exact source sentence before another variation",
+            "mix_by_verified_active_sentence_coverage": [
+                {"minimum_coverage": 0.0, "maximum_coverage_exclusive": 0.5, "maximum_variation_share": 0.0},
+                {"minimum_coverage": 0.5, "maximum_coverage_exclusive": 0.8, "maximum_variation_share": 0.2},
+                {"minimum_coverage": 0.8, "maximum_coverage_inclusive": 1.0, "maximum_variation_share": 0.4},
+            ],
+        },
+        "controlled_conversation_rule": "Exact-card coverage first; only a mastered source sentence may receive one safe reviewed-item substitution labelled as generated",
+        "prohibitions": [
+            "No controlled variation before its exact source sentence passes separate meaning and exact-recall checks.",
+            "No more than one lexical substitution in a controlled variation.",
+            "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
+            "No generated variation presented as stored Anki material.",
+            "No new Japanese outside controlled transfer or explicit user-approved preview/teach mode.",
+        ],
+    }
+
+
 def brief(payload: dict[str, Any], cards: list[dict[str, Any]]) -> str:
     counts: dict[str, int] = {}
     for card in cards:
@@ -172,7 +212,8 @@ def brief(payload: dict[str, Any], cards: list[dict[str, Any]]) -> str:
         "",
         "1. Prioritize currently active cards, especially weak, lapsed, or overdue material.",
         "2. Use previously reviewed cards for maintenance and context, never as unseen/new material.",
-        "3. Use only exact stored Japanese sentences or literal contiguous chunks; do not compose Japanese from known words.",
+        "3. Cover every active sentence with separate meaning and exact-recall checks before treating it as mastered.",
+        "4. Below 50% verified active-sentence coverage, use exact-card practice only; later controlled variations remain capped and source-sentence-specific.",
         "",
         "## Weak active items",
         "",
@@ -210,6 +251,7 @@ def main() -> int:
     compact_policy.pop("sentence_pairs", None)
     compact_policy.pop("allowed_exact_lexical_items", None)
     compact_policy.pop("allowed_exact_example_sentences", None)
+    compact_policy.update(progression_policy())
     compact_policy["material_storage"] = {
         "location": "Each full card record in cards-NNNN.json has tutor_material.",
         "lexical_item_count": lexical_item_count,

@@ -42,6 +42,14 @@ The publisher uses historical mode: effective deck is the configured Japanese ro
 
 The exporter adds a `study_state` rather than flattening these categories. Lesson priority is current active material first, then historical maintenance.
 
+## Tutor progression semantics
+
+Exact-card coverage is corpus-wide and grows with the active corpus. The tutor works in rotating batches, but must not mistake completion of one batch for completion of the active corpus. Each stored sentence requires two separate Phase 1 checks: meaning comprehension and exact Japanese recall. Only that sentence becomes eligible for controlled transfer after both checks pass.
+
+Before half of the active sentence corpus has passed both checks, lessons are exact-card-only. From 50% through 79% coverage, controlled transfer is capped at 20% of exercises. At 80% or greater coverage, it is capped at 40%. Untested and newly active cards always take priority. Controlled transfer changes exactly one reviewed lexical item while preserving the source sentence's structure, particles, inflection, and politeness, and labels the result as generated rather than stored Anki material.
+
+The bundle does not persist tutor-answer state. The ChatGPT Project maintains the coverage ledger in conversation/project context; when reliable prior coverage cannot be recovered, the tutor treats affected active sentences as unverified rather than assuming mastery.
+
 ## Public/private boundary
 
 Private and ignored:

@@ -127,7 +127,23 @@ class PublisherTests(unittest.TestCase):
             self.assertEqual(
                 policy["tutor_policy"]["material_storage"]["sentence_pair_count"], 4
             )
-            self.assertFalse(policy["tutor_policy"]["japanese_composition_allowed"])
+            self.assertEqual(policy["schema_version"], 2)
+            self.assertEqual(
+                policy["tutor_policy"]["japanese_composition_allowed"],
+                "controlled-transfer-only",
+            )
+            coverage = policy["tutor_policy"]["coverage_policy"]
+            self.assertEqual(
+                coverage["required_checks_per_sentence"],
+                ["meaning", "exact_japanese_recall"],
+            )
+            self.assertTrue(coverage["one_exercise_cannot_pass_both_checks"])
+            transfer = policy["tutor_policy"]["controlled_transfer"]
+            self.assertEqual(transfer["maximum_changed_lexical_items"], 1)
+            self.assertEqual(
+                [item["maximum_variation_share"] for item in transfer["mix_by_verified_active_sentence_coverage"]],
+                [0.0, 0.2, 0.4],
+            )
 
             for name, expected in manifest["files"].items():
                 published = (output / name).read_bytes()
@@ -139,6 +155,15 @@ class PublisherTests(unittest.TestCase):
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
         for name in ("manifest.json", "lesson-brief.md", "tutor-policy.json", "card-index.json"):
             self.assertIn(name, instructions)
+
+    def test_project_instructions_gate_controlled_transfer_by_corpus_coverage(self) -> None:
+        instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
+        self.assertIn("One exercise cannot satisfy both checks", instructions)
+        self.assertIn("Below 50% coverage", instructions)
+        self.assertIn("100% exact-card practice", instructions)
+        self.assertIn("at most 20% controlled variations", instructions)
+        self.assertIn("at most 40% controlled variations", instructions)
+        self.assertIn("Do not begin with a generated variation", instructions)
 
     def test_readme_status_update_preserves_static_navigation(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

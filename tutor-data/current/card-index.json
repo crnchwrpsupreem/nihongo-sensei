@@ -2805,7 +2805,7 @@
   "deck_root": "日本語",
   "generated_at": "2026-08-23T20:23:09.392618-04:00",
   "inclusion_rule": "Effective deck is in the configured Japanese hierarchy and the card has at least one review-log entry. Untouched cards are excluded.",
-  "schema_version": 1,
+  "schema_version": 2,
   "shards": [
     "cards-0001.json"
   ],

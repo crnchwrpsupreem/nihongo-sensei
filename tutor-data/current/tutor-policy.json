@@ -5,7 +5,7 @@
     "previously_reviewed": 0.2,
     "strong_or_easy_review": 0.1
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "tutor_policy": {
     "allowed_exercise_types": [
       "Japanese-to-English meaning of one verbatim active-card sentence",
@@ -13,9 +13,61 @@
       "contextual selection among verbatim active-card sentences",
       "partial-cue reconstruction from a literal contiguous active-card sentence chunk"
     ],
-    "controlled_conversation_rule": "English scaffolding plus literal active-card sentences or contiguous chunks only; never invented Japanese",
+    "controlled_conversation_rule": "Exact-card coverage first; only a mastered source sentence may receive one safe reviewed-item substitution labelled as generated",
+    "controlled_transfer": {
+      "eligibility": "source sentence has passed separate meaning and exact-Japanese-recall checks",
+      "failed_variation": "return to the exact source sentence before another variation",
+      "label": "generated variation",
+      "maximum_changed_lexical_items": 1,
+      "mix_by_verified_active_sentence_coverage": [
+        {
+          "maximum_coverage_exclusive": 0.5,
+          "maximum_variation_share": 0.0,
+          "minimum_coverage": 0.0
+        },
+        {
+          "maximum_coverage_exclusive": 0.8,
+          "maximum_variation_share": 0.2,
+          "minimum_coverage": 0.5
+        },
+        {
+          "maximum_coverage_inclusive": 1.0,
+          "maximum_variation_share": 0.4,
+          "minimum_coverage": 0.8
+        }
+      ],
+      "must_not_introduce": [
+        "new grammar",
+        "new particles",
+        "new inflections",
+        "new register"
+      ],
+      "must_preserve": [
+        "sentence structure",
+        "particles",
+        "inflection",
+        "politeness"
+      ],
+      "replacement_source": "reviewed corpus",
+      "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice"
+    },
+    "coverage_policy": {
+      "batch_size": {
+        "maximum": 12,
+        "minimum": 8
+      },
+      "coverage_complete_requires_every_active_sentence_accounted_for": true,
+      "new_and_untested_active_cards_take_priority": true,
+      "one_exercise_cannot_pass_both_checks": true,
+      "required_checks_per_sentence": [
+        "meaning",
+        "exact_japanese_recall"
+      ],
+      "scope": "every currently active card with sentence material",
+      "unverified_when_coverage_state_missing": true
+    },
     "english_scaffolding_default": true,
-    "japanese_composition_allowed": false,
+    "japanese_composition_allowed": "controlled-transfer-only",
     "lesson_priority": "sentence-first and translation-focused",
     "material_storage": {
       "lexical_item_count": 76,
@@ -23,13 +75,13 @@
       "rule": "Load tutor_material from the selected card's shard before quoting or testing Japanese.",
       "sentence_pair_count": 75
     },
-    "novel_japanese_mode": "explicit-user-approved-preview-teach-only",
+    "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
     "prohibitions": [
-      "No new lexical items, inflections, polite forms, particles, greetings, fillers, or grammar constructions.",
-      "No conjugation, question conversion, particle changes, or recombination of known pieces.",
-      "No generated Japanese sentence, even when every component is individually whitelisted.",
-      "No generated Japanese conversation material.",
-      "No new Japanese outside explicit user-approved preview/teach mode."
+      "No controlled variation before its exact source sentence passes separate meaning and exact-recall checks.",
+      "No more than one lexical substitution in a controlled variation.",
+      "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
+      "No generated variation presented as stored Anki material.",
+      "No new Japanese outside controlled transfer or explicit user-approved preview/teach mode."
     ],
     "recommended_initial_drill": {
       "exercise_type": "Japanese-to-English meaning",

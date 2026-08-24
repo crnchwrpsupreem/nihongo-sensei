@@ -16,7 +16,7 @@ _Automatically refreshed by the mini-PC publisher. Do not edit inside these mark
 | Reviewed cards available to the tutor | **80** |
 | Currently active cards | **80** |
 | Review events | **197** |
-| Generation | `724cdd3a4b832157` |
+| Generation | `b6db650b005412e9` |
 | Current bundle | [`tutor-data/current/`](tutor-data/current/) |
 <!-- nihongo-sensei-status:end -->
 
