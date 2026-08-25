@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:23:12.997939-04:00",
+  "generated_at": "2026-08-25T09:23:10.174910-04:00",
   "lesson_sequence": [
     "FRESH",
     "REINFORCE",
@@ -37,10 +37,10 @@
     "japanese_composition_allowed": "controlled-transfer-only",
     "lesson_priority": "linear exact practice through FRESH, REINFORCE, and MATURE before controlled transfer",
     "material_storage": {
-      "lexical_item_count": 76,
+      "lexical_item_count": 94,
       "location": "Ordinary Voice material is in voice-corpus.txt; cards-NNNN.json remains the comprehensive archive.",
       "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses the reproduced compact corpus and does not require a shard.",
-      "sentence_pair_count": 75
+      "sentence_pair_count": 93
     },
     "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
     "one_exercise_cannot_pass_both_checks": true,

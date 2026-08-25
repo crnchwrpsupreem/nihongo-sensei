@@ -1,6 +1,27 @@
-Generation: 14f24a77e195971a
+Generation: 127ae0b7e658c926
 
 [FRESH]
+前 — front, before | ララちゃんは家の前に立っています。 — Lara-chan is standing in front of the house.
+立つ — stand, rise | 彼はステージに立った。 — He stood on stage.
+本当 — truth, reality | その話は本当ですか。 — Is this story true?
+出来る — can do, be good at | あなたはスキーが出来ますか？ — Can you ski?
+中 — inside, middle | 父は家の中にいます。 — My father is inside the house.
+君 — you (to someone of equal or lower status) | この本を君にあげます。 — I'm going to give you this book.
+物 — thing, object | 色々な物をもらいました。 — I received many things.
+もらう — receive | 彼女からプレゼントをもらいました。 — I got a present from her.
+くれる — give (receiver is in the speaker's group) | 父が本をくれました。 — My father gave me a book.
+もう — already, yet | 彼はもう帰りました。 — He's already gone home.
+思う — think | これがいいと思います。 — I think this is good.
+あげる — give (receiver is not in the speaker's group) | 友達にプレゼントをあげます。 — I will give a present to my friend.
+母 — (speaker's) mother | 昨日、母と話をしました。 — I talked to my mother yesterday.
+大好き — love | 私は父が大好きです。 — I love my father.
+父 — (speaker's) father | 私は父が大好きです。 — I love my father.
+もう — another, again | もうちょっと食べたい。 — I want to eat a little more.
+ちょっと — a little | これはちょっと高いですね。 — This is a little expensive.
+一番 — (the) most | これがこの町で一番高いビルです。 — This is the tallest building in this town.
+高い — high, tall | これがこの町で一番高いビルです。 — This is the tallest building in town.
+高い — expensive | このカメラは高いですね。 — This camera is expensive.
+町 — town, city | あの町に行きました。 — I went to that town over there.
 昨日 — yesterday | 昨日、友達に会った。 — I met a friend yesterday.
 待つ — wait | 1時間友達を待ちました。 — I waited for my friend for an hour.
 友達 — friend, companion | 友達とレストランに行きました。 — I went to the restaurant with my friend.
@@ -23,7 +44,6 @@ Generation: 14f24a77e195971a
 どう — how, what | あなたはどう思いますか。 — What do you think?
 そう — in such manner, that way | 私もそう思います。 — That's what I think too.
 こう — like this, this kind of | こうしましょう。 — Let’s do this (“this way”).
-思う — think | これがいいと思います。 — I think this is good.
 いつ — when | 彼女はいつ来ますか。 — When is she coming?
 また — again, also | 明日、また来ます。 — I'll come again tomorrow.
 来る — come | 明日、来ますか。 — Will you come tomorrow?
