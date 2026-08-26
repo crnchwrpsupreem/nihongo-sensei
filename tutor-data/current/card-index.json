@@ -21,7 +21,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-01",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 7,
@@ -56,7 +56,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-01",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 7,
@@ -91,7 +91,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-03",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 9,
@@ -126,7 +126,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -161,7 +161,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -196,7 +196,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-02",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 8,
@@ -231,7 +231,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-02",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 8,
@@ -266,7 +266,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-03",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 9,
@@ -301,7 +301,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -336,7 +336,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -371,7 +371,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -406,7 +406,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-01",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 7,
@@ -441,7 +441,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -476,7 +476,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-02",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 8,
@@ -511,7 +511,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -546,7 +546,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -581,7 +581,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-03",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 9,
@@ -616,7 +616,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -651,7 +651,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 4,
@@ -686,7 +686,7 @@
         },
         "due_interpreted": {
           "date": "2026-09-02",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 8,
@@ -721,7 +721,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -756,7 +756,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -791,7 +791,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -826,7 +826,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -861,7 +861,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -896,7 +896,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -931,7 +931,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -966,7 +966,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1001,7 +1001,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1036,7 +1036,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1071,7 +1071,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1106,7 +1106,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1141,7 +1141,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1176,7 +1176,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1211,7 +1211,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1246,7 +1246,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1281,7 +1281,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1316,7 +1316,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1351,7 +1351,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1386,7 +1386,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1421,7 +1421,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1456,7 +1456,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1491,7 +1491,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1526,7 +1526,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1561,7 +1561,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1596,7 +1596,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1631,7 +1631,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1666,7 +1666,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1701,7 +1701,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1736,7 +1736,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1771,7 +1771,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1806,7 +1806,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1841,7 +1841,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -1876,7 +1876,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -1911,7 +1911,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1946,7 +1946,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -1981,7 +1981,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2050,7 +2050,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2085,7 +2085,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2120,7 +2120,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2155,7 +2155,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2190,7 +2190,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2225,7 +2225,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2260,7 +2260,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2295,7 +2295,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2330,7 +2330,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2365,7 +2365,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2400,7 +2400,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2435,7 +2435,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2470,7 +2470,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2505,7 +2505,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2540,7 +2540,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-31",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 6,
@@ -2575,7 +2575,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2610,7 +2610,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2645,7 +2645,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 5,
@@ -2680,7 +2680,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2715,7 +2715,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2750,7 +2750,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2785,7 +2785,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 4,
@@ -2820,7 +2820,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -2855,7 +2855,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -2890,7 +2890,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -2925,7 +2925,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -2960,7 +2960,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3029,7 +3029,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3064,7 +3064,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3099,7 +3099,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3134,7 +3134,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3169,7 +3169,7 @@
         },
         "due_interpreted": {
           "date": "2026-08-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 1,
@@ -3492,7 +3492,7 @@
   ],
   "cards_per_shard": 100,
   "deck_root": "日本語",
-  "generated_at": "2026-08-25T23:23:13.993897-04:00",
+  "generated_at": "2026-08-26T00:23:15.467570-04:00",
   "inclusion_rule": "Effective deck is in the configured Japanese hierarchy and the card has at least one review-log entry. Untouched cards are excluded.",
   "schema_version": 3,
   "shards": [
