@@ -1,6 +1,6 @@
 # Current Nihongo Sensei tutor context
 
-Generated: 2026-08-31T23:23:06.820920-04:00
+Generated: 2026-09-01T00:23:08.869142-04:00
 Deck root: `日本語`
 Reviewed cards published: **100**
 Currently active: **100**
@@ -26,11 +26,11 @@ Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fi
 - 帰る
 - 家
 - 来る
-- 出来る
-- 君
-- 物
-- もう
 - よく
+- 聞く
+- いつ
+- 明日
+- 知る
 
 ## Historical items most worth revisiting
 
