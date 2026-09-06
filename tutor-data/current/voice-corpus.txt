@@ -1,4 +1,4 @@
-Generation: 0f6027a9dd19fa02
+Generation: 5032ce37e7eec5a5
 
 [FRESH]
 前 — front, before | ララちゃんは家の前に立っています。 — Lara-chan is standing in front of the house.
@@ -81,28 +81,28 @@ Generation: 0f6027a9dd19fa02
 時間 — time, hour | 今は時間がありません。 — I don't have time now.
 今 — now | 彼は今、勉強しています。 — He's studying now.
 あまり — (not) very, (not) much | スポーツはあまり好きじゃありません。 — I don't really like sports.
-ある — have, exist (inanimate) | ペンがある。 — There is a pen.
 いる — have, exist (animate) | 兄がいます。 — I have an older brother.
 兄 — older brother | これは兄のパソコンです。 — This is my older brother's personal computer.
-毎日 — every day | 毎日、日本語を勉強します。 — I study Japanese every day.
 どれ — which, what | どれが好きですか。 — Which would you like?
 あれ — that over there | あれは何ですか。 — What's that?
-それ — that | それは本です。 — That is a book.
 何 — what | A「これは何ですか。」 B「本です。」 — A: What is this? B: It's a book.
 これ — this | これは日本語の本です。 — This is a Japanese book.
 本 — book | いい本でしたね。 — It was a good book, wasn't it?
 勉強 — study | 私は日本語を勉強しています。 — I'm studying Japanese.
 日本語 — Japanese language | 私は日本語を勉強しています。 — I'm studying Japanese.
-人 — person from (nationality) | 私はイギリス人です。 — I am British.
-いい — good | あの人はいい人です。 — That person is a good person.
-人 — person | あの人はいい人です。 — That person is a good person.
 好き — like, fond of | 私はワインが好きです。 — I like wine.
 彼 — he, him | 彼はトムさんです。 — He is Tom-san.
-さん — san | あなたはトムさんですか。 — Are you Tom-san?
 あなた — you (usually when one doesn't know the person) | あなたはトムさんですか。 — Are you Tom-san?
 私 — I (polite, general) | 私はアンです。 — I am Ann.
 
 [REINFORCE]
+人 — person | あの人はいい人です。 — That person is a good person.
+いい — good | あの人はいい人です。 — That person is a good person.
+それ — that | それは本です。 — That is a book.
+ある — have, exist (inanimate) | ペンがある。 — There is a pen.
+さん — san | あなたはトムさんですか。 — Are you Tom-san?
+人 — person from (nationality) | 私はイギリス人です。 — I am British.
+毎日 — every day | 毎日、日本語を勉強します。 — I study Japanese every day.
 
 [MATURE]
 
