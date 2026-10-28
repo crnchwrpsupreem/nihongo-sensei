@@ -3492,7 +3492,7 @@
   ],
   "cards_per_shard": 100,
   "deck_root": "日本語",
-  "generated_at": "2026-10-28T15:37:18.144090-04:00",
+  "generated_at": "2026-10-28T16:37:20.010483-04:00",
   "inclusion_rule": "Effective deck is in the configured Japanese hierarchy and the card has at least one review-log entry. Untouched cards are excluded.",
   "schema_version": 3,
   "shards": [
