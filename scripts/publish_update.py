@@ -169,6 +169,8 @@ def main() -> int:
                 str(REPO_DIR / "README.md"),
             ]
         )
+        run([python_command(), "scripts/export_kaishi_catalog.py",
+             "--profile", str(profile), "--output", str(public_dir)])
         run([python_command(), "-m", "unittest", "discover", "-s", "tests", "-v"])
 
         if args.no_push:

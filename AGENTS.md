@@ -9,7 +9,7 @@ Preserve these invariants:
 - The learner reviews exclusively on their phone. This PC is a non-interactive AnkiWeb sync, extraction, and publishing appliance; never wait for or expect reviews to be performed locally. New phone reviews are visible here only after the phone syncs to AnkiWeb and this PC syncs down through Anki.
 - Anki sync is performed through Anki itself. Extraction opens `collection.anki2` strictly with SQLite read-only, immutable, and query-only settings.
 - Never modify cards, scheduling, review history, media, or preferences from the extractor.
-- Publish only cards in the configured Japanese deck hierarchy that have at least one review-log entry. Untouched cards are excluded.
+- Reviewed tutor exports include only cards in the configured Japanese hierarchy with review history. Separate kaishi-game-catalog.json intentionally includes all 1500 cards from the exact 日本語::Kaishi 1.5k deck, including untouched cards, by explicit user consent. Never deduplicate this catalog or include other decks/media.
 - The publisher may update only the marker-delimited generated status block in `README.md`; keep agent navigation and all other README content static. Automated commits may stage only `README.md` and `tutor-data/current/`.
 - Preserve the distinction between currently active and previously studied cards.
 - Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.

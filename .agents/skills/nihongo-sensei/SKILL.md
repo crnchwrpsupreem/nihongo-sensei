@@ -32,6 +32,10 @@ The learner reviews exclusively on their phone. Treat the mini PC as a non-inter
 6. `scripts/publish_update.py` is the canonical cross-platform controller. Use `scripts/publish_update.ps1` on Windows or `scripts/publish_update.sh` on Linux.
 7. Windows scheduling uses `scripts/install_windows_task.ps1 -Interval 3h` in an interactive logged-in user session. Linux scheduling uses `scripts/install_systemd_user.sh --interval 3h`.
 
+### Complete game catalog exception
+
+Explicitly authorized public kaishi-game-catalog.json contains all 1500 cards from exactly 日本語::Kaishi 1.5k, one-to-one by stable card ID. Include only word/reading/meaning/example/translation and minimal eligibility; never media or other decks. Its own manifest covers hashes and counts. Reviewed tutor export behavior and full Voice workflow are unchanged.
+
 ### Inclusion rule
 
 Publish a card only when its effective deck is the configured Japanese root or a descendant and it has at least one `revlog` row. This includes current learning/review/relearning cards and previously studied cards that are now new, suspended, buried, or otherwise inactive. Exclude untouched cards.
