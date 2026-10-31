@@ -1,109 +1,99 @@
-Generation: 953fcd7b706e860e
+Generation: aceae3fd1a976557
 
 [FRESH]
-前 — front, before | ララちゃんは家の前に立っています。 — Lara-chan is standing in front of the house.
-立つ — stand, rise | 彼はステージに立った。 — He stood on stage.
-本当 — truth, reality | その話は本当ですか。 — Is this story true?
-出来る — can do, be good at | あなたはスキーが出来ますか？ — Can you ski?
-中 — inside, middle | 父は家の中にいます。 — My father is inside the house.
-君 — you (to someone of equal or lower status) | この本を君にあげます。 — I'm going to give you this book.
-物 — thing, object | 色々な物をもらいました。 — I received many things.
-もらう — receive | 彼女からプレゼントをもらいました。 — I got a present from her.
-くれる — give (receiver is in the speaker's group) | 父が本をくれました。 — My father gave me a book.
-もう — already, yet | 彼はもう帰りました。 — He's already gone home.
-思う — think | これがいいと思います。 — I think this is good.
-あげる — give (receiver is not in the speaker's group) | 友達にプレゼントをあげます。 — I will give a present to my friend.
-母 — (speaker's) mother | 昨日、母と話をしました。 — I talked to my mother yesterday.
-大好き — love | 私は父が大好きです。 — I love my father.
-父 — (speaker's) father | 私は父が大好きです。 — I love my father.
-もう — another, again | もうちょっと食べたい。 — I want to eat a little more.
-ちょっと — a little | これはちょっと高いですね。 — This is a little expensive.
-一番 — (the) most | これがこの町で一番高いビルです。 — This is the tallest building in this town.
-高い — high, tall | これがこの町で一番高いビルです。 — This is the tallest building in town.
-高い — expensive | このカメラは高いですね。 — This camera is expensive.
-町 — town, city | あの町に行きました。 — I went to that town over there.
-昨日 — yesterday | 昨日、友達に会った。 — I met a friend yesterday.
-待つ — wait | 1時間友達を待ちました。 — I waited for my friend for an hour.
-友達 — friend, companion | 友達とレストランに行きました。 — I went to the restaurant with my friend.
-言う — say | ゆっくり言ってください。 — Please say it slowly.
-ゆっくり — slowly | もっとゆっくり話してください。 — Please speak more slowly.
-もっと — more, a bit more | もっと勉強しなければいけないと思った。 — I thought that I would have to study more.
-話す — talk, speak | 先生と日本語で話します。 — I speak Japanese with the teacher.
-ありがとうございます — thank you (formal) | そうですか。分かりました。ありがとうございます。 — Is that so? I understand. Thank you.
-考える — think, consider | よく考えてください。 — Please think carefully.
-よく — often | ジャズのCDをよく聞きます。 — I listen to Jazz CDs often.
-よく — well | よく分かりました。 — I understood well.
-分かる — understand | 日本語のニュースが全然分かりませんでした。 — I didn't understand the Japanese news at all.
-お願いします — please | A「これでお願いします。」 B「はい。」 — A: This one, please. B: Okay.
-聞く — ask | トムに聞いて。 — Ask Tom.
-聞く — hear | 彼女はラジオを聞いています。 — She's listening to the radio.
-方 — person (polite form) | 次の方、どうぞ。 — The next person, please.
-方 — direction, side | 彼は私の方を見ました。 — He looked in my direction.
-次 — next, subsequent | 次はいつ会いましょうか。 — When next shall we meet?
-会う — meet | 明日、彼と会います。 — I will meet him tomorrow.
-どう — how, what | あなたはどう思いますか。 — What do you think?
-そう — in such manner, that way | 私もそう思います。 — That's what I think too.
-こう — like this, this kind of | こうしましょう。 — Let’s do this (“this way”).
-いつ — when | 彼女はいつ来ますか。 — When is she coming?
-また — again, also | 明日、また来ます。 — I'll come again tomorrow.
-来る — come | 明日、来ますか。 — Will you come tomorrow?
-明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
-行く — go | 学校へ行きます。 — I will go to school.
-学校 — school | 学校は日本にあります。 — The school is in Japan.
-日本 — Japan | 日本のゲームは面白いです。 — Japanese games are fun.
-いいえ — no (polite) | A「山田さんですか。」 B「いいえ。」 — A: Are you Yamada-san? B: No, I'm not.
-はい — yes (polite) | A「山田さんですか。」 B「はい。」 — A: Are you Yamada-san? B: Yes, I am.
-ちゃん — chan | 彼女はララちゃんです。 — She is Lara-chan.
-彼女 — she, her, girlfriend | 彼女の名前を知っていますか。 — Do you know her name?
-知る — know | あの人を知っていますか。 — Do you know that person?
-話 — talk, story | あなたの話は面白いね。 — Your story is interesting.
-帰る — return, go back | 家に帰ろう。 — Let's go home.
-家 — house, home | ここが私の家です。 — This is my house.
-置く — put, place | あの本をどこに置きましたか。 — Where did you put that book?
-どこ — where | あの本をどこに置きましたか。 — Where did you put that book?
-あそこ — over there | 彼はあそこにいます。 — He is over there.
-そこ — there | そこはトイレです。 — There is the bathroom.
-ここ — here | ここに本があります。 — There's a book here.
-教える — teach, tell | あなたの名前を教えてください。 — Please tell me your name.
-名前 — name | あなたの名前を教えてください。 — Please tell me your name.
-ください — please give..., please do... | コーヒーをください。 — Please give me a coffee.
-先生 — teacher | 私は日本語の先生になりたいです。 — I want to become a Japanese teacher.
-なる — become, result in, come (to do) | 日本語の勉強が好きになりました。 — I have come to like Japanese study.
-する — do, make | 彼はテニスをします。 — He plays tennis (lit: "He does tennis").
-面白い — interesting, amusing | この本は全然面白くなかった。 — This book wasn't interesting at all.
-全然 — (not) at all | テレビを全然見ません。 — I never watch televison.
-見る — see, look at | 兄は毎日テレビを見ます。 — My older brother watches TV every day.
-どの — which one | どの本ですか。 — Which book is it?
-あの — that one there | あの本ですか。 — That book (over there)?
-その — that one | その本ですか。 — Is it that book?
-この — this one | 山田さんの本はどれですか。この本ですか。 — Which book is Yamada-san's? Is it this book?
-無い — to not be | 今はあまり時間が無いのです。 — I don't have much time now.
-時間 — time, hour | 今は時間がありません。 — I don't have time now.
-今 — now | 彼は今、勉強しています。 — He's studying now.
-あまり — (not) very, (not) much | スポーツはあまり好きじゃありません。 — I don't really like sports.
-いる — have, exist (animate) | 兄がいます。 — I have an older brother.
-兄 — older brother | これは兄のパソコンです。 — This is my older brother's personal computer.
-どれ — which, what | どれが好きですか。 — Which would you like?
-あれ — that over there | あれは何ですか。 — What's that?
-何 — what | A「これは何ですか。」 B「本です。」 — A: What is this? B: It's a book.
-これ — this | これは日本語の本です。 — This is a Japanese book.
-本 — book | いい本でしたね。 — It was a good book, wasn't it?
-勉強 — study | 私は日本語を勉強しています。 — I'm studying Japanese.
-日本語 — Japanese language | 私は日本語を勉強しています。 — I'm studying Japanese.
-好き — like, fond of | 私はワインが好きです。 — I like wine.
-彼 — he, him | 彼はトムさんです。 — He is Tom-san.
-あなた — you (usually when one doesn't know the person) | あなたはトムさんですか。 — Are you Tom-san?
-私 — I (polite, general) | 私はアンです。 — I am Ann.
+やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
+どうして — why | どうして泣いているの。 — Why are you crying?
+ずっと — continuously, the whole time | ずっと日本へ留学したいと思っていました。 — I always thought that I'd like to study abroad in Japan.
+戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
+姿 — figure, appearance | 遠くに彼女の姿が見えた。 — Her figure was visible from a distance.
+頭 — head | 今朝から頭が痛い。 — My head has been hurting since this morning.
+早い — fast (in terms of time) | A「東京から大阪まで2時間半です。」 B「早いですね。」 — A: It takes two and a half hours from Tokyo to Osaka. B: That's fast, isn't it?
+早い — early | A「今朝、5時に起きました。」 B「早いですね。」 — A: I woke up at 5 A.M. this morning. B: That's early, isn't it?
+死ぬ — to die | 犬が病気で死にました。 — My dog died due to sickness.
+相手 — partner, opponent | 試合の相手は誰ですか。 — Who is the opponent of the match?
+世界 — world | 世界の地図はありますか。 — Do you have a map of the world?
+力 — strength, power | 私より妹の方が力があります。 — My younger sister has more strength than I do.
+妹 — younger sister | 私の妹は小学生です。 — My little sister goes to elementary school.
+弟 — younger brother | 弟にプレゼントをあげました。 — I gave a present to my younger brother.
+姉 — older sister | 姉は大学生です。 — My big sister is a college student.
+くらい — approximately, about | 毎日、７時間くらい眠ります。 — I sleep for about seven hours every day.
+多く — many, much | 毎年多くの人が海外へ旅行する。 — Each year, a lot of people travel abroad.
+毎年 — every year | 毎年、クリスマスに国へ帰ります。 — I return to my country on Christmas of every year.
+毎月 — every month | 私は毎月貯金をしています。 — I save money every month.
+笑う — laugh, smile | 赤ん坊が笑っています。 — The baby is laughing.
+出す — to take out | 彼はかばんから教科書を出した。 — He took the textbook out of his bag.
+強い — strong | 今日は風が強い。 — The wind is strong today.
+上 — up, above | 上を向いて。 — Look up.
+感じる — to feel, to sense | 膝に痛みを感じます。 — I feel a pain in my knee.
+作る — to make, to create | 今、朝ご飯を作っています。 — I'm making breakfast now.
+人間 — human being, people | 人間の心は複雑です。 — The human mind is a complex thing.
+ただ — simply | 私はただ彼女と話したかっただけです。 — I just wanted to speak with her.
+ただ — free | この温泉はただです。 — This hot spring is free.
+男 — man, male | 男の人が私たちに話しかけた。 — A man began talking to us.
+違う — to differ, to be wrong | 答えが違います。 — That's the wrong answer.
+ところ — place | 私は友達のところに泊まった。 — I stayed at my friend's place for the night.
+ため — sake, purpose | これは医者のためのサイトです。 — This is a website made for doctors.
+じゃ — then, well | じゃ、それをください。 — Okay, then I'll have that one.
+まだ — yet, more | 宿題はまだ終わっていません。 — I haven't finished my homework yet.
+出る — to go out, to leave | 今朝は早く家を出ました。 — I left the house early this morning.
+今朝 — this morning | 今朝は早く家を出ました。 — I left the house early this morning.
+顔 — face | 彼はタオルで顔を拭きました。 — He wiped his face with a towel.
+やる — to do | 一緒に宿題をやろう。 — Let's do our homework together.
+九 — nine | 野球は九人で1チームです。 — In baseball there are nine people on one team.
+四 — four | ハワイは四回目です。 — This is my fourth trip to Hawaii.
+僕 — I (male) | 僕は君が大好きです。 — I love you.
+進む — to move forward | 前に進んでください。 — Please move forward.
+伝える — to convey, to transmit | みんなにこのことを伝えてください。 — Please tell everyone about this matter.
+今度 — this time | 今度のテストはとても難しかった。 — The test this time was really difficult.
+理解 — understanding, comprehension | 理解してくれてありがとう。 — Thank you for understanding.
+夜 — evening, night | 昨日の夜は家にいました。 — I was at home last night.
+今回 — this time | まあ今回は許してあげよう。 — Well, I'll let you off this time.
+優しい — gentle, kind | 彼はとても優しい人です。 — He's a very kind person.
+許す — to forgive, to permit | 私は彼を許しました。 — I forgave him.
 
 [REINFORCE]
-人 — person | あの人はいい人です。 — That person is a good person.
-いい — good | あの人はいい人です。 — That person is a good person.
-それ — that | それは本です。 — That is a book.
-ある — have, exist (inanimate) | ペンがある。 — There is a pen.
-さん — san | あなたはトムさんですか。 — Are you Tom-san?
-人 — person from (nationality) | 私はイギリス人です。 — I am British.
-毎日 — every day | 毎日、日本語を勉強します。 — I study Japanese every day.
+知る — know | あの人を知っていますか。 — Do you know that person?
+今度 — next time | 今度はどこに行きたいですか。 — Where do you want to go next time?
+お願い — favor | お願いがあります。 — I have a favor to ask.
+これから — from now on, after this | これから考えます。 — I will think about it from now.
+座る — to sit | どうぞ座ってください。 — Please sit down.
+いつも — always, usually | 彼女はいつも元気だ。 — She's always full of energy.
+簡単 — simple, easy | このテストはとても簡単です。 — This test is really simple.
+楽しい — fun, enjoyable | 彼はとても楽しい人です。 — He's a very fun person.
+誰 — who | 誰と会ってみたいですか。 — Who would you like to meet one day?
+約束 — promise, appointment | 友達と約束があります。 — I have an appointment with my friend.
+忙しい — busy, occupied | 忙しいので手伝ってください。 — I am busy so please help me.
+もちろん — of course, no doubt | もちろん一緒に行きます。 — Of course we'll go together.
+暇 — free, not busy | 明日は暇です。 — I am free tomorrow.
+部屋 — room | 部屋にキッチンがあります。 — The room has a kitchen.
+全く — entirely, truly | 私には全く分かりません。 — I don't understand at all.
+もう — already, yet | 彼はもう帰りました。 — He's already gone home.
+寝る — sleep | もう寝よう。 — Let's sleep.
+事 — thing, incident | インターネットで日本の事を調べました。 — I researched things about Japan on the internet.
+思う — think | これがいいと思います。 — I think this is good.
+頼む — to ask, to request | 私はハンバーガーを頼みました。 — I ordered a hamburger.
+女の子 — girl | あの女の子を知っていますか。 — Do you know that girl?
+奴 — that guy, (s)he (usu. derogatory) | 奴は人の言うことを聞かない。 — That guy doesn't listen to what others tell him.
+俺 — I (male) | 俺はロックを聞くのが好きだ。 — I like to listen to rock music.
+嬉しい — happy, glad | 彼に会えて嬉しかった。 — I was glad to be able to meet him.
+今まで — until now | 今までどこにいたのですか。 — Where have you been up until now?
+買う — to buy | 昨日、シーディーを買いました。 — Yesterday, I bought a CD.
+頑張る — to persevere, to do one's best | 勉強もスポーツも頑張っています。 — I do my best in sports and my studies.
+そんなに — that much | A「毎日忙しいですか。」 B「そんなに忙しくないです。」 — A: Are you busy every day? B: No, not that much.
+する — do, make | 彼はテニスをします。 — He plays tennis (lit: "He does tennis").
+明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
 
 [MATURE]
+今日 — today | 今日の勉強を始めましょう。 — Let's begin today's studies.
+悪い — bad | あの人は悪い人です。 — That person is a bad person.
+まあ — well... | まあこれでいいだろう。 — Well, this will do I suppose.
+食べる — eat | 昨日タイカレーを食べました。 — I ate Thai curry yesterday.
+沢山 — a lot, plenty | 私には友達がたくさんいます。 — I have a lot of friends.
+場所 — place, location | 行ってみたい場所がたくさんあります。 — There are many places I want to go to.
+呼ぶ — call, name | ウェイターを呼びましょう。 — Let's call the waiter.
+動く — move | エレベーターが動いています。 — The elevator is moving.
+気持ち — feeling, sensation | 彼の気持ちが分からない。 — I don't understand his feelings.
+子 — child, kid | その子は日本語が分からない。 — That kid doesn't understand Japanese.
 
 [KNOWN WORDS]
+私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える

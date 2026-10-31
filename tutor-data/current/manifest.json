@@ -1,33 +1,43 @@
 {
   "card_shards": [
-    "cards-0001.json"
+    "cards-0001.json",
+    "cards-0002.json",
+    "cards-0003.json"
   ],
-  "current_active_card_count": 100,
+  "current_active_card_count": 256,
   "deck_root": "日本語",
   "files": {
     "card-index.json": {
-      "bytes": 87082,
-      "sha256": "953fcd7b706e860ef94780ea24fae9a40ab655cfab89e7726c1873671f4e1115"
+      "bytes": 222552,
+      "sha256": "aceae3fd1a976557869ad62328fd043a2aaebac4a3d60e244b5b606e52bd872d"
     },
     "cards-0001.json": {
-      "bytes": 572567,
-      "sha256": "16ded4791ddf5ffbcec4f3a0a0572a3ec8b5c15a178e5bbdea32fea61ecea75c"
+      "bytes": 690801,
+      "sha256": "a5eb3e62743bca4001c63cf8e65ec4ce1faa7d5b73fe77e22090e1e811d9835c"
+    },
+    "cards-0002.json": {
+      "bytes": 717100,
+      "sha256": "f578a59737d4408a0257f46454a587c5e05e1aa369906adb88af36a13138e685"
+    },
+    "cards-0003.json": {
+      "bytes": 384272,
+      "sha256": "994c1f010f1f18d1eb6d14cd2b1b2dadc50c262ebcea76af1163b40f4efb73f5"
     },
     "lesson-brief.md": {
-      "bytes": 997,
-      "sha256": "5a3bce1418d1f53e2d06b33bbf1add5fc6a52e06404492c9df47a241e5192c93"
+      "bytes": 998,
+      "sha256": "4013b97b2ae865134d8882646ec6776fbe63ec5bc8fbb440fac2da831c9557ec"
     },
     "tutor-policy.json": {
-      "bytes": 4839,
-      "sha256": "2157fa4235fdcdc060e6e92ac9372194db343329cafd5ef36d34572e662de79d"
+      "bytes": 4841,
+      "sha256": "6ecd721b6411e174b3167c48d02102d0a68088d9cea1a818fb681199715fd428"
     },
     "voice-corpus.txt": {
-      "bytes": 9418,
-      "sha256": "aa55427dcd60aa635dd4dbd0446495b33a5bec727915adedd890ebcb4bc7401d"
+      "bytes": 10711,
+      "sha256": "51e30eda1fa7a5ca01ac324e1522790bc1ccae7e1ccfae833109819d9c250394"
     }
   },
-  "generated_at": "2026-10-31T14:37:17.218445-04:00",
-  "generation_id": "953fcd7b706e860e",
+  "generated_at": "2026-10-31T15:37:15.496951-04:00",
+  "generation_id": "aceae3fd1a976557",
   "privacy": {
     "contains_anki_media": false,
     "contains_card_text": true,
@@ -36,16 +46,16 @@
     "contains_source_machine_paths": false,
     "public_repository": true
   },
-  "published_at": "2026-10-31T14:37:17.644861-04:00",
+  "published_at": "2026-10-31T15:37:16.100497-04:00",
   "ready": true,
-  "review_event_count": 298,
-  "reviewed_card_count": 100,
+  "review_event_count": 1478,
+  "reviewed_card_count": 256,
   "schema_version": 3,
   "voice_corpus": {
     "file": "voice-corpus.txt",
-    "fresh": 93,
-    "known_words": 0,
-    "mature": 0,
-    "reinforce": 7
+    "fresh": 49,
+    "known_words": 160,
+    "mature": 10,
+    "reinforce": 30
   }
 }
