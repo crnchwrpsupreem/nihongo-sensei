@@ -9,35 +9,35 @@
   "files": {
     "card-index.json": {
       "bytes": 222552,
-      "sha256": "0f6cf7026c7d0edab6a9ef2e249001cf80cf79e1a465e611447c805f30ccc176"
+      "sha256": "c81267c9a25283846c7b3bfefce07f19f8989c00f6855b9917a9b4e89c7d49df"
     },
     "cards-0001.json": {
       "bytes": 690801,
-      "sha256": "e1e317a9fc1e7f5776a5054a58021553589fa4937e2ffa55eef84115cd23864d"
+      "sha256": "dba49e798368aeff6d7271e10e6ff42b08ba8ab2008f35e4ae2322b806959a53"
     },
     "cards-0002.json": {
       "bytes": 717100,
-      "sha256": "1442ae88574ed0cd0d0536f0852c3b4a30060f72e9288e11fea9e68757e6c375"
+      "sha256": "f753b59de5f2a564d09c233a98f27c1391d1c724193000c532a56f8b22f4199d"
     },
     "cards-0003.json": {
       "bytes": 384272,
-      "sha256": "1ae66213c0f60770ea29e00eaf34ceb04df818e706b0ca73b39ac56b2af20c84"
+      "sha256": "ffcfed2e65b21a8ca58caf3d28c85ef9d8ed01656c5ea55d7caf5fd76c7ce10c"
     },
     "lesson-brief.md": {
       "bytes": 998,
-      "sha256": "b327da5b16085fbd3f96f99232c743de664ca5ca43a199d09a573b4accf0bb84"
+      "sha256": "a9a3d2fcb52da04e6f6fd63e523db445d0b6233174405ee46831eec9d5a69e6c"
     },
     "tutor-policy.json": {
       "bytes": 4841,
-      "sha256": "c1713305f56971dd3f581aac7899a892a924a0f13c3515786871a596b578bd88"
+      "sha256": "4160b7204eb0cea645cb42add8d31f08db011ef4c7c7aa3da1b07e1413c16069"
     },
     "voice-corpus.txt": {
       "bytes": 10711,
-      "sha256": "ada069487704287848f22b6a6837c1e2b28b5fdcf816b577a3cc60ee3e623ace"
+      "sha256": "9d8eace78191cb2c745a527ce1717ffef5616ebae91a3cd5664bf15ff286f12b"
     }
   },
-  "generated_at": "2026-10-31T17:17:44.178719-04:00",
-  "generation_id": "0f6cf7026c7d0eda",
+  "generated_at": "2026-10-31T17:37:17.739540-04:00",
+  "generation_id": "c81267c9a2528384",
   "privacy": {
     "contains_anki_media": false,
     "contains_card_text": true,
@@ -46,7 +46,7 @@
     "contains_source_machine_paths": false,
     "public_repository": true
   },
-  "published_at": "2026-10-31T17:17:44.769226-04:00",
+  "published_at": "2026-10-31T17:37:18.298656-04:00",
   "ready": true,
   "review_event_count": 1478,
   "reviewed_card_count": 256,
