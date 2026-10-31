@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-10-31T17:37:17.739540-04:00",
+  "generated_at": "2026-10-31T17:40:49.866599-04:00",
   "lesson_sequence": [
-    "FRESH",
-    "REINFORCE",
-    "MATURE"
+    "focused targets",
+    "guided practice",
+    "recap"
   ],
   "schema_version": 3,
   "tutor_policy": {
     "allowed_exercise_types": [
-      "Japanese-to-English meaning of one exact compact-corpus sentence",
-      "English-to-exact-Japanese recall using the same compact-corpus entry"
+      "target meaning",
+      "target recall",
+      "pronunciation",
+      "supported listening"
     ],
-    "controlled_conversation_rule": "Process every detailed entry in FRESH, then REINFORCE, then MATURE; only afterward revisit them in file order for controlled transfer",
+    "coaching": "Freeze these targets for the entire call. Lead calm audio-only coaching for roughly 20–30 minutes of useful practice; do not time, pad, score, or check rewards. Use English explanations and clear Japanese; kana readings, no romaji unless requested. Assess the previous answer, explain the specific misunderstanding, then give one next spoken prompt and wait. Alternate target meaning, recall, pronunciation, and supported listening. Translate incidental words in the exact examples without adding targets. Do not require exact whole-sentence production or generate Japanese variations. Repeat = slower same prompt; explain = brief English help; easier = hint or two spoken options; recap = targets and current point; pause = stop questions until resumed. Allow silence and interruptions. On resumption or drift, recap these targets and the last unresolved point automatically. Do not require a screen or learner direction. If this printed pack is unavailable, stop rather than invent. End with progress and remaining confusion, not a claim of lasting mastery.",
     "controlled_transfer": {
-      "eligibility": "every detailed FRESH, REINFORCE, and MATURE entry has passed separate meaning and exact-Japanese-recall checks",
-      "failed_variation": "return to the exact source sentence before another variation",
-      "label": "generated variation",
-      "maximum_changed_lexical_items": 1,
-      "must_not_introduce": [
-        "new grammar",
-        "new particles",
-        "new inflections",
-        "new register"
-      ],
-      "must_preserve": [
-        "sentence structure",
-        "particles",
-        "inflection",
-        "politeness"
-      ],
-      "order": "After exact coverage is complete, revisit eligible detailed entries in file order.",
-      "replacement_source": "any reviewed lexical item appearing in the current compact corpus",
-      "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice"
+      "enabled": false
     },
     "english_scaffolding_default": true,
-    "japanese_composition_allowed": "controlled-transfer-only",
-    "lesson_priority": "linear exact practice through FRESH, REINFORCE, and MATURE before controlled transfer",
+    "japanese_composition_allowed": false,
+    "lesson_priority": "fixed difficulty targets, guided audio coaching",
     "material_storage": {
       "lexical_item_count": 245,
-      "location": "Ordinary Voice material is in voice-corpus.txt; cards-NNNN.json remains the comprehensive archive.",
-      "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses the reproduced compact corpus and does not require a shard.",
+      "location": "Ordinary Voice material is in voice-session.txt; voice-corpus.txt and cards-NNNN.json remain unchanged comprehensive resources.",
+      "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses only the printed focused session and does not retrieve more targets.",
       "sentence_pair_count": 245
     },
-    "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
-    "one_exercise_cannot_pass_both_checks": true,
+    "novel_japanese_mode": "disabled",
     "prohibitions": [
-      "No controlled variation before every detailed FRESH, REINFORCE, and MATURE entry passes separate meaning and exact-recall checks.",
-      "No more than one lexical substitution in a controlled variation.",
-      "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
-      "No generated variation presented as stored Anki material.",
-      "No new Japanese outside controlled transfer or explicit user-approved preview/teach mode."
-    ],
-    "required_checks_per_entry": [
-      "meaning",
-      "exact_japanese_recall"
+      "No new targets",
+      "No generated Japanese variations",
+      "No KNOWN WORDS expansion",
+      "No timers, scores, or rewards"
     ],
     "speech_delivery": {
       "english_speed": "normal conversational speed",
@@ -62,42 +40,9 @@
       "slower_repeat_rule": "slow further or break down only when the user explicitly requests a slower repeat, then return to the default"
     },
     "strict_lexical_gate": true,
-    "study_order": [
-      "FRESH",
-      "REINFORCE",
-      "MATURE"
-    ],
-    "text_bootstrap": "Before Voice begins, reproduce the complete current voice-corpus.txt verbatim in one text response, then stop without an exercise.",
-    "turn_taking": {
-      "applies_to": [
-        "word recall",
-        "sentence comprehension",
-        "English-to-Japanese recall",
-        "conversation tasks"
-      ],
-      "default_loop": "present one sentence-focused exercise; wait; send one coherent response containing direct assessment and essential correction first, then exactly one next sentence-focused exercise; wait",
-      "feedback_scope": "immediately preceding learner answer only",
-      "leave_space_after_one_prompt": true,
-      "never_ask_whether_to_continue": true,
-      "never_end_on_feedback_alone": true,
-      "no_contradictory_followup_response": true,
-      "no_delayed_praise_or_backtracking": true,
-      "no_preamble_before_assessment": true,
-      "no_repeated_next_prompt": true,
-      "no_split_assessment_and_prompt": true,
-      "pause_for": [
-        "learner interruption",
-        "meta question",
-        "pause request",
-        "lesson end"
-      ],
-      "response_order": [
-        "Assess only the immediately preceding learner answer as correct, partially correct, or incorrect; give the essential correction immediately.",
-        "Immediately present exactly one next active-practice exercise."
-      ],
-      "single_coherent_response": true
-    },
-    "voice_source": "voice-corpus.txt",
-    "word_recall_role": "warm-up, remediation, or hint only"
+    "study_order": "frozen focused targets; revisit misunderstandings",
+    "text_bootstrap": "Verify manifest and print the complete voice-session.txt verbatim in the initial TEXT reply before Voice; links or retrieval confirmation are insufficient.",
+    "voice_source": "voice-session.txt",
+    "whole_sentence_production_required": false
   }
 }

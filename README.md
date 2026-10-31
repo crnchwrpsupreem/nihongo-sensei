@@ -12,11 +12,11 @@ _Automatically refreshed by the mini-PC publisher. Do not edit inside these mark
 | Field | Current value |
 | --- | --- |
 | Status | **Ready** |
-| Last generated | `2026-10-31T17:37:17.739540-04:00` |
+| Last generated | `2026-10-31T17:40:49.866599-04:00` |
 | Reviewed cards available to the tutor | **256** |
 | Currently active cards | **256** |
 | Review events | **1478** |
-| Generation | `c81267c9a2528384` |
+| Generation | `b94f62d86f6b4815` |
 | Current bundle | [`tutor-data/current/`](tutor-data/current/) |
 <!-- nihongo-sensei-status:end -->
 
@@ -279,3 +279,7 @@ On Windows, the equivalent publisher entry point is `scripts\publish_update.ps1`
 The generated private extraction in `work/current-session/` is ignored by Git. Credentials and `.env` files are ignored. Only the intentionally public bundle and the generated README status block are staged by the publishing script.
 
 GitHub Actions runs the Python suite on both Windows and Linux and validates the native PowerShell/Bash entry points on every push and pull request.
+
+## Focused Voice sessions
+
+Voice lessons now use the complete `tutor-data/current/voice-session.txt`, printed in TEXT before Voice, with three fixed difficulty targets. The optional `NIHONGO_VOICE_SESSION_SIZE` permits 3–5 explicitly configured targets. Full reviewed files, legacy voice-corpus and all 1500 game cards remain separate and intact. Follow `CHATGPT_PROJECT_INSTRUCTIONS.md`.

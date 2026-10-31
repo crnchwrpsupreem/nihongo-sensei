@@ -1,6 +1,6 @@
 # Current Nihongo Sensei tutor context
 
-Generated: 2026-10-31T17:37:17.739540-04:00
+Generated: 2026-10-31T17:40:49.866599-04:00
 Deck root: `日本語`
 Reviewed cards published: **256**
 Currently active: **256**
@@ -14,7 +14,7 @@ Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fi
 
 1. Prioritize currently active cards, especially weak, lapsed, or overdue material.
 2. Use previously reviewed cards for maintenance and context, never as unseen/new material.
-3. Use `voice-corpus.txt` for tutoring and process FRESH, then REINFORCE, then MATURE in file order.
+3. Use only `voice-session.txt` for Voice; print it fully in TEXT first and freeze its targets for the call.
 4. Complete separate meaning and exact-recall checks for every detailed entry before controlled variations.
 
 ## Weak active items
