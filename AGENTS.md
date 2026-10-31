@@ -14,9 +14,9 @@ Preserve these invariants:
 - Preserve the distinction between currently active and previously studied cards.
 - Strip source-machine paths and credentials from public outputs. Never publish Anki media or configuration databases.
 - The public repository intentionally contains studied card text and review history. Keep the manifest privacy declaration accurate.
-- The Voice tutor must use the generated compact `voice-corpus.txt`. A text bootstrap reproduces that complete file into chat context before Voice begins. Exact practice proceeds linearly through FRESH, then REINFORCE, then MATURE; controlled transfer begins only after every detailed entry passes separate meaning and exact-Japanese recall checks.
 - Each ordinary tutoring turn assesses the immediately preceding answer first, then gives exactly one next exercise.
 - Do not add OpenAI API, Realtime, local microphone, local speech, or local chat-model code. Voice belongs to the ChatGPT Project.
 - Add or update regression tests for extraction, classification, sanitization, and publishing behavior.
 - Keep Windows and Linux wrappers behaviorally identical by putting orchestration in `scripts/publish_update.py`.
 - Windows scheduling must use an interactive user session so Anki can open; Linux scheduling uses the systemd user timer.
+- Ordinary Voice tutoring uses only the fully printed focused voice-session.txt pack; freeze targets during a call. Preserve the full game export and legacy voice-corpus.

@@ -15,6 +15,11 @@ from pathlib import Path
 from typing import Any
 
 
+try:
+    from .focused_voice_session import build_session, session_text, COACHING
+except ImportError:
+    from focused_voice_session import build_session, session_text, COACHING
+
 SCHEMA_VERSION = 3
 CARDS_PER_SHARD = 100
 VOICE_REINFORCE_LIMIT = 30
@@ -28,7 +33,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--corpus", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--readme", type=Path)
-    return parser.parse_args()
+    parser.add_argument("--voice-session-size", type=int, choices=range(3, 6),
+                        default=int(os.environ.get("NIHONGO_VOICE_SESSION_SIZE", "3")))
+    args = parser.parse_args()
+    if args.voice_session_size not in range(3, 6):
+        parser.error("voice session size must be 3–5")
+    return args
 
 
 def atomic_write(path: Path, content: str) -> None:
@@ -300,39 +310,19 @@ def voice_corpus_text(
 
 
 def progression_policy() -> dict[str, Any]:
-    """Return the canonical tutor progression, independent of extractor age."""
+    """Focused Voice policy; complete collection remains available for other consumers."""
     return {
-        "japanese_composition_allowed": "controlled-transfer-only",
-        "novel_japanese_mode": "controlled-transfer-after-exact-mastery-or-explicit-user-approved-preview-teach",
-        "lesson_priority": "linear exact practice through FRESH, REINFORCE, and MATURE before controlled transfer",
-        "allowed_exercise_types": [
-            "Japanese-to-English meaning of one exact compact-corpus sentence",
-            "English-to-exact-Japanese recall using the same compact-corpus entry",
-        ],
-        "voice_source": "voice-corpus.txt",
-        "text_bootstrap": "Before Voice begins, reproduce the complete current voice-corpus.txt verbatim in one text response, then stop without an exercise.",
-        "study_order": ["FRESH", "REINFORCE", "MATURE"],
-        "required_checks_per_entry": ["meaning", "exact_japanese_recall"],
-        "one_exercise_cannot_pass_both_checks": True,
-        "controlled_transfer": {
-            "eligibility": "every detailed FRESH, REINFORCE, and MATURE entry has passed separate meaning and exact-Japanese-recall checks",
-            "label": "generated variation",
-            "maximum_changed_lexical_items": 1,
-            "replacement_source": "any reviewed lexical item appearing in the current compact corpus",
-            "must_preserve": ["sentence structure", "particles", "inflection", "politeness"],
-            "must_not_introduce": ["new grammar", "new particles", "new inflections", "new register"],
-            "unsafe_or_uncertain_substitution": "do not generate; continue exact-card practice",
-            "failed_variation": "return to the exact source sentence before another variation",
-            "order": "After exact coverage is complete, revisit eligible detailed entries in file order.",
-        },
-        "controlled_conversation_rule": "Process every detailed entry in FRESH, then REINFORCE, then MATURE; only afterward revisit them in file order for controlled transfer",
-        "prohibitions": [
-            "No controlled variation before every detailed FRESH, REINFORCE, and MATURE entry passes separate meaning and exact-recall checks.",
-            "No more than one lexical substitution in a controlled variation.",
-            "No conjugation, question conversion, particle changes, politeness changes, structural changes, or new grammar in controlled transfer.",
-            "No generated variation presented as stored Anki material.",
-            "No new Japanese outside controlled transfer or explicit user-approved preview/teach mode.",
-        ],
+        "japanese_composition_allowed": False,
+        "novel_japanese_mode": "disabled",
+        "lesson_priority": "fixed difficulty targets, guided audio coaching",
+        "allowed_exercise_types": ["target meaning", "target recall", "pronunciation", "supported listening"],
+        "voice_source": "voice-session.txt",
+        "text_bootstrap": "Verify manifest and print the complete voice-session.txt verbatim in the initial TEXT reply before Voice; links or retrieval confirmation are insufficient.",
+        "study_order": "frozen focused targets; revisit misunderstandings",
+        "whole_sentence_production_required": False,
+        "controlled_transfer": {"enabled": False},
+        "coaching": COACHING,
+        "prohibitions": ["No new targets", "No generated Japanese variations", "No KNOWN WORDS expansion", "No timers, scores, or rewards"],
     }
 
 
@@ -359,7 +349,7 @@ def brief(payload: dict[str, Any], cards: list[dict[str, Any]]) -> str:
         "",
         "1. Prioritize currently active cards, especially weak, lapsed, or overdue material.",
         "2. Use previously reviewed cards for maintenance and context, never as unseen/new material.",
-        "3. Use `voice-corpus.txt` for tutoring and process FRESH, then REINFORCE, then MATURE in file order.",
+        "3. Use only `voice-session.txt` for Voice; print it fully in TEXT first and freeze its targets for the call.",
         "4. Complete separate meaning and exact-recall checks for every detailed entry before controlled variations.",
         "",
         "## Weak active items",
@@ -400,17 +390,20 @@ def main() -> int:
     compact_policy.pop("allowed_exact_example_sentences", None)
     compact_policy.pop("coverage_policy", None)
     compact_policy.pop("recommended_initial_drill", None)
+    compact_policy = {key: compact_policy[key] for key in
+                      ("english_scaffolding_default", "speech_delivery", "strict_lexical_gate")
+                      if key in compact_policy}
     compact_policy.update(progression_policy())
     compact_policy["material_storage"] = {
-        "location": "Ordinary Voice material is in voice-corpus.txt; cards-NNNN.json remains the comprehensive archive.",
+        "location": "Ordinary Voice material is in voice-session.txt; voice-corpus.txt and cards-NNNN.json remain unchanged comprehensive resources.",
         "lexical_item_count": lexical_item_count,
         "sentence_pair_count": sentence_pair_count,
-        "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses the reproduced compact corpus and does not require a shard.",
+        "rule": "After the mandatory text bootstrap, ordinary Voice tutoring uses only the printed focused session and does not retrieve more targets.",
     }
     policy_payload = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": metadata["generated_at"],
-        "lesson_sequence": ["FRESH", "REINFORCE", "MATURE"],
+        "lesson_sequence": ["focused targets", "guided practice", "recap"],
         "tutor_policy": compact_policy,
     }
 
@@ -480,6 +473,9 @@ def main() -> int:
         raise RuntimeError("metadata.generated_at must be an ISO-8601 timestamp")
     voice_text, voice_counts = voice_corpus_text(generation_id, cards, generated_at)
     atomic_write(output / "voice-corpus.txt", voice_text)
+    focused = build_session(cards, generation_id, metadata["generated_at"], args.voice_session_size)
+    atomic_write(output / "voice-session.json", json_text(focused))
+    atomic_write(output / "voice-session.txt", session_text(focused))
     atomic_write(output / "tutor-policy.json", json_text(policy_payload))
     atomic_write(output / "lesson-brief.md", brief(payload, cards))
 
@@ -487,6 +483,8 @@ def main() -> int:
     for name in (
         "card-index.json",
         "voice-corpus.txt",
+        "voice-session.txt",
+        "voice-session.json",
         "tutor-policy.json",
         "lesson-brief.md",
         *shard_files,
@@ -507,6 +505,9 @@ def main() -> int:
             "file": "voice-corpus.txt",
             **voice_counts,
         },
+        "voice_session": {"file": "voice-session.txt", "data_file": "voice-session.json",
+                          "session_id": focused["session_id"], "ready": focused["ready"],
+                          "target_count": len(focused["targets"])},
         "card_shards": shard_files,
         "files": files,
         "privacy": {

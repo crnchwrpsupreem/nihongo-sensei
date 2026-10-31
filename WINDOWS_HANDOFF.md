@@ -366,3 +366,7 @@ python -m unittest discover -s tests -v
 ```
 
 The repository's GitHub Actions workflow also tests Windows and Linux on every push and pull request.
+
+## Focused Voice update
+
+Follow CHATGPT_PROJECT_INSTRUCTIONS.md: verify manifest and voice-session.txt, print the entire focused pack in TEXT, then freeze targets for guided audio coaching. This supersedes older broad-corpus guidance above. Default three targets; explicit NIHONGO_VOICE_SESSION_SIZE supports 3–5. Full game catalog and reviewed exports remain unchanged.

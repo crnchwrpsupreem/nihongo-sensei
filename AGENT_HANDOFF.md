@@ -42,13 +42,11 @@ The publisher uses historical mode: effective deck is the configured Japanese ro
 
 The exporter adds a `study_state` rather than flattening these categories. Lesson priority is current active material first, then historical maintenance.
 
-## Compact Voice source and progression
+## Focused Voice session
 
-`tutor-data/current/voice-corpus.txt` is the ordinary Voice lesson source. Detailed entries contain only `word — meaning | exact Japanese sentence — exact English sentence meaning`. FRESH contains every active card still being acquired, REINFORCE contains up to 30 active developing or difficult cards, MATURE contains a deterministic rotating sample of 10 stable active cards, and KNOWN WORDS contains only the lexical items omitted from detailed practice.
+`voice-session.txt` and `voice-session.json` are additive focused artifacts. Default: three distinct reviewed active difficulty targets; set `NIHONGO_VOICE_SESSION_SIZE` or exporter `--voice-session-size` explicitly to 3–5. Rank latest Again, Again/Hard in last five recorded attempts, lapses, then latest review and stable ID; no overdue-only ranking or maturity requirement. Incomplete candidates are excluded; insufficient targets produce not-ready output.
 
-At the start of a Project chat, a text bootstrap retrieves the manifest and compact corpus, reproduces the entire TXT verbatim into one assistant text response, and stops. This deliberately places the full corpus in ordinary chat context before the learner switches to Voice.
-
-Tutoring proceeds linearly through FRESH, then REINFORCE, then MATURE, preserving file order. Each detailed entry requires separate meaning and exact-Japanese recall checks. Only after every detailed entry passes both checks may the tutor revisit entries in the same order for one-item controlled variations.
+Session identity hashes selected content and coaching rules, excluding export time/source generation, so an unchanged review set does not rotate hourly. The consumer freezes the printed pack throughout a call. See CHATGPT_PROJECT_INSTRUCTIONS.md for the mandatory full TEXT bootstrap and audio-only coaching contract. Full shards, index and legacy voice-corpus remain unchanged. New source artifacts are not active until explicitly installed and published.
 
 ## Public/private boundary
 

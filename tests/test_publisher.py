@@ -138,28 +138,15 @@ class PublisherTests(unittest.TestCase):
                 policy["tutor_policy"]["material_storage"]["sentence_pair_count"], 4
             )
             self.assertEqual(policy["schema_version"], 3)
-            self.assertEqual(
-                policy["tutor_policy"]["japanese_composition_allowed"],
-                "controlled-transfer-only",
-            )
-            self.assertEqual(
-                policy["tutor_policy"]["required_checks_per_entry"],
-                ["meaning", "exact_japanese_recall"],
-            )
-            self.assertTrue(policy["tutor_policy"]["one_exercise_cannot_pass_both_checks"])
-            self.assertEqual(
-                policy["tutor_policy"]["study_order"],
-                ["FRESH", "REINFORCE", "MATURE"],
-            )
-            self.assertEqual(policy["lesson_sequence"], ["FRESH", "REINFORCE", "MATURE"])
-            self.assertNotIn("lesson_mix", policy)
-            self.assertIn(
-                "voice-corpus.txt",
-                policy["tutor_policy"]["material_storage"]["location"],
-            )
-            transfer = policy["tutor_policy"]["controlled_transfer"]
-            self.assertEqual(transfer["maximum_changed_lexical_items"], 1)
-            self.assertIn("file order", transfer["order"])
+            self.assertFalse(policy["tutor_policy"]["japanese_composition_allowed"])
+            self.assertFalse(policy["tutor_policy"]["whole_sentence_production_required"])
+            self.assertFalse(policy["tutor_policy"]["controlled_transfer"]["enabled"])
+            for obsolete in ("required_checks_per_entry", "controlled_conversation_rule", "word_recall_role"):
+                self.assertNotIn(obsolete, policy["tutor_policy"])
+            self.assertEqual(policy["tutor_policy"]["voice_source"], "voice-session.txt")
+            self.assertEqual(policy["lesson_sequence"], ["focused targets", "guided practice", "recap"])
+            self.assertTrue((output / "voice-session.txt").is_file())
+            self.assertFalse(manifest["voice_session"]["ready"])
 
             voice = (output / "voice-corpus.txt").read_text(encoding="utf-8")
             self.assertIn("[FRESH]", voice)
@@ -170,6 +157,13 @@ class PublisherTests(unittest.TestCase):
             self.assertNotIn("private.mp3", voice)
             self.assertEqual(manifest["voice_corpus"]["file"], "voice-corpus.txt")
 
+            # Frozen pre-change fixture hashes protect full-export/game compatibility.
+            for name, digest in {
+                "card-index.json": "254827001a474d25581e14a8626791f427cbb6587216a99104137017664fb6e2",
+                "cards-0001.json": "fbcf1ad90d650a70acda9fe7b42a6ef7972d5784b8117a382ecce6453ce94476",
+                "voice-corpus.txt": "bd1cd8d7dcd3ed28225c2d226d5a25b7aec68ad0feb8981b820f5d504f33b177",
+            }.items():
+                self.assertEqual(hashlib.sha256((output / name).read_bytes()).hexdigest(), digest)
             for name, expected in manifest["files"].items():
                 published = (output / name).read_bytes()
                 self.assertNotIn(b"\r\n", published)
@@ -178,17 +172,17 @@ class PublisherTests(unittest.TestCase):
 
     def test_project_instructions_name_every_bundle_file(self) -> None:
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
-        for name in ("manifest.json", "voice-corpus.txt"):
+        for name in ("manifest.json", "voice-session.txt"):
             self.assertIn(name, instructions)
 
     def test_project_instructions_require_complete_text_bootstrap_and_order(self) -> None:
         instructions = Path("CHATGPT_PROJECT_INSTRUCTIONS.md").read_text(encoding="utf-8")
-        self.assertIn("complete contents of voice-corpus.txt", instructions)
+        self.assertIn("complete contents of voice-session.txt", instructions)
         self.assertIn("copied verbatim", instructions)
         self.assertIn("Give no lesson exercise in the bootstrap response", instructions)
-        self.assertIn("Complete every FRESH entry before REINFORCE", instructions)
-        self.assertIn("Complete every REINFORCE entry before MATURE", instructions)
-        self.assertIn("every detailed FRESH, REINFORCE, and MATURE entry", instructions)
+        self.assertIn("Freeze this printed session ID", instructions)
+        self.assertIn("Do not generate Japanese sentence variations", instructions)
+        self.assertIn("No timers", instructions)
 
     def test_voice_selection_is_simple_bounded_and_deterministic(self) -> None:
         generated = export_tutor_bundle.parse_timestamp("2026-08-21T00:00:00+00:00")
