@@ -1,4 +1,4 @@
-Generation: da0b55201c5a19a0
+Generation: 422df06f7fbe5ba4
 
 [FRESH]
 やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
@@ -84,16 +84,16 @@ Generation: da0b55201c5a19a0
 明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
 
 [MATURE]
-今日 — today | 今日の勉強を始めましょう。 — Let's begin today's studies.
-悪い — bad | あの人は悪い人です。 — That person is a bad person.
-まあ — well... | まあこれでいいだろう。 — Well, this will do I suppose.
-食べる — eat | 昨日タイカレーを食べました。 — I ate Thai curry yesterday.
-沢山 — a lot, plenty | 私には友達がたくさんいます。 — I have a lot of friends.
-場所 — place, location | 行ってみたい場所がたくさんあります。 — There are many places I want to go to.
-呼ぶ — call, name | ウェイターを呼びましょう。 — Let's call the waiter.
-動く — move | エレベーターが動いています。 — The elevator is moving.
-気持ち — feeling, sensation | 彼の気持ちが分からない。 — I don't understand his feelings.
-子 — child, kid | その子は日本語が分からない。 — That kid doesn't understand Japanese.
+どんな — what kind of... | スミスさんはどんな人ですか。 — What kind of person is Smith-san?
+意味 — meaning, significance | 意味が分かりません。 — I don't understand what you mean.
+言葉 — word, language | この言葉の意味が分かりません。 — I don't understand the meaning of this word.
+心配 — worry | 母が心配しています。 — My mother is worried.
+様子 — appearance, state | 彼女の様子を見てきます。 — I'm going to see how she's doing.
+信じる — to believe, to trust | 彼の言葉を信じています。 — I believe his words.
+自分 — self, oneself | 分からない言葉は自分で調べてください。 — Please look up any words you don't know on your own.
+調べる — look up, search | 分からない言葉は自分で調べてください。 — Please look up any words you don't know on your own.
+申し訳ない — sorry, inexcusable | 彼には申し訳ないことをした。 — I did something inexcusable to him.
+とても — very | この本はとても面白い。 — This book is very interesting.
 
 [KNOWN WORDS]
-私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
+私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、同じ、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
