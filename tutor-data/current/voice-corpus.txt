@@ -1,4 +1,4 @@
-Generation: 299afef4da59e4c9
+Generation: 46474c7c1f2642bc
 
 [FRESH]
 やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
@@ -84,16 +84,16 @@ Generation: 299afef4da59e4c9
 明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
 
 [MATURE]
-どんな — what kind of... | スミスさんはどんな人ですか。 — What kind of person is Smith-san?
-意味 — meaning, significance | 意味が分かりません。 — I don't understand what you mean.
-言葉 — word, language | この言葉の意味が分かりません。 — I don't understand the meaning of this word.
-心配 — worry | 母が心配しています。 — My mother is worried.
-様子 — appearance, state | 彼女の様子を見てきます。 — I'm going to see how she's doing.
-信じる — to believe, to trust | 彼の言葉を信じています。 — I believe his words.
-自分 — self, oneself | 分からない言葉は自分で調べてください。 — Please look up any words you don't know on your own.
-調べる — look up, search | 分からない言葉は自分で調べてください。 — Please look up any words you don't know on your own.
-申し訳ない — sorry, inexcusable | 彼には申し訳ないことをした。 — I did something inexcusable to him.
-とても — very | この本はとても面白い。 — This book is very interesting.
+住む — live, reside | 家族はタイに住んでいます。 — My family lives in Thailand.
+大きな — big, large | 大きな家に住みたい。 — I want to live in a big house.
+大きい — big, large | 彼は大きい家に住んでいる。 — He lives in a big house.
+目 — eye | ララちゃんは目が大きいです。 — Lara-chan has big eyes.
+手 — hand | 分かった人は手を上げてください。 — The people who understood, please raise your hand.
+上げる — raise, increase | 分かった人は手を上げてください。 — The people who understood, please raise your hand.
+嫌い — dislike | 私はタバコが嫌いです。 — I hate cigarettes.
+おじいさん — grandfather | おじいさんはジョギングが嫌いです。 — My grandfather dislikes jogging.
+おばあさん — grandmother | 彼女はおばあさんと住んでいる。 — She lives with her grandmother.
+元気 — energetic, healthy | スミスさんのおばあさんは元気です。 — Smith-san's grandmother is doing well.
 
 [KNOWN WORDS]
-私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、同じ、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
+私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、声、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
