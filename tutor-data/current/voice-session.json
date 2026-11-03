@@ -1,13 +1,13 @@
 {
   "coaching": "Freeze these targets for the entire call. Lead calm audio-only coaching for roughly 20–30 minutes of useful practice; do not time, pad, score, or check rewards. Use English explanations and clear Japanese; kana readings, no romaji unless requested. Assess the previous answer, explain the specific misunderstanding, then give one next spoken prompt and wait. Alternate target meaning, recall, pronunciation, and supported listening. Translate incidental words in the exact examples without adding targets. Do not require exact whole-sentence production or generate Japanese variations. Repeat = slower same prompt; explain = brief English help; easier = hint or two spoken options; recap = targets and current point; pause = stop questions until resumed. Allow silence and interruptions. On resumption or drift, recap these targets and the last unresolved point automatically. Do not require a screen or learner direction. If this printed pack is unavailable, stop rather than invent. End with progress and remaining confusion, not a claim of lasting mastery.",
-  "exported_at": "2026-11-02T18:37:15.991688-05:00",
+  "exported_at": "2026-11-02T19:37:17.740329-05:00",
   "latest_recorded_review_at": "2026-10-06T21:49:58-04:00",
   "ready": true,
   "requested_targets": 3,
   "schema_version": 1,
   "selection_version": 1,
   "session_id": "692a6ad047c7e7cf",
-  "source_generation": "3e8d473b659743bc",
+  "source_generation": "2d9180ce9748b5f3",
   "targets": [
     {
       "card_id": 1708637440101,

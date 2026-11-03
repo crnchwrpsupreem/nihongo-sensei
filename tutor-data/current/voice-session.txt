@@ -1,7 +1,7 @@
 FOCUSED VOICE SESSION
 Session: 692a6ad047c7e7cf
-Source generation: 3e8d473b659743bc
-Exported: 2026-11-02T18:37:15.991688-05:00
+Source generation: 2d9180ce9748b5f3
+Exported: 2026-11-02T19:37:17.740329-05:00
 Latest recorded review in source: 2026-10-06T21:49:58-04:00
 Export freshness is not the date of study; difficulty describes recorded attempts.
 
