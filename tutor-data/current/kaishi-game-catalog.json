@@ -30152,7 +30152,7 @@
   "deduplicated": false,
   "eligibility_rule": "Active review card, interval >=21 days, latest scheduled rating Hard/Good/Easy",
   "eligible_card_count": 175,
-  "generated_at": "2026-11-03T08:37:18.118004+00:00",
+  "generated_at": "2026-11-03T09:37:19.051784+00:00",
   "order": "Ascending stable Anki card ID (creation/import sequence), never current due-date order",
   "privacy": {
     "contains_all_kaishi_card_text": true,
