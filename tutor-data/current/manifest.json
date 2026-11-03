@@ -8,44 +8,44 @@
   "deck_root": "日本語",
   "files": {
     "card-index.json": {
-      "bytes": 222550,
-      "sha256": "69c925607f1f6edb3d6e11ffb5f4b8cd656ca7d1f834d1bd536bc26cf6a8c29f"
+      "bytes": 222552,
+      "sha256": "a3736356e9c0f4b9d2a0e7579619196fa02ff883d099bad0d6903c7674055f8a"
     },
     "cards-0001.json": {
-      "bytes": 690802,
-      "sha256": "72655c7305563dc3445f6ea82982560aa201798df484e4ddcb9e13981c5aa22a"
+      "bytes": 690801,
+      "sha256": "e7b44b7017317fb211837efdcfe724e47f4ecab1e4f976981f216d33170b5c89"
     },
     "cards-0002.json": {
-      "bytes": 717096,
-      "sha256": "fdbf43fc0fa68079cd3bec679ed8a91a550f6ddcc0e8f627688a19778dbd3c96"
+      "bytes": 717099,
+      "sha256": "74bd68b77dd4a92a47d338ba3b61979141681c8800a5ca65dc32115c3e80dd89"
     },
     "cards-0003.json": {
       "bytes": 384273,
-      "sha256": "2b16204dcbeba34cde0203f60753e1b61b85a0d15a7ad7a8750a8441a89746ca"
+      "sha256": "7d26f64990bd33f6c6e68439745b2c404b4e9e5bca44c61a5ea1f481c28601a3"
     },
     "lesson-brief.md": {
       "bytes": 1006,
-      "sha256": "344775e35d479ae335b26adf675cf046d9b60f3b6791c77172b4ca71aa6ab802"
+      "sha256": "52a6d0907096b60549ed1e651d243e3b39392709ecfe5a16c5e7e8cd7904194b"
     },
     "tutor-policy.json": {
       "bytes": 3013,
-      "sha256": "df01a5f1737937e2ac78cdadc50bf613404f08bd6baaf854ca150319ef8777a4"
+      "sha256": "510e29328db8ae8ca38ba7c4c49f539e0e007c5387a97f9c719c49d522e1e574"
     },
     "voice-corpus.txt": {
-      "bytes": 10787,
-      "sha256": "0a5772efaff79d23953c85c5f680fb3f4528ffec49ef460ca8b5cfd3c85bd408"
+      "bytes": 10812,
+      "sha256": "49bc7d990b99fb362869c0ba3c710469a467400d017a94eeb6b43164cdfff42b"
     },
     "voice-session.json": {
       "bytes": 2794,
-      "sha256": "8a7b47f5cf63d65126ab23e9a0beadc3686ec63f792cc12953b5692ddec553f4"
+      "sha256": "7e1b3cfe007bf42a06d914927ab3a947aa128f75bd016a561439144670d9468a"
     },
     "voice-session.txt": {
       "bytes": 2063,
-      "sha256": "e70afe7f88b202b4cac9b35ad3291a37390dc0ac1ea110ab16fb4c969305a2f8"
+      "sha256": "8e8291171805f3704606dc95bafdc1383516dc3f917ae8690ee09aa502df6905"
     }
   },
-  "generated_at": "2026-11-02T23:37:26.997986-05:00",
-  "generation_id": "69c925607f1f6edb",
+  "generated_at": "2026-11-03T00:37:14.915015-05:00",
+  "generation_id": "a3736356e9c0f4b9",
   "privacy": {
     "contains_anki_media": false,
     "contains_card_text": true,
@@ -54,7 +54,7 @@
     "contains_source_machine_paths": false,
     "public_repository": true
   },
-  "published_at": "2026-11-02T23:37:27.609644-05:00",
+  "published_at": "2026-11-03T00:37:15.520614-05:00",
   "ready": true,
   "review_event_count": 1478,
   "reviewed_card_count": 256,
@@ -62,7 +62,7 @@
   "voice_corpus": {
     "file": "voice-corpus.txt",
     "fresh": 49,
-    "known_words": 160,
+    "known_words": 161,
     "mature": 10,
     "reinforce": 30
   },
