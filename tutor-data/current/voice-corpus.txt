@@ -1,4 +1,4 @@
-Generation: 3cc944bb0aa728d3
+Generation: 681967d0da1bc268
 
 [FRESH]
 やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
@@ -84,16 +84,16 @@ Generation: 3cc944bb0aa728d3
 明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
 
 [MATURE]
-仕事 — work, job | 父の仕事を手伝います。 — I help with my father's work.
-続ける — to continue, to keep up | 仕事を続けてください。 — Please continue your work.
-見せる — to show | あのカメラを見せてください。 — Please show me that camera.
-忘れる — to forget | 約束を忘れないでください。 — Please don't forget your promise.
-変える — to change, to alter | 約束の時間を変えます。 — I will change the time of the appointment.
-さっき — (only) a moment ago | さっきの話を続けましょう。 — Let's continue the conversation we had earlier.
-止める — to stop (doing something) | 話すのを止めてください。 — Please stop talking.
-なるほど — I see, really | なるほど、よく分かりました。 — I see, I understand quite well.
-つまり — in short, basically | つまり、あなたは何も知らないのですね。 — So, basically, you don't know anything.
-嫌 — disliking, unwilling (to do) | 私は待つのが嫌だ。 — I dislike waiting.
+会う — meet | 明日、彼と会います。 — I will meet him tomorrow.
+次 — next, subsequent | 次はいつ会いましょうか。 — When next shall we meet?
+方 — direction, side | 彼は私の方を見ました。 — He looked in my direction.
+方 — person (polite form) | 次の方、どうぞ。 — The next person, please.
+聞く — hear | 彼女はラジオを聞いています。 — She's listening to the radio.
+よく — well | よく分かりました。 — I understood well.
+考える — think, consider | よく考えてください。 — Please think carefully.
+ありがとうございます — thank you (formal) | そうですか。分かりました。ありがとうございます。 — Is that so? I understand. Thank you.
+話す — talk, speak | 先生と日本語で話します。 — I speak Japanese with the teacher.
+言う — say | ゆっくり言ってください。 — Please say it slowly.
 
 [KNOWN WORDS]
-私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、うち、守る、止める、国、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
+私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、聞く、お願いします、分かる、よく、もっと、ゆっくり、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
