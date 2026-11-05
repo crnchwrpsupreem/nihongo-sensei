@@ -1,4 +1,4 @@
-Generation: 95bbcefc0f5839b2
+Generation: 10bf3ca08e6d4c42
 
 [FRESH]
 やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
@@ -84,16 +84,16 @@ Generation: 95bbcefc0f5839b2
 明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
 
 [MATURE]
-会う — meet | 明日、彼と会います。 — I will meet him tomorrow.
-次 — next, subsequent | 次はいつ会いましょうか。 — When next shall we meet?
-方 — direction, side | 彼は私の方を見ました。 — He looked in my direction.
-方 — person (polite form) | 次の方、どうぞ。 — The next person, please.
-聞く — hear | 彼女はラジオを聞いています。 — She's listening to the radio.
-よく — well | よく分かりました。 — I understood well.
-考える — think, consider | よく考えてください。 — Please think carefully.
-ありがとうございます — thank you (formal) | そうですか。分かりました。ありがとうございます。 — Is that so? I understand. Thank you.
-話す — talk, speak | 先生と日本語で話します。 — I speak Japanese with the teacher.
-言う — say | ゆっくり言ってください。 — Please say it slowly.
+名前 — name | あなたの名前を教えてください。 — Please tell me your name.
+教える — teach, tell | あなたの名前を教えてください。 — Please tell me your name.
+ここ — here | ここに本があります。 — There's a book here.
+そこ — there | そこはトイレです。 — There is the bathroom.
+どこ — where | あの本をどこに置きましたか。 — Where did you put that book?
+置く — put, place | あの本をどこに置きましたか。 — Where did you put that book?
+家 — house, home | ここが私の家です。 — This is my house.
+彼女 — she, her, girlfriend | 彼女の名前を知っていますか。 — Do you know her name?
+ちゃん — chan | 彼女はララちゃんです。 — She is Lara-chan.
+はい — yes (polite) | A「山田さんですか。」 B「はい。」 — A: Are you Yamada-san? B: Yes, I am.
 
 [KNOWN WORDS]
-私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、話、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、聞く、お願いします、分かる、よく、もっと、ゆっくり、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
+私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、あそこ、帰る、話、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える

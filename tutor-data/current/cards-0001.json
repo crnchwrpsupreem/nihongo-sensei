@@ -199,7 +199,7 @@
         "data": "{\"pos\":4,\"decay\":0.154,\"lrt\":1791129556}",
         "due_interpreted": {
           "date": "2026-12-16",
-          "days_from_today": 42,
+          "days_from_today": 41,
           "kind": "day"
         },
         "due_raw": 117,
@@ -433,7 +433,7 @@
         "data": "{\"pos\":5,\"decay\":0.154,\"lrt\":1791129666}",
         "due_interpreted": {
           "date": "2026-12-17",
-          "days_from_today": 43,
+          "days_from_today": 42,
           "kind": "day"
         },
         "due_raw": 118,
@@ -658,7 +658,7 @@
         "data": "{\"pos\":6,\"decay\":0.154,\"lrt\":1791130061}",
         "due_interpreted": {
           "date": "2026-12-19",
-          "days_from_today": 45,
+          "days_from_today": 44,
           "kind": "day"
         },
         "due_raw": 120,
@@ -696,7 +696,7 @@
     {
       "assessment": {
         "strength": 38.69,
-        "weakness": 5.8
+        "weakness": 6.0
       },
       "card_id": 1708637439857,
       "current_deck": {
@@ -875,7 +875,7 @@
         "data": "{\"pos\":7,\"decay\":0.154,\"lrt\":1788816414}",
         "due_interpreted": {
           "date": "2026-10-06",
-          "days_from_today": -29,
+          "days_from_today": -30,
           "kind": "day"
         },
         "due_raw": 46,
@@ -913,7 +913,7 @@
     {
       "assessment": {
         "strength": 40.96,
-        "weakness": 3.0
+        "weakness": 3.2
       },
       "card_id": 1708637439858,
       "current_deck": {
@@ -1092,7 +1092,7 @@
         "data": "{\"pos\":8,\"decay\":0.154,\"lrt\":1789228331}",
         "due_interpreted": {
           "date": "2026-10-20",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "due_raw": 60,
@@ -1326,7 +1326,7 @@
         "data": "{\"pos\":9,\"decay\":0.154,\"lrt\":1791128836}",
         "due_interpreted": {
           "date": "2026-12-12",
-          "days_from_today": 38,
+          "days_from_today": 37,
           "kind": "day"
         },
         "due_raw": 113,
@@ -1551,7 +1551,7 @@
         "data": "{\"pos\":10,\"decay\":0.154,\"lrt\":1791129867}",
         "due_interpreted": {
           "date": "2026-12-18",
-          "days_from_today": 44,
+          "days_from_today": 43,
           "kind": "day"
         },
         "due_raw": 119,
@@ -1785,7 +1785,7 @@
         "data": "{\"pos\":11,\"decay\":0.154,\"lrt\":1791129955}",
         "due_interpreted": {
           "date": "2026-12-20",
-          "days_from_today": 46,
+          "days_from_today": 45,
           "kind": "day"
         },
         "due_raw": 121,
@@ -2019,7 +2019,7 @@
         "data": "{\"pos\":12,\"decay\":0.154,\"lrt\":1791130065}",
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 39,
+          "days_from_today": 38,
           "kind": "day"
         },
         "due_raw": 114,
@@ -2048,7 +2048,7 @@
     {
       "assessment": {
         "strength": 39.25,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637439863,
       "current_deck": {
@@ -2227,7 +2227,7 @@
         "data": "{\"pos\":13,\"decay\":0.154,\"lrt\":1788868555}",
         "due_interpreted": {
           "date": "2026-10-09",
-          "days_from_today": -26,
+          "days_from_today": -27,
           "kind": "day"
         },
         "due_raw": 49,
@@ -2461,7 +2461,7 @@
         "data": "{\"pos\":14,\"decay\":0.154,\"lrt\":1791130068}",
         "due_interpreted": {
           "date": "2026-12-15",
-          "days_from_today": 41,
+          "days_from_today": 40,
           "kind": "day"
         },
         "due_raw": 116,
@@ -2695,7 +2695,7 @@
         "data": "{\"pos\":15,\"decay\":0.154,\"lrt\":1791129703}",
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 39,
+          "days_from_today": 38,
           "kind": "day"
         },
         "due_raw": 114,
@@ -2733,7 +2733,7 @@
     {
       "assessment": {
         "strength": 38.98,
-        "weakness": 5.6
+        "weakness": 5.8
       },
       "card_id": 1708637439866,
       "current_deck": {
@@ -2912,7 +2912,7 @@
         "data": "{\"pos\":16,\"decay\":0.154,\"lrt\":1788814982}",
         "due_interpreted": {
           "date": "2026-10-07",
-          "days_from_today": -28,
+          "days_from_today": -29,
           "kind": "day"
         },
         "due_raw": 47,
@@ -3146,7 +3146,7 @@
         "data": "{\"pos\":17,\"decay\":0.154,\"lrt\":1791129610}",
         "due_interpreted": {
           "date": "2026-12-06",
-          "days_from_today": 32,
+          "days_from_today": 31,
           "kind": "day"
         },
         "due_raw": 107,
@@ -3184,7 +3184,7 @@
     {
       "assessment": {
         "strength": 39.52,
-        "weakness": 5.0
+        "weakness": 5.2
       },
       "card_id": 1708637439868,
       "current_deck": {
@@ -3363,7 +3363,7 @@
         "data": "{\"pos\":18,\"decay\":0.154,\"lrt\":1788868838}",
         "due_interpreted": {
           "date": "2026-10-10",
-          "days_from_today": -25,
+          "days_from_today": -26,
           "kind": "day"
         },
         "due_raw": 50,
@@ -3401,7 +3401,7 @@
     {
       "assessment": {
         "strength": 39.25,
-        "weakness": 5.4
+        "weakness": 5.6
       },
       "card_id": 1708637439869,
       "current_deck": {
@@ -3580,7 +3580,7 @@
         "data": "{\"pos\":19,\"decay\":0.154,\"lrt\":1788815597}",
         "due_interpreted": {
           "date": "2026-10-08",
-          "days_from_today": -27,
+          "days_from_today": -28,
           "kind": "day"
         },
         "due_raw": 48,
@@ -3814,7 +3814,7 @@
         "data": "{\"pos\":20,\"decay\":0.154,\"lrt\":1791129900}",
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 34,
+          "days_from_today": 33,
           "kind": "day"
         },
         "due_raw": 109,
@@ -3852,7 +3852,7 @@
     {
       "assessment": {
         "strength": 39.52,
-        "weakness": 4.2
+        "weakness": 4.4
       },
       "card_id": 1708637439871,
       "current_deck": {
@@ -4031,7 +4031,7 @@
         "data": "{\"pos\":21,\"decay\":0.154,\"lrt\":1789228414}",
         "due_interpreted": {
           "date": "2026-10-14",
-          "days_from_today": -21,
+          "days_from_today": -22,
           "kind": "day"
         },
         "due_raw": 54,
@@ -4265,7 +4265,7 @@
         "data": "{\"pos\":22,\"decay\":0.154,\"lrt\":1791128983}",
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 39,
+          "days_from_today": 38,
           "kind": "day"
         },
         "due_raw": 114,
@@ -4499,7 +4499,7 @@
         "data": "{\"pos\":23,\"decay\":0.154,\"lrt\":1791129113}",
         "due_interpreted": {
           "date": "2026-12-15",
-          "days_from_today": 41,
+          "days_from_today": 40,
           "kind": "day"
         },
         "due_raw": 116,
@@ -4716,7 +4716,7 @@
         "data": "{\"pos\":24,\"decay\":0.154,\"lrt\":1791128637}",
         "due_interpreted": {
           "date": "2026-12-11",
-          "days_from_today": 37,
+          "days_from_today": 36,
           "kind": "day"
         },
         "due_raw": 112,
@@ -4950,7 +4950,7 @@
         "data": "{\"pos\":25,\"decay\":0.154,\"lrt\":1791130008}",
         "due_interpreted": {
           "date": "2026-12-03",
-          "days_from_today": 29,
+          "days_from_today": 28,
           "kind": "day"
         },
         "due_raw": 104,
@@ -5167,7 +5167,7 @@
         "data": "{\"pos\":26,\"decay\":0.154,\"lrt\":1790518651}",
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": 13,
+          "days_from_today": 12,
           "kind": "day"
         },
         "due_raw": 88,
@@ -5401,7 +5401,7 @@
         "data": "{\"pos\":27,\"decay\":0.154,\"lrt\":1791129659}",
         "due_interpreted": {
           "date": "2026-11-23",
-          "days_from_today": 19,
+          "days_from_today": 18,
           "kind": "day"
         },
         "due_raw": 94,
@@ -5618,7 +5618,7 @@
         "data": "{\"pos\":28,\"decay\":0.154,\"lrt\":1790518907}",
         "due_interpreted": {
           "date": "2026-11-22",
-          "days_from_today": 18,
+          "days_from_today": 17,
           "kind": "day"
         },
         "due_raw": 93,
@@ -5656,7 +5656,7 @@
     {
       "assessment": {
         "strength": 38.77,
-        "weakness": 2.6
+        "weakness": 2.8
       },
       "card_id": 1708637439879,
       "current_deck": {
@@ -5835,7 +5835,7 @@
         "data": "{\"pos\":29,\"decay\":0.154,\"lrt\":1790518940}",
         "due_interpreted": {
           "date": "2026-11-01",
-          "days_from_today": -3,
+          "days_from_today": -4,
           "kind": "day"
         },
         "due_raw": 72,
@@ -6052,7 +6052,7 @@
         "data": "{\"pos\":30,\"decay\":0.154,\"lrt\":1791128049}",
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 34,
+          "days_from_today": 33,
           "kind": "day"
         },
         "due_raw": 109,
@@ -6090,7 +6090,7 @@
     {
       "assessment": {
         "strength": 38.69,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637439881,
       "current_deck": {
@@ -6269,7 +6269,7 @@
         "data": "{\"pos\":31,\"decay\":0.154,\"lrt\":1789228559}",
         "due_interpreted": {
           "date": "2026-10-11",
-          "days_from_today": -24,
+          "days_from_today": -25,
           "kind": "day"
         },
         "due_raw": 51,
@@ -6307,7 +6307,7 @@
     {
       "assessment": {
         "strength": 38.98,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637439882,
       "current_deck": {
@@ -6486,7 +6486,7 @@
         "data": "{\"pos\":32,\"decay\":0.154,\"lrt\":1789229350}",
         "due_interpreted": {
           "date": "2026-10-12",
-          "days_from_today": -23,
+          "days_from_today": -24,
           "kind": "day"
         },
         "due_raw": 52,
@@ -6720,7 +6720,7 @@
         "data": "{\"pos\":33,\"decay\":0.154,\"lrt\":1791129708}",
         "due_interpreted": {
           "date": "2026-11-29",
-          "days_from_today": 25,
+          "days_from_today": 24,
           "kind": "day"
         },
         "due_raw": 100,
@@ -6937,7 +6937,7 @@
         "data": "{\"pos\":34,\"decay\":0.154,\"lrt\":1790518672}",
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": 11,
+          "days_from_today": 10,
           "kind": "day"
         },
         "due_raw": 86,
@@ -6975,7 +6975,7 @@
     {
       "assessment": {
         "strength": 36.36,
-        "weakness": 4.0
+        "weakness": 4.2
       },
       "card_id": 1708637439885,
       "current_deck": {
@@ -7171,7 +7171,7 @@
         "data": "{\"pos\":35,\"decay\":0.154,\"lrt\":1791128566}",
         "due_interpreted": {
           "date": "2026-10-25",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "due_raw": 65,
@@ -7405,7 +7405,7 @@
         "data": "{\"pos\":36,\"decay\":0.154,\"lrt\":1791244741}",
         "due_interpreted": {
           "date": "2026-12-16",
-          "days_from_today": 42,
+          "days_from_today": 41,
           "kind": "day"
         },
         "due_raw": 117,
@@ -7443,7 +7443,7 @@
     {
       "assessment": {
         "strength": 40.03,
-        "weakness": 3.8
+        "weakness": 4.0
       },
       "card_id": 1708637439887,
       "current_deck": {
@@ -7622,7 +7622,7 @@
         "data": "{\"pos\":37,\"decay\":0.154,\"lrt\":1789229885}",
         "due_interpreted": {
           "date": "2026-10-16",
-          "days_from_today": -19,
+          "days_from_today": -20,
           "kind": "day"
         },
         "due_raw": 56,
@@ -7660,7 +7660,7 @@
     {
       "assessment": {
         "strength": 40.03,
-        "weakness": 3.8
+        "weakness": 4.0
       },
       "card_id": 1708637439888,
       "current_deck": {
@@ -7839,7 +7839,7 @@
         "data": "{\"pos\":38,\"decay\":0.154,\"lrt\":1789228799}",
         "due_interpreted": {
           "date": "2026-10-16",
-          "days_from_today": -19,
+          "days_from_today": -20,
           "kind": "day"
         },
         "due_raw": 56,
@@ -8056,7 +8056,7 @@
         "data": "{\"pos\":39,\"decay\":0.154,\"lrt\":1791129031}",
         "due_interpreted": {
           "date": "2026-12-10",
-          "days_from_today": 36,
+          "days_from_today": 35,
           "kind": "day"
         },
         "due_raw": 111,
@@ -8273,7 +8273,7 @@
         "data": "{\"pos\":40,\"decay\":0.154,\"lrt\":1790518745}",
         "due_interpreted": {
           "date": "2026-11-20",
-          "days_from_today": 16,
+          "days_from_today": 15,
           "kind": "day"
         },
         "due_raw": 91,
@@ -8481,7 +8481,7 @@
         "data": "{\"pos\":41,\"decay\":0.154,\"lrt\":1790519081}",
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": 14,
+          "days_from_today": 13,
           "kind": "day"
         },
         "due_raw": 89,
@@ -8698,7 +8698,7 @@
         "data": "{\"pos\":42,\"decay\":0.154,\"lrt\":1791127709}",
         "due_interpreted": {
           "date": "2026-12-05",
-          "days_from_today": 31,
+          "days_from_today": 30,
           "kind": "day"
         },
         "due_raw": 106,
@@ -8736,7 +8736,7 @@
     {
       "assessment": {
         "strength": 40.27,
-        "weakness": 3.6
+        "weakness": 3.8
       },
       "card_id": 1708637439893,
       "current_deck": {
@@ -8915,7 +8915,7 @@
         "data": "{\"pos\":43,\"decay\":0.154,\"lrt\":1789228217}",
         "due_interpreted": {
           "date": "2026-10-17",
-          "days_from_today": -18,
+          "days_from_today": -19,
           "kind": "day"
         },
         "due_raw": 57,
@@ -9132,7 +9132,7 @@
         "data": "{\"pos\":44,\"decay\":0.154,\"lrt\":1790518736}",
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": 12,
+          "days_from_today": 11,
           "kind": "day"
         },
         "due_raw": 87,
@@ -9383,7 +9383,7 @@
         "data": "{\"pos\":45,\"decay\":0.154,\"lrt\":1791127978}",
         "due_interpreted": {
           "date": "2026-11-29",
-          "days_from_today": 25,
+          "days_from_today": 24,
           "kind": "day"
         },
         "due_raw": 100,
@@ -9625,7 +9625,7 @@
         "data": "{\"pos\":46,\"decay\":0.154,\"lrt\":1791128131}",
         "due_interpreted": {
           "date": "2026-12-06",
-          "days_from_today": 32,
+          "days_from_today": 31,
           "kind": "day"
         },
         "due_raw": 107,
@@ -9663,7 +9663,7 @@
     {
       "assessment": {
         "strength": 38.38,
-        "weakness": 9.8
+        "weakness": 10.0
       },
       "card_id": 1708637439897,
       "current_deck": {
@@ -9859,7 +9859,7 @@
         "data": "{\"pos\":47,\"decay\":0.154,\"lrt\":1789229316}",
         "due_interpreted": {
           "date": "2026-10-16",
-          "days_from_today": -19,
+          "days_from_today": -20,
           "kind": "day"
         },
         "due_raw": 56,
@@ -9897,7 +9897,7 @@
     {
       "assessment": {
         "strength": 39.77,
-        "weakness": 4.0
+        "weakness": 4.2
       },
       "card_id": 1708637439898,
       "current_deck": {
@@ -10076,7 +10076,7 @@
         "data": "{\"pos\":48,\"decay\":0.154,\"lrt\":1789228239}",
         "due_interpreted": {
           "date": "2026-10-15",
-          "days_from_today": -20,
+          "days_from_today": -21,
           "kind": "day"
         },
         "due_raw": 55,
@@ -10114,7 +10114,7 @@
     {
       "assessment": {
         "strength": 25.36,
-        "weakness": 15.6
+        "weakness": 15.8
       },
       "card_id": 1708637439899,
       "current_deck": {
@@ -10310,7 +10310,7 @@
         "data": "{\"pos\":49,\"decay\":0.154,\"lrt\":1790518765}",
         "due_interpreted": {
           "date": "2026-10-07",
-          "days_from_today": -28,
+          "days_from_today": -29,
           "kind": "day"
         },
         "due_raw": 47,
@@ -10527,7 +10527,7 @@
         "data": "{\"pos\":50,\"decay\":0.154,\"lrt\":1791128374}",
         "due_interpreted": {
           "date": "2026-12-10",
-          "days_from_today": 36,
+          "days_from_today": 35,
           "kind": "day"
         },
         "due_raw": 111,
@@ -10761,7 +10761,7 @@
         "data": "{\"pos\":51,\"decay\":0.154,\"lrt\":1791130037}",
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 30,
+          "days_from_today": 29,
           "kind": "day"
         },
         "due_raw": 105,
@@ -10978,7 +10978,7 @@
         "data": "{\"pos\":52,\"decay\":0.154,\"lrt\":1790519084}",
         "due_interpreted": {
           "date": "2026-11-19",
-          "days_from_today": 15,
+          "days_from_today": 14,
           "kind": "day"
         },
         "due_raw": 90,
@@ -11195,7 +11195,7 @@
         "data": "{\"pos\":53,\"decay\":0.154,\"lrt\":1791127879}",
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 30,
+          "days_from_today": 29,
           "kind": "day"
         },
         "due_raw": 105,
@@ -11429,7 +11429,7 @@
         "data": "{\"pos\":54,\"decay\":0.154,\"lrt\":1791128927}",
         "due_interpreted": {
           "date": "2026-12-07",
-          "days_from_today": 33,
+          "days_from_today": 32,
           "kind": "day"
         },
         "due_raw": 108,
@@ -11467,7 +11467,7 @@
     {
       "assessment": {
         "strength": 38.86,
-        "weakness": 9.4
+        "weakness": 9.6
       },
       "card_id": 1708637439905,
       "current_deck": {
@@ -11663,7 +11663,7 @@
         "data": "{\"pos\":55,\"decay\":0.154,\"lrt\":1789229334}",
         "due_interpreted": {
           "date": "2026-10-18",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "due_raw": 58,
@@ -11701,7 +11701,7 @@
     {
       "assessment": {
         "strength": 40.51,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439906,
       "current_deck": {
@@ -11880,7 +11880,7 @@
         "data": "{\"pos\":56,\"decay\":0.154,\"lrt\":1789228856}",
         "due_interpreted": {
           "date": "2026-10-18",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "due_raw": 58,
@@ -11918,7 +11918,7 @@
     {
       "assessment": {
         "strength": 34.94,
-        "weakness": 8.8
+        "weakness": 9.0
       },
       "card_id": 1708637439907,
       "current_deck": {
@@ -12114,7 +12114,7 @@
         "data": "{\"pos\":57,\"decay\":0.154,\"lrt\":1791128155}",
         "due_interpreted": {
           "date": "2026-10-31",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "due_raw": 71,
@@ -12152,7 +12152,7 @@
     {
       "assessment": {
         "strength": 37.87,
-        "weakness": 10.2
+        "weakness": 10.4
       },
       "card_id": 1708637439908,
       "current_deck": {
@@ -12348,7 +12348,7 @@
         "data": "{\"pos\":58,\"decay\":0.154,\"lrt\":1789229863}",
         "due_interpreted": {
           "date": "2026-10-14",
-          "days_from_today": -21,
+          "days_from_today": -22,
           "kind": "day"
         },
         "due_raw": 54,
@@ -12582,7 +12582,7 @@
         "data": "{\"pos\":59,\"decay\":0.154,\"lrt\":1791128978}",
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": 17,
+          "days_from_today": 16,
           "kind": "day"
         },
         "due_raw": 92,
@@ -12816,7 +12816,7 @@
         "data": "{\"pos\":60,\"decay\":0.154,\"lrt\":1791128776}",
         "due_interpreted": {
           "date": "2026-12-12",
-          "days_from_today": 38,
+          "days_from_today": 37,
           "kind": "day"
         },
         "due_raw": 113,
@@ -12854,7 +12854,7 @@
     {
       "assessment": {
         "strength": 28.79,
-        "weakness": 26.0
+        "weakness": 26.2
       },
       "card_id": 1708637439911,
       "current_deck": {
@@ -13084,7 +13084,7 @@
         "data": "{\"pos\":61,\"decay\":0.154,\"lrt\":1790519880}",
         "due_interpreted": {
           "date": "2026-10-15",
-          "days_from_today": -20,
+          "days_from_today": -21,
           "kind": "day"
         },
         "due_raw": 55,
@@ -13122,7 +13122,7 @@
     {
       "assessment": {
         "strength": 38.09,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637439912,
       "current_deck": {
@@ -13301,7 +13301,7 @@
         "data": "{\"pos\":62,\"decay\":0.154,\"lrt\":1789229126}",
         "due_interpreted": {
           "date": "2026-10-09",
-          "days_from_today": -26,
+          "days_from_today": -27,
           "kind": "day"
         },
         "due_raw": 49,
@@ -13535,7 +13535,7 @@
         "data": "{\"pos\":63,\"decay\":0.154,\"lrt\":1791128962}",
         "due_interpreted": {
           "date": "2026-12-09",
-          "days_from_today": 35,
+          "days_from_today": 34,
           "kind": "day"
         },
         "due_raw": 110,
@@ -13769,7 +13769,7 @@
         "data": "{\"pos\":64,\"decay\":0.154,\"lrt\":1791337573}",
         "due_interpreted": {
           "date": "2026-12-18",
-          "days_from_today": 44,
+          "days_from_today": 43,
           "kind": "day"
         },
         "due_raw": 119,
@@ -14003,7 +14003,7 @@
         "data": "{\"pos\":65,\"decay\":0.154,\"lrt\":1791128382}",
         "due_interpreted": {
           "date": "2026-12-09",
-          "days_from_today": 35,
+          "days_from_today": 34,
           "kind": "day"
         },
         "due_raw": 110,
@@ -14220,7 +14220,7 @@
         "data": "{\"pos\":66,\"decay\":0.154,\"lrt\":1791129554}",
         "due_interpreted": {
           "date": "2026-12-14",
-          "days_from_today": 40,
+          "days_from_today": 39,
           "kind": "day"
         },
         "due_raw": 115,
@@ -14471,7 +14471,7 @@
         "data": "{\"pos\":67,\"decay\":0.154,\"lrt\":1791130078}",
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 34,
+          "days_from_today": 33,
           "kind": "day"
         },
         "due_raw": 109,
@@ -14705,7 +14705,7 @@
         "data": "{\"pos\":68,\"decay\":0.154,\"lrt\":1791129697}",
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 30,
+          "days_from_today": 29,
           "kind": "day"
         },
         "due_raw": 105,
@@ -14939,7 +14939,7 @@
         "data": "{\"pos\":69,\"decay\":0.154,\"lrt\":1791128182}",
         "due_interpreted": {
           "date": "2026-11-30",
-          "days_from_today": 26,
+          "days_from_today": 25,
           "kind": "day"
         },
         "due_raw": 101,
@@ -14977,7 +14977,7 @@
     {
       "assessment": {
         "strength": 38.98,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637439920,
       "current_deck": {
@@ -15156,7 +15156,7 @@
         "data": "{\"pos\":70,\"decay\":0.154,\"lrt\":1789230181}",
         "due_interpreted": {
           "date": "2026-10-12",
-          "days_from_today": -23,
+          "days_from_today": -24,
           "kind": "day"
         },
         "due_raw": 52,
@@ -15194,7 +15194,7 @@
     {
       "assessment": {
         "strength": 40.27,
-        "weakness": 3.6
+        "weakness": 3.8
       },
       "card_id": 1708637439921,
       "current_deck": {
@@ -15373,7 +15373,7 @@
         "data": "{\"pos\":71,\"decay\":0.154,\"lrt\":1789229986}",
         "due_interpreted": {
           "date": "2026-10-17",
-          "days_from_today": -18,
+          "days_from_today": -19,
           "kind": "day"
         },
         "due_raw": 57,
@@ -15411,7 +15411,7 @@
     {
       "assessment": {
         "strength": 39.77,
-        "weakness": 4.0
+        "weakness": 4.2
       },
       "card_id": 1708637439922,
       "current_deck": {
@@ -15590,7 +15590,7 @@
         "data": "{\"pos\":72,\"decay\":0.154,\"lrt\":1789229008}",
         "due_interpreted": {
           "date": "2026-10-15",
-          "days_from_today": -20,
+          "days_from_today": -21,
           "kind": "day"
         },
         "due_raw": 55,
@@ -15824,7 +15824,7 @@
         "data": "{\"pos\":73,\"decay\":0.154,\"lrt\":1791127990}",
         "due_interpreted": {
           "date": "2026-12-07",
-          "days_from_today": 33,
+          "days_from_today": 32,
           "kind": "day"
         },
         "due_raw": 108,
@@ -15862,7 +15862,7 @@
     {
       "assessment": {
         "strength": 39.25,
-        "weakness": 4.4
+        "weakness": 4.6
       },
       "card_id": 1708637439924,
       "current_deck": {
@@ -16041,7 +16041,7 @@
         "data": "{\"pos\":74,\"decay\":0.154,\"lrt\":1789228208}",
         "due_interpreted": {
           "date": "2026-10-13",
-          "days_from_today": -22,
+          "days_from_today": -23,
           "kind": "day"
         },
         "due_raw": 53,
@@ -16275,7 +16275,7 @@
         "data": "{\"pos\":75,\"decay\":0.154,\"lrt\":1791245013}",
         "due_interpreted": {
           "date": "2026-12-11",
-          "days_from_today": 37,
+          "days_from_today": 36,
           "kind": "day"
         },
         "due_raw": 112,
@@ -16492,7 +16492,7 @@
         "data": "{\"pos\":76,\"decay\":0.154,\"lrt\":1791129015}",
         "due_interpreted": {
           "date": "2026-12-05",
-          "days_from_today": 31,
+          "days_from_today": 30,
           "kind": "day"
         },
         "due_raw": 106,
@@ -16743,7 +16743,7 @@
         "data": "{\"pos\":77,\"decay\":0.154,\"lrt\":1791129286}",
         "due_interpreted": {
           "date": "2026-12-02",
-          "days_from_today": 28,
+          "days_from_today": 27,
           "kind": "day"
         },
         "due_raw": 103,
@@ -16781,7 +16781,7 @@
     {
       "assessment": {
         "strength": 39.04,
-        "weakness": 6.8
+        "weakness": 7.0
       },
       "card_id": 1708637439928,
       "current_deck": {
@@ -16977,7 +16977,7 @@
         "data": "{\"pos\":78,\"decay\":0.154,\"lrt\":1789229695}",
         "due_interpreted": {
           "date": "2026-10-11",
-          "days_from_today": -24,
+          "days_from_today": -25,
           "kind": "day"
         },
         "due_raw": 51,
@@ -17015,7 +17015,7 @@
     {
       "assessment": {
         "strength": 39.25,
-        "weakness": 4.4
+        "weakness": 4.6
       },
       "card_id": 1708637439929,
       "current_deck": {
@@ -17194,7 +17194,7 @@
         "data": "{\"pos\":79,\"decay\":0.154,\"lrt\":1789230124}",
         "due_interpreted": {
           "date": "2026-10-13",
-          "days_from_today": -22,
+          "days_from_today": -23,
           "kind": "day"
         },
         "due_raw": 53,
@@ -17445,7 +17445,7 @@
         "data": "{\"pos\":80,\"decay\":0.154,\"lrt\":1791129220}",
         "due_interpreted": {
           "date": "2026-12-01",
-          "days_from_today": 27,
+          "days_from_today": 26,
           "kind": "day"
         },
         "due_raw": 102,
@@ -17679,7 +17679,7 @@
         "data": "{\"pos\":81,\"decay\":0.154,\"lrt\":1791128970}",
         "due_interpreted": {
           "date": "2026-11-30",
-          "days_from_today": 26,
+          "days_from_today": 25,
           "kind": "day"
         },
         "due_raw": 101,
@@ -17913,7 +17913,7 @@
         "data": "{\"pos\":82,\"decay\":0.154,\"lrt\":1791127911}",
         "due_interpreted": {
           "date": "2026-12-01",
-          "days_from_today": 27,
+          "days_from_today": 26,
           "kind": "day"
         },
         "due_raw": 102,
@@ -17951,7 +17951,7 @@
     {
       "assessment": {
         "strength": 39.33,
-        "weakness": 6.6
+        "weakness": 6.8
       },
       "card_id": 1708637439933,
       "current_deck": {
@@ -18147,7 +18147,7 @@
         "data": "{\"pos\":83,\"decay\":0.154,\"lrt\":1789228812}",
         "due_interpreted": {
           "date": "2026-10-12",
-          "days_from_today": -23,
+          "days_from_today": -24,
           "kind": "day"
         },
         "due_raw": 52,
@@ -18381,7 +18381,7 @@
         "data": "{\"pos\":84,\"decay\":0.154,\"lrt\":1791127642}",
         "due_interpreted": {
           "date": "2026-12-02",
-          "days_from_today": 28,
+          "days_from_today": 27,
           "kind": "day"
         },
         "due_raw": 103,
@@ -18598,7 +18598,7 @@
         "data": "{\"pos\":85,\"decay\":0.154,\"lrt\":1790520036}",
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": 13,
+          "days_from_today": 12,
           "kind": "day"
         },
         "due_raw": 88,
@@ -18815,7 +18815,7 @@
         "data": "{\"pos\":86,\"decay\":0.154,\"lrt\":1791127517}",
         "due_interpreted": {
           "date": "2026-11-27",
-          "days_from_today": 23,
+          "days_from_today": 22,
           "kind": "day"
         },
         "due_raw": 98,
@@ -19032,7 +19032,7 @@
         "data": "{\"pos\":87,\"decay\":0.154,\"lrt\":1790520232}",
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": 14,
+          "days_from_today": 13,
           "kind": "day"
         },
         "due_raw": 89,
@@ -19240,7 +19240,7 @@
         "data": "{\"pos\":88,\"decay\":0.154,\"lrt\":1790520117}",
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "due_raw": 82,
@@ -19278,7 +19278,7 @@
     {
       "assessment": {
         "strength": 32.97,
-        "weakness": 10.4
+        "weakness": 10.6
       },
       "card_id": 1708637439939,
       "current_deck": {
@@ -19491,7 +19491,7 @@
         "data": "{\"pos\":89,\"decay\":0.154,\"lrt\":1790519936}",
         "due_interpreted": {
           "date": "2026-10-13",
-          "days_from_today": -22,
+          "days_from_today": -23,
           "kind": "day"
         },
         "due_raw": 53,
@@ -19725,7 +19725,7 @@
         "data": "{\"pos\":90,\"decay\":0.154,\"lrt\":1790519917}",
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "due_raw": 84,
@@ -19942,7 +19942,7 @@
         "data": "{\"pos\":91,\"decay\":0.154,\"lrt\":1790520065}",
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": 12,
+          "days_from_today": 11,
           "kind": "day"
         },
         "due_raw": 87,
@@ -20176,7 +20176,7 @@
         "data": "{\"pos\":92,\"decay\":0.154,\"lrt\":1791127498}",
         "due_interpreted": {
           "date": "2026-11-28",
-          "days_from_today": 24,
+          "days_from_today": 23,
           "kind": "day"
         },
         "due_raw": 99,
@@ -20384,7 +20384,7 @@
         "data": "{\"pos\":93,\"decay\":0.154,\"lrt\":1790520202}",
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": 10,
+          "days_from_today": 9,
           "kind": "day"
         },
         "due_raw": 85,
@@ -20422,7 +20422,7 @@
     {
       "assessment": {
         "strength": 38.1,
-        "weakness": 5.4
+        "weakness": 5.6
       },
       "card_id": 1708637439944,
       "current_deck": {
@@ -20618,7 +20618,7 @@
         "data": "{\"pos\":94,\"decay\":0.154,\"lrt\":1790518721}",
         "due_interpreted": {
           "date": "2026-10-28",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "due_raw": 68,
@@ -20852,7 +20852,7 @@
         "data": "{\"pos\":95,\"decay\":0.154,\"lrt\":1791128141}",
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "due_raw": 82,
@@ -21069,7 +21069,7 @@
         "data": "{\"pos\":96,\"decay\":0.154,\"lrt\":1791127493}",
         "due_interpreted": {
           "date": "2026-11-25",
-          "days_from_today": 21,
+          "days_from_today": 20,
           "kind": "day"
         },
         "due_raw": 96,
@@ -21320,7 +21320,7 @@
         "data": "{\"pos\":97,\"decay\":0.154,\"lrt\":1790519988}",
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": 11,
+          "days_from_today": 10,
           "kind": "day"
         },
         "due_raw": 86,
@@ -21554,7 +21554,7 @@
         "data": "{\"pos\":98,\"decay\":0.154,\"lrt\":1790520031}",
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "due_raw": 84,
@@ -21771,7 +21771,7 @@
         "data": "{\"pos\":99,\"decay\":0.154,\"lrt\":1791127705}",
         "due_interpreted": {
           "date": "2026-12-03",
-          "days_from_today": 29,
+          "days_from_today": 28,
           "kind": "day"
         },
         "due_raw": 104,
@@ -22022,7 +22022,7 @@
         "data": "{\"pos\":100,\"decay\":0.154,\"lrt\":1790519649}",
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "due_raw": 83,
@@ -22239,7 +22239,7 @@
         "data": "{\"pos\":101,\"decay\":0.154,\"lrt\":1790520080}",
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "due_raw": 80,
@@ -22456,7 +22456,7 @@
         "data": "{\"pos\":102,\"decay\":0.154,\"lrt\":1790519691}",
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "due_raw": 83,
@@ -22690,7 +22690,7 @@
         "data": "{\"pos\":103,\"decay\":0.154,\"lrt\":1790520060}",
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "due_raw": 84,
@@ -22726,7 +22726,7 @@
       }
     }
   ],
-  "generated_at": "2026-11-04T23:37:27.063386-05:00",
+  "generated_at": "2026-11-05T00:37:17.337488-05:00",
   "schema_version": 3,
   "shard_number": 1
 }
