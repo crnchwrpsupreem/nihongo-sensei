@@ -1,64 +1,64 @@
 {
   "coaching": "Freeze these targets for the entire call. Lead calm audio-only coaching for roughly 20–30 minutes of useful practice; do not time, pad, score, or check rewards. Use English explanations and clear Japanese; kana readings, no romaji unless requested. Assess the previous answer, explain the specific misunderstanding, then give one next spoken prompt and wait. Alternate target meaning, recall, pronunciation, and supported listening. Translate incidental words in the exact examples without adding targets. Do not require exact whole-sentence production or generate Japanese variations. Repeat = slower same prompt; explain = brief English help; easier = hint or two spoken options; recap = targets and current point; pause = stop questions until resumed. Allow silence and interruptions. On resumption or drift, recap these targets and the last unresolved point automatically. Do not require a screen or learner direction. If this printed pack is unavailable, stop rather than invent. End with progress and remaining confusion, not a claim of lasting mastery.",
-  "exported_at": "2026-11-05T18:37:34.164429-05:00",
-  "latest_recorded_review_at": "2026-10-06T21:49:58-04:00",
+  "exported_at": "2026-11-15T18:07:20.722664-05:00",
+  "latest_recorded_review_at": "2026-11-10T19:34:01-05:00",
   "ready": true,
   "requested_targets": 3,
   "schema_version": 1,
   "selection_version": 1,
-  "session_id": "692a6ad047c7e7cf",
-  "source_generation": "0c59ecaaa9c939c7",
+  "session_id": "eb1fca692603a366",
+  "source_generation": "03f8999a8de2a6aa",
   "targets": [
     {
-      "card_id": 1708637440101,
-      "example": "遠くに彼女の姿が見えた。",
-      "meaning": "figure, appearance",
-      "note_id": 1708637440101,
-      "reading": "すがた",
+      "card_id": 1708637439959,
+      "example": "彼は大きな声で話した。",
+      "meaning": "voice, sound",
+      "note_id": 1708637439959,
+      "reading": "こえ",
       "reason": {
         "again": 1,
         "attempts_counted": 5,
         "hard": 2,
         "lapses": 1,
         "last_rating": "again",
-        "last_reviewed_at": "2026-10-06T21:49:58-04:00"
+        "last_reviewed_at": "2026-11-10T19:28:42-05:00"
       },
-      "translation": "Her figure was visible from a distance.",
-      "word": "姿"
+      "translation": "He spoke with a loud voice.",
+      "word": "声"
     },
     {
-      "card_id": 1708637440050,
-      "example": "僕は君が大好きです。",
-      "meaning": "I (male)",
-      "note_id": 1708637440050,
-      "reading": "ぼく",
+      "card_id": 1708637440052,
+      "example": "水を飲みます。",
+      "meaning": "drink",
+      "note_id": 1708637440052,
+      "reading": "のむ",
       "reason": {
         "again": 1,
         "attempts_counted": 5,
-        "hard": 3,
+        "hard": 1,
         "lapses": 1,
-        "last_rating": "good",
-        "last_reviewed_at": "2026-10-05T20:25:06-04:00"
+        "last_rating": "again",
+        "last_reviewed_at": "2026-11-10T19:27:04-05:00"
       },
-      "translation": "I love you.",
-      "word": "僕"
+      "translation": "I drink water.",
+      "word": "飲む"
     },
     {
-      "card_id": 1708637440026,
-      "example": "昨日の夜は家にいました。",
-      "meaning": "evening, night",
-      "note_id": 1708637440026,
-      "reading": "よる",
+      "card_id": 1708637440029,
+      "example": "奴は人の言うことを聞かない。",
+      "meaning": "that guy, (s)he (usu. derogatory)",
+      "note_id": 1708637440029,
+      "reading": "やつ",
       "reason": {
         "again": 1,
         "attempts_counted": 5,
-        "hard": 3,
+        "hard": 1,
         "lapses": 1,
-        "last_rating": "good",
-        "last_reviewed_at": "2026-10-05T20:24:29-04:00"
+        "last_rating": "again",
+        "last_reviewed_at": "2026-11-10T19:23:09-05:00"
       },
-      "translation": "I was at home last night.",
-      "word": "夜"
+      "translation": "That guy doesn't listen to what others tell him.",
+      "word": "奴"
     }
   ]
 }

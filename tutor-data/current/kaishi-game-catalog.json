@@ -12,7 +12,7 @@
     {
       "all_cards_eligible": false,
       "card_count": 100,
-      "eligible_count": 97,
+      "eligible_count": 98,
       "first_position": 1,
       "last_position": 100,
       "previous_test_required": null,
@@ -21,7 +21,7 @@
     {
       "all_cards_eligible": false,
       "card_count": 100,
-      "eligible_count": 66,
+      "eligible_count": 71,
       "first_position": 101,
       "last_position": 200,
       "previous_test_required": 1,
@@ -30,7 +30,7 @@
     {
       "all_cards_eligible": false,
       "card_count": 100,
-      "eligible_count": 12,
+      "eligible_count": 17,
       "first_position": 201,
       "last_position": 300,
       "previous_test_required": 2,
@@ -212,7 +212,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
+        "interval_days": 116,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -232,8 +232,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 38,
-        "last_scheduled_rating": 3,
+        "interval_days": 45,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "like, fond of",
@@ -332,7 +332,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 119,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -392,7 +392,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 118,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -432,7 +432,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 32,
+        "interval_days": 124,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -452,7 +452,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 124,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -492,7 +492,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 32,
+        "interval_days": 115,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -692,8 +692,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
-        "last_scheduled_rating": 3,
+        "interval_days": 34,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "which one",
@@ -712,7 +712,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 108,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -772,8 +772,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 21,
-        "last_scheduled_rating": 2,
+        "interval_days": 72,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "do, make",
@@ -812,7 +812,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 34,
+        "interval_days": 115,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -832,7 +832,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 34,
+        "interval_days": 119,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -932,7 +932,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 35,
+        "interval_days": 112,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1012,7 +1012,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 34,
+        "interval_days": 114,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1032,8 +1032,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 33,
-        "last_scheduled_rating": 3,
+        "interval_days": 41,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "talk, story",
@@ -1052,8 +1052,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 10,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "know",
@@ -1172,7 +1172,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 36,
+        "interval_days": 119,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1192,7 +1192,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 36,
+        "interval_days": 119,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1232,7 +1232,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 32,
+        "interval_days": 113,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1291,8 +1291,8 @@
       "card_id": 1708637439911,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 18,
+        "eligible": true,
+        "interval_days": 22,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -1312,7 +1312,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 27,
+        "interval_days": 108,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1472,7 +1472,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 117,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1492,7 +1492,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 35,
+        "interval_days": 120,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1512,7 +1512,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 33,
+        "interval_days": 109,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1552,7 +1552,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 118,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1632,8 +1632,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
-        "last_scheduled_rating": 3,
+        "interval_days": 35,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "more, a bit more",
@@ -1652,7 +1652,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 110,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1732,7 +1732,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 117,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -1850,11 +1850,11 @@
     {
       "card_id": 1708637439939,
       "eligibility": {
-        "card_type": 2,
+        "card_type": 3,
         "eligible": false,
-        "interval_days": 16,
+        "interval_days": 1,
         "last_scheduled_rating": 2,
-        "queue": 2
+        "queue": 1
       },
       "meaning": "already, yet",
       "note_id": 1708637439939,
@@ -1952,7 +1952,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 77,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -2250,11 +2250,11 @@
     {
       "card_id": 1708637439959,
       "eligibility": {
-        "card_type": 2,
-        "eligible": true,
-        "interval_days": 27,
-        "last_scheduled_rating": 3,
-        "queue": 2
+        "card_type": 3,
+        "eligible": false,
+        "interval_days": 1,
+        "last_scheduled_rating": 1,
+        "queue": 1
       },
       "meaning": "voice, sound",
       "note_id": 1708637439959,
@@ -2411,9 +2411,9 @@
       "card_id": 1708637439967,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 11,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 66,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "always, usually",
@@ -2472,7 +2472,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 26,
+        "interval_days": 80,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -2551,9 +2551,9 @@
       "card_id": 1708637439974,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 15,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 73,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "room",
@@ -2732,8 +2732,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 12,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "who",
@@ -2931,9 +2931,9 @@
       "card_id": 1708637439993,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 17,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 66,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "thing, incident",
@@ -2952,7 +2952,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 27,
+        "interval_days": 78,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -2992,8 +2992,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 14,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "of course, no doubt",
@@ -3032,7 +3032,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 12,
+        "interval_days": 15,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3091,9 +3091,9 @@
       "card_id": 1708637440001,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 13,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 62,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "busy, occupied",
@@ -3172,8 +3172,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 27,
-        "last_scheduled_rating": 3,
+        "interval_days": 34,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "one's household",
@@ -3192,7 +3192,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 13,
+        "interval_days": 14,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3232,7 +3232,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 26,
+        "interval_days": 84,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3292,7 +3292,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 10,
+        "interval_days": 13,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3312,7 +3312,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 10,
+        "interval_days": 13,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3332,7 +3332,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 32,
+        "interval_days": 88,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3372,7 +3372,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 10,
+        "interval_days": 13,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3392,7 +3392,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 6,
+        "interval_days": 8,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3412,7 +3412,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 14,
+        "interval_days": 17,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3432,7 +3432,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 16,
+        "interval_days": 17,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3492,7 +3492,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
+        "interval_days": 89,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3512,7 +3512,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 7,
+        "interval_days": 9,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3551,8 +3551,8 @@
       "card_id": 1708637440024,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 17,
+        "eligible": true,
+        "interval_days": 23,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3572,8 +3572,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 1,
-        "last_scheduled_rating": 3,
+        "interval_days": 2,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "this time",
@@ -3612,7 +3612,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 15,
+        "interval_days": 19,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3632,7 +3632,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 14,
+        "interval_days": 16,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3650,11 +3650,11 @@
     {
       "card_id": 1708637440029,
       "eligibility": {
-        "card_type": 2,
+        "card_type": 3,
         "eligible": false,
-        "interval_days": 13,
-        "last_scheduled_rating": 2,
-        "queue": 2
+        "interval_days": 1,
+        "last_scheduled_rating": 1,
+        "queue": 1
       },
       "meaning": "that guy, (s)he (usu. derogatory)",
       "note_id": 1708637440029,
@@ -3672,7 +3672,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
+        "interval_days": 85,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3712,7 +3712,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 6,
+        "interval_days": 9,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3752,7 +3752,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 13,
+        "interval_days": 18,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3772,7 +3772,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 25,
+        "interval_days": 83,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3792,7 +3792,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 7,
+        "interval_days": 10,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3812,7 +3812,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 27,
+        "interval_days": 92,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -3852,8 +3852,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 12,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "girl",
@@ -3872,7 +3872,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 10,
+        "interval_days": 11,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3892,7 +3892,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 7,
+        "interval_days": 8,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3952,7 +3952,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 11,
+        "interval_days": 14,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3972,7 +3972,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 11,
+        "interval_days": 13,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -3991,9 +3991,9 @@
       "card_id": 1708637440046,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 10,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 64,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "favor",
@@ -4012,7 +4012,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 6,
+        "interval_days": 8,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4031,9 +4031,9 @@
       "card_id": 1708637440048,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 9,
-        "last_scheduled_rating": 2,
+        "eligible": true,
+        "interval_days": 50,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "entirely, truly",
@@ -4052,7 +4052,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 91,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4092,7 +4092,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 96,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4110,11 +4110,11 @@
     {
       "card_id": 1708637440052,
       "eligibility": {
-        "card_type": 2,
-        "eligible": true,
-        "interval_days": 25,
-        "last_scheduled_rating": 3,
-        "queue": 2
+        "card_type": 3,
+        "eligible": false,
+        "interval_days": 1,
+        "last_scheduled_rating": 1,
+        "queue": 1
       },
       "meaning": "drink",
       "note_id": 1708637440052,
@@ -4132,7 +4132,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 8,
+        "interval_days": 11,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4172,7 +4172,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 28,
+        "interval_days": 95,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4192,7 +4192,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 31,
+        "interval_days": 97,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4232,7 +4232,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 24,
+        "interval_days": 87,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4252,7 +4252,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 5,
+        "interval_days": 6,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4271,8 +4271,8 @@
       "card_id": 1708637440060,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 9,
+        "eligible": true,
+        "interval_days": 55,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4292,7 +4292,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 23,
+        "interval_days": 74,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4312,7 +4312,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
+        "interval_days": 94,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4332,7 +4332,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 98,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4352,7 +4352,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 5,
+        "interval_days": 7,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4372,7 +4372,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 28,
+        "interval_days": 90,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4392,7 +4392,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 29,
+        "interval_days": 96,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4412,7 +4412,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 30,
+        "interval_days": 94,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4432,8 +4432,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "to do",
@@ -4452,7 +4452,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
+        "interval_days": 4,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4472,8 +4472,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "this morning",
@@ -4492,7 +4492,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
+        "interval_days": 4,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4512,8 +4512,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 18,
-        "last_scheduled_rating": 3,
+        "interval_days": 20,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "and, and then",
@@ -4532,8 +4532,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "yet, more",
@@ -4552,7 +4552,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": true,
-        "interval_days": 22,
+        "interval_days": 76,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4572,8 +4572,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "sake, purpose",
@@ -4591,8 +4591,8 @@
       "card_id": 1708637440076,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 12,
+        "eligible": true,
+        "interval_days": 53,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4612,8 +4612,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "place",
@@ -4632,8 +4632,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 8,
-        "last_scheduled_rating": 3,
+        "interval_days": 11,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "a bit, a little while",
@@ -4651,8 +4651,8 @@
       "card_id": 1708637440079,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 10,
+        "eligible": true,
+        "interval_days": 54,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4672,8 +4672,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 3,
+        "interval_days": 5,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "to differ, to be wrong",
@@ -4690,11 +4690,11 @@
     {
       "card_id": 1708637440081,
       "eligibility": {
-        "card_type": 2,
+        "card_type": 3,
         "eligible": false,
-        "interval_days": 2,
+        "interval_days": 1,
         "last_scheduled_rating": 2,
-        "queue": 2
+        "queue": 1
       },
       "meaning": "man, male",
       "note_id": 1708637440081,
@@ -4711,8 +4711,8 @@
       "card_id": 1708637440082,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 3,
+        "eligible": true,
+        "interval_days": 43,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4732,7 +4732,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
+        "interval_days": 1,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4752,8 +4752,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 3,
+        "interval_days": 5,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "human being, people",
@@ -4770,11 +4770,11 @@
     {
       "card_id": 1708637440085,
       "eligibility": {
-        "card_type": 2,
+        "card_type": 3,
         "eligible": false,
-        "interval_days": 2,
+        "interval_days": 1,
         "last_scheduled_rating": 2,
-        "queue": 2
+        "queue": 1
       },
       "meaning": "to make, to create",
       "note_id": 1708637440085,
@@ -4792,7 +4792,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 2,
+        "interval_days": 4,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4812,8 +4812,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 3,
+        "interval_days": 5,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "up, above",
@@ -4832,8 +4832,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 3,
+        "interval_days": 5,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "strong",
@@ -4852,7 +4852,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 2,
+        "interval_days": 3,
         "last_scheduled_rating": 2,
         "queue": 2
       },
@@ -4872,8 +4872,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 2,
-        "last_scheduled_rating": 2,
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
         "queue": 2
       },
       "meaning": "laugh, smile",
@@ -4892,8 +4892,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 3,
+        "interval_days": 5,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "every month",
@@ -4911,8 +4911,8 @@
       "card_id": 1708637440092,
       "eligibility": {
         "card_type": 2,
-        "eligible": false,
-        "interval_days": 3,
+        "eligible": true,
+        "interval_days": 44,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4932,7 +4932,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
+        "interval_days": 1,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4952,7 +4952,7 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 3,
+        "interval_days": 1,
         "last_scheduled_rating": 3,
         "queue": 2
       },
@@ -4972,8 +4972,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 1,
-        "last_scheduled_rating": 3,
+        "interval_days": 2,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "older sister",
@@ -5010,11 +5010,11 @@
     {
       "card_id": 1708637440097,
       "eligibility": {
-        "card_type": 2,
+        "card_type": 3,
         "eligible": false,
-        "interval_days": 3,
-        "last_scheduled_rating": 3,
-        "queue": 2
+        "interval_days": 1,
+        "last_scheduled_rating": 2,
+        "queue": 1
       },
       "meaning": "younger sister",
       "note_id": 1708637440097,
@@ -5032,8 +5032,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 3,
+        "interval_days": 6,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "strength, power",
@@ -5072,8 +5072,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 1,
-        "last_scheduled_rating": 3,
+        "interval_days": 2,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "partner, opponent",
@@ -5090,11 +5090,11 @@
     {
       "card_id": 1708637440101,
       "eligibility": {
-        "card_type": 3,
+        "card_type": 2,
         "eligible": false,
         "interval_days": 1,
-        "last_scheduled_rating": 1,
-        "queue": 1
+        "last_scheduled_rating": 3,
+        "queue": 2
       },
       "meaning": "figure, appearance",
       "note_id": 1708637440101,
@@ -5152,8 +5152,8 @@
       "eligibility": {
         "card_type": 2,
         "eligible": false,
-        "interval_days": 4,
-        "last_scheduled_rating": 3,
+        "interval_days": 6,
+        "last_scheduled_rating": 2,
         "queue": 2
       },
       "meaning": "fast (in terms of time)",
@@ -5193,7 +5193,7 @@
         "card_type": 1,
         "eligible": false,
         "interval_days": 0,
-        "last_scheduled_rating": 2,
+        "last_scheduled_rating": 3,
         "queue": 1
       },
       "meaning": "to return, to go back",
@@ -5210,11 +5210,11 @@
     {
       "card_id": 1708637440107,
       "eligibility": {
-        "card_type": 1,
+        "card_type": 2,
         "eligible": false,
-        "interval_days": 0,
-        "last_scheduled_rating": 2,
-        "queue": 1
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
+        "queue": 2
       },
       "meaning": "continuously, the whole time",
       "note_id": 1708637440107,
@@ -5230,11 +5230,11 @@
     {
       "card_id": 1708637440108,
       "eligibility": {
-        "card_type": 1,
+        "card_type": 2,
         "eligible": false,
-        "interval_days": 0,
-        "last_scheduled_rating": 2,
-        "queue": 1
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
+        "queue": 2
       },
       "meaning": "why",
       "note_id": 1708637440108,
@@ -5250,11 +5250,11 @@
     {
       "card_id": 1708637440109,
       "eligibility": {
-        "card_type": 1,
+        "card_type": 2,
         "eligible": false,
-        "interval_days": 0,
-        "last_scheduled_rating": 2,
-        "queue": 1
+        "interval_days": 1,
+        "last_scheduled_rating": 3,
+        "queue": 2
       },
       "meaning": "just as I thought, after all",
       "note_id": 1708637440109,
@@ -30151,8 +30151,8 @@
   "deck": "日本語::Kaishi 1.5k",
   "deduplicated": false,
   "eligibility_rule": "Active review card, interval >=21 days, latest scheduled rating Hard/Good/Easy",
-  "eligible_card_count": 175,
-  "generated_at": "2026-11-05T23:37:35.486601+00:00",
+  "eligible_card_count": 186,
+  "generated_at": "2026-11-15T23:07:20.889089+00:00",
   "order": "Ascending stable Anki card ID (creation/import sequence), never current due-date order",
   "privacy": {
     "contains_all_kaishi_card_text": true,

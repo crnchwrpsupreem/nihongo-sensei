@@ -1,39 +1,40 @@
-Generation: 0c59ecaaa9c939c7
+Generation: 03f8999a8de2a6aa
 
 [FRESH]
+戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
+妹 — younger sister | 私の妹は小学生です。 — My little sister goes to elementary school.
+作る — to make, to create | 今、朝ご飯を作っています。 — I'm making breakfast now.
+男 — man, male | 男の人が私たちに話しかけた。 — A man began talking to us.
+飲む — drink | 水を飲みます。 — I drink water.
+奴 — that guy, (s)he (usu. derogatory) | 奴は人の言うことを聞かない。 — That guy doesn't listen to what others tell him.
+声 — voice, sound | 彼は大きな声で話した。 — He spoke with a loud voice.
+もう — already, yet | 彼はもう帰りました。 — He's already gone home.
 やっぱり — just as I thought, after all | やっぱり旅が大好きだ。 — I really love to travel after all.
 どうして — why | どうして泣いているの。 — Why are you crying?
 ずっと — continuously, the whole time | ずっと日本へ留学したいと思っていました。 — I always thought that I'd like to study abroad in Japan.
-戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
-姿 — figure, appearance | 遠くに彼女の姿が見えた。 — Her figure was visible from a distance.
 頭 — head | 今朝から頭が痛い。 — My head has been hurting since this morning.
 早い — fast (in terms of time) | A「東京から大阪まで2時間半です。」 B「早いですね。」 — A: It takes two and a half hours from Tokyo to Osaka. B: That's fast, isn't it?
 早い — early | A「今朝、5時に起きました。」 B「早いですね。」 — A: I woke up at 5 A.M. this morning. B: That's early, isn't it?
 死ぬ — to die | 犬が病気で死にました。 — My dog died due to sickness.
+姿 — figure, appearance | 遠くに彼女の姿が見えた。 — Her figure was visible from a distance.
 相手 — partner, opponent | 試合の相手は誰ですか。 — Who is the opponent of the match?
 世界 — world | 世界の地図はありますか。 — Do you have a map of the world?
 力 — strength, power | 私より妹の方が力があります。 — My younger sister has more strength than I do.
-妹 — younger sister | 私の妹は小学生です。 — My little sister goes to elementary school.
 弟 — younger brother | 弟にプレゼントをあげました。 — I gave a present to my younger brother.
 姉 — older sister | 姉は大学生です。 — My big sister is a college student.
 くらい — approximately, about | 毎日、７時間くらい眠ります。 — I sleep for about seven hours every day.
 多く — many, much | 毎年多くの人が海外へ旅行する。 — Each year, a lot of people travel abroad.
-毎年 — every year | 毎年、クリスマスに国へ帰ります。 — I return to my country on Christmas of every year.
 毎月 — every month | 私は毎月貯金をしています。 — I save money every month.
 笑う — laugh, smile | 赤ん坊が笑っています。 — The baby is laughing.
 出す — to take out | 彼はかばんから教科書を出した。 — He took the textbook out of his bag.
 強い — strong | 今日は風が強い。 — The wind is strong today.
 上 — up, above | 上を向いて。 — Look up.
 感じる — to feel, to sense | 膝に痛みを感じます。 — I feel a pain in my knee.
-作る — to make, to create | 今、朝ご飯を作っています。 — I'm making breakfast now.
 人間 — human being, people | 人間の心は複雑です。 — The human mind is a complex thing.
 ただ — simply | 私はただ彼女と話したかっただけです。 — I just wanted to speak with her.
-ただ — free | この温泉はただです。 — This hot spring is free.
-男 — man, male | 男の人が私たちに話しかけた。 — A man began talking to us.
 違う — to differ, to be wrong | 答えが違います。 — That's the wrong answer.
 ところ — place | 私は友達のところに泊まった。 — I stayed at my friend's place for the night.
 ため — sake, purpose | これは医者のためのサイトです。 — This is a website made for doctors.
-じゃ — then, well | じゃ、それをください。 — Okay, then I'll have that one.
 まだ — yet, more | 宿題はまだ終わっていません。 — I haven't finished my homework yet.
 出る — to go out, to leave | 今朝は早く家を出ました。 — I left the house early this morning.
 今朝 — this morning | 今朝は早く家を出ました。 — I left the house early this morning.
@@ -42,58 +43,56 @@ Generation: 0c59ecaaa9c939c7
 九 — nine | 野球は九人で1チームです。 — In baseball there are nine people on one team.
 四 — four | ハワイは四回目です。 — This is my fourth trip to Hawaii.
 僕 — I (male) | 僕は君が大好きです。 — I love you.
-進む — to move forward | 前に進んでください。 — Please move forward.
-伝える — to convey, to transmit | みんなにこのことを伝えてください。 — Please tell everyone about this matter.
-今度 — this time | 今度のテストはとても難しかった。 — The test this time was really difficult.
-理解 — understanding, comprehension | 理解してくれてありがとう。 — Thank you for understanding.
+女の子 — girl | あの女の子を知っていますか。 — Do you know that girl?
 夜 — evening, night | 昨日の夜は家にいました。 — I was at home last night.
 今回 — this time | まあ今回は許してあげよう。 — Well, I'll let you off this time.
-優しい — gentle, kind | 彼はとても優しい人です。 — He's a very kind person.
-許す — to forgive, to permit | 私は彼を許しました。 — I forgave him.
+もちろん — of course, no doubt | もちろん一緒に行きます。 — Of course we'll go together.
+誰 — who | 誰と会ってみたいですか。 — Who would you like to meet one day?
+知る — know | あの人を知っていますか。 — Do you know that person?
 
 [REINFORCE]
-知る — know | あの人を知っていますか。 — Do you know that person?
-今度 — next time | 今度はどこに行きたいですか。 — Where do you want to go next time?
-お願い — favor | お願いがあります。 — I have a favor to ask.
-これから — from now on, after this | これから考えます。 — I will think about it from now.
-座る — to sit | どうぞ座ってください。 — Please sit down.
-いつも — always, usually | 彼女はいつも元気だ。 — She's always full of energy.
-簡単 — simple, easy | このテストはとても簡単です。 — This test is really simple.
-楽しい — fun, enjoyable | 彼はとても楽しい人です。 — He's a very fun person.
-誰 — who | 誰と会ってみたいですか。 — Who would you like to meet one day?
-約束 — promise, appointment | 友達と約束があります。 — I have an appointment with my friend.
-忙しい — busy, occupied | 忙しいので手伝ってください。 — I am busy so please help me.
-もちろん — of course, no doubt | もちろん一緒に行きます。 — Of course we'll go together.
-暇 — free, not busy | 明日は暇です。 — I am free tomorrow.
-部屋 — room | 部屋にキッチンがあります。 — The room has a kitchen.
-全く — entirely, truly | 私には全く分かりません。 — I don't understand at all.
-もう — already, yet | 彼はもう帰りました。 — He's already gone home.
-寝る — sleep | もう寝よう。 — Let's sleep.
-事 — thing, incident | インターネットで日本の事を調べました。 — I researched things about Japan on the internet.
-思う — think | これがいいと思います。 — I think this is good.
-頼む — to ask, to request | 私はハンバーガーを頼みました。 — I ordered a hamburger.
-女の子 — girl | あの女の子を知っていますか。 — Do you know that girl?
-奴 — that guy, (s)he (usu. derogatory) | 奴は人の言うことを聞かない。 — That guy doesn't listen to what others tell him.
-俺 — I (male) | 俺はロックを聞くのが好きだ。 — I like to listen to rock music.
-嬉しい — happy, glad | 彼に会えて嬉しかった。 — I was glad to be able to meet him.
-今まで — until now | 今までどこにいたのですか。 — Where have you been up until now?
-買う — to buy | 昨日、シーディーを買いました。 — Yesterday, I bought a CD.
-頑張る — to persevere, to do one's best | 勉強もスポーツも頑張っています。 — I do my best in sports and my studies.
-そんなに — that much | A「毎日忙しいですか。」 B「そんなに忙しくないです。」 — A: Are you busy every day? B: No, not that much.
-する — do, make | 彼はテニスをします。 — He plays tennis (lit: "He does tennis").
 明日 — tomorrow | 明日、学校へ行きます。 — Tomorrow, I will go to school.
+許す — to forgive, to permit | 私は彼を許しました。 — I forgave him.
+伝える — to convey, to transmit | みんなにこのことを伝えてください。 — Please tell everyone about this matter.
+進む — to move forward | 前に進んでください。 — Please move forward.
+理解 — understanding, comprehension | 理解してくれてありがとう。 — Thank you for understanding.
+優しい — gentle, kind | 彼はとても優しい人です。 — He's a very kind person.
+今度 — this time | 今度のテストはとても難しかった。 — The test this time was really difficult.
+寝る — sleep | もう寝よう。 — Let's sleep.
+暇 — free, not busy | 明日は暇です。 — I am free tomorrow.
+少し — a bit, a little while | 少し疲れました。 — I'm a little tired.
+今度 — next time | 今度はどこに行きたいですか。 — Where do you want to go next time?
+簡単 — simple, easy | このテストはとても簡単です。 — This test is really simple.
+これから — from now on, after this | これから考えます。 — I will think about it from now.
+頼む — to ask, to request | 私はハンバーガーを頼みました。 — I ordered a hamburger.
+座る — to sit | どうぞ座ってください。 — Please sit down.
+約束 — promise, appointment | 友達と約束があります。 — I have an appointment with my friend.
+楽しい — fun, enjoyable | 彼はとても楽しい人です。 — He's a very fun person.
+今まで — until now | 今までどこにいたのですか。 — Where have you been up until now?
+嬉しい — happy, glad | 彼に会えて嬉しかった。 — I was glad to be able to meet him.
+頑張る — to persevere, to do one's best | 勉強もスポーツも頑張っています。 — I do my best in sports and my studies.
+俺 — I (male) | 俺はロックを聞くのが好きだ。 — I like to listen to rock music.
+買う — to buy | 昨日、シーディーを買いました。 — Yesterday, I bought a CD.
+そして — and, and then | このロボットは言葉が分かります。そして、ダンスも出来ます。 — This robot understands words. On top of that, it can also dance.
+思う — think | これがいいと思います。 — I think this is good.
+そんなに — that much | A「毎日忙しいですか。」 B「そんなに忙しくないです。」 — A: Are you busy every day? B: No, not that much.
+うち — one's household | うちへ帰ります。 — I will go home.
+どの — which one | どの本ですか。 — Which book is it?
+もっと — more, a bit more | もっと勉強しなければいけないと思った。 — I thought that I would have to study more.
+話 — talk, story | あなたの話は面白いね。 — Your story is interesting.
+好き — like, fond of | 私はワインが好きです。 — I like wine.
 
 [MATURE]
-名前 — name | あなたの名前を教えてください。 — Please tell me your name.
-教える — teach, tell | あなたの名前を教えてください。 — Please tell me your name.
-ここ — here | ここに本があります。 — There's a book here.
-そこ — there | そこはトイレです。 — There is the bathroom.
+あそこ — over there | 彼はあそこにいます。 — He is over there.
 どこ — where | あの本をどこに置きましたか。 — Where did you put that book?
 置く — put, place | あの本をどこに置きましたか。 — Where did you put that book?
 家 — house, home | ここが私の家です。 — This is my house.
+帰る — return, go back | 家に帰ろう。 — Let's go home.
 彼女 — she, her, girlfriend | 彼女の名前を知っていますか。 — Do you know her name?
 ちゃん — chan | 彼女はララちゃんです。 — She is Lara-chan.
 はい — yes (polite) | A「山田さんですか。」 B「はい。」 — A: Are you Yamada-san? B: Yes, I am.
+いいえ — no (polite) | A「山田さんですか。」 B「いいえ。」 — A: Are you Yamada-san? B: No, I'm not.
+日本 — Japan | 日本のゲームは面白いです。 — Japanese games are fun.
 
 [KNOWN WORDS]
-私、あなた、さん、彼、好き、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、どの、見る、全然、面白い、なる、先生、ください、あそこ、帰る、話、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、もっと、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、声、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、同じ、申し訳ない、とても、失礼します、手伝う、仕事、続ける、見せる、うち、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、なぜ、水、飲む、時、一、二、三、五、六、七、八、十、くん、すみません、そして、ご飯、少し、見える
+私、あなた、さん、彼、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、見る、全然、面白い、する、なる、先生、ください、名前、教える、ここ、そこ、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、目、手、上げる、嫌い、おじいさん、おばあさん、元気、いつも、持つ、みんな、使う、大丈夫、始める、今日、部屋、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、事、同じ、申し訳ない、とても、失礼します、手伝う、忙しい、仕事、続ける、見せる、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、お願い、全く、なぜ、水、時、一、二、三、五、六、七、八、十、くん、すみません、じゃ、ご飯、見える、ただ、毎年

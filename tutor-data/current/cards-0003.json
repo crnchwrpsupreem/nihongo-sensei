@@ -3,7 +3,7 @@
     {
       "assessment": {
         "strength": 40.22,
-        "weakness": 5.4
+        "weakness": 7.4
       },
       "card_id": 1708637440054,
       "current_deck": {
@@ -216,7 +216,7 @@
         "data": "{\"pos\":204,\"decay\":0.154,\"lrt\":1790520112}",
         "due_interpreted": {
           "date": "2026-10-29",
-          "days_from_today": -7,
+          "days_from_today": -17,
           "kind": "day"
         },
         "due_raw": 69,
@@ -253,8 +253,8 @@
     },
     {
       "assessment": {
-        "strength": 38.4,
-        "weakness": 2.2
+        "strength": 50.61,
+        "weakness": 0.0
       },
       "card_id": 1708637440055,
       "current_deck": {
@@ -418,30 +418,47 @@
           },
           "reviewed_at": "2026-09-27T10:41:09-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 2500,
+          "interval": 95,
+          "previous_interval": 28,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356952000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:29:12-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-07T17:25:19-04:00",
-        "last_reviewed_at": "2026-09-27T10:41:09-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:29:12-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":205,\"decay\":0.154,\"lrt\":1790520069}",
+        "data": "{\"pos\":205,\"decay\":0.154,\"lrt\":1794356952}",
         "due_interpreted": {
-          "date": "2026-10-25",
-          "days_from_today": -11,
+          "date": "2027-02-13",
+          "days_from_today": 90,
           "kind": "day"
         },
-        "due_raw": 65,
+        "due_raw": 176,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 28,
+        "interval_days": 95,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:41:09-04:00",
+        "modified_at": "2026-11-10T19:29:12-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -449,7 +466,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -470,8 +487,8 @@
     },
     {
       "assessment": {
-        "strength": 39.25,
-        "weakness": 1.6
+        "strength": 50.79,
+        "weakness": 0.0
       },
       "card_id": 1708637440056,
       "current_deck": {
@@ -635,30 +652,47 @@
           },
           "reviewed_at": "2026-09-27T10:42:20-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 2500,
+          "interval": 97,
+          "previous_interval": 31,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357173000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:32:53-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-07T17:26:12-04:00",
-        "last_reviewed_at": "2026-09-27T10:42:20-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:32:53-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":206,\"decay\":0.154,\"lrt\":1790520140}",
+        "data": "{\"pos\":206,\"decay\":0.154,\"lrt\":1794357173}",
         "due_interpreted": {
-          "date": "2026-10-28",
-          "days_from_today": -8,
+          "date": "2027-02-15",
+          "days_from_today": 92,
           "kind": "day"
         },
-        "due_raw": 68,
+        "due_raw": 178,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 31,
+        "interval_days": 97,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:42:20-04:00",
+        "modified_at": "2026-11-10T19:32:53-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -666,7 +700,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -867,7 +901,7 @@
         "data": "{\"pos\":207,\"lrt\":1791128092}",
         "due_interpreted": {
           "date": "2026-11-20",
-          "days_from_today": 15,
+          "days_from_today": 5,
           "kind": "day"
         },
         "due_raw": 91,
@@ -904,8 +938,8 @@
     },
     {
       "assessment": {
-        "strength": 35.26,
-        "weakness": 3.0
+        "strength": 48.01,
+        "weakness": 0.0
       },
       "card_id": 1708637440058,
       "current_deck": {
@@ -1052,30 +1086,47 @@
           },
           "reviewed_at": "2026-09-27T10:39:38-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 6000,
+          "ease_factor": 2500,
+          "interval": 87,
+          "previous_interval": 24,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356814000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:26:54-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T07:55:34-04:00",
-        "last_reviewed_at": "2026-09-27T10:39:38-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:26:54-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":208,\"lrt\":1790519978}",
+        "data": "{\"pos\":208,\"lrt\":1794356814}",
         "due_interpreted": {
-          "date": "2026-10-21",
-          "days_from_today": -15,
+          "date": "2027-02-05",
+          "days_from_today": 82,
           "kind": "day"
         },
-        "due_raw": 61,
+        "due_raw": 168,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 24,
+        "interval_days": 87,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:39:38-04:00",
+        "modified_at": "2026-11-10T19:26:55-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -1083,7 +1134,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -1104,8 +1155,8 @@
     },
     {
       "assessment": {
-        "strength": 20.61,
-        "weakness": 13.4
+        "strength": 22.29,
+        "weakness": 10.0
       },
       "card_id": 1708637440059,
       "current_deck": {
@@ -1286,30 +1337,47 @@
           },
           "reviewed_at": "2026-10-04T12:01:29-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 27000,
+          "ease_factor": 1900,
+          "interval": 6,
+          "previous_interval": 5,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355310000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:01:50-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T07:56:09-04:00",
-        "last_reviewed_at": "2026-10-04T12:01:29-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:01:50-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":209,\"lrt\":1791129689}",
+        "data": "{\"pos\":209,\"lrt\":1794355310}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
+          "date": "2026-11-16",
+          "days_from_today": 1,
           "kind": "day"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2050,
+        "due_raw": 87,
+        "ease_factor_raw": 1900,
         "flags": 0,
-        "interval_days": 5,
+        "interval_days": 6,
         "lapses": 0,
-        "modified_at": "2026-10-04T12:01:29-04:00",
+        "modified_at": "2026-11-10T19:01:50-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -1317,7 +1385,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -1338,8 +1406,8 @@
     },
     {
       "assessment": {
-        "strength": 26.53,
-        "weakness": 10.6
+        "strength": 43.29,
+        "weakness": 6.0
       },
       "card_id": 1708637440060,
       "current_deck": {
@@ -1520,30 +1588,47 @@
           },
           "reviewed_at": "2026-10-04T11:59:41-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 20000,
+          "ease_factor": 2200,
+          "interval": 55,
+          "previous_interval": 9,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794355928000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:12:08-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T07:57:12-04:00",
-        "last_reviewed_at": "2026-10-04T11:59:41-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:12:08-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":210,\"lrt\":1791129581}",
+        "data": "{\"pos\":210,\"lrt\":1794355928}",
         "due_interpreted": {
-          "date": "2026-10-13",
-          "days_from_today": -23,
+          "date": "2027-01-04",
+          "days_from_today": 50,
           "kind": "day"
         },
-        "due_raw": 53,
+        "due_raw": 136,
         "ease_factor_raw": 2200,
         "flags": 0,
-        "interval_days": 9,
+        "interval_days": 55,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:59:41-04:00",
+        "modified_at": "2026-11-10T19:12:08-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -1551,7 +1636,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -1572,8 +1657,8 @@
     },
     {
       "assessment": {
-        "strength": 35.96,
-        "weakness": 7.4
+        "strength": 47.67,
+        "weakness": 6.0
       },
       "card_id": 1708637440061,
       "current_deck": {
@@ -1771,30 +1856,47 @@
           },
           "reviewed_at": "2026-10-06T21:48:59-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 2350,
+          "interval": 74,
+          "previous_interval": 23,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357208000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:33:28-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T07:57:53-04:00",
-        "last_reviewed_at": "2026-10-06T21:48:59-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-10T19:33:28-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":211,\"lrt\":1791337739}",
+        "data": "{\"pos\":211,\"lrt\":1794357208}",
         "due_interpreted": {
-          "date": "2026-10-29",
-          "days_from_today": -7,
+          "date": "2027-01-23",
+          "days_from_today": 69,
           "kind": "day"
         },
-        "due_raw": 69,
+        "due_raw": 155,
         "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 23,
+        "interval_days": 74,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:48:59-04:00",
+        "modified_at": "2026-11-10T19:33:28-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -1802,7 +1904,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -1823,8 +1925,8 @@
     },
     {
       "assessment": {
-        "strength": 37.19,
-        "weakness": 4.0
+        "strength": 49.02,
+        "weakness": 2.0
       },
       "card_id": 1708637440062,
       "current_deck": {
@@ -1988,30 +2090,47 @@
           },
           "reviewed_at": "2026-09-27T10:39:00-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 10000,
+          "ease_factor": 2500,
+          "interval": 94,
+          "previous_interval": 29,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357123000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:32:03-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T07:59:02-04:00",
-        "last_reviewed_at": "2026-09-27T10:39:00-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:32:03-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":212,\"lrt\":1790519940}",
+        "data": "{\"pos\":212,\"lrt\":1794357123}",
         "due_interpreted": {
-          "date": "2026-10-26",
-          "days_from_today": -10,
+          "date": "2027-02-12",
+          "days_from_today": 89,
           "kind": "day"
         },
-        "due_raw": 66,
+        "due_raw": 175,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 29,
+        "interval_days": 94,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:39:00-04:00",
+        "modified_at": "2026-11-10T19:32:03-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -2019,7 +2138,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -2040,8 +2159,8 @@
     },
     {
       "assessment": {
-        "strength": 37.48,
-        "weakness": 3.8
+        "strength": 49.38,
+        "weakness": 2.0
       },
       "card_id": 1708637440063,
       "current_deck": {
@@ -2205,30 +2324,47 @@
           },
           "reviewed_at": "2026-09-27T10:42:09-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2500,
+          "interval": 98,
+          "previous_interval": 30,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357159000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:32:39-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T08:00:12-04:00",
-        "last_reviewed_at": "2026-09-27T10:42:09-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:32:39-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":213,\"lrt\":1790520129}",
+        "data": "{\"pos\":213,\"lrt\":1794357159}",
         "due_interpreted": {
-          "date": "2026-10-27",
-          "days_from_today": -9,
+          "date": "2027-02-16",
+          "days_from_today": 93,
           "kind": "day"
         },
-        "due_raw": 67,
+        "due_raw": 179,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 30,
+        "interval_days": 98,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:42:09-04:00",
+        "modified_at": "2026-11-10T19:32:39-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -2236,7 +2372,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -2257,8 +2393,8 @@
     },
     {
       "assessment": {
-        "strength": 20.96,
-        "weakness": 15.4
+        "strength": 23.8,
+        "weakness": 12.0
       },
       "card_id": 1708637440064,
       "current_deck": {
@@ -2456,30 +2592,47 @@
           },
           "reviewed_at": "2026-10-04T11:59:48-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 23000,
+          "ease_factor": 1900,
+          "interval": 7,
+          "previous_interval": 5,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355250000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:00:50-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T08:01:58-04:00",
-        "last_reviewed_at": "2026-10-04T11:59:48-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-10T19:00:50-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":214,\"lrt\":1791129588}",
+        "data": "{\"pos\":214,\"lrt\":1794355250}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
+          "date": "2026-11-17",
+          "days_from_today": 2,
           "kind": "day"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2050,
+        "due_raw": 88,
+        "ease_factor_raw": 1900,
         "flags": 0,
-        "interval_days": 5,
+        "interval_days": 7,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:59:48-04:00",
+        "modified_at": "2026-11-10T19:00:50-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -2487,7 +2640,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -2508,8 +2661,8 @@
     },
     {
       "assessment": {
-        "strength": 36.55,
-        "weakness": 2.2
+        "strength": 48.3,
+        "weakness": 0.0
       },
       "card_id": 1708637440065,
       "current_deck": {
@@ -2656,30 +2809,47 @@
           },
           "reviewed_at": "2026-09-27T10:39:23-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 2500,
+          "interval": 90,
+          "previous_interval": 28,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356930000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:28:50-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T08:02:14-04:00",
-        "last_reviewed_at": "2026-09-27T10:39:23-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:28:50-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":215,\"lrt\":1790519963}",
+        "data": "{\"pos\":215,\"lrt\":1794356930}",
         "due_interpreted": {
-          "date": "2026-10-25",
-          "days_from_today": -11,
+          "date": "2027-02-08",
+          "days_from_today": 85,
           "kind": "day"
         },
-        "due_raw": 65,
+        "due_raw": 171,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 28,
+        "interval_days": 90,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:39:23-04:00",
+        "modified_at": "2026-11-10T19:28:50-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -2687,7 +2857,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -2708,8 +2878,8 @@
     },
     {
       "assessment": {
-        "strength": 36.84,
-        "weakness": 2.0
+        "strength": 48.85,
+        "weakness": 0.0
       },
       "card_id": 1708637440066,
       "current_deck": {
@@ -2856,30 +3026,47 @@
           },
           "reviewed_at": "2026-09-27T10:41:16-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 9000,
+          "ease_factor": 2500,
+          "interval": 96,
+          "previous_interval": 29,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357098000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:31:38-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T08:03:16-04:00",
-        "last_reviewed_at": "2026-09-27T10:41:16-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:31:38-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":216,\"lrt\":1790520076}",
+        "data": "{\"pos\":216,\"lrt\":1794357098}",
         "due_interpreted": {
-          "date": "2026-10-26",
-          "days_from_today": -10,
+          "date": "2027-02-14",
+          "days_from_today": 91,
           "kind": "day"
         },
-        "due_raw": 66,
+        "due_raw": 177,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 29,
+        "interval_days": 96,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:41:16-04:00",
+        "modified_at": "2026-11-10T19:31:38-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -2887,7 +3074,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -2908,8 +3095,8 @@
     },
     {
       "assessment": {
-        "strength": 37.13,
-        "weakness": 1.8
+        "strength": 48.67,
+        "weakness": 0.0
       },
       "card_id": 1708637440067,
       "current_deck": {
@@ -3056,30 +3243,47 @@
           },
           "reviewed_at": "2026-09-27T10:36:27-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2500,
+          "interval": 94,
+          "previous_interval": 30,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357152000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:32:32-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-08T08:04:20-04:00",
-        "last_reviewed_at": "2026-09-27T10:36:27-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:32:32-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":217,\"lrt\":1790519787}",
+        "data": "{\"pos\":217,\"lrt\":1794357152}",
         "due_interpreted": {
-          "date": "2026-10-27",
-          "days_from_today": -9,
+          "date": "2027-02-12",
+          "days_from_today": 89,
           "kind": "day"
         },
-        "due_raw": 67,
+        "due_raw": 175,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 30,
+        "interval_days": 94,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:36:27-04:00",
+        "modified_at": "2026-11-10T19:32:32-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -3087,7 +3291,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -3108,8 +3312,8 @@
     },
     {
       "assessment": {
-        "strength": 17.1,
-        "weakness": 17.8
+        "strength": 8.65,
+        "weakness": 28.8
       },
       "card_id": 1708637440068,
       "current_deck": {
@@ -3290,30 +3494,81 @@
           },
           "reviewed_at": "2026-10-04T11:53:16-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 12000,
+          "ease_factor": 2000,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268430000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:53:50-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 29000,
+          "ease_factor": 2000,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794354882000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:54:42-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2000,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794355839000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:10:39-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T11:49:59-04:00",
-        "last_reviewed_at": "2026-10-04T11:53:16-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:10:39-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":218,\"lrt\":1791129196}",
+        "data": "{\"pos\":218,\"lrt\":1794355839}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 82,
+        "ease_factor_raw": 2000,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-04T11:53:16-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:10:39-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -3321,7 +3576,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -3342,8 +3597,8 @@
     },
     {
       "assessment": {
-        "strength": 17.45,
-        "weakness": 19.8
+        "strength": 19.73,
+        "weakness": 12.4
       },
       "card_id": 1708637440069,
       "current_deck": {
@@ -3541,30 +3796,47 @@
           },
           "reviewed_at": "2026-10-04T11:57:28-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 33000,
+          "ease_factor": 2050,
+          "interval": 4,
+          "previous_interval": 3,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268188000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:49:48-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T11:52:04-04:00",
-        "last_reviewed_at": "2026-10-04T11:57:28-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-09T18:49:48-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":219,\"lrt\":1791129448}",
+        "data": "{\"pos\":219,\"lrt\":1794268188}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-13",
+          "days_from_today": -2,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 84,
+        "ease_factor_raw": 2050,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 4,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:57:28-04:00",
+        "modified_at": "2026-11-09T18:49:48-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -3572,7 +3844,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -3593,8 +3865,8 @@
     },
     {
       "assessment": {
-        "strength": 17.8,
-        "weakness": 21.8
+        "strength": 7.85,
+        "weakness": 32.8
       },
       "card_id": 1708637440070,
       "current_deck": {
@@ -3809,30 +4081,81 @@
           },
           "reviewed_at": "2026-10-04T11:58:59-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 28000,
+          "ease_factor": 2000,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268224000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:50:24-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 24000,
+          "ease_factor": 2000,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268919000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T19:01:59-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 4000,
+          "ease_factor": 2000,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794355227000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:00:27-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T11:54:57-04:00",
-        "last_reviewed_at": "2026-10-04T11:58:59-04:00",
-        "review_count": 8
+        "last_reviewed_at": "2026-11-10T19:00:27-05:00",
+        "review_count": 11
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":220,\"lrt\":1791129539}",
+        "data": "{\"pos\":220,\"lrt\":1794355227}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 82,
+        "ease_factor_raw": 2000,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-04T11:58:59-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:00:27-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -3840,7 +4163,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 8
+        "repetitions": 11
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -3861,8 +4184,8 @@
     },
     {
       "assessment": {
-        "strength": 17.1,
-        "weakness": 17.8
+        "strength": 19.38,
+        "weakness": 10.4
       },
       "card_id": 1708637440071,
       "current_deck": {
@@ -4043,30 +4366,47 @@
           },
           "reviewed_at": "2026-10-04T11:52:09-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 30000,
+          "ease_factor": 2050,
+          "interval": 4,
+          "previous_interval": 3,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268364000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:52:44-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T11:59:42-04:00",
-        "last_reviewed_at": "2026-10-04T11:52:09-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-09T18:52:44-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":221,\"lrt\":1791129129}",
+        "data": "{\"pos\":221,\"lrt\":1794268364}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-13",
+          "days_from_today": -2,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 84,
+        "ease_factor_raw": 2050,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 4,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:52:09-04:00",
+        "modified_at": "2026-11-09T18:52:44-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -4074,7 +4414,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -4086,8 +4426,8 @@
     },
     {
       "assessment": {
-        "strength": 31.39,
-        "weakness": 6.2
+        "strength": 32.6,
+        "weakness": 4.0
       },
       "card_id": 1708637440072,
       "current_deck": {
@@ -4234,30 +4574,47 @@
           },
           "reviewed_at": "2026-09-27T10:20:16-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 19000,
+          "ease_factor": 2350,
+          "interval": 20,
+          "previous_interval": 18,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356425000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:20:25-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:03:17-04:00",
-        "last_reviewed_at": "2026-09-27T10:20:16-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:20:25-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":222,\"lrt\":1790518816}",
+        "data": "{\"pos\":222,\"lrt\":1794356425}",
         "due_interpreted": {
-          "date": "2026-10-15",
-          "days_from_today": -21,
+          "date": "2026-11-30",
+          "days_from_today": 15,
           "kind": "day"
         },
-        "due_raw": 55,
-        "ease_factor_raw": 2500,
+        "due_raw": 101,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 18,
+        "interval_days": 20,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:20:16-04:00",
+        "modified_at": "2026-11-10T19:20:25-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -4265,7 +4622,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -4286,8 +4643,8 @@
     },
     {
       "assessment": {
-        "strength": 16.75,
-        "weakness": 15.8
+        "strength": 8.65,
+        "weakness": 28.8
       },
       "card_id": 1708637440073,
       "current_deck": {
@@ -4451,30 +4808,98 @@
           },
           "reviewed_at": "2026-10-04T11:57:04-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 24000,
+          "ease_factor": 2000,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268155000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:49:15-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 2000,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268874000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T19:01:14-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 10000,
+          "ease_factor": 2000,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355223000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:00:23-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 9000,
+          "ease_factor": 2000,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356359000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:19:19-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:08:03-04:00",
-        "last_reviewed_at": "2026-10-04T11:57:04-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:19:19-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":223,\"lrt\":1791129424}",
+        "data": "{\"pos\":223,\"lrt\":1794356359}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 82,
+        "ease_factor_raw": 2000,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-04T11:57:04-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:19:19-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -4482,7 +4907,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -4503,8 +4928,8 @@
     },
     {
       "assessment": {
-        "strength": 32.69,
-        "weakness": 3.4
+        "strength": 45.0,
+        "weakness": 0.0
       },
       "card_id": 1708637440074,
       "current_deck": {
@@ -4634,30 +5059,47 @@
           },
           "reviewed_at": "2026-09-27T10:14:58-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 11000,
+          "ease_factor": 2500,
+          "interval": 76,
+          "previous_interval": 22,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356689000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:24:49-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:12:07-04:00",
-        "last_reviewed_at": "2026-09-27T10:14:58-04:00",
-        "review_count": 3
+        "last_reviewed_at": "2026-11-10T19:24:49-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":224,\"lrt\":1790518498}",
+        "data": "{\"pos\":224,\"lrt\":1794356689}",
         "due_interpreted": {
-          "date": "2026-10-19",
-          "days_from_today": -17,
+          "date": "2027-01-25",
+          "days_from_today": 71,
           "kind": "day"
         },
-        "due_raw": 59,
+        "due_raw": 157,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 22,
+        "interval_days": 76,
         "lapses": 0,
-        "modified_at": "2026-09-27T10:14:58-04:00",
+        "modified_at": "2026-11-10T19:24:49-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -4665,7 +5107,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 3
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -4686,8 +5128,8 @@
     },
     {
       "assessment": {
-        "strength": 19.03,
-        "weakness": 13.6
+        "strength": 8.65,
+        "weakness": 28.8
       },
       "card_id": 1708637440075,
       "current_deck": {
@@ -4868,30 +5310,81 @@
           },
           "reviewed_at": "2026-10-04T11:52:58-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 41000,
+          "ease_factor": 2000,
+          "interval": -600,
+          "previous_interval": 4,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268859000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T19:00:59-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 47000,
+          "ease_factor": 2000,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355072000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:57:52-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 25000,
+          "ease_factor": 2000,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356161000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:16:01-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:16:38-04:00",
-        "last_reviewed_at": "2026-10-04T11:52:58-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:16:01-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":225,\"lrt\":1791129178}",
+        "data": "{\"pos\":225,\"lrt\":1794356161}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2200,
+        "due_raw": 82,
+        "ease_factor_raw": 2000,
         "flags": 0,
-        "interval_days": 4,
-        "lapses": 0,
-        "modified_at": "2026-10-04T11:52:58-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:16:01-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -4899,7 +5392,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -4920,8 +5413,8 @@
     },
     {
       "assessment": {
-        "strength": 28.45,
-        "weakness": 8.0
+        "strength": 42.63,
+        "weakness": 4.0
       },
       "card_id": 1708637440076,
       "current_deck": {
@@ -5085,30 +5578,47 @@
           },
           "reviewed_at": "2026-10-04T11:55:22-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 2350,
+          "interval": 53,
+          "previous_interval": 12,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356488000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:21:28-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:19:07-04:00",
-        "last_reviewed_at": "2026-10-04T11:55:22-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:21:28-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":226,\"lrt\":1791129322}",
+        "data": "{\"pos\":226,\"lrt\":1794356488}",
         "due_interpreted": {
-          "date": "2026-10-16",
-          "days_from_today": -20,
+          "date": "2027-01-02",
+          "days_from_today": 48,
           "kind": "day"
         },
-        "due_raw": 56,
+        "due_raw": 134,
         "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 12,
+        "interval_days": 53,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:55:22-04:00",
+        "modified_at": "2026-11-10T19:21:28-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -5116,7 +5626,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -5137,8 +5647,8 @@
     },
     {
       "assessment": {
-        "strength": 16.75,
-        "weakness": 15.8
+        "strength": 7.95,
+        "weakness": 24.8
       },
       "card_id": 1708637440077,
       "current_deck": {
@@ -5302,30 +5812,64 @@
           },
           "reviewed_at": "2026-10-04T11:54:36-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 16000,
+          "ease_factor": 2000,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268386000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:53:06-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 9000,
+          "ease_factor": 2000,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794354891000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:54:51-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-12T12:21:37-04:00",
-        "last_reviewed_at": "2026-10-04T11:54:36-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T18:54:51-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":227,\"lrt\":1791129276}",
+        "data": "{\"pos\":227,\"lrt\":1794354891}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2200,
+        "due_raw": 82,
+        "ease_factor_raw": 2000,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-04T11:54:36-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T18:54:51-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -5333,7 +5877,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -5354,8 +5898,8 @@
     },
     {
       "assessment": {
-        "strength": 24.92,
-        "weakness": 6.8
+        "strength": 27.76,
+        "weakness": 4.0
       },
       "card_id": 1708637440078,
       "current_deck": {
@@ -5502,30 +6046,47 @@
           },
           "reviewed_at": "2026-10-04T11:50:22-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 19000,
+          "ease_factor": 2350,
+          "interval": 11,
+          "previous_interval": 8,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355896000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:11:36-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:20:03-04:00",
-        "last_reviewed_at": "2026-10-04T11:50:22-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:11:36-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":228,\"lrt\":1791129022}",
+        "data": "{\"pos\":228,\"lrt\":1794355896}",
         "due_interpreted": {
-          "date": "2026-10-12",
-          "days_from_today": -24,
+          "date": "2026-11-21",
+          "days_from_today": 6,
           "kind": "day"
         },
-        "due_raw": 52,
-        "ease_factor_raw": 2500,
+        "due_raw": 92,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 8,
+        "interval_days": 11,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:50:22-04:00",
+        "modified_at": "2026-11-10T19:11:36-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -5533,7 +6094,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -5554,8 +6115,8 @@
     },
     {
       "assessment": {
-        "strength": 26.66,
-        "weakness": 6.4
+        "strength": 42.44,
+        "weakness": 2.0
       },
       "card_id": 1708637440079,
       "current_deck": {
@@ -5702,30 +6263,47 @@
           },
           "reviewed_at": "2026-10-04T11:50:07-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 22000,
+          "ease_factor": 2500,
+          "interval": 54,
+          "previous_interval": 10,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356284000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:18:04-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:25:04-04:00",
-        "last_reviewed_at": "2026-10-04T11:50:07-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:18:04-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":229,\"lrt\":1791129007}",
+        "data": "{\"pos\":229,\"lrt\":1794356284}",
         "due_interpreted": {
-          "date": "2026-10-14",
-          "days_from_today": -22,
+          "date": "2027-01-03",
+          "days_from_today": 49,
           "kind": "day"
         },
-        "due_raw": 54,
+        "due_raw": 135,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 10,
+        "interval_days": 54,
         "lapses": 0,
-        "modified_at": "2026-10-04T11:50:07-04:00",
+        "modified_at": "2026-11-10T19:18:04-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -5733,7 +6311,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -5754,8 +6332,8 @@
     },
     {
       "assessment": {
-        "strength": 20.18,
-        "weakness": 29.2
+        "strength": 22.11,
+        "weakness": 24.0
       },
       "card_id": 1708637440080,
       "current_deck": {
@@ -6089,30 +6667,47 @@
           },
           "reviewed_at": "2026-10-06T21:47:53-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 60000,
+          "ease_factor": 2150,
+          "interval": 5,
+          "previous_interval": 4,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355626000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:07:06-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:29:01-04:00",
-        "last_reviewed_at": "2026-10-06T21:47:53-04:00",
-        "review_count": 15
+        "last_reviewed_at": "2026-11-10T19:07:06-05:00",
+        "review_count": 16
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":230,\"lrt\":1791337673}",
+        "data": "{\"pos\":230,\"lrt\":1794355626}",
         "due_interpreted": {
-          "date": "2026-10-10",
-          "days_from_today": -26,
+          "date": "2026-11-15",
+          "days_from_today": 0,
           "kind": "day"
         },
-        "due_raw": 50,
-        "ease_factor_raw": 2300,
+        "due_raw": 86,
+        "ease_factor_raw": 2150,
         "flags": 0,
-        "interval_days": 4,
+        "interval_days": 5,
         "lapses": 1,
-        "modified_at": "2026-10-06T21:47:53-04:00",
+        "modified_at": "2026-11-10T19:07:06-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -6120,7 +6715,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 15
+        "repetitions": 16
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -6141,8 +6736,8 @@
     },
     {
       "assessment": {
-        "strength": 11.46,
-        "weakness": 29.6
+        "strength": 4.35,
+        "weakness": 42.0
       },
       "card_id": 1708637440081,
       "current_deck": {
@@ -6340,38 +6935,105 @@
           },
           "reviewed_at": "2026-10-06T21:49:44-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 13000,
+          "ease_factor": 1950,
+          "interval": -600,
+          "previous_interval": 2,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268747000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:59:07-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 31000,
+          "ease_factor": 1950,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355025000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:57:05-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 1950,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356020000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:13:40-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 57000,
+          "ease_factor": 1950,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794357074000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:31:14-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:32:57-04:00",
-        "last_reviewed_at": "2026-10-06T21:49:44-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-10T19:31:14-05:00",
+        "review_count": 11
       },
       "scheduling": {
         "card_type": {
-          "name": "review",
-          "raw": 2
+          "name": "relearning",
+          "raw": 3
         },
-        "data": "{\"pos\":231,\"lrt\":1791337784}",
+        "data": "{\"pos\":231,\"lrt\":1794357074}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
-          "kind": "day"
+          "at": "2026-11-10T19:48:16-05:00",
+          "kind": "timestamp"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2150,
+        "due_raw": 1794358096,
+        "ease_factor_raw": 1950,
         "flags": 0,
-        "interval_days": 2,
-        "lapses": 1,
-        "modified_at": "2026-10-06T21:49:44-04:00",
+        "interval_days": 1,
+        "lapses": 2,
+        "modified_at": "2026-11-10T19:31:14-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "review",
-          "raw": 2
+          "name": "learning",
+          "raw": 1
         },
-        "remaining_steps_raw": 0,
-        "repetitions": 7
+        "remaining_steps_raw": 1,
+        "repetitions": 11
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -6392,8 +7054,8 @@
     },
     {
       "assessment": {
-        "strength": 18.6,
-        "weakness": 15.6
+        "strength": 41.21,
+        "weakness": 6.0
       },
       "card_id": 1708637440082,
       "current_deck": {
@@ -6574,30 +7236,47 @@
           },
           "reviewed_at": "2026-10-05T20:05:48-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 35000,
+          "ease_factor": 2500,
+          "interval": 43,
+          "previous_interval": 3,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268659000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:57:39-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:37:21-04:00",
-        "last_reviewed_at": "2026-10-05T20:05:48-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-09T18:57:39-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":232,\"lrt\":1791245148}",
+        "data": "{\"pos\":232,\"lrt\":1794268659}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-12-22",
+          "days_from_today": 37,
           "kind": "day"
         },
-        "due_raw": 48,
+        "due_raw": 123,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 43,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:05:48-04:00",
+        "modified_at": "2026-11-09T18:57:39-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -6605,7 +7284,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -6626,8 +7305,8 @@
     },
     {
       "assessment": {
-        "strength": 18.25,
-        "weakness": 13.6
+        "strength": 9.45,
+        "weakness": 22.8
       },
       "card_id": 1708637440083,
       "current_deck": {
@@ -6791,30 +7470,64 @@
           },
           "reviewed_at": "2026-10-05T20:18:04-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 19000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268696000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:58:16-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 29000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794354976000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:56:16-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:39:57-04:00",
-        "last_reviewed_at": "2026-10-05T20:18:04-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T18:56:16-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":233,\"lrt\":1791245884}",
+        "data": "{\"pos\":233,\"lrt\":1794354976}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2300,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:18:04-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T18:56:16-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -6822,7 +7535,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -6843,8 +7556,8 @@
     },
     {
       "assessment": {
-        "strength": 18.25,
-        "weakness": 13.6
+        "strength": 22.11,
+        "weakness": 6.2
       },
       "card_id": 1708637440084,
       "current_deck": {
@@ -7008,30 +7721,47 @@
           },
           "reviewed_at": "2026-10-05T20:11:04-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 2350,
+          "interval": 5,
+          "previous_interval": 3,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268734000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:58:54-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:41:44-04:00",
-        "last_reviewed_at": "2026-10-05T20:11:04-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-09T18:58:54-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":234,\"lrt\":1791245464}",
+        "data": "{\"pos\":234,\"lrt\":1794268734}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-11-14",
+          "days_from_today": -1,
           "kind": "day"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2500,
+        "due_raw": 85,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 5,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:11:04-04:00",
+        "modified_at": "2026-11-09T18:58:54-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -7039,7 +7769,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -7060,8 +7790,8 @@
     },
     {
       "assessment": {
-        "strength": 16.36,
-        "weakness": 25.8
+        "strength": 9.25,
+        "weakness": 32.0
       },
       "card_id": 1708637440085,
       "current_deck": {
@@ -7327,38 +8057,105 @@
           },
           "reviewed_at": "2026-10-05T20:10:53-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 35000,
+          "ease_factor": 2150,
+          "interval": -600,
+          "previous_interval": 2,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268478000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:54:38-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 28000,
+          "ease_factor": 2150,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794354919000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:55:19-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 19000,
+          "ease_factor": 2150,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356006000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:13:26-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 60000,
+          "ease_factor": 2150,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794357017000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:30:17-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-09-27T10:44:15-04:00",
-        "last_reviewed_at": "2026-10-05T20:10:53-04:00",
-        "review_count": 11
+        "last_reviewed_at": "2026-11-10T19:30:17-05:00",
+        "review_count": 15
       },
       "scheduling": {
         "card_type": {
-          "name": "review",
-          "raw": 2
+          "name": "relearning",
+          "raw": 3
         },
-        "data": "{\"pos\":235,\"lrt\":1791245453}",
+        "data": "{\"pos\":235,\"lrt\":1794357017}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
-          "kind": "day"
+          "at": "2026-11-10T19:48:34-05:00",
+          "kind": "timestamp"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2350,
+        "due_raw": 1794358114,
+        "ease_factor_raw": 2150,
         "flags": 0,
-        "interval_days": 2,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:10:53-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:30:17-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "review",
-          "raw": 2
+          "name": "learning",
+          "raw": 1
         },
-        "remaining_steps_raw": 0,
-        "repetitions": 11
+        "remaining_steps_raw": 1,
+        "repetitions": 15
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -7379,8 +8176,8 @@
     },
     {
       "assessment": {
-        "strength": 15.31,
-        "weakness": 21.8
+        "strength": 20.08,
+        "weakness": 14.4
       },
       "card_id": 1708637440086,
       "current_deck": {
@@ -7595,30 +8392,47 @@
           },
           "reviewed_at": "2026-10-05T20:07:44-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 2200,
+          "interval": 4,
+          "previous_interval": 2,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268272000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:51:12-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:28:07-04:00",
-        "last_reviewed_at": "2026-10-05T20:07:44-04:00",
-        "review_count": 8
+        "last_reviewed_at": "2026-11-09T18:51:12-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":236,\"lrt\":1791245264}",
+        "data": "{\"pos\":236,\"lrt\":1794268272}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-13",
+          "days_from_today": -2,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2350,
+        "due_raw": 84,
+        "ease_factor_raw": 2200,
         "flags": 0,
-        "interval_days": 2,
+        "interval_days": 4,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:07:44-04:00",
+        "modified_at": "2026-11-09T18:51:12-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -7626,7 +8440,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 8
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -7647,8 +8461,8 @@
     },
     {
       "assessment": {
-        "strength": 18.25,
-        "weakness": 13.6
+        "strength": 22.11,
+        "weakness": 6.2
       },
       "card_id": 1708637440087,
       "current_deck": {
@@ -7812,30 +8626,47 @@
           },
           "reviewed_at": "2026-10-05T19:58:36-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 12000,
+          "ease_factor": 2350,
+          "interval": 5,
+          "previous_interval": 3,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268795000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:59:55-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:32:06-04:00",
-        "last_reviewed_at": "2026-10-05T19:58:36-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-09T18:59:55-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":237,\"lrt\":1791244716}",
+        "data": "{\"pos\":237,\"lrt\":1794268795}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-11-14",
+          "days_from_today": -1,
           "kind": "day"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2500,
+        "due_raw": 85,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 5,
         "lapses": 0,
-        "modified_at": "2026-10-05T19:58:36-04:00",
+        "modified_at": "2026-11-09T18:59:55-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -7843,7 +8674,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -7864,8 +8695,8 @@
     },
     {
       "assessment": {
-        "strength": 20.88,
-        "weakness": 13.4
+        "strength": 22.81,
+        "weakness": 10.2
       },
       "card_id": 1708637440088,
       "current_deck": {
@@ -8063,30 +8894,47 @@
           },
           "reviewed_at": "2026-10-05T19:57:10-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 17000,
+          "ease_factor": 2350,
+          "interval": 5,
+          "previous_interval": 4,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268895000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T19:01:35-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:35:08-04:00",
-        "last_reviewed_at": "2026-10-05T19:57:10-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-09T19:01:35-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":238,\"lrt\":1791244630}",
+        "data": "{\"pos\":238,\"lrt\":1794268895}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
+          "date": "2026-11-14",
+          "days_from_today": -1,
           "kind": "day"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2500,
+        "due_raw": 85,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 4,
+        "interval_days": 5,
         "lapses": 0,
-        "modified_at": "2026-10-05T19:57:10-04:00",
+        "modified_at": "2026-11-09T19:01:35-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -8094,7 +8942,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -8115,8 +8963,8 @@
     },
     {
       "assessment": {
-        "strength": 14.96,
-        "weakness": 19.8
+        "strength": 17.8,
+        "weakness": 16.6
       },
       "card_id": 1708637440089,
       "current_deck": {
@@ -8314,30 +9162,47 @@
           },
           "reviewed_at": "2026-10-05T19:58:01-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 34000,
+          "ease_factor": 2200,
+          "interval": 3,
+          "previous_interval": 2,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268258000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:50:58-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:40:42-04:00",
-        "last_reviewed_at": "2026-10-05T19:58:01-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-09T18:50:58-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":239,\"lrt\":1791244681}",
+        "data": "{\"pos\":239,\"lrt\":1794268258}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-12",
+          "days_from_today": -3,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2350,
+        "due_raw": 83,
+        "ease_factor_raw": 2200,
         "flags": 0,
-        "interval_days": 2,
+        "interval_days": 3,
         "lapses": 0,
-        "modified_at": "2026-10-05T19:58:01-04:00",
+        "modified_at": "2026-11-09T18:50:58-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -8345,7 +9210,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -8366,8 +9231,8 @@
     },
     {
       "assessment": {
-        "strength": 14.26,
-        "weakness": 15.8
+        "strength": 8.65,
+        "weakness": 28.8
       },
       "card_id": 1708637440090,
       "current_deck": {
@@ -8531,30 +9396,98 @@
           },
           "reviewed_at": "2026-10-05T20:16:24-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 45000,
+          "ease_factor": 2150,
+          "interval": -600,
+          "previous_interval": 2,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268317000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:51:57-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 13000,
+          "ease_factor": 2150,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268946000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T19:02:26-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 22000,
+          "ease_factor": 2150,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355195000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:59:55-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 2150,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356262000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:17:42-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:49:15-04:00",
-        "last_reviewed_at": "2026-10-05T20:16:24-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:17:42-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":240,\"lrt\":1791245784}",
+        "data": "{\"pos\":240,\"lrt\":1794356262}",
         "due_interpreted": {
-          "date": "2026-10-07",
-          "days_from_today": -29,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 47,
-        "ease_factor_raw": 2350,
+        "due_raw": 82,
+        "ease_factor_raw": 2150,
         "flags": 0,
-        "interval_days": 2,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:16:24-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:17:42-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -8562,7 +9495,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -8583,8 +9516,8 @@
     },
     {
       "assessment": {
-        "strength": 19.83,
-        "weakness": 7.4
+        "strength": 21.76,
+        "weakness": 4.0
       },
       "card_id": 1708637440091,
       "current_deck": {
@@ -8731,30 +9664,47 @@
           },
           "reviewed_at": "2026-10-05T20:16:32-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 10000,
+          "ease_factor": 2350,
+          "interval": 5,
+          "previous_interval": 4,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355268000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:01:08-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:50:51-04:00",
-        "last_reviewed_at": "2026-10-05T20:16:32-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:01:08-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":241,\"lrt\":1791245792}",
+        "data": "{\"pos\":241,\"lrt\":1794355268}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
+          "date": "2026-11-15",
+          "days_from_today": 0,
           "kind": "day"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2500,
+        "due_raw": 86,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 4,
+        "interval_days": 5,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:16:32-04:00",
+        "modified_at": "2026-11-10T19:01:08-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -8762,7 +9712,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -8783,8 +9733,8 @@
     },
     {
       "assessment": {
-        "strength": 17.9,
-        "weakness": 11.6
+        "strength": 40.7,
+        "weakness": 2.0
       },
       "card_id": 1708637440092,
       "current_deck": {
@@ -8931,30 +9881,47 @@
           },
           "reviewed_at": "2026-10-05T20:17:19-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2500,
+          "interval": 44,
+          "previous_interval": 3,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268616000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:56:56-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T11:56:50-04:00",
-        "last_reviewed_at": "2026-10-05T20:17:19-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-09T18:56:56-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":242,\"lrt\":1791245839}",
+        "data": "{\"pos\":242,\"lrt\":1794268616}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-12-23",
+          "days_from_today": 38,
           "kind": "day"
         },
-        "due_raw": 48,
+        "due_raw": 124,
         "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 3,
+        "interval_days": 44,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:17:19-04:00",
+        "modified_at": "2026-11-09T18:56:56-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -8962,7 +9929,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -8983,8 +9950,8 @@
     },
     {
       "assessment": {
-        "strength": 15.1,
-        "weakness": 25.4
+        "strength": 6.3,
+        "weakness": 34.8
       },
       "card_id": 1708637440093,
       "current_deck": {
@@ -9165,30 +10132,64 @@
           },
           "reviewed_at": "2026-10-06T21:46:08-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 2100,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268933000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T19:02:13-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 2100,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794355124000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:58:44-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T12:00:06-04:00",
-        "last_reviewed_at": "2026-10-06T21:46:08-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T18:58:44-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":243,\"lrt\":1791337568}",
+        "data": "{\"pos\":243,\"lrt\":1794355124}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2300,
+        "due_raw": 82,
+        "ease_factor_raw": 2100,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 1,
-        "modified_at": "2026-10-06T21:46:08-04:00",
+        "interval_days": 1,
+        "lapses": 2,
+        "modified_at": "2026-11-10T18:58:44-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -9196,7 +10197,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -9217,8 +10218,8 @@
     },
     {
       "assessment": {
-        "strength": 17.9,
-        "weakness": 11.6
+        "strength": 9.1,
+        "weakness": 20.8
       },
       "card_id": 1708637440094,
       "current_deck": {
@@ -9365,30 +10366,64 @@
           },
           "reviewed_at": "2026-10-05T20:04:04-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 18000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268677000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:57:57-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794354947000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:55:47-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T12:02:33-04:00",
-        "last_reviewed_at": "2026-10-05T20:04:04-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T18:55:47-05:00",
+        "review_count": 6
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":244,\"lrt\":1791245044}",
+        "data": "{\"pos\":244,\"lrt\":1794354947}",
         "due_interpreted": {
-          "date": "2026-10-08",
-          "days_from_today": -28,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 48,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2300,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:04:04-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T18:55:47-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -9396,7 +10431,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 6
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -9417,8 +10452,8 @@
     },
     {
       "assessment": {
-        "strength": 11.45,
-        "weakness": 20.0
+        "strength": 15.31,
+        "weakness": 16.8
       },
       "card_id": 1708637440095,
       "current_deck": {
@@ -9616,30 +10651,47 @@
           },
           "reviewed_at": "2026-10-05T20:23:43-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 33000,
+          "ease_factor": 2350,
+          "interval": 2,
+          "previous_interval": 1,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794267944000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:45:44-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-04T12:06:18-04:00",
-        "last_reviewed_at": "2026-10-05T20:23:43-04:00",
-        "review_count": 7
+        "last_reviewed_at": "2026-11-09T18:45:44-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":245,\"lrt\":1791246223}",
+        "data": "{\"pos\":245,\"lrt\":1794267944}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 1,
+        "interval_days": 2,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:23:43-04:00",
+        "modified_at": "2026-11-09T18:45:44-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -9647,7 +10699,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 7
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -9668,8 +10720,8 @@
     },
     {
       "assessment": {
-        "strength": 10.75,
-        "weakness": 16.0
+        "strength": 7.95,
+        "weakness": 25.0
       },
       "card_id": 1708637440096,
       "current_deck": {
@@ -9833,30 +10885,64 @@
           },
           "reviewed_at": "2026-10-05T20:23:54-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 21000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 1,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267773000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:42:53-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 9000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268418000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:53:38-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T19:58:31-04:00",
-        "last_reviewed_at": "2026-10-05T20:23:54-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-09T18:53:38-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":246,\"lrt\":1791246234}",
+        "data": "{\"pos\":246,\"lrt\":1794268418}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-10",
+          "days_from_today": -5,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 81,
+        "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:23:54-04:00",
+        "lapses": 1,
+        "modified_at": "2026-11-09T18:53:38-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -9864,7 +10950,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -9885,8 +10971,8 @@
     },
     {
       "assessment": {
-        "strength": 18.6,
-        "weakness": 15.4
+        "strength": 8.65,
+        "weakness": 28.0
       },
       "card_id": 1708637440097,
       "current_deck": {
@@ -10067,38 +11153,88 @@
           },
           "reviewed_at": "2026-10-06T21:45:26-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 23000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 3,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268979000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T19:02:59-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 23000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355147000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:59:07-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 26000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356310000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:18:30-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:00:07-04:00",
-        "last_reviewed_at": "2026-10-06T21:45:26-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:18:30-05:00",
+        "review_count": 9
       },
       "scheduling": {
         "card_type": {
-          "name": "review",
-          "raw": 2
+          "name": "relearning",
+          "raw": 3
         },
-        "data": "{\"pos\":247,\"lrt\":1791337526}",
+        "data": "{\"pos\":247,\"lrt\":1794356310}",
         "due_interpreted": {
-          "date": "2026-10-09",
-          "days_from_today": -27,
-          "kind": "day"
+          "at": "2026-11-10T19:36:50-05:00",
+          "kind": "timestamp"
         },
-        "due_raw": 49,
-        "ease_factor_raw": 2500,
+        "due_raw": 1794357410,
+        "ease_factor_raw": 2300,
         "flags": 0,
-        "interval_days": 3,
-        "lapses": 0,
-        "modified_at": "2026-10-06T21:45:26-04:00",
+        "interval_days": 1,
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:18:30-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "review",
-          "raw": 2
+          "name": "learning",
+          "raw": 1
         },
-        "remaining_steps_raw": 0,
-        "repetitions": 6
+        "remaining_steps_raw": 1,
+        "repetitions": 9
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -10119,8 +11255,8 @@
     },
     {
       "assessment": {
-        "strength": 18.53,
-        "weakness": 15.2
+        "strength": 21.79,
+        "weakness": 12.0
       },
       "card_id": 1708637440098,
       "current_deck": {
@@ -10301,30 +11437,47 @@
           },
           "reviewed_at": "2026-10-06T21:48:02-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 29000,
+          "ease_factor": 2350,
+          "interval": 6,
+          "previous_interval": 4,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355508000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:05:08-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:03:23-04:00",
-        "last_reviewed_at": "2026-10-06T21:48:02-04:00",
-        "review_count": 6
+        "last_reviewed_at": "2026-11-10T19:05:08-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":248,\"lrt\":1791337682}",
+        "data": "{\"pos\":248,\"lrt\":1794355508}",
         "due_interpreted": {
-          "date": "2026-10-10",
-          "days_from_today": -26,
+          "date": "2026-11-16",
+          "days_from_today": 1,
           "kind": "day"
         },
-        "due_raw": 50,
-        "ease_factor_raw": 2500,
+        "due_raw": 87,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 4,
+        "interval_days": 6,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:48:02-04:00",
+        "modified_at": "2026-11-10T19:05:08-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -10332,7 +11485,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 6
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -10353,8 +11506,8 @@
     },
     {
       "assessment": {
-        "strength": 10.4,
-        "weakness": 14.0
+        "strength": 8.3,
+        "weakness": 26.8
       },
       "card_id": 1708637440099,
       "current_deck": {
@@ -10501,30 +11654,98 @@
           },
           "reviewed_at": "2026-10-05T20:23:32-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 26000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 1,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267996000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:46:36-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 25000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268772000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:59:32-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 18000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355213000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:00:13-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 10000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356350000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:19:10-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:05:24-04:00",
-        "last_reviewed_at": "2026-10-05T20:23:32-04:00",
-        "review_count": 4
+        "last_reviewed_at": "2026-11-10T19:19:10-05:00",
+        "review_count": 8
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":249,\"lrt\":1791246212}",
+        "data": "{\"pos\":249,\"lrt\":1794356350}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:23:32-04:00",
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:19:10-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -10532,7 +11753,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 4
+        "repetitions": 8
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -10553,8 +11774,8 @@
     },
     {
       "assessment": {
-        "strength": 10.05,
-        "weakness": 12.0
+        "strength": 13.91,
+        "weakness": 8.8
       },
       "card_id": 1708637440100,
       "current_deck": {
@@ -10684,30 +11905,47 @@
           },
           "reviewed_at": "2026-10-05T20:22:11-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 21000,
+          "ease_factor": 2350,
+          "interval": 2,
+          "previous_interval": 1,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268095000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:48:15-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:06:37-04:00",
-        "last_reviewed_at": "2026-10-05T20:22:11-04:00",
-        "review_count": 3
+        "last_reviewed_at": "2026-11-09T18:48:15-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":250,\"lrt\":1791246131}",
+        "data": "{\"pos\":250,\"lrt\":1794268095}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 1,
+        "interval_days": 2,
         "lapses": 0,
-        "modified_at": "2026-10-05T20:22:11-04:00",
+        "modified_at": "2026-11-09T18:48:15-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -10715,7 +11953,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 3
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -10736,8 +11974,8 @@
     },
     {
       "assessment": {
-        "strength": 6.8,
-        "weakness": 36.0
+        "strength": 5.35,
+        "weakness": 38.8
       },
       "card_id": 1708637440101,
       "current_deck": {
@@ -10952,37 +12190,89 @@
           },
           "reviewed_at": "2026-10-06T21:49:58-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 24000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": -600,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267695000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:41:35-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": -600,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268409000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:53:29-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 39000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794354853000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:54:13-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:08:40-04:00",
-        "last_reviewed_at": "2026-10-06T21:49:58-04:00",
-        "review_count": 8
+        "last_reviewed_at": "2026-11-10T18:54:13-05:00",
+        "review_count": 11
       },
       "scheduling": {
         "card_type": {
-          "name": "relearning",
-          "raw": 3
+          "name": "review",
+          "raw": 2
         },
-        "data": "{\"pos\":251,\"lrt\":1791337798}",
+        "data": "{\"pos\":251,\"lrt\":1794354853}",
         "due_interpreted": {
-          "at": "2026-10-06T22:00:13-04:00",
-          "kind": "timestamp"
+          "date": "2026-11-11",
+          "days_from_today": -4,
+          "kind": "day"
         },
-        "due_raw": 1791338413,
+        "due_raw": 82,
         "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
         "lapses": 1,
-        "modified_at": "2026-10-06T21:49:58-04:00",
+        "modified_at": "2026-11-10T18:54:13-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "remaining_steps_raw": 1,
-        "repetitions": 8
+        "remaining_steps_raw": 0,
+        "repetitions": 11
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11003,8 +12293,8 @@
     },
     {
       "assessment": {
-        "strength": 8.05,
-        "weakness": 16.0
+        "strength": 5.25,
+        "weakness": 25.0
       },
       "card_id": 1708637440102,
       "current_deck": {
@@ -11134,30 +12424,64 @@
           },
           "reviewed_at": "2026-10-05T20:22:07-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 39000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 1,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268035000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:47:15-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 11000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268783000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:59:43-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:10:27-04:00",
-        "last_reviewed_at": "2026-10-05T20:22:07-04:00",
-        "review_count": 3
+        "last_reviewed_at": "2026-11-09T18:59:43-05:00",
+        "review_count": 5
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":252,\"lrt\":1791246127}",
+        "data": "{\"pos\":252,\"lrt\":1794268783}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-10",
+          "days_from_today": -5,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 81,
+        "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:22:07-04:00",
+        "lapses": 1,
+        "modified_at": "2026-11-09T18:59:43-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -11165,7 +12489,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 3
+        "repetitions": 5
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11186,8 +12510,8 @@
     },
     {
       "assessment": {
-        "strength": 10.05,
-        "weakness": 12.0
+        "strength": 7.95,
+        "weakness": 24.8
       },
       "card_id": 1708637440103,
       "current_deck": {
@@ -11317,30 +12641,98 @@
           },
           "reviewed_at": "2026-10-05T20:24:34-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 26000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 1,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267970000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:46:10-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 23000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268719000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:58:39-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 26000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355173000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:59:33-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 6000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356136000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:15:36-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:12:58-04:00",
-        "last_reviewed_at": "2026-10-05T20:24:34-04:00",
-        "review_count": 3
+        "last_reviewed_at": "2026-11-10T19:15:36-05:00",
+        "review_count": 7
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":253,\"lrt\":1791246274}",
+        "data": "{\"pos\":253,\"lrt\":1794356136}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:24:34-04:00",
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:15:36-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -11348,7 +12740,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 3
+        "repetitions": 7
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11369,8 +12761,8 @@
     },
     {
       "assessment": {
-        "strength": 19.48,
-        "weakness": 5.2
+        "strength": 22.74,
+        "weakness": 2.0
       },
       "card_id": 1708637440104,
       "current_deck": {
@@ -11500,30 +12892,47 @@
           },
           "reviewed_at": "2026-10-06T21:48:50-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 19000,
+          "ease_factor": 2350,
+          "interval": 6,
+          "previous_interval": 4,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355527000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-10T19:05:27-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:16:38-04:00",
-        "last_reviewed_at": "2026-10-06T21:48:50-04:00",
-        "review_count": 3
+        "last_reviewed_at": "2026-11-10T19:05:27-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":254,\"lrt\":1791337730}",
+        "data": "{\"pos\":254,\"lrt\":1794355527}",
         "due_interpreted": {
-          "date": "2026-10-10",
-          "days_from_today": -26,
+          "date": "2026-11-16",
+          "days_from_today": 1,
           "kind": "day"
         },
-        "due_raw": 50,
-        "ease_factor_raw": 2500,
+        "due_raw": 87,
+        "ease_factor_raw": 2350,
         "flags": 0,
-        "interval_days": 4,
+        "interval_days": 6,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:48:50-04:00",
+        "modified_at": "2026-11-10T19:05:27-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -11531,7 +12940,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 3
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11552,8 +12961,8 @@
     },
     {
       "assessment": {
-        "strength": 10.75,
-        "weakness": 16.0
+        "strength": 9.0,
+        "weakness": 30.8
       },
       "card_id": 1708637440105,
       "current_deck": {
@@ -11717,30 +13126,115 @@
           },
           "reviewed_at": "2026-10-05T20:24:47-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 18000,
+          "ease_factor": 2300,
+          "interval": -600,
+          "previous_interval": 1,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267812000,
+          "review_type": {
+            "name": "review",
+            "raw": 1
+          },
+          "reviewed_at": "2026-11-09T18:43:32-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 16000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268494000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-09T18:54:54-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 37000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355109000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T18:58:29-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 49000,
+          "ease_factor": 2300,
+          "interval": -900,
+          "previous_interval": -600,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356107000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:15:07-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 2300,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794357131000,
+          "review_type": {
+            "name": "relearning",
+            "raw": 2
+          },
+          "reviewed_at": "2026-11-10T19:32:11-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-05T20:17:45-04:00",
-        "last_reviewed_at": "2026-10-05T20:24:47-04:00",
-        "review_count": 5
+        "last_reviewed_at": "2026-11-10T19:32:11-05:00",
+        "review_count": 10
       },
       "scheduling": {
         "card_type": {
           "name": "review",
           "raw": 2
         },
-        "data": "{\"pos\":255,\"lrt\":1791246287}",
+        "data": "{\"pos\":255,\"lrt\":1794357131}",
         "due_interpreted": {
-          "date": "2026-10-06",
-          "days_from_today": -30,
+          "date": "2026-11-11",
+          "days_from_today": -4,
           "kind": "day"
         },
-        "due_raw": 46,
-        "ease_factor_raw": 2500,
+        "due_raw": 82,
+        "ease_factor_raw": 2300,
         "flags": 0,
         "interval_days": 1,
-        "lapses": 0,
-        "modified_at": "2026-10-05T20:24:47-04:00",
+        "lapses": 1,
+        "modified_at": "2026-11-10T19:32:11-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
@@ -11748,7 +13242,7 @@
           "raw": 2
         },
         "remaining_steps_raw": 0,
-        "repetitions": 5
+        "repetitions": 10
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11769,8 +13263,8 @@
     },
     {
       "assessment": {
-        "strength": 0.35,
-        "weakness": 6.0
+        "strength": 3.2,
+        "weakness": 28.0
       },
       "card_id": 1708637440106,
       "current_deck": {
@@ -11866,37 +13360,224 @@
           },
           "reviewed_at": "2026-10-06T21:46:00-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 29000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -60,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267573000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:39:33-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -60,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267710000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:41:50-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 21000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": -60,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794267794000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:43:14-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -600,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794268509000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:55:09-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794268598000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:56:38-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 29000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794269008000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T19:03:28-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 18000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794354994000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-10T18:56:34-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355412000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-10T19:03:32-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 15000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794355774000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-10T19:09:34-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 48000,
+          "ease_factor": 0,
+          "interval": -330,
+          "previous_interval": -60,
+          "rating": {
+            "name": "hard",
+            "raw": 2
+          },
+          "review_id": 1794356229000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-10T19:17:09-05:00",
+          "sync_sequence": 16
+        },
+        {
+          "answer_time_ms": 16000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": -60,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794356635000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-10T19:23:55-05:00",
+          "sync_sequence": 16
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-06T21:46:00-04:00",
-        "last_reviewed_at": "2026-10-06T21:46:00-04:00",
-        "review_count": 1
+        "last_reviewed_at": "2026-11-10T19:23:55-05:00",
+        "review_count": 12
       },
       "scheduling": {
         "card_type": {
           "name": "learning",
           "raw": 1
         },
-        "data": "{\"pos\":256,\"lrt\":1791337560}",
+        "data": "{\"pos\":256,\"lrt\":1794356635}",
         "due_interpreted": {
-          "at": "2026-10-06T21:52:37-04:00",
+          "at": "2026-11-10T19:33:58-05:00",
           "kind": "timestamp"
         },
-        "due_raw": 1791337957,
+        "due_raw": 1794357238,
         "ease_factor_raw": 0,
         "flags": 0,
         "interval_days": 0,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:46:00-04:00",
+        "modified_at": "2026-11-10T19:23:55-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
           "name": "learning",
           "raw": 1
         },
-        "remaining_steps_raw": 2,
-        "repetitions": 1
+        "remaining_steps_raw": 1,
+        "repetitions": 12
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -11917,8 +13598,8 @@
     },
     {
       "assessment": {
-        "strength": 0.35,
-        "weakness": 6.0
+        "strength": 8.4,
+        "weakness": 13.0
       },
       "card_id": 1708637440107,
       "current_deck": {
@@ -12014,37 +13695,89 @@
           },
           "reviewed_at": "2026-10-06T21:47:46-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 37000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -60,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267624000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:40:24-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 16000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": -60,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794267734000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:42:14-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 7000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268442000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:54:02-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-06T21:47:46-04:00",
-        "last_reviewed_at": "2026-10-06T21:47:46-04:00",
-        "review_count": 1
+        "last_reviewed_at": "2026-11-09T18:54:02-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "data": "{\"pos\":257,\"lrt\":1791337666}",
+        "data": "{\"pos\":257,\"lrt\":1794268442}",
         "due_interpreted": {
-          "at": "2026-10-06T21:54:17-04:00",
-          "kind": "timestamp"
+          "date": "2026-11-10",
+          "days_from_today": -5,
+          "kind": "day"
         },
-        "due_raw": 1791338057,
-        "ease_factor_raw": 0,
+        "due_raw": 81,
+        "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 0,
+        "interval_days": 1,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:47:46-04:00",
+        "modified_at": "2026-11-09T18:54:03-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "remaining_steps_raw": 2,
-        "repetitions": 1
+        "remaining_steps_raw": 0,
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -12065,8 +13798,8 @@
     },
     {
       "assessment": {
-        "strength": 0.35,
-        "weakness": 6.0
+        "strength": 8.4,
+        "weakness": 13.0
       },
       "card_id": 1708637440108,
       "current_deck": {
@@ -12162,37 +13895,89 @@
           },
           "reviewed_at": "2026-10-06T21:48:15-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 14000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -60,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267587000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:39:47-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": -60,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794267718000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:41:58-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 6000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268370000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:52:50-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-06T21:48:15-04:00",
-        "last_reviewed_at": "2026-10-06T21:48:15-04:00",
-        "review_count": 1
+        "last_reviewed_at": "2026-11-09T18:52:50-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "data": "{\"pos\":258,\"lrt\":1791337695}",
+        "data": "{\"pos\":258,\"lrt\":1794268370}",
         "due_interpreted": {
-          "at": "2026-10-06T21:53:53-04:00",
-          "kind": "timestamp"
+          "date": "2026-11-10",
+          "days_from_today": -5,
+          "kind": "day"
         },
-        "due_raw": 1791338033,
-        "ease_factor_raw": 0,
+        "due_raw": 81,
+        "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 0,
+        "interval_days": 1,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:48:15-04:00",
+        "modified_at": "2026-11-09T18:52:50-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "remaining_steps_raw": 2,
-        "repetitions": 1
+        "remaining_steps_raw": 0,
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -12213,8 +13998,8 @@
     },
     {
       "assessment": {
-        "strength": 0.35,
-        "weakness": 6.0
+        "strength": 8.4,
+        "weakness": 13.0
       },
       "card_id": 1708637440109,
       "current_deck": {
@@ -12310,37 +14095,89 @@
           },
           "reviewed_at": "2026-10-06T21:49:25-04:00",
           "sync_sequence": 13
+        },
+        {
+          "answer_time_ms": 47000,
+          "ease_factor": 0,
+          "interval": -60,
+          "previous_interval": -60,
+          "rating": {
+            "name": "again",
+            "raw": 1
+          },
+          "review_id": 1794267671000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:41:11-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 8000,
+          "ease_factor": 0,
+          "interval": -600,
+          "previous_interval": -60,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794267742000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:42:22-05:00",
+          "sync_sequence": 15
+        },
+        {
+          "answer_time_ms": 5000,
+          "ease_factor": 2500,
+          "interval": 1,
+          "previous_interval": -600,
+          "rating": {
+            "name": "good",
+            "raw": 3
+          },
+          "review_id": 1794268435000,
+          "review_type": {
+            "name": "learning",
+            "raw": 0
+          },
+          "reviewed_at": "2026-11-09T18:53:55-05:00",
+          "sync_sequence": 15
         }
       ],
       "review_summary": {
         "first_reviewed_at": "2026-10-06T21:49:25-04:00",
-        "last_reviewed_at": "2026-10-06T21:49:25-04:00",
-        "review_count": 1
+        "last_reviewed_at": "2026-11-09T18:53:55-05:00",
+        "review_count": 4
       },
       "scheduling": {
         "card_type": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "data": "{\"pos\":259,\"lrt\":1791337765}",
+        "data": "{\"pos\":259,\"lrt\":1794268435}",
         "due_interpreted": {
-          "at": "2026-10-06T21:55:45-04:00",
-          "kind": "timestamp"
+          "date": "2026-11-10",
+          "days_from_today": -5,
+          "kind": "day"
         },
-        "due_raw": 1791338145,
-        "ease_factor_raw": 0,
+        "due_raw": 81,
+        "ease_factor_raw": 2500,
         "flags": 0,
-        "interval_days": 0,
+        "interval_days": 1,
         "lapses": 0,
-        "modified_at": "2026-10-06T21:49:25-04:00",
+        "modified_at": "2026-11-09T18:53:55-05:00",
         "original_deck_id": 0,
         "original_due_raw": 0,
         "queue": {
-          "name": "learning",
-          "raw": 1
+          "name": "review",
+          "raw": 2
         },
-        "remaining_steps_raw": 2,
-        "repetitions": 1
+        "remaining_steps_raw": 0,
+        "repetitions": 4
       },
       "study_state": "currently_active",
       "template_ordinal": 0,
@@ -12360,7 +14197,7 @@
       }
     }
   ],
-  "generated_at": "2026-11-05T18:37:34.164429-05:00",
+  "generated_at": "2026-11-15T18:07:20.722664-05:00",
   "schema_version": 3,
   "shard_number": 3
 }
