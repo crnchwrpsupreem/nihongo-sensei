@@ -12,11 +12,11 @@ _Automatically refreshed by the mini-PC publisher. Do not edit inside these mark
 | Field | Current value |
 | --- | --- |
 | Status | **Ready** |
-| Last generated | `2026-11-15T22:08:42.329133-05:00` |
+| Last generated | `2026-11-15T23:08:51.200844-05:00` |
 | Reviewed cards available to the tutor | **256** |
 | Currently active cards | **256** |
 | Review events | **1673** |
-| Generation | `1e29825033622418` |
+| Generation | `55e29fc689d62469` |
 | Current bundle | [`tutor-data/current/`](tutor-data/current/) |
 <!-- nihongo-sensei-status:end -->
 
