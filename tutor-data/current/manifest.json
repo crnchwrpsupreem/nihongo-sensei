@@ -9,43 +9,43 @@
   "files": {
     "card-index.json": {
       "bytes": 222474,
-      "sha256": "82227c881a2f4fa96740d6d6e9f3ca30eb9356ee1ad43d269c9f38d5c770c132"
+      "sha256": "c03770bca38b9e45972db7815affcbdbda35a9d8f3f2dc37fac81edbf5b84640"
     },
     "cards-0001.json": {
       "bytes": 705108,
-      "sha256": "f92136847492534eaba1d2d1769f5cc670a115e03a6bbb9c93c8f1d885c6f784"
+      "sha256": "c58a3e725750317c849af047fdc7dcf199737b5a0d4c52243a0c68c57fe9d03b"
     },
     "cards-0002.json": {
       "bytes": 741625,
-      "sha256": "7462b28f872b7b450cad3383ae19625b02afa2fdeca2b293de05bba791d555b2"
+      "sha256": "cc1e4752714393921e5b0eaa97f37dabbb16379c26b4669929ea58166e3fd3e4"
     },
     "cards-0003.json": {
       "bytes": 432605,
-      "sha256": "2b5d2e9a98007c8e7fae1a93ae9f27c5492ed93091829601bdaa4aedff501579"
+      "sha256": "9459297367a115b8abfa5d544e4d52d2dfb636aa7226058bf259ccd8566ccc10"
     },
     "lesson-brief.md": {
       "bytes": 994,
-      "sha256": "ddfabc21c247a7bf7c880703bf1019960826149a8ce5ffbddf3f5a38f71f4360"
+      "sha256": "694b07b78cc3870d79b52c3374a54d4ed49bf865302e6cd18bbe77b07f9fed19"
     },
     "tutor-policy.json": {
       "bytes": 3013,
-      "sha256": "617958a37e4e3080640fc22a888bac94377cfd183dcf06527168a7c072837d30"
+      "sha256": "82f45daba24c01aff48f53de40f619b3e296e70f78fb7df10c9dd0b17d4632a4"
     },
     "voice-corpus.txt": {
       "bytes": 10473,
-      "sha256": "0a798c7a2ad0f14bcd948231419c7d9c2690401997e1b5665affeececec9088b"
+      "sha256": "89247ce06dd095f57ebe62e3ae211b8a85a45c7d296088a08d6a0cd2cf4767ad"
     },
     "voice-session.json": {
       "bytes": 2814,
-      "sha256": "c4edf79d9dfd6c5efe868c160ab957b8333387629eb7766e6d4cbeb2cdedaa76"
+      "sha256": "aadc12e5e47a844f5008940e6d5a39fd1380bded8ce90f3ae5b19341e1e5ec25"
     },
     "voice-session.txt": {
       "bytes": 2083,
-      "sha256": "e6d0e7ec5daa6ba9ab4a77499221eebdd9a43da4786103e78e6626bd5c399aae"
+      "sha256": "4dec529c36ed63a737d0d7a999e332bd9cf2ecc2ae512584e963d440ddcfdc06"
     }
   },
-  "generated_at": "2026-11-17T02:12:53.355187-05:00",
-  "generation_id": "82227c881a2f4fa9",
+  "generated_at": "2026-11-17T03:13:01.447637-05:00",
+  "generation_id": "c03770bca38b9e45",
   "privacy": {
     "contains_anki_media": false,
     "contains_card_text": true,
@@ -54,7 +54,7 @@
     "contains_source_machine_paths": false,
     "public_repository": true
   },
-  "published_at": "2026-11-17T02:12:53.456037-05:00",
+  "published_at": "2026-11-17T03:13:01.544611-05:00",
   "ready": true,
   "review_event_count": 1673,
   "reviewed_card_count": 256,
