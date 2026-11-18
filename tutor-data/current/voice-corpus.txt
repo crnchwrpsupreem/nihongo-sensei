@@ -1,4 +1,4 @@
-Generation: b512e06ec5fea5f9
+Generation: ca77a609173b924d
 
 [FRESH]
 戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
