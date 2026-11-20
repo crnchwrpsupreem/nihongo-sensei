@@ -1,6 +1,6 @@
 # Current Nihongo Sensei tutor context
 
-Generated: 2026-11-20T04:23:28.411162-05:00
+Generated: 2026-11-20T05:23:37.477077-05:00
 Deck root: `日本語`
 Reviewed cards published: **256**
 Currently active: **256**
