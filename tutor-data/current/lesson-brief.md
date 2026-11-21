@@ -1,6 +1,6 @@
 # Current Nihongo Sensei tutor context
 
-Generated: 2026-11-20T23:26:05.105533-05:00
+Generated: 2026-11-21T00:26:11.915639-05:00
 Deck root: `日本語`
 Reviewed cards published: **256**
 Currently active: **256**
@@ -20,17 +20,17 @@ Untouched cards are excluded. The `cards-NNNN.json` shards contain exact note fi
 ## Weak active items
 
 - 夜
-- 男
 - 僕
+- 男
 - 姿
 - 多く
 - 今朝
+- 頭
 - 作る
 - 声
-- 頭
-- 飲む
-- 奴
 - 知る
+- 笑う
+- ため
 
 ## Historical items most worth revisiting
 
