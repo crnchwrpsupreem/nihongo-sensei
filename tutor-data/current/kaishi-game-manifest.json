@@ -4,8 +4,8 @@
   "cards_per_test": 100,
   "eligible_card_count": 186,
   "file": "kaishi-game-catalog.json",
-  "generated_at": "2026-11-26T14:43:28.284843+00:00",
+  "generated_at": "2026-11-26T15:43:34.975068+00:00",
   "schema_version": 1,
-  "sha256": "3f317b16486b63f1d103c3b9d071f227c0a043afbaf41a988791337a0527b2ab",
+  "sha256": "9d389c51015a3932623a91af87099d556d2ef0d980d4bb1cfb501c9bcb01a3fe",
   "test_count": 15
 }
