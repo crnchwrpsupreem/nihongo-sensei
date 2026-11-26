@@ -1,4 +1,4 @@
-Generation: 30473d1b66ca1d13
+Generation: a3f7aeed5ac66bd0
 
 [FRESH]
 戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
@@ -83,16 +83,16 @@ Generation: 30473d1b66ca1d13
 好き — like, fond of | 私はワインが好きです。 — I like wine.
 
 [MATURE]
-友達 — friend, companion | 友達とレストランに行きました。 — I went to the restaurant with my friend.
-待つ — wait | 1時間友達を待ちました。 — I waited for my friend for an hour.
-昨日 — yesterday | 昨日、友達に会った。 — I met a friend yesterday.
-町 — town, city | あの町に行きました。 — I went to that town over there.
-高い — high, tall | これがこの町で一番高いビルです。 — This is the tallest building in town.
-大好き — love | 私は父が大好きです。 — I love my father.
-あげる — give (receiver is not in the speaker's group) | 友達にプレゼントをあげます。 — I will give a present to my friend.
-もらう — receive | 彼女からプレゼントをもらいました。 — I got a present from her.
-中 — inside, middle | 父は家の中にいます。 — My father is inside the house.
-いつも — always, usually | 彼女はいつも元気だ。 — She's always full of energy.
+日本 — Japan | 日本のゲームは面白いです。 — Japanese games are fun.
+学校 — school | 学校は日本にあります。 — The school is in Japan.
+行く — go | 学校へ行きます。 — I will go to school.
+来る — come | 明日、来ますか。 — Will you come tomorrow?
+いつ — when | 彼女はいつ来ますか。 — When is she coming?
+こう — like this, this kind of | こうしましょう。 — Let’s do this (“this way”).
+そう — in such manner, that way | 私もそう思います。 — That's what I think too.
+どう — how, what | あなたはどう思いますか。 — What do you think?
+会う — meet | 明日、彼と会います。 — I will meet him tomorrow.
+次 — next, subsequent | 次はいつ会いましょうか。 — When next shall we meet?
 
 [KNOWN WORDS]
-私、あなた、さん、彼、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、見る、全然、面白い、する、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、ゆっくり、言う、高い、一番、ちょっと、もう、父、母、くれる、物、君、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、目、手、上げる、嫌い、おじいさん、おばあさん、元気、持つ、みんな、使う、大丈夫、始める、今日、部屋、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、事、同じ、申し訳ない、とても、失礼します、手伝う、忙しい、仕事、続ける、見せる、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、お願い、全く、なぜ、水、時、一、二、三、五、六、七、八、十、くん、すみません、じゃ、ご飯、見える、ただ、毎年
+私、あなた、さん、彼、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、見る、全然、面白い、する、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、彼女、ちゃん、はい、いいえ、また、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、目、手、上げる、嫌い、おじいさん、おばあさん、元気、いつも、持つ、みんな、使う、大丈夫、始める、今日、部屋、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、事、同じ、申し訳ない、とても、失礼します、手伝う、忙しい、仕事、続ける、見せる、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、お願い、全く、なぜ、水、時、一、二、三、五、六、七、八、十、くん、すみません、じゃ、ご飯、見える、ただ、毎年

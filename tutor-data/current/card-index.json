@@ -21,7 +21,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-16",
-          "days_from_today": 21,
+          "days_from_today": 20,
           "kind": "day"
         },
         "interval_days": 73,
@@ -56,7 +56,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-17",
-          "days_from_today": 22,
+          "days_from_today": 21,
           "kind": "day"
         },
         "interval_days": 74,
@@ -91,7 +91,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-19",
-          "days_from_today": 24,
+          "days_from_today": 23,
           "kind": "day"
         },
         "interval_days": 76,
@@ -126,7 +126,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-05",
-          "days_from_today": 100,
+          "days_from_today": 99,
           "kind": "day"
         },
         "interval_days": 116,
@@ -161,7 +161,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-25",
-          "days_from_today": 30,
+          "days_from_today": 29,
           "kind": "day"
         },
         "interval_days": 45,
@@ -196,7 +196,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-12",
-          "days_from_today": 17,
+          "days_from_today": 16,
           "kind": "day"
         },
         "interval_days": 69,
@@ -231,7 +231,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-18",
-          "days_from_today": 23,
+          "days_from_today": 22,
           "kind": "day"
         },
         "interval_days": 75,
@@ -266,7 +266,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-20",
-          "days_from_today": 25,
+          "days_from_today": 24,
           "kind": "day"
         },
         "interval_days": 77,
@@ -301,7 +301,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 18,
+          "days_from_today": 17,
           "kind": "day"
         },
         "interval_days": 70,
@@ -336,7 +336,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-08",
-          "days_from_today": 103,
+          "days_from_today": 102,
           "kind": "day"
         },
         "interval_days": 119,
@@ -371,7 +371,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-15",
-          "days_from_today": 20,
+          "days_from_today": 19,
           "kind": "day"
         },
         "interval_days": 72,
@@ -406,7 +406,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 18,
+          "days_from_today": 17,
           "kind": "day"
         },
         "interval_days": 70,
@@ -441,7 +441,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-07",
-          "days_from_today": 102,
+          "days_from_today": 101,
           "kind": "day"
         },
         "interval_days": 118,
@@ -476,7 +476,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-06",
-          "days_from_today": 11,
+          "days_from_today": 10,
           "kind": "day"
         },
         "interval_days": 63,
@@ -511,7 +511,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-14",
-          "days_from_today": 109,
+          "days_from_today": 108,
           "kind": "day"
         },
         "interval_days": 124,
@@ -546,7 +546,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-13",
-          "days_from_today": 108,
+          "days_from_today": 107,
           "kind": "day"
         },
         "interval_days": 124,
@@ -581,7 +581,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 13,
+          "days_from_today": 12,
           "kind": "day"
         },
         "interval_days": 65,
@@ -616,7 +616,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-05",
-          "days_from_today": 100,
+          "days_from_today": 99,
           "kind": "day"
         },
         "interval_days": 115,
@@ -651,7 +651,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-13",
-          "days_from_today": 18,
+          "days_from_today": 17,
           "kind": "day"
         },
         "interval_days": 70,
@@ -686,7 +686,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-15",
-          "days_from_today": 20,
+          "days_from_today": 19,
           "kind": "day"
         },
         "interval_days": 72,
@@ -721,7 +721,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-11",
-          "days_from_today": 16,
+          "days_from_today": 15,
           "kind": "day"
         },
         "interval_days": 68,
@@ -756,7 +756,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-03",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 60,
@@ -773,7 +773,7 @@
     {
       "assessment": {
         "strength": 43.45,
-        "weakness": 1.6
+        "weakness": 1.8
       },
       "card_id": 1708637439876,
       "deck": "日本語::Kaishi 1.5k",
@@ -791,7 +791,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": -8,
+          "days_from_today": -9,
           "kind": "day"
         },
         "interval_days": 51,
@@ -808,7 +808,7 @@
     {
       "assessment": {
         "strength": 43.63,
-        "weakness": 2.4
+        "weakness": 2.6
       },
       "card_id": 1708637439877,
       "deck": "日本語::Kaishi 1.5k",
@@ -826,7 +826,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-23",
-          "days_from_today": -2,
+          "days_from_today": -3,
           "kind": "day"
         },
         "interval_days": 50,
@@ -843,7 +843,7 @@
     {
       "assessment": {
         "strength": 44.25,
-        "weakness": 0.6
+        "weakness": 0.8
       },
       "card_id": 1708637439878,
       "deck": "日本語::Kaishi 1.5k",
@@ -861,7 +861,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-22",
-          "days_from_today": -3,
+          "days_from_today": -4,
           "kind": "day"
         },
         "interval_days": 56,
@@ -878,7 +878,7 @@
     {
       "assessment": {
         "strength": 38.77,
-        "weakness": 6.8
+        "weakness": 7.0
       },
       "card_id": 1708637439879,
       "deck": "日本語::Kaishi 1.5k",
@@ -896,7 +896,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-01",
-          "days_from_today": -24,
+          "days_from_today": -25,
           "kind": "day"
         },
         "interval_days": 35,
@@ -931,7 +931,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 13,
+          "days_from_today": 12,
           "kind": "day"
         },
         "interval_days": 65,
@@ -966,7 +966,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-14",
-          "days_from_today": 19,
+          "days_from_today": 18,
           "kind": "day"
         },
         "interval_days": 34,
@@ -1001,7 +1001,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-26",
-          "days_from_today": 93,
+          "days_from_today": 92,
           "kind": "day"
         },
         "interval_days": 108,
@@ -1036,7 +1036,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 56,
@@ -1053,7 +1053,7 @@
     {
       "assessment": {
         "strength": 43.11,
-        "weakness": 2.0
+        "weakness": 2.2
       },
       "card_id": 1708637439884,
       "deck": "日本語::Kaishi 1.5k",
@@ -1071,7 +1071,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 49,
@@ -1106,7 +1106,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-21",
-          "days_from_today": 57,
+          "days_from_today": 56,
           "kind": "day"
         },
         "interval_days": 72,
@@ -1141,7 +1141,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-16",
-          "days_from_today": 21,
+          "days_from_today": 20,
           "kind": "day"
         },
         "interval_days": 72,
@@ -1176,7 +1176,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-05",
-          "days_from_today": 100,
+          "days_from_today": 99,
           "kind": "day"
         },
         "interval_days": 115,
@@ -1211,7 +1211,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-09",
-          "days_from_today": 104,
+          "days_from_today": 103,
           "kind": "day"
         },
         "interval_days": 119,
@@ -1246,7 +1246,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-10",
-          "days_from_today": 15,
+          "days_from_today": 14,
           "kind": "day"
         },
         "interval_days": 67,
@@ -1263,7 +1263,7 @@
     {
       "assessment": {
         "strength": 43.94,
-        "weakness": 1.0
+        "weakness": 1.2
       },
       "card_id": 1708637439890,
       "deck": "日本語::Kaishi 1.5k",
@@ -1281,7 +1281,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-20",
-          "days_from_today": -5,
+          "days_from_today": -6,
           "kind": "day"
         },
         "interval_days": 54,
@@ -1298,7 +1298,7 @@
     {
       "assessment": {
         "strength": 43.62,
-        "weakness": 1.4
+        "weakness": 1.6
       },
       "card_id": 1708637439891,
       "deck": "日本語::Kaishi 1.5k",
@@ -1316,7 +1316,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 52,
@@ -1351,7 +1351,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-05",
-          "days_from_today": 10,
+          "days_from_today": 9,
           "kind": "day"
         },
         "interval_days": 62,
@@ -1386,7 +1386,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-02",
-          "days_from_today": 97,
+          "days_from_today": 96,
           "kind": "day"
         },
         "interval_days": 112,
@@ -1403,7 +1403,7 @@
     {
       "assessment": {
         "strength": 43.28,
-        "weakness": 1.8
+        "weakness": 2.0
       },
       "card_id": 1708637439894,
       "deck": "日本語::Kaishi 1.5k",
@@ -1421,7 +1421,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 50,
@@ -1456,7 +1456,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 56,
@@ -1491,7 +1491,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-06",
-          "days_from_today": 11,
+          "days_from_today": 10,
           "kind": "day"
         },
         "interval_days": 63,
@@ -1526,7 +1526,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-04",
-          "days_from_today": 99,
+          "days_from_today": 98,
           "kind": "day"
         },
         "interval_days": 114,
@@ -1561,7 +1561,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-21",
-          "days_from_today": 26,
+          "days_from_today": 25,
           "kind": "day"
         },
         "interval_days": 41,
@@ -1578,7 +1578,7 @@
     {
       "assessment": {
         "strength": 7.8,
-        "weakness": 31.0
+        "weakness": 31.2
       },
       "card_id": 1708637439899,
       "deck": "日本語::Kaishi 1.5k",
@@ -1596,7 +1596,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -1631,7 +1631,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-10",
-          "days_from_today": 15,
+          "days_from_today": 14,
           "kind": "day"
         },
         "interval_days": 67,
@@ -1666,7 +1666,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 61,
@@ -1683,7 +1683,7 @@
     {
       "assessment": {
         "strength": 43.78,
-        "weakness": 1.2
+        "weakness": 1.4
       },
       "card_id": 1708637439902,
       "deck": "日本語::Kaishi 1.5k",
@@ -1701,7 +1701,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-19",
-          "days_from_today": -6,
+          "days_from_today": -7,
           "kind": "day"
         },
         "interval_days": 53,
@@ -1736,7 +1736,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 61,
@@ -1771,7 +1771,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-07",
-          "days_from_today": 12,
+          "days_from_today": 11,
           "kind": "day"
         },
         "interval_days": 64,
@@ -1806,7 +1806,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-09",
-          "days_from_today": 104,
+          "days_from_today": 103,
           "kind": "day"
         },
         "interval_days": 119,
@@ -1841,7 +1841,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-09",
-          "days_from_today": 104,
+          "days_from_today": 103,
           "kind": "day"
         },
         "interval_days": 119,
@@ -1858,7 +1858,7 @@
     {
       "assessment": {
         "strength": 34.94,
-        "weakness": 13.0
+        "weakness": 13.2
       },
       "card_id": 1708637439907,
       "deck": "日本語::Kaishi 1.5k",
@@ -1876,7 +1876,7 @@
         },
         "due_interpreted": {
           "date": "2026-10-31",
-          "days_from_today": -25,
+          "days_from_today": -26,
           "kind": "day"
         },
         "interval_days": 27,
@@ -1911,7 +1911,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-03",
-          "days_from_today": 98,
+          "days_from_today": 97,
           "kind": "day"
         },
         "interval_days": 113,
@@ -1928,7 +1928,7 @@
     {
       "assessment": {
         "strength": 43.29,
-        "weakness": 2.8
+        "weakness": 3.0
       },
       "card_id": 1708637439909,
       "deck": "日本語::Kaishi 1.5k",
@@ -1946,7 +1946,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 48,
@@ -1981,7 +1981,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-12",
-          "days_from_today": 17,
+          "days_from_today": 16,
           "kind": "day"
         },
         "interval_days": 69,
@@ -2016,7 +2016,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-02",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 22,
@@ -2051,7 +2051,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-26",
-          "days_from_today": 93,
+          "days_from_today": 92,
           "kind": "day"
         },
         "interval_days": 108,
@@ -2086,7 +2086,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-09",
-          "days_from_today": 14,
+          "days_from_today": 13,
           "kind": "day"
         },
         "interval_days": 66,
@@ -2121,7 +2121,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-18",
-          "days_from_today": 23,
+          "days_from_today": 22,
           "kind": "day"
         },
         "interval_days": 73,
@@ -2156,7 +2156,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-09",
-          "days_from_today": 14,
+          "days_from_today": 13,
           "kind": "day"
         },
         "interval_days": 66,
@@ -2191,7 +2191,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-14",
-          "days_from_today": 19,
+          "days_from_today": 18,
           "kind": "day"
         },
         "interval_days": 71,
@@ -2226,7 +2226,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-08",
-          "days_from_today": 13,
+          "days_from_today": 12,
           "kind": "day"
         },
         "interval_days": 65,
@@ -2261,7 +2261,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-04",
-          "days_from_today": 9,
+          "days_from_today": 8,
           "kind": "day"
         },
         "interval_days": 61,
@@ -2296,7 +2296,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 57,
@@ -2331,7 +2331,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-07",
-          "days_from_today": 102,
+          "days_from_today": 101,
           "kind": "day"
         },
         "interval_days": 117,
@@ -2366,7 +2366,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-10",
-          "days_from_today": 105,
+          "days_from_today": 104,
           "kind": "day"
         },
         "interval_days": 120,
@@ -2401,7 +2401,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-27",
-          "days_from_today": 94,
+          "days_from_today": 93,
           "kind": "day"
         },
         "interval_days": 109,
@@ -2436,7 +2436,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-07",
-          "days_from_today": 12,
+          "days_from_today": 11,
           "kind": "day"
         },
         "interval_days": 64,
@@ -2471,7 +2471,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-08",
-          "days_from_today": 103,
+          "days_from_today": 102,
           "kind": "day"
         },
         "interval_days": 118,
@@ -2506,7 +2506,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-11",
-          "days_from_today": 16,
+          "days_from_today": 15,
           "kind": "day"
         },
         "interval_days": 67,
@@ -2541,7 +2541,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-05",
-          "days_from_today": 10,
+          "days_from_today": 9,
           "kind": "day"
         },
         "interval_days": 62,
@@ -2576,7 +2576,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-02",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 59,
@@ -2611,7 +2611,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-15",
-          "days_from_today": 20,
+          "days_from_today": 19,
           "kind": "day"
         },
         "interval_days": 35,
@@ -2646,7 +2646,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-28",
-          "days_from_today": 95,
+          "days_from_today": 94,
           "kind": "day"
         },
         "interval_days": 110,
@@ -2681,7 +2681,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-01",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 58,
@@ -2716,7 +2716,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 57,
@@ -2751,7 +2751,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-01",
-          "days_from_today": 6,
+          "days_from_today": 5,
           "kind": "day"
         },
         "interval_days": 58,
@@ -2786,7 +2786,7 @@
         },
         "due_interpreted": {
           "date": "2027-03-07",
-          "days_from_today": 102,
+          "days_from_today": 101,
           "kind": "day"
         },
         "interval_days": 117,
@@ -2821,7 +2821,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-02",
-          "days_from_today": 7,
+          "days_from_today": 6,
           "kind": "day"
         },
         "interval_days": 59,
@@ -2838,7 +2838,7 @@
     {
       "assessment": {
         "strength": 43.45,
-        "weakness": 1.6
+        "weakness": 1.8
       },
       "card_id": 1708637439935,
       "deck": "日本語::Kaishi 1.5k",
@@ -2856,7 +2856,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": -8,
+          "days_from_today": -9,
           "kind": "day"
         },
         "interval_days": 51,
@@ -2891,7 +2891,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-27",
-          "days_from_today": 2,
+          "days_from_today": 1,
           "kind": "day"
         },
         "interval_days": 54,
@@ -2908,7 +2908,7 @@
     {
       "assessment": {
         "strength": 43.62,
-        "weakness": 1.4
+        "weakness": 1.6
       },
       "card_id": 1708637439937,
       "deck": "日本語::Kaishi 1.5k",
@@ -2926,7 +2926,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 52,
@@ -2943,7 +2943,7 @@
     {
       "assessment": {
         "strength": 42.39,
-        "weakness": 2.8
+        "weakness": 3.0
       },
       "card_id": 1708637439938,
       "deck": "日本語::Kaishi 1.5k",
@@ -2961,7 +2961,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 45,
@@ -3012,7 +3012,7 @@
     {
       "assessment": {
         "strength": 44.61,
-        "weakness": 2.4
+        "weakness": 2.6
       },
       "card_id": 1708637439940,
       "deck": "日本語::Kaishi 1.5k",
@@ -3030,7 +3030,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 47,
@@ -3047,7 +3047,7 @@
     {
       "assessment": {
         "strength": 43.28,
-        "weakness": 1.8
+        "weakness": 2.0
       },
       "card_id": 1708637439941,
       "deck": "日本語::Kaishi 1.5k",
@@ -3065,7 +3065,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 50,
@@ -3100,7 +3100,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-28",
-          "days_from_today": 3,
+          "days_from_today": 2,
           "kind": "day"
         },
         "interval_days": 55,
@@ -3117,7 +3117,7 @@
     {
       "assessment": {
         "strength": 42.94,
-        "weakness": 2.2
+        "weakness": 2.4
       },
       "card_id": 1708637439943,
       "deck": "日本語::Kaishi 1.5k",
@@ -3135,7 +3135,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 48,
@@ -3170,7 +3170,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-26",
-          "days_from_today": 62,
+          "days_from_today": 61,
           "kind": "day"
         },
         "interval_days": 77,
@@ -3187,7 +3187,7 @@
     {
       "assessment": {
         "strength": 41.31,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637439945,
       "deck": "日本語::Kaishi 1.5k",
@@ -3205,7 +3205,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 38,
@@ -3222,7 +3222,7 @@
     {
       "assessment": {
         "strength": 43.62,
-        "weakness": 0.0
+        "weakness": 0.2
       },
       "card_id": 1708637439946,
       "deck": "日本語::Kaishi 1.5k",
@@ -3240,7 +3240,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-25",
-          "days_from_today": 0,
+          "days_from_today": -1,
           "kind": "day"
         },
         "interval_days": 52,
@@ -3257,7 +3257,7 @@
     {
       "assessment": {
         "strength": 41.81,
-        "weakness": 10.0
+        "weakness": 10.2
       },
       "card_id": 1708637439947,
       "deck": "日本語::Kaishi 1.5k",
@@ -3275,7 +3275,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 49,
@@ -3292,7 +3292,7 @@
     {
       "assessment": {
         "strength": 43.11,
-        "weakness": 4.4
+        "weakness": 4.6
       },
       "card_id": 1708637439948,
       "deck": "日本語::Kaishi 1.5k",
@@ -3310,7 +3310,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 47,
@@ -3345,7 +3345,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-03",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 60,
@@ -3362,7 +3362,7 @@
     {
       "assessment": {
         "strength": 43.28,
-        "weakness": 6.6
+        "weakness": 6.8
       },
       "card_id": 1708637439950,
       "deck": "日本語::Kaishi 1.5k",
@@ -3380,7 +3380,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 46,
@@ -3397,7 +3397,7 @@
     {
       "assessment": {
         "strength": 42.01,
-        "weakness": 3.2
+        "weakness": 3.4
       },
       "card_id": 1708637439951,
       "deck": "日本語::Kaishi 1.5k",
@@ -3415,7 +3415,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": -16,
+          "days_from_today": -17,
           "kind": "day"
         },
         "interval_days": 43,
@@ -3432,7 +3432,7 @@
     {
       "assessment": {
         "strength": 42.58,
-        "weakness": 2.6
+        "weakness": 2.8
       },
       "card_id": 1708637439952,
       "deck": "日本語::Kaishi 1.5k",
@@ -3450,7 +3450,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 46,
@@ -3467,7 +3467,7 @@
     {
       "assessment": {
         "strength": 41.11,
-        "weakness": 8.4
+        "weakness": 8.6
       },
       "card_id": 1708637439953,
       "deck": "日本語::Kaishi 1.5k",
@@ -3485,7 +3485,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 47,
@@ -3502,7 +3502,7 @@
     {
       "assessment": {
         "strength": 42.76,
-        "weakness": 2.4
+        "weakness": 2.6
       },
       "card_id": 1708637439954,
       "deck": "日本語::Kaishi 1.5k",
@@ -3520,7 +3520,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 47,
@@ -3537,7 +3537,7 @@
     {
       "assessment": {
         "strength": 42.71,
-        "weakness": 5.8
+        "weakness": 6.0
       },
       "card_id": 1708637439955,
       "deck": "日本語::Kaishi 1.5k",
@@ -3555,7 +3555,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 43,
@@ -3572,7 +3572,7 @@
     {
       "assessment": {
         "strength": 42.58,
-        "weakness": 2.6
+        "weakness": 2.8
       },
       "card_id": 1708637439956,
       "deck": "日本語::Kaishi 1.5k",
@@ -3590,7 +3590,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 46,
@@ -3607,7 +3607,7 @@
     {
       "assessment": {
         "strength": 42.58,
-        "weakness": 2.6
+        "weakness": 2.8
       },
       "card_id": 1708637439957,
       "deck": "日本語::Kaishi 1.5k",
@@ -3625,7 +3625,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 46,
@@ -3642,7 +3642,7 @@
     {
       "assessment": {
         "strength": 43.11,
-        "weakness": 2.0
+        "weakness": 2.2
       },
       "card_id": 1708637439958,
       "deck": "日本語::Kaishi 1.5k",
@@ -3660,7 +3660,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 49,
@@ -3711,7 +3711,7 @@
     {
       "assessment": {
         "strength": 42.9,
-        "weakness": 7.0
+        "weakness": 7.2
       },
       "card_id": 1708637439960,
       "deck": "日本語::Kaishi 1.5k",
@@ -3729,7 +3729,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 44,
@@ -3746,7 +3746,7 @@
     {
       "assessment": {
         "strength": 42.74,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637439961,
       "deck": "日本語::Kaishi 1.5k",
@@ -3764,7 +3764,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 45,
@@ -3781,7 +3781,7 @@
     {
       "assessment": {
         "strength": 41.95,
-        "weakness": 5.6
+        "weakness": 5.8
       },
       "card_id": 1708637439962,
       "deck": "日本語::Kaishi 1.5k",
@@ -3799,7 +3799,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-07",
-          "days_from_today": -18,
+          "days_from_today": -19,
           "kind": "day"
         },
         "interval_days": 41,
@@ -3816,7 +3816,7 @@
     {
       "assessment": {
         "strength": 42.93,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637439963,
       "deck": "日本語::Kaishi 1.5k",
@@ -3834,7 +3834,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 46,
@@ -3851,7 +3851,7 @@
     {
       "assessment": {
         "strength": 42.2,
-        "weakness": 3.0
+        "weakness": 3.2
       },
       "card_id": 1708637439964,
       "deck": "日本語::Kaishi 1.5k",
@@ -3869,7 +3869,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 44,
@@ -3886,7 +3886,7 @@
     {
       "assessment": {
         "strength": 41.81,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439965,
       "deck": "日本語::Kaishi 1.5k",
@@ -3904,7 +3904,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-08",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "interval_days": 42,
@@ -3921,7 +3921,7 @@
     {
       "assessment": {
         "strength": 41.81,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439966,
       "deck": "日本語::Kaishi 1.5k",
@@ -3939,7 +3939,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-08",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "interval_days": 42,
@@ -3974,7 +3974,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-14",
-          "days_from_today": 50,
+          "days_from_today": 49,
           "kind": "day"
         },
         "interval_days": 66,
@@ -3991,7 +3991,7 @@
     {
       "assessment": {
         "strength": 42.74,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637439968,
       "deck": "日本語::Kaishi 1.5k",
@@ -4009,7 +4009,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 45,
@@ -4026,7 +4026,7 @@
     {
       "assessment": {
         "strength": 41.81,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439969,
       "deck": "日本語::Kaishi 1.5k",
@@ -4044,7 +4044,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-08",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "interval_days": 42,
@@ -4079,7 +4079,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-29",
-          "days_from_today": 65,
+          "days_from_today": 64,
           "kind": "day"
         },
         "interval_days": 80,
@@ -4096,7 +4096,7 @@
     {
       "assessment": {
         "strength": 42.2,
-        "weakness": 3.0
+        "weakness": 3.2
       },
       "card_id": 1708637439971,
       "deck": "日本語::Kaishi 1.5k",
@@ -4114,7 +4114,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 44,
@@ -4131,7 +4131,7 @@
     {
       "assessment": {
         "strength": 40.96,
-        "weakness": 4.2
+        "weakness": 4.4
       },
       "card_id": 1708637439972,
       "deck": "日本語::Kaishi 1.5k",
@@ -4149,7 +4149,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-04",
-          "days_from_today": -21,
+          "days_from_today": -22,
           "kind": "day"
         },
         "interval_days": 38,
@@ -4166,7 +4166,7 @@
     {
       "assessment": {
         "strength": 42.2,
-        "weakness": 3.0
+        "weakness": 3.2
       },
       "card_id": 1708637439973,
       "deck": "日本語::Kaishi 1.5k",
@@ -4184,7 +4184,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 44,
@@ -4219,7 +4219,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-22",
-          "days_from_today": 58,
+          "days_from_today": 57,
           "kind": "day"
         },
         "interval_days": 73,
@@ -4236,7 +4236,7 @@
     {
       "assessment": {
         "strength": 42.76,
-        "weakness": 2.4
+        "weakness": 2.6
       },
       "card_id": 1708637439975,
       "deck": "日本語::Kaishi 1.5k",
@@ -4254,7 +4254,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 47,
@@ -4271,7 +4271,7 @@
     {
       "assessment": {
         "strength": 42.94,
-        "weakness": 2.2
+        "weakness": 2.4
       },
       "card_id": 1708637439976,
       "deck": "日本語::Kaishi 1.5k",
@@ -4289,7 +4289,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 48,
@@ -4306,7 +4306,7 @@
     {
       "assessment": {
         "strength": 42.39,
-        "weakness": 2.8
+        "weakness": 3.0
       },
       "card_id": 1708637439977,
       "deck": "日本語::Kaishi 1.5k",
@@ -4324,7 +4324,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 45,
@@ -4341,7 +4341,7 @@
     {
       "assessment": {
         "strength": 42.01,
-        "weakness": 3.2
+        "weakness": 3.4
       },
       "card_id": 1708637439978,
       "deck": "日本語::Kaishi 1.5k",
@@ -4359,7 +4359,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": -16,
+          "days_from_today": -17,
           "kind": "day"
         },
         "interval_days": 43,
@@ -4376,7 +4376,7 @@
     {
       "assessment": {
         "strength": 41.53,
-        "weakness": 6.0
+        "weakness": 6.2
       },
       "card_id": 1708637439979,
       "deck": "日本語::Kaishi 1.5k",
@@ -4394,7 +4394,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-05",
-          "days_from_today": -20,
+          "days_from_today": -21,
           "kind": "day"
         },
         "interval_days": 39,
@@ -4411,7 +4411,7 @@
     {
       "assessment": {
         "strength": 41.6,
-        "weakness": 3.6
+        "weakness": 3.8
       },
       "card_id": 1708637439980,
       "deck": "日本語::Kaishi 1.5k",
@@ -4429,7 +4429,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-07",
-          "days_from_today": -18,
+          "days_from_today": -19,
           "kind": "day"
         },
         "interval_days": 41,
@@ -4446,7 +4446,7 @@
     {
       "assessment": {
         "strength": 43.25,
-        "weakness": 7.6
+        "weakness": 7.8
       },
       "card_id": 1708637439981,
       "deck": "日本語::Kaishi 1.5k",
@@ -4464,7 +4464,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": -8,
+          "days_from_today": -9,
           "kind": "day"
         },
         "interval_days": 44,
@@ -4481,7 +4481,7 @@
     {
       "assessment": {
         "strength": 41.95,
-        "weakness": 5.6
+        "weakness": 5.8
       },
       "card_id": 1708637439982,
       "deck": "日本語::Kaishi 1.5k",
@@ -4499,7 +4499,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-07",
-          "days_from_today": -18,
+          "days_from_today": -19,
           "kind": "day"
         },
         "interval_days": 41,
@@ -4516,7 +4516,7 @@
     {
       "assessment": {
         "strength": 11.65,
-        "weakness": 26.8
+        "weakness": 27.0
       },
       "card_id": 1708637439983,
       "deck": "日本語::Kaishi 1.5k",
@@ -4534,7 +4534,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -4551,7 +4551,7 @@
     {
       "assessment": {
         "strength": 42.36,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637439984,
       "deck": "日本語::Kaishi 1.5k",
@@ -4569,7 +4569,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": -16,
+          "days_from_today": -17,
           "kind": "day"
         },
         "interval_days": 43,
@@ -4586,7 +4586,7 @@
     {
       "assessment": {
         "strength": 42.01,
-        "weakness": 3.2
+        "weakness": 3.4
       },
       "card_id": 1708637439985,
       "deck": "日本語::Kaishi 1.5k",
@@ -4604,7 +4604,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": -16,
+          "days_from_today": -17,
           "kind": "day"
         },
         "interval_days": 43,
@@ -4621,7 +4621,7 @@
     {
       "assessment": {
         "strength": 43.64,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637439986,
       "deck": "日本語::Kaishi 1.5k",
@@ -4639,7 +4639,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 48,
@@ -4656,7 +4656,7 @@
     {
       "assessment": {
         "strength": 41.18,
-        "weakness": 4.0
+        "weakness": 4.2
       },
       "card_id": 1708637439987,
       "deck": "日本語::Kaishi 1.5k",
@@ -4674,7 +4674,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-05",
-          "days_from_today": -20,
+          "days_from_today": -21,
           "kind": "day"
         },
         "interval_days": 39,
@@ -4691,7 +4691,7 @@
     {
       "assessment": {
         "strength": 41.81,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439988,
       "deck": "日本語::Kaishi 1.5k",
@@ -4709,7 +4709,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-08",
-          "days_from_today": -17,
+          "days_from_today": -18,
           "kind": "day"
         },
         "interval_days": 42,
@@ -4726,7 +4726,7 @@
     {
       "assessment": {
         "strength": 41.75,
-        "weakness": 5.8
+        "weakness": 6.0
       },
       "card_id": 1708637439989,
       "deck": "日本語::Kaishi 1.5k",
@@ -4744,7 +4744,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-06",
-          "days_from_today": -19,
+          "days_from_today": -20,
           "kind": "day"
         },
         "interval_days": 40,
@@ -4761,7 +4761,7 @@
     {
       "assessment": {
         "strength": 41.4,
-        "weakness": 3.8
+        "weakness": 4.0
       },
       "card_id": 1708637439990,
       "deck": "日本語::Kaishi 1.5k",
@@ -4779,7 +4779,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-06",
-          "days_from_today": -19,
+          "days_from_today": -20,
           "kind": "day"
         },
         "interval_days": 40,
@@ -4796,7 +4796,7 @@
     {
       "assessment": {
         "strength": 43.29,
-        "weakness": 4.2
+        "weakness": 4.4
       },
       "card_id": 1708637439991,
       "deck": "日本語::Kaishi 1.5k",
@@ -4814,7 +4814,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 48,
@@ -4831,7 +4831,7 @@
     {
       "assessment": {
         "strength": 42.74,
-        "weakness": 3.4
+        "weakness": 3.6
       },
       "card_id": 1708637439992,
       "deck": "日本語::Kaishi 1.5k",
@@ -4849,7 +4849,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 45,
@@ -4884,7 +4884,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-15",
-          "days_from_today": 51,
+          "days_from_today": 50,
           "kind": "day"
         },
         "interval_days": 66,
@@ -4919,7 +4919,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-27",
-          "days_from_today": 63,
+          "days_from_today": 62,
           "kind": "day"
         },
         "interval_days": 78,
@@ -4936,7 +4936,7 @@
     {
       "assessment": {
         "strength": 39.24,
-        "weakness": 6.4
+        "weakness": 6.6
       },
       "card_id": 1708637439995,
       "deck": "日本語::Kaishi 1.5k",
@@ -4954,7 +4954,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-03",
-          "days_from_today": -22,
+          "days_from_today": -23,
           "kind": "day"
         },
         "interval_days": 37,
@@ -4971,7 +4971,7 @@
     {
       "assessment": {
         "strength": 10.15,
-        "weakness": 28.8
+        "weakness": 29.0
       },
       "card_id": 1708637439996,
       "deck": "日本語::Kaishi 1.5k",
@@ -4989,7 +4989,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -5006,7 +5006,7 @@
     {
       "assessment": {
         "strength": 38.66,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637439997,
       "deck": "日本語::Kaishi 1.5k",
@@ -5024,7 +5024,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-02",
-          "days_from_today": -23,
+          "days_from_today": -24,
           "kind": "day"
         },
         "interval_days": 36,
@@ -5041,7 +5041,7 @@
     {
       "assessment": {
         "strength": 30.95,
-        "weakness": 8.0
+        "weakness": 8.2
       },
       "card_id": 1708637439998,
       "deck": "日本語::Kaishi 1.5k",
@@ -5059,7 +5059,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-25",
-          "days_from_today": 0,
+          "days_from_today": -1,
           "kind": "day"
         },
         "interval_days": 15,
@@ -5076,7 +5076,7 @@
     {
       "assessment": {
         "strength": 40.16,
-        "weakness": 3.2
+        "weakness": 3.4
       },
       "card_id": 1708637439999,
       "deck": "日本語::Kaishi 1.5k",
@@ -5094,7 +5094,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-09",
-          "days_from_today": -16,
+          "days_from_today": -17,
           "kind": "day"
         },
         "interval_days": 43,
@@ -5111,7 +5111,7 @@
     {
       "assessment": {
         "strength": 38.66,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637440000,
       "deck": "日本語::Kaishi 1.5k",
@@ -5129,7 +5129,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-02",
-          "days_from_today": -23,
+          "days_from_today": -24,
           "kind": "day"
         },
         "interval_days": 36,
@@ -5164,7 +5164,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-11",
-          "days_from_today": 47,
+          "days_from_today": 46,
           "kind": "day"
         },
         "interval_days": 62,
@@ -5199,7 +5199,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 53,
@@ -5234,7 +5234,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 53,
@@ -5251,7 +5251,7 @@
     {
       "assessment": {
         "strength": 43.28,
-        "weakness": 0.4
+        "weakness": 0.6
       },
       "card_id": 1708637440004,
       "deck": "日本語::Kaishi 1.5k",
@@ -5269,7 +5269,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-23",
-          "days_from_today": -2,
+          "days_from_today": -3,
           "kind": "day"
         },
         "interval_days": 50,
@@ -5304,7 +5304,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-14",
-          "days_from_today": 19,
+          "days_from_today": 18,
           "kind": "day"
         },
         "interval_days": 34,
@@ -5321,7 +5321,7 @@
     {
       "assessment": {
         "strength": 28.74,
-        "weakness": 14.2
+        "weakness": 14.4
       },
       "card_id": 1708637440006,
       "deck": "日本語::Kaishi 1.5k",
@@ -5339,7 +5339,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-24",
-          "days_from_today": -1,
+          "days_from_today": -2,
           "kind": "day"
         },
         "interval_days": 14,
@@ -5356,7 +5356,7 @@
     {
       "assessment": {
         "strength": 41.66,
-        "weakness": 6.8
+        "weakness": 7.0
       },
       "card_id": 1708637440007,
       "deck": "日本語::Kaishi 1.5k",
@@ -5374,7 +5374,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 38,
@@ -5409,7 +5409,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-02",
-          "days_from_today": 69,
+          "days_from_today": 68,
           "kind": "day"
         },
         "interval_days": 84,
@@ -5426,7 +5426,7 @@
     {
       "assessment": {
         "strength": 39.46,
-        "weakness": 6.2
+        "weakness": 6.4
       },
       "card_id": 1708637440009,
       "deck": "日本語::Kaishi 1.5k",
@@ -5444,7 +5444,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-04",
-          "days_from_today": -21,
+          "days_from_today": -22,
           "kind": "day"
         },
         "interval_days": 38,
@@ -5461,7 +5461,7 @@
     {
       "assessment": {
         "strength": 43.8,
-        "weakness": 2.2
+        "weakness": 2.4
       },
       "card_id": 1708637440010,
       "deck": "日本語::Kaishi 1.5k",
@@ -5479,7 +5479,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-24",
-          "days_from_today": -1,
+          "days_from_today": -2,
           "kind": "day"
         },
         "interval_days": 51,
@@ -5496,7 +5496,7 @@
     {
       "assessment": {
         "strength": 30.49,
-        "weakness": 12.6
+        "weakness": 12.8
       },
       "card_id": 1708637440011,
       "deck": "日本語::Kaishi 1.5k",
@@ -5514,7 +5514,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-22",
-          "days_from_today": -3,
+          "days_from_today": -4,
           "kind": "day"
         },
         "interval_days": 13,
@@ -5531,7 +5531,7 @@
     {
       "assessment": {
         "strength": 29.09,
-        "weakness": 4.6
+        "weakness": 4.8
       },
       "card_id": 1708637440012,
       "deck": "日本語::Kaishi 1.5k",
@@ -5549,7 +5549,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-22",
-          "days_from_today": -3,
+          "days_from_today": -4,
           "kind": "day"
         },
         "interval_days": 13,
@@ -5584,7 +5584,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-06",
-          "days_from_today": 73,
+          "days_from_today": 72,
           "kind": "day"
         },
         "interval_days": 88,
@@ -5601,7 +5601,7 @@
     {
       "assessment": {
         "strength": 38.89,
-        "weakness": 4.4
+        "weakness": 4.6
       },
       "card_id": 1708637440014,
       "deck": "日本語::Kaishi 1.5k",
@@ -5619,7 +5619,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-03",
-          "days_from_today": -22,
+          "days_from_today": -23,
           "kind": "day"
         },
         "interval_days": 37,
@@ -5636,7 +5636,7 @@
     {
       "assessment": {
         "strength": 29.34,
-        "weakness": 16.4
+        "weakness": 16.6
       },
       "card_id": 1708637440015,
       "deck": "日本語::Kaishi 1.5k",
@@ -5654,7 +5654,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-23",
-          "days_from_today": -2,
+          "days_from_today": -3,
           "kind": "day"
         },
         "interval_days": 13,
@@ -5671,7 +5671,7 @@
     {
       "assessment": {
         "strength": 22.72,
-        "weakness": 27.4
+        "weakness": 27.6
       },
       "card_id": 1708637440016,
       "deck": "日本語::Kaishi 1.5k",
@@ -5689,7 +5689,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 8,
@@ -5724,7 +5724,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-27",
-          "days_from_today": 2,
+          "days_from_today": 1,
           "kind": "day"
         },
         "interval_days": 17,
@@ -5759,7 +5759,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-27",
-          "days_from_today": 2,
+          "days_from_today": 1,
           "kind": "day"
         },
         "interval_days": 17,
@@ -5776,7 +5776,7 @@
     {
       "assessment": {
         "strength": 42.94,
-        "weakness": 0.8
+        "weakness": 1.0
       },
       "card_id": 1708637440019,
       "deck": "日本語::Kaishi 1.5k",
@@ -5794,7 +5794,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 48,
@@ -5811,7 +5811,7 @@
     {
       "assessment": {
         "strength": 42.01,
-        "weakness": 1.8
+        "weakness": 2.0
       },
       "card_id": 1708637440020,
       "deck": "日本語::Kaishi 1.5k",
@@ -5829,7 +5829,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 43,
@@ -5864,7 +5864,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-07",
-          "days_from_today": 74,
+          "days_from_today": 73,
           "kind": "day"
         },
         "interval_days": 89,
@@ -5881,7 +5881,7 @@
     {
       "assessment": {
         "strength": 27.23,
-        "weakness": 11.2
+        "weakness": 11.4
       },
       "card_id": 1708637440022,
       "deck": "日本語::Kaishi 1.5k",
@@ -5899,7 +5899,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-19",
-          "days_from_today": -6,
+          "days_from_today": -7,
           "kind": "day"
         },
         "interval_days": 9,
@@ -5916,7 +5916,7 @@
     {
       "assessment": {
         "strength": 43.28,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637440023,
       "deck": "日本語::Kaishi 1.5k",
@@ -5934,7 +5934,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-19",
-          "days_from_today": -6,
+          "days_from_today": -7,
           "kind": "day"
         },
         "interval_days": 46,
@@ -5969,7 +5969,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-03",
-          "days_from_today": 8,
+          "days_from_today": 7,
           "kind": "day"
         },
         "interval_days": 23,
@@ -5986,7 +5986,7 @@
     {
       "assessment": {
         "strength": 14.01,
-        "weakness": 30.8
+        "weakness": 31.0
       },
       "card_id": 1708637440025,
       "deck": "日本語::Kaishi 1.5k",
@@ -6004,7 +6004,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 2,
@@ -6021,7 +6021,7 @@
     {
       "assessment": {
         "strength": 2.25,
-        "weakness": 50.8
+        "weakness": 51.0
       },
       "card_id": 1708637440026,
       "deck": "日本語::Kaishi 1.5k",
@@ -6039,7 +6039,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -6074,7 +6074,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-29",
-          "days_from_today": 4,
+          "days_from_today": 3,
           "kind": "day"
         },
         "interval_days": 19,
@@ -6109,7 +6109,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-26",
-          "days_from_today": 1,
+          "days_from_today": 0,
           "kind": "day"
         },
         "interval_days": 16,
@@ -6178,7 +6178,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-03",
-          "days_from_today": 70,
+          "days_from_today": 69,
           "kind": "day"
         },
         "interval_days": 85,
@@ -6195,7 +6195,7 @@
     {
       "assessment": {
         "strength": 42.16,
-        "weakness": 4.0
+        "weakness": 4.2
       },
       "card_id": 1708637440031,
       "deck": "日本語::Kaishi 1.5k",
@@ -6213,7 +6213,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 42,
@@ -6230,7 +6230,7 @@
     {
       "assessment": {
         "strength": 26.08,
-        "weakness": 15.2
+        "weakness": 15.4
       },
       "card_id": 1708637440032,
       "deck": "日本語::Kaishi 1.5k",
@@ -6248,7 +6248,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-19",
-          "days_from_today": -6,
+          "days_from_today": -7,
           "kind": "day"
         },
         "interval_days": 9,
@@ -6265,7 +6265,7 @@
     {
       "assessment": {
         "strength": 42.3,
-        "weakness": 6.2
+        "weakness": 6.4
       },
       "card_id": 1708637440033,
       "deck": "日本語::Kaishi 1.5k",
@@ -6283,7 +6283,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 41,
@@ -6318,7 +6318,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-28",
-          "days_from_today": 3,
+          "days_from_today": 2,
           "kind": "day"
         },
         "interval_days": 18,
@@ -6353,7 +6353,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-01",
-          "days_from_today": 68,
+          "days_from_today": 67,
           "kind": "day"
         },
         "interval_days": 83,
@@ -6370,7 +6370,7 @@
     {
       "assessment": {
         "strength": 28.06,
-        "weakness": 11.0
+        "weakness": 11.2
       },
       "card_id": 1708637440036,
       "deck": "日本語::Kaishi 1.5k",
@@ -6388,7 +6388,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-20",
-          "days_from_today": -5,
+          "days_from_today": -6,
           "kind": "day"
         },
         "interval_days": 10,
@@ -6423,7 +6423,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-10",
-          "days_from_today": 77,
+          "days_from_today": 76,
           "kind": "day"
         },
         "interval_days": 92,
@@ -6440,7 +6440,7 @@
     {
       "assessment": {
         "strength": 39.77,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637440038,
       "deck": "日本語::Kaishi 1.5k",
@@ -6458,7 +6458,7 @@
         },
         "due_interpreted": {
           "date": "2026-10-30",
-          "days_from_today": -26,
+          "days_from_today": -27,
           "kind": "day"
         },
         "interval_days": 33,
@@ -6475,7 +6475,7 @@
     {
       "assessment": {
         "strength": 11.3,
-        "weakness": 24.8
+        "weakness": 25.0
       },
       "card_id": 1708637440039,
       "deck": "日本語::Kaishi 1.5k",
@@ -6493,7 +6493,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -6510,7 +6510,7 @@
     {
       "assessment": {
         "strength": 29.51,
-        "weakness": 14.8
+        "weakness": 15.0
       },
       "card_id": 1708637440040,
       "deck": "日本語::Kaishi 1.5k",
@@ -6528,7 +6528,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 11,
@@ -6545,7 +6545,7 @@
     {
       "assessment": {
         "strength": 25.17,
-        "weakness": 15.4
+        "weakness": 15.6
       },
       "card_id": 1708637440041,
       "deck": "日本語::Kaishi 1.5k",
@@ -6563,7 +6563,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 8,
@@ -6580,7 +6580,7 @@
     {
       "assessment": {
         "strength": 39.77,
-        "weakness": 5.2
+        "weakness": 5.4
       },
       "card_id": 1708637440042,
       "deck": "日本語::Kaishi 1.5k",
@@ -6598,7 +6598,7 @@
         },
         "due_interpreted": {
           "date": "2026-10-30",
-          "days_from_today": -26,
+          "days_from_today": -27,
           "kind": "day"
         },
         "interval_days": 33,
@@ -6615,7 +6615,7 @@
     {
       "assessment": {
         "strength": 42.55,
-        "weakness": 3.6
+        "weakness": 3.8
       },
       "card_id": 1708637440043,
       "deck": "日本語::Kaishi 1.5k",
@@ -6633,7 +6633,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": -8,
+          "days_from_today": -9,
           "kind": "day"
         },
         "interval_days": 44,
@@ -6650,7 +6650,7 @@
     {
       "assessment": {
         "strength": 32.24,
-        "weakness": 8.4
+        "weakness": 8.6
       },
       "card_id": 1708637440044,
       "deck": "日本語::Kaishi 1.5k",
@@ -6668,7 +6668,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-23",
-          "days_from_today": -2,
+          "days_from_today": -3,
           "kind": "day"
         },
         "interval_days": 14,
@@ -6685,7 +6685,7 @@
     {
       "assessment": {
         "strength": 31.29,
-        "weakness": 6.6
+        "weakness": 6.8
       },
       "card_id": 1708637440045,
       "deck": "日本語::Kaishi 1.5k",
@@ -6703,7 +6703,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-22",
-          "days_from_today": -3,
+          "days_from_today": -4,
           "kind": "day"
         },
         "interval_days": 13,
@@ -6738,7 +6738,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-12",
-          "days_from_today": 48,
+          "days_from_today": 47,
           "kind": "day"
         },
         "interval_days": 64,
@@ -6755,7 +6755,7 @@
     {
       "assessment": {
         "strength": 24.82,
-        "weakness": 13.4
+        "weakness": 13.6
       },
       "card_id": 1708637440047,
       "deck": "日本語::Kaishi 1.5k",
@@ -6773,7 +6773,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-18",
-          "days_from_today": -7,
+          "days_from_today": -8,
           "kind": "day"
         },
         "interval_days": 8,
@@ -6808,7 +6808,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-30",
-          "days_from_today": 35,
+          "days_from_today": 34,
           "kind": "day"
         },
         "interval_days": 50,
@@ -6843,7 +6843,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-09",
-          "days_from_today": 76,
+          "days_from_today": 75,
           "kind": "day"
         },
         "interval_days": 91,
@@ -6860,7 +6860,7 @@
     {
       "assessment": {
         "strength": 6.55,
-        "weakness": 43.0
+        "weakness": 43.2
       },
       "card_id": 1708637440050,
       "deck": "日本語::Kaishi 1.5k",
@@ -6878,7 +6878,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -6913,7 +6913,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-14",
-          "days_from_today": 81,
+          "days_from_today": 80,
           "kind": "day"
         },
         "interval_days": 96,
@@ -6964,7 +6964,7 @@
     {
       "assessment": {
         "strength": 27.66,
-        "weakness": 14.8
+        "weakness": 15.0
       },
       "card_id": 1708637440053,
       "deck": "日本語::Kaishi 1.5k",
@@ -6982,7 +6982,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 11,
@@ -6999,7 +6999,7 @@
     {
       "assessment": {
         "strength": 40.22,
-        "weakness": 9.4
+        "weakness": 9.6
       },
       "card_id": 1708637440054,
       "deck": "日本語::Kaishi 1.5k",
@@ -7017,7 +7017,7 @@
         },
         "due_interpreted": {
           "date": "2026-10-29",
-          "days_from_today": -27,
+          "days_from_today": -28,
           "kind": "day"
         },
         "interval_days": 32,
@@ -7052,7 +7052,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-13",
-          "days_from_today": 80,
+          "days_from_today": 79,
           "kind": "day"
         },
         "interval_days": 95,
@@ -7087,7 +7087,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-15",
-          "days_from_today": 82,
+          "days_from_today": 81,
           "kind": "day"
         },
         "interval_days": 97,
@@ -7104,7 +7104,7 @@
     {
       "assessment": {
         "strength": 42.76,
-        "weakness": 1.0
+        "weakness": 1.2
       },
       "card_id": 1708637440057,
       "deck": "日本語::Kaishi 1.5k",
@@ -7122,7 +7122,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-20",
-          "days_from_today": -5,
+          "days_from_today": -6,
           "kind": "day"
         },
         "interval_days": 47,
@@ -7157,7 +7157,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-05",
-          "days_from_today": 72,
+          "days_from_today": 71,
           "kind": "day"
         },
         "interval_days": 87,
@@ -7174,7 +7174,7 @@
     {
       "assessment": {
         "strength": 22.29,
-        "weakness": 11.8
+        "weakness": 12.0
       },
       "card_id": 1708637440059,
       "deck": "日本語::Kaishi 1.5k",
@@ -7192,7 +7192,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 6,
@@ -7227,7 +7227,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-04",
-          "days_from_today": 40,
+          "days_from_today": 39,
           "kind": "day"
         },
         "interval_days": 55,
@@ -7262,7 +7262,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-23",
-          "days_from_today": 59,
+          "days_from_today": 58,
           "kind": "day"
         },
         "interval_days": 74,
@@ -7297,7 +7297,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-12",
-          "days_from_today": 79,
+          "days_from_today": 78,
           "kind": "day"
         },
         "interval_days": 94,
@@ -7332,7 +7332,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-16",
-          "days_from_today": 83,
+          "days_from_today": 82,
           "kind": "day"
         },
         "interval_days": 98,
@@ -7349,7 +7349,7 @@
     {
       "assessment": {
         "strength": 23.8,
-        "weakness": 13.6
+        "weakness": 13.8
       },
       "card_id": 1708637440064,
       "deck": "日本語::Kaishi 1.5k",
@@ -7367,7 +7367,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-17",
-          "days_from_today": -8,
+          "days_from_today": -9,
           "kind": "day"
         },
         "interval_days": 7,
@@ -7402,7 +7402,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-08",
-          "days_from_today": 75,
+          "days_from_today": 74,
           "kind": "day"
         },
         "interval_days": 90,
@@ -7437,7 +7437,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-14",
-          "days_from_today": 81,
+          "days_from_today": 80,
           "kind": "day"
         },
         "interval_days": 96,
@@ -7472,7 +7472,7 @@
         },
         "due_interpreted": {
           "date": "2027-02-12",
-          "days_from_today": 79,
+          "days_from_today": 78,
           "kind": "day"
         },
         "interval_days": 94,
@@ -7489,7 +7489,7 @@
     {
       "assessment": {
         "strength": 8.65,
-        "weakness": 30.8
+        "weakness": 31.0
       },
       "card_id": 1708637440068,
       "deck": "日本語::Kaishi 1.5k",
@@ -7507,7 +7507,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -7524,7 +7524,7 @@
     {
       "assessment": {
         "strength": 19.73,
-        "weakness": 14.4
+        "weakness": 14.6
       },
       "card_id": 1708637440069,
       "deck": "日本語::Kaishi 1.5k",
@@ -7542,7 +7542,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 4,
@@ -7559,7 +7559,7 @@
     {
       "assessment": {
         "strength": 7.85,
-        "weakness": 34.8
+        "weakness": 35.0
       },
       "card_id": 1708637440070,
       "deck": "日本語::Kaishi 1.5k",
@@ -7577,7 +7577,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -7594,7 +7594,7 @@
     {
       "assessment": {
         "strength": 19.38,
-        "weakness": 12.4
+        "weakness": 12.6
       },
       "card_id": 1708637440071,
       "deck": "日本語::Kaishi 1.5k",
@@ -7612,7 +7612,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 4,
@@ -7647,7 +7647,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-30",
-          "days_from_today": 5,
+          "days_from_today": 4,
           "kind": "day"
         },
         "interval_days": 20,
@@ -7664,7 +7664,7 @@
     {
       "assessment": {
         "strength": 8.65,
-        "weakness": 30.8
+        "weakness": 31.0
       },
       "card_id": 1708637440073,
       "deck": "日本語::Kaishi 1.5k",
@@ -7682,7 +7682,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -7717,7 +7717,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-25",
-          "days_from_today": 61,
+          "days_from_today": 60,
           "kind": "day"
         },
         "interval_days": 76,
@@ -7734,7 +7734,7 @@
     {
       "assessment": {
         "strength": 8.65,
-        "weakness": 30.8
+        "weakness": 31.0
       },
       "card_id": 1708637440075,
       "deck": "日本語::Kaishi 1.5k",
@@ -7752,7 +7752,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -7787,7 +7787,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-02",
-          "days_from_today": 38,
+          "days_from_today": 37,
           "kind": "day"
         },
         "interval_days": 53,
@@ -7804,7 +7804,7 @@
     {
       "assessment": {
         "strength": 7.95,
-        "weakness": 26.8
+        "weakness": 27.0
       },
       "card_id": 1708637440077,
       "deck": "日本語::Kaishi 1.5k",
@@ -7822,7 +7822,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -7839,7 +7839,7 @@
     {
       "assessment": {
         "strength": 27.76,
-        "weakness": 4.8
+        "weakness": 5.0
       },
       "card_id": 1708637440078,
       "deck": "日本語::Kaishi 1.5k",
@@ -7857,7 +7857,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-21",
-          "days_from_today": -4,
+          "days_from_today": -5,
           "kind": "day"
         },
         "interval_days": 11,
@@ -7892,7 +7892,7 @@
         },
         "due_interpreted": {
           "date": "2027-01-03",
-          "days_from_today": 39,
+          "days_from_today": 38,
           "kind": "day"
         },
         "interval_days": 54,
@@ -7909,7 +7909,7 @@
     {
       "assessment": {
         "strength": 22.11,
-        "weakness": 26.0
+        "weakness": 26.2
       },
       "card_id": 1708637440080,
       "deck": "日本語::Kaishi 1.5k",
@@ -7927,7 +7927,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 5,
@@ -7996,7 +7996,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-22",
-          "days_from_today": 27,
+          "days_from_today": 26,
           "kind": "day"
         },
         "interval_days": 43,
@@ -8013,7 +8013,7 @@
     {
       "assessment": {
         "strength": 9.45,
-        "weakness": 24.8
+        "weakness": 25.0
       },
       "card_id": 1708637440083,
       "deck": "日本語::Kaishi 1.5k",
@@ -8031,7 +8031,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8048,7 +8048,7 @@
     {
       "assessment": {
         "strength": 22.11,
-        "weakness": 8.2
+        "weakness": 8.4
       },
       "card_id": 1708637440084,
       "deck": "日本語::Kaishi 1.5k",
@@ -8066,7 +8066,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 5,
@@ -8117,7 +8117,7 @@
     {
       "assessment": {
         "strength": 20.08,
-        "weakness": 16.4
+        "weakness": 16.6
       },
       "card_id": 1708637440086,
       "deck": "日本語::Kaishi 1.5k",
@@ -8135,7 +8135,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-13",
-          "days_from_today": -12,
+          "days_from_today": -13,
           "kind": "day"
         },
         "interval_days": 4,
@@ -8152,7 +8152,7 @@
     {
       "assessment": {
         "strength": 22.11,
-        "weakness": 8.2
+        "weakness": 8.4
       },
       "card_id": 1708637440087,
       "deck": "日本語::Kaishi 1.5k",
@@ -8170,7 +8170,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 5,
@@ -8187,7 +8187,7 @@
     {
       "assessment": {
         "strength": 22.81,
-        "weakness": 12.2
+        "weakness": 12.4
       },
       "card_id": 1708637440088,
       "deck": "日本語::Kaishi 1.5k",
@@ -8205,7 +8205,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-14",
-          "days_from_today": -11,
+          "days_from_today": -12,
           "kind": "day"
         },
         "interval_days": 5,
@@ -8222,7 +8222,7 @@
     {
       "assessment": {
         "strength": 17.8,
-        "weakness": 18.6
+        "weakness": 18.8
       },
       "card_id": 1708637440089,
       "deck": "日本語::Kaishi 1.5k",
@@ -8240,7 +8240,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-12",
-          "days_from_today": -13,
+          "days_from_today": -14,
           "kind": "day"
         },
         "interval_days": 3,
@@ -8257,7 +8257,7 @@
     {
       "assessment": {
         "strength": 8.65,
-        "weakness": 30.8
+        "weakness": 31.0
       },
       "card_id": 1708637440090,
       "deck": "日本語::Kaishi 1.5k",
@@ -8275,7 +8275,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8292,7 +8292,7 @@
     {
       "assessment": {
         "strength": 21.76,
-        "weakness": 6.0
+        "weakness": 6.2
       },
       "card_id": 1708637440091,
       "deck": "日本語::Kaishi 1.5k",
@@ -8310,7 +8310,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-15",
-          "days_from_today": -10,
+          "days_from_today": -11,
           "kind": "day"
         },
         "interval_days": 5,
@@ -8345,7 +8345,7 @@
         },
         "due_interpreted": {
           "date": "2026-12-23",
-          "days_from_today": 28,
+          "days_from_today": 27,
           "kind": "day"
         },
         "interval_days": 44,
@@ -8362,7 +8362,7 @@
     {
       "assessment": {
         "strength": 6.3,
-        "weakness": 36.8
+        "weakness": 37.0
       },
       "card_id": 1708637440093,
       "deck": "日本語::Kaishi 1.5k",
@@ -8380,7 +8380,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8397,7 +8397,7 @@
     {
       "assessment": {
         "strength": 9.1,
-        "weakness": 22.8
+        "weakness": 23.0
       },
       "card_id": 1708637440094,
       "deck": "日本語::Kaishi 1.5k",
@@ -8415,7 +8415,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8432,7 +8432,7 @@
     {
       "assessment": {
         "strength": 15.31,
-        "weakness": 18.8
+        "weakness": 19.0
       },
       "card_id": 1708637440095,
       "deck": "日本語::Kaishi 1.5k",
@@ -8450,7 +8450,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 2,
@@ -8467,7 +8467,7 @@
     {
       "assessment": {
         "strength": 7.95,
-        "weakness": 27.0
+        "weakness": 27.2
       },
       "card_id": 1708637440096,
       "deck": "日本語::Kaishi 1.5k",
@@ -8485,7 +8485,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8536,7 +8536,7 @@
     {
       "assessment": {
         "strength": 21.79,
-        "weakness": 13.8
+        "weakness": 14.0
       },
       "card_id": 1708637440098,
       "deck": "日本語::Kaishi 1.5k",
@@ -8554,7 +8554,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 6,
@@ -8571,7 +8571,7 @@
     {
       "assessment": {
         "strength": 8.3,
-        "weakness": 28.8
+        "weakness": 29.0
       },
       "card_id": 1708637440099,
       "deck": "日本語::Kaishi 1.5k",
@@ -8589,7 +8589,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8606,7 +8606,7 @@
     {
       "assessment": {
         "strength": 13.91,
-        "weakness": 10.8
+        "weakness": 11.0
       },
       "card_id": 1708637440100,
       "deck": "日本語::Kaishi 1.5k",
@@ -8624,7 +8624,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 2,
@@ -8641,7 +8641,7 @@
     {
       "assessment": {
         "strength": 5.35,
-        "weakness": 40.8
+        "weakness": 41.0
       },
       "card_id": 1708637440101,
       "deck": "日本語::Kaishi 1.5k",
@@ -8659,7 +8659,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8676,7 +8676,7 @@
     {
       "assessment": {
         "strength": 5.25,
-        "weakness": 27.0
+        "weakness": 27.2
       },
       "card_id": 1708637440102,
       "deck": "日本語::Kaishi 1.5k",
@@ -8694,7 +8694,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8711,7 +8711,7 @@
     {
       "assessment": {
         "strength": 7.95,
-        "weakness": 26.8
+        "weakness": 27.0
       },
       "card_id": 1708637440103,
       "deck": "日本語::Kaishi 1.5k",
@@ -8729,7 +8729,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8746,7 +8746,7 @@
     {
       "assessment": {
         "strength": 22.74,
-        "weakness": 3.8
+        "weakness": 4.0
       },
       "card_id": 1708637440104,
       "deck": "日本語::Kaishi 1.5k",
@@ -8764,7 +8764,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-16",
-          "days_from_today": -9,
+          "days_from_today": -10,
           "kind": "day"
         },
         "interval_days": 6,
@@ -8781,7 +8781,7 @@
     {
       "assessment": {
         "strength": 9.0,
-        "weakness": 32.8
+        "weakness": 33.0
       },
       "card_id": 1708637440105,
       "deck": "日本語::Kaishi 1.5k",
@@ -8799,7 +8799,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-11",
-          "days_from_today": -14,
+          "days_from_today": -15,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8850,7 +8850,7 @@
     {
       "assessment": {
         "strength": 8.4,
-        "weakness": 15.0
+        "weakness": 15.2
       },
       "card_id": 1708637440107,
       "deck": "日本語::Kaishi 1.5k",
@@ -8868,7 +8868,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8885,7 +8885,7 @@
     {
       "assessment": {
         "strength": 8.4,
-        "weakness": 15.0
+        "weakness": 15.2
       },
       "card_id": 1708637440108,
       "deck": "日本語::Kaishi 1.5k",
@@ -8903,7 +8903,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8920,7 +8920,7 @@
     {
       "assessment": {
         "strength": 8.4,
-        "weakness": 15.0
+        "weakness": 15.2
       },
       "card_id": 1708637440109,
       "deck": "日本語::Kaishi 1.5k",
@@ -8938,7 +8938,7 @@
         },
         "due_interpreted": {
           "date": "2026-11-10",
-          "days_from_today": -15,
+          "days_from_today": -16,
           "kind": "day"
         },
         "interval_days": 1,
@@ -8955,7 +8955,7 @@
   ],
   "cards_per_shard": 100,
   "deck_root": "日本語",
-  "generated_at": "2026-11-25T23:42:22.622152-05:00",
+  "generated_at": "2026-11-26T00:42:29.612967-05:00",
   "inclusion_rule": "Effective deck is in the configured Japanese hierarchy and the card has at least one review-log entry. Untouched cards are excluded.",
   "schema_version": 3,
   "shards": [
