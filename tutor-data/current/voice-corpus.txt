@@ -1,4 +1,4 @@
-Generation: 48038c90d1f69ede
+Generation: d93fd1ab92028841
 
 [FRESH]
 戻る — to return, to go back | 今、会社に戻ります。 — I'm going back to the office now.
@@ -83,16 +83,16 @@ Generation: 48038c90d1f69ede
 好き — like, fond of | 私はワインが好きです。 — I like wine.
 
 [MATURE]
-お願いします — please | A「これでお願いします。」 B「はい。」 — A: This one, please. B: Okay.
-分かる — understand | 日本語のニュースが全然分かりませんでした。 — I didn't understand the Japanese news at all.
-よく — well | よく分かりました。 — I understood well.
-よく — often | ジャズのCDをよく聞きます。 — I listen to Jazz CDs often.
-考える — think, consider | よく考えてください。 — Please think carefully.
-ありがとうございます — thank you (formal) | そうですか。分かりました。ありがとうございます。 — Is that so? I understand. Thank you.
-話す — talk, speak | 先生と日本語で話します。 — I speak Japanese with the teacher.
-ゆっくり — slowly | もっとゆっくり話してください。 — Please speak more slowly.
-言う — say | ゆっくり言ってください。 — Please say it slowly.
-友達 — friend, companion | 友達とレストランに行きました。 — I went to the restaurant with my friend.
+人 — person | あの人はいい人です。 — That person is a good person.
+いい — good | あの人はいい人です。 — That person is a good person.
+人 — person from (nationality) | 私はイギリス人です。 — I am British.
+日本語 — Japanese language | 私は日本語を勉強しています。 — I'm studying Japanese.
+勉強 — study | 私は日本語を勉強しています。 — I'm studying Japanese.
+本 — book | いい本でしたね。 — It was a good book, wasn't it?
+これ — this | これは日本語の本です。 — This is a Japanese book.
+何 — what | A「これは何ですか。」 B「本です。」 — A: What is this? B: It's a book.
+それ — that | それは本です。 — That is a book.
+あれ — that over there | あれは何ですか。 — What's that?
 
 [KNOWN WORDS]
-私、あなた、さん、彼、人、いい、日本語、勉強、本、これ、何、それ、あれ、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、見る、全然、面白い、する、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、目、手、上げる、嫌い、おじいさん、おばあさん、元気、いつも、持つ、みんな、使う、大丈夫、始める、今日、部屋、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、事、同じ、申し訳ない、とても、失礼します、手伝う、忙しい、仕事、続ける、見せる、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、お願い、全く、なぜ、水、時、一、二、三、五、六、七、八、十、くん、すみません、じゃ、ご飯、見える、ただ、毎年
+私、あなた、さん、彼、どれ、毎日、兄、いる、ある、あまり、今、時間、無い、この、その、あの、見る、全然、面白い、する、なる、先生、ください、名前、教える、ここ、そこ、あそこ、どこ、置く、家、帰る、彼女、ちゃん、はい、いいえ、日本、学校、行く、来る、また、いつ、こう、そう、どう、会う、次、方、聞く、お願いします、分かる、よく、考える、ありがとうございます、話す、ゆっくり、言う、友達、待つ、昨日、町、高い、一番、ちょっと、もう、父、大好き、母、あげる、くれる、もらう、物、君、中、出来る、本当、立つ、前、入る、家族、住む、大きな、大きい、目、手、上げる、嫌い、おじいさん、おばあさん、元気、いつも、持つ、みんな、使う、大丈夫、始める、今日、部屋、悪い、まあ、食べる、沢山、場所、呼ぶ、動く、気持ち、子、どんな、意味、言葉、心配、様子、信じる、自分、調べる、事、同じ、申し訳ない、とても、失礼します、手伝う、忙しい、仕事、続ける、見せる、忘れる、守る、変える、さっき、止める、なるほど、つまり、国、嫌、あいつ、もし、夢、難しい、おかしい、男の子、小さい、選ぶ、お願い、全く、なぜ、水、時、一、二、三、五、六、七、八、十、くん、すみません、じゃ、ご飯、見える、ただ、毎年
